@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Dashboard from './Dashboard'
 import AglAnalysis from './AglAnalysis'
+import PickToday from './PickToday'
 import LearnHub from './learn/LearnHub'
 import Investing101 from './learn/Investing101'
 import MomentumModule from './learn/MomentumModule'
@@ -34,7 +35,7 @@ interface StrategyData {
 
 const BASE = import.meta.env.BASE_URL
 
-type Tab = 'strategies' | 'agl' | 'learn'
+type Tab = 'strategies' | 'pick-today' | 'agl' | 'learn'
 
 const STRATEGIES = [
   { id: 'padley_momentum', name: 'Padley Momentum', css: 'padley',
@@ -106,6 +107,9 @@ function App() {
       <div className="main-tabs">
         <button className={`main-tab ${tab === 'strategies' ? 'active' : ''}`} onClick={() => setTab('strategies')}>
           Strategies
+        </button>
+        <button className={`main-tab ${tab === 'pick-today' ? 'active' : ''}`} onClick={() => setTab('pick-today')}>
+          Pick Today
         </button>
         <button className={`main-tab ${tab === 'agl' ? 'active' : ''}`} onClick={() => setTab('agl')}>
           AGL Analysis
@@ -216,6 +220,9 @@ function App() {
           <Dashboard />
         </>
       )}
+
+      {/* Pick Today tab */}
+      {tab === 'pick-today' && <PickToday />}
 
       {/* AGL Analysis tab */}
       {tab === 'agl' && <AglAnalysis />}
