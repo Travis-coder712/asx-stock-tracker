@@ -3,6 +3,12 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } f
 import Dashboard from './Dashboard'
 import LearnHub from './learn/LearnHub'
 import Investing101 from './learn/Investing101'
+import MomentumModule from './learn/MomentumModule'
+import IntrinsicValueModule from './learn/IntrinsicValueModule'
+import FactorModule from './learn/FactorModule'
+import DividendModule from './learn/DividendModule'
+import ValueModule from './learn/ValueModule'
+import WatchOutModule from './learn/WatchOutModule'
 import './App.css'
 
 interface TsrSummary {
@@ -444,8 +450,15 @@ function App() {
 
       <Dashboard />
 
-      {activeModule === 'investing-101' ? (
-        <Investing101 onBack={() => setActiveModule(null)} />
+      {activeModule ? (
+        activeModule === 'investing-101' ? <Investing101 onBack={() => setActiveModule(null)} /> :
+        activeModule === 'momentum' ? <MomentumModule onBack={() => setActiveModule(null)} /> :
+        activeModule === 'intrinsic-value' ? <IntrinsicValueModule onBack={() => setActiveModule(null)} /> :
+        activeModule === 'factor-investing' ? <FactorModule onBack={() => setActiveModule(null)} /> :
+        activeModule === 'dividend-investing' ? <DividendModule onBack={() => setActiveModule(null)} /> :
+        activeModule === 'value-investing' ? <ValueModule onBack={() => setActiveModule(null)} /> :
+        activeModule === 'watch-out' ? <WatchOutModule onBack={() => setActiveModule(null)} /> :
+        <LearnHub onSelectModule={setActiveModule} />
       ) : (
         <LearnHub onSelectModule={setActiveModule} />
       )}
