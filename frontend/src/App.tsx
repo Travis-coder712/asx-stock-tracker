@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
+import Dashboard from './Dashboard'
 import './App.css'
 
 interface TsrSummary {
@@ -437,6 +438,8 @@ function App() {
           )
         })}
       </div>
+
+      <Dashboard />
 
       <footer className="footer">
         ASX Stock Tracker · built with Claude Code · data via yfinance

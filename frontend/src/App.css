@@ -291,6 +291,63 @@
   margin-bottom: 16px;
 }
 
+/* Dashboard / Leaderboard */
+.leaderboard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.lb-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.lb-row:hover { background: var(--surface-2); }
+.lb-row.selected { background: var(--surface-2); }
+.lb-rank { font-size: 18px; font-weight: 700; color: var(--text-mute); width: 28px; text-align: center; }
+.lb-name { flex: 1; font-weight: 500; }
+.lb-value { font-size: 16px; font-weight: 700; font-family: ui-monospace, 'SF Mono', Menlo, monospace; }
+.lb-return { font-size: 14px; font-weight: 600; width: 70px; text-align: right; }
+.lb-return.positive { color: var(--green); }
+.lb-return.negative { color: var(--red); }
+
+/* Period detail */
+.period-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+.period-detail-card {
+  background: var(--surface-2);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+}
+.pd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.pd-label { font-size: 13px; font-weight: 600; color: var(--text-dim); }
+.pd-return { font-size: 14px; font-weight: 700; }
+.pd-return.positive { color: var(--green); }
+.pd-return.negative { color: var(--red); }
+.pd-values { font-size: 12px; color: var(--text-mute); margin-bottom: 10px; }
+.pd-holdings { display: flex; flex-wrap: wrap; gap: 4px; }
+
+@media (max-width: 640px) {
+  .lb-row { gap: 8px; padding: 8px; }
+  .lb-value { font-size: 14px; }
+  .period-detail-grid { grid-template-columns: 1fr; }
+}
+
 /* Footer */
 .footer {
   text-align: center;
