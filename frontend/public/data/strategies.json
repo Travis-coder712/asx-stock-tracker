@@ -1,0 +1,37 @@
+[
+  {
+    "id": "padley_momentum",
+    "name": "Padley Momentum",
+    "description": "Trend-following with capital preservation, inspired by Marcus Padley / Marcus Today.",
+    "methodology": "Screen by earnings momentum + ROE, rank by 12-month price momentum. Risk-off signal: go to cash when ASX 200 breaks below 200-day MA.",
+    "rebalanceFreq": "quarterly"
+  },
+  {
+    "id": "damodaran_dcf",
+    "name": "Damodaran Intrinsic Value",
+    "description": "DCF valuation with narrative-to-numbers approach, inspired by Aswath Damodaran.",
+    "methodology": "Simplified DCF for ASX stocks. Score by discount-to-intrinsic-value. Supplemented by relative valuation (P/E, EV/EBITDA vs peers).",
+    "rebalanceFreq": "quarterly"
+  },
+  {
+    "id": "quant_factors",
+    "name": "Quantitative Factors",
+    "description": "Multi-factor model ranking stocks by value, momentum, quality, and low volatility.",
+    "methodology": "Rank by: value (low P/B), momentum (12-1 month returns), quality (high ROE, low debt), low volatility. Equal-weight top-ranked.",
+    "rebalanceFreq": "quarterly"
+  },
+  {
+    "id": "dividend_income",
+    "name": "Dividend Income",
+    "description": "High-yield dividend strategy with franking credit advantage.",
+    "methodology": "Rank by grossed-up yield (including franking), filter by payout ratio <80%, DPS growth >0 over 3yr, FCF coverage >1.2x.",
+    "rebalanceFreq": "quarterly"
+  },
+  {
+    "id": "contrarian_value",
+    "name": "Contrarian Deep Value",
+    "description": "Graham/Buffett-style value investing seeking stocks below intrinsic value.",
+    "methodology": "Graham Number screen: sqrt(22.5 x EPS x BVPS) > current price. Filter P/B <1, current ratio >1.5, 5yr positive earnings.",
+    "rebalanceFreq": "quarterly"
+  }
+]
