@@ -1,0 +1,1047 @@
+{
+  "H1-2024": {
+    "periodId": "H1-2024",
+    "label": "H1 2024",
+    "buyDate": "2024-01-02",
+    "strategies": {
+      "padley_momentum": {
+        "holdings": [
+          "PME",
+          "REA",
+          "CAR",
+          "FMG",
+          "360",
+          "COH",
+          "ARB",
+          "JBH",
+          "HUB",
+          "ALL"
+        ],
+        "buyValue": 4999.98,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2024-07-02",
+            "value": 6113.24,
+            "returnPct": 22.3
+          },
+          {
+            "months": 12,
+            "endDate": "2025-01-02",
+            "value": 8214.98,
+            "returnPct": 64.3
+          },
+          {
+            "months": 18,
+            "endDate": "2025-07-02",
+            "value": 9449.46,
+            "returnPct": 89.0
+          },
+          {
+            "months": 24,
+            "endDate": "2026-01-02",
+            "value": 8742.26,
+            "returnPct": 74.8
+          }
+        ]
+      },
+      "quant_factors": {
+        "holdings": [
+          "SOL",
+          "FMG",
+          "SGP",
+          "RWC",
+          "NEC",
+          "REA",
+          "PME",
+          "360",
+          "JBH",
+          "NST"
+        ],
+        "buyValue": 4999.15,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2024-07-02",
+            "value": 5547.78,
+            "returnPct": 11.0
+          },
+          {
+            "months": 12,
+            "endDate": "2025-01-02",
+            "value": 7328.57,
+            "returnPct": 46.6
+          },
+          {
+            "months": 18,
+            "endDate": "2025-07-02",
+            "value": 8747.13,
+            "returnPct": 75.0
+          },
+          {
+            "months": 24,
+            "endDate": "2026-01-02",
+            "value": 8388.43,
+            "returnPct": 67.8
+          }
+        ]
+      },
+      "dividend_income": {
+        "holdings": [
+          "FMG",
+          "SGP",
+          "HVN",
+          "MTS",
+          "VCX",
+          "SCG",
+          "JBH",
+          "CSL",
+          "QAN",
+          "WOR"
+        ],
+        "buyValue": 4999.93,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2024-07-02",
+            "value": 4961.12,
+            "returnPct": -0.8
+          },
+          {
+            "months": 12,
+            "endDate": "2025-01-02",
+            "value": 5806.02,
+            "returnPct": 16.1
+          },
+          {
+            "months": 18,
+            "endDate": "2025-07-02",
+            "value": 6563.01,
+            "returnPct": 31.3
+          },
+          {
+            "months": 24,
+            "endDate": "2026-01-02",
+            "value": 6756.04,
+            "returnPct": 35.1
+          }
+        ]
+      },
+      "contrarian_value": {
+        "holdings": [
+          "SOL",
+          "HVN",
+          "WHC",
+          "SGP",
+          "WDS",
+          "NEC",
+          "ORA"
+        ],
+        "buyValue": 4999.34,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2024-07-02",
+            "value": 4655.09,
+            "returnPct": -6.9
+          },
+          {
+            "months": 12,
+            "endDate": "2025-01-02",
+            "value": 4787.34,
+            "returnPct": -4.2
+          },
+          {
+            "months": 18,
+            "endDate": "2025-07-02",
+            "value": 5275.84,
+            "returnPct": 5.5
+          },
+          {
+            "months": 24,
+            "endDate": "2026-01-02",
+            "value": 5843.84,
+            "returnPct": 16.9
+          }
+        ]
+      },
+      "damodaran_dcf": {
+        "holdings": [
+          "CCL",
+          "NEC",
+          "SOL",
+          "ORA",
+          "ORG",
+          "HVN",
+          "SKC",
+          "FMG",
+          "RWC",
+          "GPT"
+        ],
+        "buyValue": 4999.19,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2024-07-02",
+            "value": 4138.89,
+            "returnPct": -17.2
+          },
+          {
+            "months": 12,
+            "endDate": "2025-01-02",
+            "value": 4957.67,
+            "returnPct": -0.8
+          },
+          {
+            "months": 18,
+            "endDate": "2025-07-02",
+            "value": 5181.52,
+            "returnPct": 3.6
+          },
+          {
+            "months": 24,
+            "endDate": "2026-01-02",
+            "value": 5910.55,
+            "returnPct": 18.2
+          }
+        ]
+      }
+    }
+  },
+  "H2-2024": {
+    "periodId": "H2-2024",
+    "label": "H2 2024",
+    "buyDate": "2024-07-01",
+    "strategies": {
+      "padley_momentum": {
+        "holdings": [
+          "360",
+          "PME",
+          "REA",
+          "CAR",
+          "HUB",
+          "LNW",
+          "ALL",
+          "COH",
+          "IAG",
+          "JBH"
+        ],
+        "buyValue": 6246.07,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2024-12-31",
+            "value": 8103.56,
+            "returnPct": 29.7
+          },
+          {
+            "months": 12,
+            "endDate": "2025-07-01",
+            "value": 9292.89,
+            "returnPct": 48.8
+          },
+          {
+            "months": 18,
+            "endDate": "2025-12-31",
+            "value": 8499.39,
+            "returnPct": 36.1
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 6815.72,
+            "returnPct": 9.1
+          }
+        ]
+      },
+      "quant_factors": {
+        "holdings": [
+          "SOL",
+          "360",
+          "QBE",
+          "IAG",
+          "JBH",
+          "PME",
+          "ORG",
+          "SGP",
+          "REA",
+          "RWC"
+        ],
+        "buyValue": 5675.53,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2024-12-31",
+            "value": 7242.33,
+            "returnPct": 27.6
+          },
+          {
+            "months": 12,
+            "endDate": "2025-07-01",
+            "value": 8358.0,
+            "returnPct": 47.3
+          },
+          {
+            "months": 18,
+            "endDate": "2025-12-31",
+            "value": 7626.0,
+            "returnPct": 34.4
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 6881.76,
+            "returnPct": 21.3
+          }
+        ]
+      },
+      "dividend_income": {
+        "holdings": [
+          "FMG",
+          "SGP",
+          "HVN",
+          "MTS",
+          "VCX",
+          "SCG",
+          "JBH",
+          "CSL",
+          "QAN",
+          "WOR"
+        ],
+        "buyValue": 4955.3,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2024-12-31",
+            "value": 5617.07,
+            "returnPct": 13.4
+          },
+          {
+            "months": 12,
+            "endDate": "2025-07-01",
+            "value": 6306.98,
+            "returnPct": 27.3
+          },
+          {
+            "months": 18,
+            "endDate": "2025-12-31",
+            "value": 6583.9,
+            "returnPct": 32.9
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 5820.6,
+            "returnPct": 17.5
+          }
+        ]
+      },
+      "contrarian_value": {
+        "holdings": [
+          "SOL",
+          "HVN",
+          "NEC",
+          "SGP",
+          "WHC",
+          "WDS",
+          "ORA"
+        ],
+        "buyValue": 4573.38,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2024-12-31",
+            "value": 4731.01,
+            "returnPct": 3.4
+          },
+          {
+            "months": 12,
+            "endDate": "2025-07-01",
+            "value": 5162.19,
+            "returnPct": 12.9
+          },
+          {
+            "months": 18,
+            "endDate": "2025-12-31",
+            "value": 5724.58,
+            "returnPct": 25.2
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 5141.31,
+            "returnPct": 12.4
+          }
+        ]
+      },
+      "damodaran_dcf": {
+        "holdings": [
+          "CCL",
+          "NEC",
+          "SOL",
+          "ORA",
+          "ORG",
+          "HVN",
+          "SKC",
+          "FMG",
+          "RWC",
+          "GPT"
+        ],
+        "buyValue": 4155.71,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2024-12-31",
+            "value": 4367.23,
+            "returnPct": 5.1
+          },
+          {
+            "months": 12,
+            "endDate": "2025-07-01",
+            "value": 4531.39,
+            "returnPct": 9.0
+          },
+          {
+            "months": 18,
+            "endDate": "2025-12-31",
+            "value": 5204.67,
+            "returnPct": 25.2
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 4760.58,
+            "returnPct": 14.6
+          }
+        ]
+      }
+    }
+  },
+  "H1-2025": {
+    "periodId": "H1-2025",
+    "label": "H1 2025",
+    "buyDate": "2025-01-02",
+    "strategies": {
+      "padley_momentum": {
+        "holdings": [
+          "PME",
+          "360",
+          "HUB",
+          "JBH",
+          "TNE",
+          "ALL",
+          "REA",
+          "IAG",
+          "CAR",
+          "BXB"
+        ],
+        "buyValue": 8103.79,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2025-07-02",
+            "value": 9524.04,
+            "returnPct": 17.5
+          },
+          {
+            "months": 12,
+            "endDate": "2026-01-02",
+            "value": 8409.07,
+            "returnPct": 3.8
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 7233.51,
+            "returnPct": -10.7
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 7233.51,
+            "returnPct": -10.7
+          }
+        ]
+      },
+      "quant_factors": {
+        "holdings": [
+          "SOL",
+          "JBH",
+          "360",
+          "QBE",
+          "IAG",
+          "RMD",
+          "PME",
+          "VCX",
+          "SGP",
+          "RWC"
+        ],
+        "buyValue": 7244.18,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2025-07-02",
+            "value": 8419.44,
+            "returnPct": 16.2
+          },
+          {
+            "months": 12,
+            "endDate": "2026-01-02",
+            "value": 7828.13,
+            "returnPct": 8.1
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 7245.6,
+            "returnPct": 0.0
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 7245.6,
+            "returnPct": 0.0
+          }
+        ]
+      },
+      "dividend_income": {
+        "holdings": [
+          "FMG",
+          "SGP",
+          "HVN",
+          "MTS",
+          "VCX",
+          "SCG",
+          "JBH",
+          "CSL",
+          "QAN",
+          "WOR"
+        ],
+        "buyValue": 5619.35,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2025-07-02",
+            "value": 6218.65,
+            "returnPct": 10.7
+          },
+          {
+            "months": 12,
+            "endDate": "2026-01-02",
+            "value": 6488.41,
+            "returnPct": 15.5
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 5709.95,
+            "returnPct": 1.6
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 5709.95,
+            "returnPct": 1.6
+          }
+        ]
+      },
+      "contrarian_value": {
+        "holdings": [
+          "SOL",
+          "WHC",
+          "NEC",
+          "WDS",
+          "HVN",
+          "SGP",
+          "ORA"
+        ],
+        "buyValue": 4728.97,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2025-07-02",
+            "value": 5213.09,
+            "returnPct": 10.2
+          },
+          {
+            "months": 12,
+            "endDate": "2026-01-02",
+            "value": 5747.18,
+            "returnPct": 21.5
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 5258.37,
+            "returnPct": 11.2
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 5258.37,
+            "returnPct": 11.2
+          }
+        ]
+      },
+      "damodaran_dcf": {
+        "holdings": [
+          "CCL",
+          "NEC",
+          "SOL",
+          "ORA",
+          "ORG",
+          "HVN",
+          "SKC",
+          "FMG",
+          "RWC",
+          "GPT"
+        ],
+        "buyValue": 4364.7,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2025-07-02",
+            "value": 4550.22,
+            "returnPct": 4.3
+          },
+          {
+            "months": 12,
+            "endDate": "2026-01-02",
+            "value": 5195.28,
+            "returnPct": 19.0
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 4769.82,
+            "returnPct": 9.3
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 4769.82,
+            "returnPct": 9.3
+          }
+        ]
+      }
+    }
+  },
+  "H2-2025": {
+    "periodId": "H2-2025",
+    "label": "H2 2025",
+    "buyDate": "2025-07-01",
+    "strategies": {
+      "padley_momentum": {
+        "holdings": [
+          "360",
+          "PME",
+          "HUB",
+          "TNE",
+          "JBH",
+          "EVN",
+          "REA",
+          "ALL",
+          "BXB",
+          "IAG"
+        ],
+        "buyValue": 9483.08,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2025-12-31",
+            "value": 9177.71,
+            "returnPct": -3.2
+          },
+          {
+            "months": 12,
+            "endDate": "2026-06-19",
+            "value": 8074.64,
+            "returnPct": -14.9
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 8074.64,
+            "returnPct": -14.9
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 8074.64,
+            "returnPct": -14.9
+          }
+        ]
+      },
+      "quant_factors": {
+        "holdings": [
+          "SOL",
+          "QBE",
+          "JBH",
+          "360",
+          "EVN",
+          "SGP",
+          "VCX",
+          "IAG",
+          "NST",
+          "RMD"
+        ],
+        "buyValue": 8340.35,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2025-12-31",
+            "value": 8899.97,
+            "returnPct": 6.7
+          },
+          {
+            "months": 12,
+            "endDate": "2026-06-19",
+            "value": 8231.58,
+            "returnPct": -1.3
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 8231.58,
+            "returnPct": -1.3
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 8231.58,
+            "returnPct": -1.3
+          }
+        ]
+      },
+      "dividend_income": {
+        "holdings": [
+          "FMG",
+          "SGP",
+          "HVN",
+          "MTS",
+          "VCX",
+          "SCG",
+          "JBH",
+          "CSL",
+          "QAN",
+          "WOR"
+        ],
+        "buyValue": 6092.97,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2025-12-31",
+            "value": 6438.7,
+            "returnPct": 5.7
+          },
+          {
+            "months": 12,
+            "endDate": "2026-06-19",
+            "value": 5686.06,
+            "returnPct": -6.7
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 5686.06,
+            "returnPct": -6.7
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 5686.06,
+            "returnPct": -6.7
+          }
+        ]
+      },
+      "contrarian_value": {
+        "holdings": [
+          "WHC",
+          "SOL",
+          "WDS",
+          "HVN",
+          "ORA",
+          "NEC",
+          "SGP"
+        ],
+        "buyValue": 5090.85,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2025-12-31",
+            "value": 5744.06,
+            "returnPct": 12.8
+          },
+          {
+            "months": 12,
+            "endDate": "2026-06-19",
+            "value": 5280.89,
+            "returnPct": 3.7
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 5280.89,
+            "returnPct": 3.7
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 5280.89,
+            "returnPct": 3.7
+          }
+        ]
+      },
+      "damodaran_dcf": {
+        "holdings": [
+          "CCL",
+          "NEC",
+          "SOL",
+          "ORA",
+          "ORG",
+          "HVN",
+          "SKC",
+          "FMG",
+          "RWC",
+          "GPT"
+        ],
+        "buyValue": 4468.21,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2025-12-31",
+            "value": 5117.3,
+            "returnPct": 14.5
+          },
+          {
+            "months": 12,
+            "endDate": "2026-06-19",
+            "value": 4597.42,
+            "returnPct": 2.9
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 4597.42,
+            "returnPct": 2.9
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 4597.42,
+            "returnPct": 2.9
+          }
+        ]
+      }
+    }
+  },
+  "H1-2026": {
+    "periodId": "H1-2026",
+    "label": "H1 2026",
+    "buyDate": "2026-01-02",
+    "strategies": {
+      "padley_momentum": {
+        "holdings": [
+          "360",
+          "EVN",
+          "PME",
+          "HUB",
+          "PRU",
+          "JBH",
+          "NEM",
+          "NST",
+          "CHC",
+          "TNE"
+        ],
+        "buyValue": 9177.8,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2026-06-19",
+            "value": 8199.52,
+            "returnPct": -10.7
+          },
+          {
+            "months": 12,
+            "endDate": "2026-06-19",
+            "value": 8199.52,
+            "returnPct": -10.7
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 8199.52,
+            "returnPct": -10.7
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 8199.52,
+            "returnPct": -10.7
+          }
+        ]
+      },
+      "quant_factors": {
+        "holdings": [
+          "HVN",
+          "PRU",
+          "SOL",
+          "NEM",
+          "NST",
+          "EVN",
+          "JBH",
+          "VCX",
+          "360",
+          "SGP"
+        ],
+        "buyValue": 8900.49,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2026-06-19",
+            "value": 8033.77,
+            "returnPct": -9.7
+          },
+          {
+            "months": 12,
+            "endDate": "2026-06-19",
+            "value": 8033.77,
+            "returnPct": -9.7
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 8033.77,
+            "returnPct": -9.7
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 8033.77,
+            "returnPct": -9.7
+          }
+        ]
+      },
+      "dividend_income": {
+        "holdings": [
+          "FMG",
+          "SGP",
+          "HVN",
+          "MTS",
+          "VCX",
+          "SCG",
+          "JBH",
+          "CSL",
+          "QAN",
+          "WOR"
+        ],
+        "buyValue": 6438.45,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2026-06-19",
+            "value": 5648.37,
+            "returnPct": -12.3
+          },
+          {
+            "months": 12,
+            "endDate": "2026-06-19",
+            "value": 5648.37,
+            "returnPct": -12.3
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 5648.37,
+            "returnPct": -12.3
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 5648.37,
+            "returnPct": -12.3
+          }
+        ]
+      },
+      "contrarian_value": {
+        "holdings": [
+          "SOL",
+          "WDS",
+          "WHC",
+          "NEC",
+          "ORA",
+          "SGP",
+          "HVN"
+        ],
+        "buyValue": 5743.78,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2026-06-19",
+            "value": 5323.8,
+            "returnPct": -7.3
+          },
+          {
+            "months": 12,
+            "endDate": "2026-06-19",
+            "value": 5323.8,
+            "returnPct": -7.3
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 5323.8,
+            "returnPct": -7.3
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 5323.8,
+            "returnPct": -7.3
+          }
+        ]
+      },
+      "damodaran_dcf": {
+        "holdings": [
+          "CCL",
+          "NEC",
+          "SOL",
+          "ORA",
+          "ORG",
+          "HVN",
+          "SKC",
+          "FMG",
+          "RWC",
+          "GPT"
+        ],
+        "buyValue": 5113.91,
+        "holdPeriods": [
+          {
+            "months": 6,
+            "endDate": "2026-06-19",
+            "value": 4581.08,
+            "returnPct": -10.4
+          },
+          {
+            "months": 12,
+            "endDate": "2026-06-19",
+            "value": 4581.08,
+            "returnPct": -10.4
+          },
+          {
+            "months": 18,
+            "endDate": "2026-06-19",
+            "value": 4581.08,
+            "returnPct": -10.4
+          },
+          {
+            "months": 24,
+            "endDate": "2026-06-19",
+            "value": 4581.08,
+            "returnPct": -10.4
+          }
+        ]
+      }
+    }
+  }
+}

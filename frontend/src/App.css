@@ -342,10 +342,39 @@
 .pd-values { font-size: 12px; color: var(--text-mute); margin-bottom: 10px; }
 .pd-holdings { display: flex; flex-wrap: wrap; gap: 4px; }
 
+/* Hold period table */
+.hold-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.hold-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.hold-table th {
+  text-align: right;
+  padding: 8px 12px;
+  color: var(--text-mute);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+}
+.hold-table th:first-child { text-align: left; }
+.hold-table td {
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
 @media (max-width: 640px) {
   .lb-row { gap: 8px; padding: 8px; }
   .lb-value { font-size: 14px; }
   .period-detail-grid { grid-template-columns: 1fr; }
+  .hold-table { font-size: 12px; }
+  .hold-table td, .hold-table th { padding: 5px 8px; }
 }
 
 /* Footer */

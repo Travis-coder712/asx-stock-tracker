@@ -47,6 +47,26 @@ const STRATEGY_NAMES: Record<string, string> = {
   contrarian_value: 'Contrarian Value',
 }
 
+interface HoldPeriodEntry {
+  months: number
+  endDate: string | null
+  value: number | null
+  returnPct: number | null
+}
+
+interface HoldPeriodStrategy {
+  holdings: string[]
+  buyValue: number
+  holdPeriods: HoldPeriodEntry[]
+}
+
+interface HoldPeriodData {
+  periodId: string
+  label: string
+  buyDate: string
+  strategies: Record<string, HoldPeriodStrategy>
+}
+
 const STRATEGY_COLORS: Record<string, string> = {
   padley_momentum: '#ff6b6b',
   quant_factors: '#4ecdc4',
@@ -83,6 +103,7 @@ export default function Dashboard() {
   const [comparison, setComparison] = useState<ComparisonPoint[]>([])
   const [strategyDetail, setStrategyDetail] = useState<Record<string, StrategyPeriods>>({})
   const [selectedStrategy, setSelectedStrategy] = useState<string | null>(null)
+  const [holdPeriods, setHoldPeriods] = useState<Record<string, HoldPeriodData>>({})
 
   useEffect(() => {
     fetch(`${BASE}data/periods/leaderboard.json`)
@@ -104,6 +125,11 @@ export default function Dashboard() {
         // Sample every 3rd point for performance
         setComparison(sorted.filter((_, i) => i % 3 === 0 || i === sorted.length - 1))
       })
+      .catch(() => {})
+
+    fetch(`${BASE}data/periods/hold-periods.json`)
+      .then(r => r.ok ? r.json() : {})
+      .then(setHoldPeriods)
       .catch(() => {})
 
     Object.keys(STRATEGY_NAMES).forEach(sid => {
@@ -213,6 +239,63 @@ export default function Dashboard() {
               </div>
             ))}
           </div>
+        </div>
+      )}
+
+      {/* Hold period analysis */}
+      {Object.keys(holdPeriods).length > 0 && (
+        <div className="tsr-card" style={{ marginTop: 16 }}>
+          <h3>What If You Held Longer?</h3>
+          <p className="tsr-subtitle">
+            Each period's stock picks tracked for 6, 12, 18 and 24 months — shows whether
+            rebalancing every 6 months adds or destroys value vs buy-and-hold.
+          </p>
+          {Object.values(holdPeriods).map(hp => {
+            const hasData = Object.values(hp.strategies).some(
+              s => s.holdPeriods.some(h => h.returnPct !== null)
+            )
+            if (!hasData) return null
+            return (
+              <div key={hp.periodId} style={{ marginTop: 20 }}>
+                <h4 style={{ fontSize: 14, color: 'var(--text-dim)', marginBottom: 8 }}>
+                  {hp.label} picks (bought {hp.buyDate})
+                </h4>
+                <div className="hold-table-wrap">
+                  <table className="hold-table">
+                    <thead>
+                      <tr>
+                        <th>Strategy</th>
+                        <th>6m</th>
+                        <th>12m</th>
+                        <th>18m</th>
+                        <th>24m</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {Object.entries(hp.strategies).map(([sid, sdata]) => (
+                        <tr key={sid}>
+                          <td style={{ color: STRATEGY_COLORS[sid], fontWeight: 500 }}>
+                            {STRATEGY_NAMES[sid]}
+                          </td>
+                          {sdata.holdPeriods.map(h => (
+                            <td key={h.months} style={{
+                              textAlign: 'right',
+                              color: h.returnPct === null ? 'var(--text-mute)'
+                                : h.returnPct >= 0 ? 'var(--green)' : 'var(--red)',
+                              fontWeight: 600,
+                              fontSize: 13,
+                            }}>
+                              {h.returnPct !== null ? `${h.returnPct >= 0 ? '+' : ''}${h.returnPct}%` : '—'}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )
+          })}
         </div>
       )}
     </div>
