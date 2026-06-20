@@ -1,4 +1,28 @@
+import { useEffect, useState } from 'react'
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 import './App.css'
+
+interface TsrSummary {
+  periodStart: string
+  asOf: string | null
+  aglTsr: number | null
+  indexTsr: number | null
+}
+
+interface PricePoint {
+  date: string
+  agl: number | null
+  stw: number | null
+}
+
+interface Metadata {
+  version: string
+  builtAt: string
+  latestPrice: string | null
+  stockCount: number
+}
+
+const BASE = import.meta.env.BASE_URL
 
 const STRATEGIES = [
   {
@@ -38,14 +62,68 @@ const STRATEGIES = [
   },
 ]
 
-const TSR_PERIODS = [
-  { label: 'FY24 (1 Jul 2023)', start: '2023-07-01' },
-  { label: 'FY25 (1 Jul 2024)', start: '2024-07-01' },
-  { label: 'FY26 (1 Jul 2025)', start: '2025-07-01' },
-  { label: 'FY27 (1 Jul 2026)', start: '2026-07-01' },
-]
+const PERIOD_LABELS: Record<string, string> = {
+  '2023-07-01': 'FY24 (1 Jul 2023)',
+  '2024-07-01': 'FY25 (1 Jul 2024)',
+  '2025-07-01': 'FY26 (1 Jul 2025)',
+  '2026-07-01': 'FY27 (1 Jul 2026)',
+}
+
+function formatTsr(val: number | null): string {
+  if (val === null) return '—'
+  return `${val >= 0 ? '+' : ''}${val.toFixed(1)}%`
+}
+
+function tsrColor(val: number | null, type: 'agl' | 'index'): string {
+  if (val === null) return 'var(--text-mute)'
+  if (type === 'index') return 'var(--text-dim)'
+  return val >= 0 ? 'var(--green)' : 'var(--red)'
+}
+
+function formatChartDate(date: string): string {
+  const d = new Date(date)
+  return d.toLocaleDateString('en-AU', { month: 'short', year: '2-digit' })
+}
+
+function ChartTooltip({ active, payload, label }: { active?: boolean; payload?: Array<{ name: string; value: number; color: string }>; label?: string }) {
+  if (!active || !payload?.length || !label) return null
+  return (
+    <div style={{
+      background: 'var(--surface-2)', border: '1px solid var(--border)',
+      borderRadius: 8, padding: '10px 14px', fontSize: 13,
+    }}>
+      <div style={{ color: 'var(--text-mute)', marginBottom: 4 }}>{label}</div>
+      {payload.map(p => (
+        <div key={p.name} style={{ color: p.color }}>
+          {p.name}: ${Number(p.value).toFixed(2)}
+        </div>
+      ))}
+    </div>
+  )
+}
 
 function App() {
+  const [tsrSummary, setTsrSummary] = useState<TsrSummary[]>([])
+  const [priceData, setPriceData] = useState<PricePoint[]>([])
+  const [metadata, setMetadata] = useState<Metadata | null>(null)
+
+  useEffect(() => {
+    fetch(`${BASE}data/tsr/tsr-summary.json`)
+      .then(r => r.ok ? r.json() : [])
+      .then(setTsrSummary)
+      .catch(() => {})
+    fetch(`${BASE}data/charts/agl-vs-index.json`)
+      .then(r => r.ok ? r.json() : [])
+      .then(setPriceData)
+      .catch(() => {})
+    fetch(`${BASE}data/metadata.json`)
+      .then(r => r.ok ? r.json() : null)
+      .then(setMetadata)
+      .catch(() => {})
+  }, [])
+
+  const chartData = priceData.filter((_, i) => i % 5 === 0 || i === priceData.length - 1)
+
   return (
     <div className="app">
       <header className="header">
@@ -54,7 +132,10 @@ function App() {
           Five investment philosophies, each with a hypothetical $5,000 stake on ASX stocks.
           Auto-picked by strategy rules with manual override. Tracked over 6 months.
         </p>
-        <p className="version">v0.1.0 · scaffolding</p>
+        <p className="version">
+          v{metadata?.version ?? '0.1.0'}
+          {metadata?.latestPrice && ` · data to ${metadata.latestPrice}`}
+        </p>
       </header>
 
       <div className="stats">
@@ -71,11 +152,116 @@ function App() {
           <div className="value gold">$25,000</div>
         </div>
         <div className="stat">
-          <div className="label">Data source</div>
-          <div className="value" style={{ fontSize: 16 }}>yfinance</div>
+          <div className="label">Stocks tracked</div>
+          <div className="value" style={{ fontSize: 16 }}>{metadata?.stockCount ?? '—'}</div>
         </div>
       </div>
 
+      {/* AGL TSR Section */}
+      <div className="section-header">
+        <h2>AGL Total Shareholder Return</h2>
+        <div className="line" />
+      </div>
+
+      <div className="tsr-card">
+        <h3>AGL Energy (ASX:AGL) vs S&P/ASX 200</h3>
+        <p className="tsr-subtitle">
+          Total shareholder return (price + reinvested dividends) over rolling periods from 1 July.
+          Benchmark: STW ETF (ASX 200 total return proxy).
+          {tsrSummary.find(s => s.asOf) && (
+            <> Data as of {tsrSummary.find(s => s.asOf)?.asOf}.</>
+          )}
+        </p>
+        <div className="tsr-periods">
+          {Object.keys(PERIOD_LABELS).map(period => {
+            const data = tsrSummary.find(s => s.periodStart === period)
+            return (
+              <div key={period} className="tsr-period">
+                <div className="period-label">{PERIOD_LABELS[period]}</div>
+                <div className="tsr-values">
+                  <div className="tsr-item">
+                    <div className="name">AGL</div>
+                    <div className="val" style={{ color: tsrColor(data?.aglTsr ?? null, 'agl') }}>
+                      {formatTsr(data?.aglTsr ?? null)}
+                    </div>
+                  </div>
+                  <div className="tsr-item">
+                    <div className="name">ASX 200</div>
+                    <div className="val" style={{ color: tsrColor(data?.indexTsr ?? null, 'index') }}>
+                      {formatTsr(data?.indexTsr ?? null)}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+
+      {/* Price chart */}
+      {chartData.length > 0 && (
+        <div className="tsr-card" style={{ marginTop: 16 }}>
+          <h3>AGL vs ASX 200 ETF — Price History</h3>
+          <p className="tsr-subtitle">Daily closing prices since July 2023. AGL (blue) vs STW ETF (grey).</p>
+          <div style={{ width: '100%', height: 300 }}>
+            <ResponsiveContainer>
+              <LineChart data={chartData}>
+                <XAxis
+                  dataKey="date"
+                  tickFormatter={formatChartDate}
+                  tick={{ fill: 'var(--text-mute)', fontSize: 11 }}
+                  axisLine={{ stroke: 'var(--border)' }}
+                  tickLine={false}
+                  interval={Math.floor(chartData.length / 6)}
+                />
+                <YAxis
+                  yAxisId="agl"
+                  orientation="left"
+                  tick={{ fill: 'var(--accent)', fontSize: 11 }}
+                  axisLine={false}
+                  tickLine={false}
+                  tickFormatter={v => `$${v}`}
+                  domain={['auto', 'auto']}
+                />
+                <YAxis
+                  yAxisId="stw"
+                  orientation="right"
+                  tick={{ fill: 'var(--text-mute)', fontSize: 11 }}
+                  axisLine={false}
+                  tickLine={false}
+                  tickFormatter={v => `$${v}`}
+                  domain={['auto', 'auto']}
+                />
+                <Tooltip content={<ChartTooltip />} />
+                <Legend
+                  wrapperStyle={{ fontSize: 12, color: 'var(--text-dim)' }}
+                />
+                <Line
+                  yAxisId="agl"
+                  type="monotone"
+                  dataKey="agl"
+                  name="AGL"
+                  stroke="var(--accent)"
+                  strokeWidth={2}
+                  dot={false}
+                />
+                <Line
+                  yAxisId="stw"
+                  type="monotone"
+                  dataKey="stw"
+                  name="STW (ASX 200)"
+                  stroke="var(--text-mute)"
+                  strokeWidth={1.5}
+                  dot={false}
+                  strokeDasharray="4 2"
+                />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      )}
+
+      {/* Strategy Portfolios */}
       <div className="section-header">
         <h2>Strategy Portfolios</h2>
         <div className="line" />
@@ -98,35 +284,6 @@ function App() {
             </div>
           </div>
         ))}
-      </div>
-
-      <div className="section-header">
-        <h2>AGL Total Shareholder Return</h2>
-        <div className="line" />
-      </div>
-
-      <div className="tsr-card">
-        <h3>AGL Energy (ASX:AGL) vs S&P/ASX 100</h3>
-        <p className="tsr-subtitle">
-          Tracking TSR (price appreciation + reinvested dividends) over rolling 4-year periods from 1 July each year.
-        </p>
-        <div className="tsr-periods">
-          {TSR_PERIODS.map(p => (
-            <div key={p.start} className="tsr-period">
-              <div className="period-label">{p.label}</div>
-              <div className="tsr-values">
-                <div className="tsr-item">
-                  <div className="name">AGL</div>
-                  <div className="val agl">—</div>
-                </div>
-                <div className="tsr-item">
-                  <div className="name">ASX 100</div>
-                  <div className="val index">—</div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
 
       <footer className="footer">

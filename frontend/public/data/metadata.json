@@ -1,1 +1,7 @@
-{"version":"0.1.0","builtAt":"2026-06-20","latestPrice":null,"stockCount":0}
+{
+  "version": "0.1.0",
+  "builtAt": "2026-06-20T16:36:33.784852",
+  "latestPrice": "2026-06-19",
+  "latestImport": "2026-06-20T16:35:24.720490",
+  "stockCount": 2
+}

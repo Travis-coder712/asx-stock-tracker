@@ -1,0 +1,26 @@
+[
+  {
+    "periodStart": "2023-07-01",
+    "asOf": "2026-06-19",
+    "aglTsr": 8.23,
+    "indexTsr": 53.54
+  },
+  {
+    "periodStart": "2024-07-01",
+    "asOf": "2026-06-19",
+    "aglTsr": -0.26,
+    "indexTsr": 32.26
+  },
+  {
+    "periodStart": "2025-07-01",
+    "asOf": "2026-06-19",
+    "aglTsr": -2.67,
+    "indexTsr": 9.53
+  },
+  {
+    "periodStart": "2026-07-01",
+    "asOf": null,
+    "aglTsr": null,
+    "indexTsr": null
+  }
+]

@@ -95,6 +95,52 @@ def export_agl_tsr(conn: sqlite3.Connection) -> None:
         print(f"  Exported TSR data for period starting {period}")
 
 
+def export_tsr_summary(conn: sqlite3.Connection) -> None:
+    """Export latest TSR % for each ticker/period — used by dashboard cards."""
+    periods = ['2023-07-01', '2024-07-01', '2025-07-01', '2026-07-01']
+    summary = []
+    for period in periods:
+        row_agl = conn.execute(
+            "SELECT date, tsr_pct FROM tsr_tracking "
+            "WHERE ticker='AGL.AX' AND period_start=? ORDER BY date DESC LIMIT 1",
+            (period,)
+        ).fetchone()
+        row_idx = conn.execute(
+            "SELECT date, tsr_pct FROM tsr_tracking "
+            "WHERE ticker='STW.AX' AND period_start=? ORDER BY date DESC LIMIT 1",
+            (period,)
+        ).fetchone()
+        summary.append({
+            'periodStart': period,
+            'asOf': row_agl[0] if row_agl else None,
+            'aglTsr': row_agl[1] if row_agl else None,
+            'indexTsr': row_idx[1] if row_idx else None,
+        })
+    path = os.path.join(OUTPUT_DIR, 'tsr', 'tsr-summary.json')
+    ensure_dir(os.path.dirname(path))
+    with open(path, 'w') as f:
+        json.dump(summary, f, indent=2)
+    print(f"  Exported TSR summary ({len([s for s in summary if s['aglTsr'] is not None])} periods with data)")
+
+
+def export_agl_price_chart(conn: sqlite3.Connection) -> None:
+    """Export AGL + STW daily prices for the chart."""
+    ensure_dir(os.path.join(OUTPUT_DIR, 'charts'))
+    rows = conn.execute(
+        "SELECT p1.date, p1.adj_close as agl, p2.adj_close as stw "
+        "FROM price_history p1 "
+        "LEFT JOIN price_history p2 ON p1.date = p2.date AND p2.ticker = 'STW.AX' "
+        "WHERE p1.ticker = 'AGL.AX' AND p1.date >= '2023-07-01' "
+        "ORDER BY p1.date"
+    ).fetchall()
+    data = [{'date': r[0], 'agl': round(r[1], 2) if r[1] else None,
+             'stw': round(r[2], 2) if r[2] else None} for r in rows]
+    path = os.path.join(OUTPUT_DIR, 'charts', 'agl-vs-index.json')
+    with open(path, 'w') as f:
+        json.dump(data, f)
+    print(f"  Exported {len(data)} days of AGL vs STW price data")
+
+
 def export_stock_list(conn: sqlite3.Connection) -> None:
     rows = conn.execute(
         "SELECT s.ticker, s.name, s.sector, s.market_cap, "
@@ -146,6 +192,8 @@ def main():
     export_portfolio_snapshots(conn)
     export_holdings(conn)
     export_agl_tsr(conn)
+    export_tsr_summary(conn)
+    export_agl_price_chart(conn)
     export_metadata(conn)
     conn.close()
     print("Done.")

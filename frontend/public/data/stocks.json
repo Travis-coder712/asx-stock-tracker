@@ -1,0 +1,22 @@
+[
+  {
+    "ticker": "AGL.AX",
+    "name": "AGL Energy Limited",
+    "sector": "Utilities",
+    "marketCap": 5772171264.0,
+    "pe": null,
+    "pb": 1.2190963,
+    "divYield": null,
+    "roe": -0.0332
+  },
+  {
+    "ticker": "STW.AX",
+    "name": "SPDR S&P/ASX 200 ETF (total return proxy)",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  }
+]

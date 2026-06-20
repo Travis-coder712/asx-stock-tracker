@@ -32,7 +32,8 @@ ASX_100_TICKERS = [
 ]
 
 AGL_TICKER = 'AGL.AX'
-ASX100_INDEX = '^AXTO'
+ASX200_INDEX = '^AXJO'
+ASX200_ETF = 'STW.AX'
 
 
 def log_run(conn: sqlite3.Connection, source: str) -> int:
@@ -192,15 +193,20 @@ def main():
         total += p + d + f
         conn.commit()
 
-    # Also fetch ASX 100 Total Return Index for TSR comparison
-    print(f"\nFetching ASX 100 index ({ASX100_INDEX})...")
-    conn.execute(
-        "INSERT OR IGNORE INTO stocks (ticker, name, last_updated) VALUES (?, ?, ?)",
-        (ASX100_INDEX, 'S&P/ASX 100 Total Return Index', datetime.now().isoformat())
-    )
-    idx_count = import_prices(conn, ASX100_INDEX, start=args.start)
-    print(f"  → {idx_count} index prices")
-    total += idx_count
+    # Fetch ASX 200 index + STW ETF (total return proxy) for TSR comparison
+    for idx_ticker, idx_name in [
+        (ASX200_INDEX, 'S&P/ASX 200 Index'),
+        (ASX200_ETF, 'SPDR S&P/ASX 200 ETF (total return proxy)'),
+    ]:
+        print(f"\nFetching {idx_name} ({idx_ticker})...")
+        conn.execute(
+            "INSERT OR IGNORE INTO stocks (ticker, name, last_updated) VALUES (?, ?, ?)",
+            (idx_ticker, idx_name, datetime.now().isoformat())
+        )
+        idx_count = import_prices(conn, idx_ticker, start=args.start)
+        d_count = import_dividends(conn, idx_ticker, start=args.start)
+        print(f"  → {idx_count} prices, {d_count} dividends")
+        total += idx_count + d_count
 
     finish_run(conn, run_id, total)
     print(f"\nDone. {total} total records imported.")
