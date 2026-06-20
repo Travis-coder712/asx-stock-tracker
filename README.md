@@ -20,6 +20,22 @@ Each strategy auto-selects stocks from the ASX using coded screening rules. Manu
 
 Tracks AGL Energy (ASX:AGL) total shareholder return — price appreciation plus reinvested dividends — against the S&P/ASX 100 Accumulation Index over rolling 4-year periods starting 1 July 2023, 2024, 2025, and 2026.
 
+## Learning Module
+
+Built into the app at `/learn` — a 7-module curriculum covering investing foundations and the thinking behind each strategy.
+
+| # | Module | What you'll learn |
+|---|---|---|
+| 1 | **Investing 101** | What shares are, how the ASX works, risk vs return, compound interest, diversification, dividends and franking, common traps (FOMO, panic selling, overtrading), what to watch (P/E, earnings, ex-div dates). |
+| 2 | **Momentum & Technical Analysis** | Why trends persist, moving averages, RSI, Marcus Padley's approach, when to go to cash, momentum reversal risks. |
+| 3 | **Intrinsic Valuation** | What a stock is "worth", DCF in plain English, narrative-to-numbers, relative valuation (P/E, EV/EBITDA), margin of safety. |
+| 4 | **Factor Investing** | The Big Five factors (value, size, momentum, quality, low vol), how scoring models work, academic evidence, backtesting pitfalls. |
+| 5 | **Dividend & Income Investing** | Franking credits explained, grossed-up yield, dividend sustainability, dividend traps, interactive franking calculator. |
+| 6 | **Value Investing** | Graham's margin of safety, the Graham Number, Buffett's evolution, contrarian thinking, value traps. |
+| 7 | **What to Watch Out For** | Cognitive biases, media traps, broker conflicts, CGT and tax implications, the cost of fees, when to sell, keeping a decision journal. |
+
+Each module includes interactive exercises — screeners on live ASX data, calculators, and worked examples using the app's own portfolio data.
+
 ## Architecture
 
 ```
