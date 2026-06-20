@@ -22,6 +22,19 @@ interface Metadata {
   stockCount: number
 }
 
+interface PeerRanking {
+  periodStart: string
+  peerCount: number
+  rankedCount: number
+  aglRank: number | null
+  aglTsr: number | null
+  aglPercentile: number | null
+  median: number | null
+  top: { ticker: string; tsrPct: number } | null
+  bottom: { ticker: string; tsrPct: number } | null
+  rankings: Array<{ ticker: string; name: string; tsrPct: number; rank: number; percentile: number }>
+}
+
 interface PortfolioSnapshot {
   date: string
   totalValue: number
@@ -105,6 +118,12 @@ function tsrColor(val: number | null, type: 'agl' | 'index'): string {
   return val >= 0 ? 'var(--green)' : 'var(--red)'
 }
 
+function ordinal(n: number): string {
+  const s = ['th', 'st', 'nd', 'rd']
+  const v = n % 100
+  return s[(v - 20) % 10] || s[v] || s[0]
+}
+
 function formatChartDate(date: string): string {
   const d = new Date(date)
   return d.toLocaleDateString('en-AU', { month: 'short', year: '2-digit' })
@@ -132,6 +151,7 @@ function App() {
   const [priceData, setPriceData] = useState<PricePoint[]>([])
   const [metadata, setMetadata] = useState<Metadata | null>(null)
   const [strategyData, setStrategyData] = useState<Record<string, StrategyData>>({})
+  const [peerRanking, setPeerRanking] = useState<PeerRanking | null>(null)
 
   useEffect(() => {
     fetch(`${BASE}data/tsr/tsr-summary.json`)
@@ -145,6 +165,11 @@ function App() {
     fetch(`${BASE}data/metadata.json`)
       .then(r => r.ok ? r.json() : null)
       .then(setMetadata)
+      .catch(() => {})
+
+    fetch(`${BASE}data/tsr/peer-ranking-2023-07-01.json`)
+      .then(r => r.ok ? r.json() : null)
+      .then(setPeerRanking)
       .catch(() => {})
 
     STRATEGIES.forEach(s => {
@@ -232,6 +257,49 @@ function App() {
           })}
         </div>
       </div>
+
+      {/* Peer ranking */}
+      {peerRanking && peerRanking.aglRank && (
+        <div className="tsr-card" style={{ marginTop: 16 }}>
+          <h3>AGL Peer Ranking — ASX 100 Constituents (as at 30 Jun 2023)</h3>
+          <p className="tsr-subtitle">
+            AGL ranked <strong style={{ color: 'var(--accent)' }}>
+            {peerRanking.aglRank}{ordinal(peerRanking.aglRank)}</strong> of {peerRanking.rankedCount} peers
+            ({peerRanking.peerCount - peerRanking.rankedCount} excluded — delisted/acquired).
+            Percentile: <strong style={{ color: (peerRanking.aglPercentile ?? 0) >= 50 ? 'var(--green)' : 'var(--red)' }}>
+            {peerRanking.aglPercentile?.toFixed(0)}th</strong>.
+            Median peer TSR: {formatTsr(peerRanking.median)}.
+          </p>
+          <div className="peer-table-wrap">
+            <table className="peer-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Ticker</th>
+                  <th>Company</th>
+                  <th style={{ textAlign: 'right' }}>TSR</th>
+                </tr>
+              </thead>
+              <tbody>
+                {peerRanking.rankings.map(r => (
+                  <tr key={r.ticker} className={r.ticker === 'AGL.AX' ? 'agl-row' : ''}>
+                    <td>{r.rank}</td>
+                    <td className="ticker-cell">{r.ticker.replace('.AX', '')}</td>
+                    <td className="name-cell">{r.name}</td>
+                    <td style={{
+                      textAlign: 'right',
+                      color: r.tsrPct >= 0 ? 'var(--green)' : 'var(--red)',
+                      fontWeight: r.ticker === 'AGL.AX' ? 700 : 400,
+                    }}>
+                      {formatTsr(r.tsrPct)}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
 
       {/* Price chart */}
       {chartData.length > 0 && (
