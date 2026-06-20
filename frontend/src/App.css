@@ -203,6 +203,29 @@
 .tsr-period .tsr-item .val.agl { color: var(--accent); }
 .tsr-period .tsr-item .val.index { color: var(--text-dim); }
 
+/* Period tabs */
+.period-tabs {
+  display: flex;
+  gap: 6px;
+}
+.period-tab {
+  font-size: 12px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.period-tab:hover { border-color: var(--border-2); color: var(--text); }
+.period-tab.active {
+  background: rgba(107,140,255,0.15);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* Peer ranking table */
 .peer-table-wrap {
   max-height: 500px;

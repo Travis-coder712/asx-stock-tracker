@@ -151,7 +151,8 @@ function App() {
   const [priceData, setPriceData] = useState<PricePoint[]>([])
   const [metadata, setMetadata] = useState<Metadata | null>(null)
   const [strategyData, setStrategyData] = useState<Record<string, StrategyData>>({})
-  const [peerRanking, setPeerRanking] = useState<PeerRanking | null>(null)
+  const [peerRankings, setPeerRankings] = useState<Record<string, PeerRanking>>({})
+  const [selectedPeriod, setSelectedPeriod] = useState('2023-07-01')
 
   useEffect(() => {
     fetch(`${BASE}data/tsr/tsr-summary.json`)
@@ -167,10 +168,15 @@ function App() {
       .then(setMetadata)
       .catch(() => {})
 
-    fetch(`${BASE}data/tsr/peer-ranking-2023-07-01.json`)
-      .then(r => r.ok ? r.json() : null)
-      .then(setPeerRanking)
-      .catch(() => {})
+    const peerPeriods = ['2023-07-01', '2024-07-01', '2025-07-01']
+    peerPeriods.forEach(p => {
+      fetch(`${BASE}data/tsr/peer-ranking-${p}.json`)
+        .then(r => r.ok ? r.json() : null)
+        .then(data => {
+          if (data) setPeerRankings(prev => ({ ...prev, [p]: data }))
+        })
+        .catch(() => {})
+    })
 
     STRATEGIES.forEach(s => {
       Promise.all([
@@ -259,47 +265,68 @@ function App() {
       </div>
 
       {/* Peer ranking */}
-      {peerRanking && peerRanking.aglRank && (
-        <div className="tsr-card" style={{ marginTop: 16 }}>
-          <h3>AGL Peer Ranking — ASX 100 Constituents (as at 30 Jun 2023)</h3>
-          <p className="tsr-subtitle">
-            AGL ranked <strong style={{ color: 'var(--accent)' }}>
-            {peerRanking.aglRank}{ordinal(peerRanking.aglRank)}</strong> of {peerRanking.rankedCount} peers
-            ({peerRanking.peerCount - peerRanking.rankedCount} excluded — delisted/acquired).
-            Percentile: <strong style={{ color: (peerRanking.aglPercentile ?? 0) >= 50 ? 'var(--green)' : 'var(--red)' }}>
-            {peerRanking.aglPercentile?.toFixed(0)}th</strong>.
-            Median peer TSR: {formatTsr(peerRanking.median)}.
-          </p>
-          <div className="peer-table-wrap">
-            <table className="peer-table">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Ticker</th>
-                  <th>Company</th>
-                  <th style={{ textAlign: 'right' }}>TSR</th>
-                </tr>
-              </thead>
-              <tbody>
-                {peerRanking.rankings.map(r => (
-                  <tr key={r.ticker} className={r.ticker === 'AGL.AX' ? 'agl-row' : ''}>
-                    <td>{r.rank}</td>
-                    <td className="ticker-cell">{r.ticker.replace('.AX', '')}</td>
-                    <td className="name-cell">{r.name}</td>
-                    <td style={{
-                      textAlign: 'right',
-                      color: r.tsrPct >= 0 ? 'var(--green)' : 'var(--red)',
-                      fontWeight: r.ticker === 'AGL.AX' ? 700 : 400,
-                    }}>
-                      {formatTsr(r.tsrPct)}
-                    </td>
-                  </tr>
+      {Object.keys(peerRankings).length > 0 && (() => {
+        const peerRanking = peerRankings[selectedPeriod]
+        const periodLabel = PERIOD_LABELS[selectedPeriod]?.replace(/\(.*/, '').trim() ?? selectedPeriod
+        return (
+          <div className="tsr-card" style={{ marginTop: 16 }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
+              <h3>AGL Peer Ranking — ASX 100 Constituents</h3>
+              <div className="period-tabs">
+                {Object.keys(peerRankings).map(p => (
+                  <button
+                    key={p}
+                    className={`period-tab ${p === selectedPeriod ? 'active' : ''}`}
+                    onClick={() => setSelectedPeriod(p)}
+                  >
+                    {PERIOD_LABELS[p]?.replace(/\(.*/, '').trim() ?? p}
+                  </button>
                 ))}
-              </tbody>
-            </table>
+              </div>
+            </div>
+            {peerRanking && peerRanking.aglRank && (
+              <>
+                <p className="tsr-subtitle">
+                  {periodLabel}: AGL ranked <strong style={{ color: 'var(--accent)' }}>
+                  {peerRanking.aglRank}{ordinal(peerRanking.aglRank)}</strong> of {peerRanking.rankedCount} peers
+                  ({peerRanking.peerCount - peerRanking.rankedCount} excluded — delisted/acquired).
+                  Percentile: <strong style={{ color: (peerRanking.aglPercentile ?? 0) >= 50 ? 'var(--green)' : 'var(--red)' }}>
+                  {peerRanking.aglPercentile?.toFixed(0)}th</strong>.
+                  Median peer TSR: {formatTsr(peerRanking.median)}.
+                </p>
+                <div className="peer-table-wrap">
+                  <table className="peer-table">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Ticker</th>
+                        <th>Company</th>
+                        <th style={{ textAlign: 'right' }}>TSR</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {peerRanking.rankings.map(r => (
+                        <tr key={r.ticker} className={r.ticker === 'AGL.AX' ? 'agl-row' : ''}>
+                          <td>{r.rank}</td>
+                          <td className="ticker-cell">{r.ticker.replace('.AX', '')}</td>
+                          <td className="name-cell">{r.name}</td>
+                          <td style={{
+                            textAlign: 'right',
+                            color: r.tsrPct >= 0 ? 'var(--green)' : 'var(--red)',
+                            fontWeight: r.ticker === 'AGL.AX' ? 700 : 400,
+                          }}>
+                            {formatTsr(r.tsrPct)}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </>
+            )}
           </div>
-        </div>
-      )}
+        )
+      })()}
 
       {/* Price chart */}
       {chartData.length > 0 && (

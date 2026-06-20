@@ -30,6 +30,16 @@
     "roe": 0.13644
   },
   {
+    "ticker": "NEM.AX",
+    "name": "Newmont Corporation",
+    "sector": "Basic Materials",
+    "marketCap": 153161793536.0,
+    "pe": 13.162386,
+    "pb": 3.1157894,
+    "divYield": 0.95,
+    "roe": 0.25832
+  },
+  {
     "ticker": "WBC.AX",
     "name": "Westpac Banking Corporation",
     "sector": "Financial Services",
@@ -88,6 +98,16 @@
     "pb": 2.7120104,
     "divYield": 0.92,
     "roe": 0.07929
+  },
+  {
+    "ticker": "XYZ.AX",
+    "name": "Block, Inc.",
+    "sector": "Technology",
+    "marketCap": 62517813248.0,
+    "pe": 58.03315,
+    "pb": 1.9709489,
+    "divYield": null,
+    "roe": 0.03743
   },
   {
     "ticker": "FMG.AX",
@@ -180,6 +200,16 @@
     "roe": 0.22027001
   },
   {
+    "ticker": "SIG.AX",
+    "name": "Sigma Healthcare Limited",
+    "sector": "Healthcare",
+    "marketCap": 31860619264.0,
+    "pe": 55.2,
+    "pb": 6.4788733,
+    "divYield": 1.42,
+    "roe": null
+  },
+  {
     "ticker": "COL.AX",
     "name": "Coles Group Limited",
     "sector": "Consumer Defensive",
@@ -270,6 +300,16 @@
     "roe": 0.02422
   },
   {
+    "ticker": "SCG.AX",
+    "name": "Scentre Group",
+    "sector": "Real Estate",
+    "marketCap": 19899541504.0,
+    "pe": 11.205882,
+    "pb": 1.0521955,
+    "divYield": 4.59,
+    "roe": 0.09635
+  },
+  {
     "ticker": "PLS.AX",
     "name": "PLS Group Limited",
     "sector": "Basic Materials",
@@ -330,6 +370,16 @@
     "roe": 0.28366
   },
   {
+    "ticker": "LYC.AX",
+    "name": "Lynas Rare Earths Limited",
+    "sector": "Basic Materials",
+    "marketCap": 18298224640.0,
+    "pe": 227.25002,
+    "pb": 5.4382296,
+    "divYield": null,
+    "roe": 0.02884
+  },
+  {
     "ticker": "PME.AX",
     "name": "Pro Medicus Limited",
     "sector": "Healthcare",
@@ -338,6 +388,16 @@
     "pb": 46.426655,
     "divYield": 0.38,
     "roe": 0.76801
+  },
+  {
+    "ticker": "SGH.AX",
+    "name": "SGH Limited",
+    "sector": null,
+    "marketCap": 17610811392.0,
+    "pe": 40.43925,
+    "pb": 3.4305875,
+    "divYield": null,
+    "roe": null
   },
   {
     "ticker": "SOL.AX",
@@ -358,6 +418,16 @@
     "pb": 11.328829,
     "divYield": 3.97,
     "roe": 1.53633
+  },
+  {
+    "ticker": "BSL.AX",
+    "name": "BlueScope Steel Limited",
+    "sector": "Basic Materials",
+    "marketCap": 14561694720.0,
+    "pe": 58.315792,
+    "pb": 1.3501219,
+    "divYield": 2.79,
+    "roe": 0.03433
   },
   {
     "ticker": "MIN.AX",
@@ -440,6 +510,16 @@
     "roe": 0.116569996
   },
   {
+    "ticker": "ALQ.AX",
+    "name": "ALS Limited",
+    "sector": "Industrials",
+    "marketCap": 11470461952.0,
+    "pe": 35.873016,
+    "pb": 6.7482834,
+    "divYield": 1.81,
+    "roe": 0.21445999
+  },
+  {
     "ticker": "CHC.AX",
     "name": "Charter Hall Group",
     "sector": "Real Estate",
@@ -500,6 +580,26 @@
     "roe": 0.13638
   },
   {
+    "ticker": "LNW.AX",
+    "name": "Light & Wonder, Inc.",
+    "sector": "Consumer Cyclical",
+    "marketCap": 10095450112.0,
+    "pe": 30.48456,
+    "pb": 22.974224,
+    "divYield": null,
+    "roe": 0.52846
+  },
+  {
+    "ticker": "REH.AX",
+    "name": "Reece Limited",
+    "sector": "Industrials",
+    "marketCap": 9970639872.0,
+    "pe": 36.840908,
+    "pb": 2.7225394,
+    "divYield": 1.09,
+    "roe": 0.072230004
+  },
+  {
     "ticker": "SHL.AX",
     "name": "Sonic Healthcare Limited",
     "sector": "Healthcare",
@@ -518,6 +618,16 @@
     "pb": 21.701664,
     "divYield": null,
     "roe": 0.3353
+  },
+  {
+    "ticker": "SFR.AX",
+    "name": "Sandfire Resources Limited",
+    "sector": "Basic Materials",
+    "marketCap": 9675232256.0,
+    "pe": 49.333332,
+    "pb": 3.5473044,
+    "divYield": null,
+    "roe": 0.07509
   },
   {
     "ticker": "GPT.AX",
@@ -540,6 +650,16 @@
     "roe": 0.051119998
   },
   {
+    "ticker": "QUB.AX",
+    "name": "Qube Holdings Limited",
+    "sector": "Industrials",
+    "marketCap": 9046805504.0,
+    "pe": 42.583336,
+    "pb": 2.8951843,
+    "divYield": null,
+    "roe": 0.06985
+  },
+  {
     "ticker": "JBH.AX",
     "name": "JB Hi-Fi Limited",
     "sector": "Consumer Cyclical",
@@ -548,6 +668,16 @@
     "pb": 5.079489,
     "divYield": 4.0,
     "roe": 0.29239
+  },
+  {
+    "ticker": "ALD.AX",
+    "name": "Ampol Limited",
+    "sector": "Energy",
+    "marketCap": 7902097408.0,
+    "pe": 94.74286,
+    "pb": 2.6024172,
+    "divYield": null,
+    "roe": 0.03885
   },
   {
     "ticker": "COH.AX",
@@ -580,6 +710,26 @@
     "roe": 0.02994
   },
   {
+    "ticker": "PRU.AX",
+    "name": "Perseus Mining Limited",
+    "sector": "Basic Materials",
+    "marketCap": 7337754624.0,
+    "pe": 14.729729,
+    "pb": 2.3620293,
+    "divYield": 1.78,
+    "roe": 0.18701
+  },
+  {
+    "ticker": "AZJ.AX",
+    "name": "Aurizon Holdings Limited",
+    "sector": "Industrials",
+    "marketCap": 7086723584.0,
+    "pe": 23.388887,
+    "pb": 1.7439934,
+    "divYield": null,
+    "roe": 0.072340004
+  },
+  {
     "ticker": "MGR.AX",
     "name": "Mirvac Group",
     "sector": "Real Estate",
@@ -590,6 +740,16 @@
     "roe": 0.04205
   },
   {
+    "ticker": "CGF.AX",
+    "name": "Challenger Limited",
+    "sector": "Financial Services",
+    "marketCap": 6721918976.0,
+    "pe": 15.854838,
+    "pb": 1.6493288,
+    "divYield": 3.21,
+    "roe": 0.11549
+  },
+  {
     "ticker": "WHC.AX",
     "name": "Whitehaven Coal Limited",
     "sector": "Energy",
@@ -598,6 +758,16 @@
     "pb": 1.1374408,
     "divYield": 0.96,
     "roe": 0.11333
+  },
+  {
+    "ticker": "DNL.AX",
+    "name": "Dyno Nobel Limited",
+    "sector": "Basic Materials",
+    "marketCap": 6647947776.0,
+    "pe": 27.071428,
+    "pb": 1.6449653,
+    "divYield": null,
+    "roe": 0.05764
   },
   {
     "ticker": "DXS.AX",
@@ -630,6 +800,16 @@
     "roe": 0.06453
   },
   {
+    "ticker": "EDV.AX",
+    "name": "Endeavour Group Limited",
+    "sector": "Consumer Defensive",
+    "marketCap": 6159339008.0,
+    "pe": 16.333334,
+    "pb": 1.545045,
+    "divYield": null,
+    "roe": 0.09443
+  },
+  {
     "ticker": "HVN.AX",
     "name": "Harvey Norman Holdings Limited",
     "sector": "Consumer Cyclical",
@@ -638,6 +818,36 @@
     "pb": 1.2265109,
     "divYield": 5.95,
     "roe": 0.11783
+  },
+  {
+    "ticker": "HUB.AX",
+    "name": "HUB24 Limited",
+    "sector": "Financial Services",
+    "marketCap": 6014461440.0,
+    "pe": 57.46094,
+    "pb": 11.01048,
+    "divYield": null,
+    "roe": 0.19732
+  },
+  {
+    "ticker": "BEN.AX",
+    "name": "Bendigo and Adelaide Bank Limited",
+    "sector": "Financial Services",
+    "marketCap": 5948795904.0,
+    "pe": null,
+    "pb": 0.9000171,
+    "divYield": 5.63,
+    "roe": -0.012130001
+  },
+  {
+    "ticker": "360.AX",
+    "name": "Life360, Inc.",
+    "sector": "Technology",
+    "marketCap": 5795386368.0,
+    "pe": 28.722893,
+    "pb": 6.8256364,
+    "divYield": null,
+    "roe": 0.30646
   },
   {
     "ticker": "AGL.AX",
@@ -650,6 +860,26 @@
     "roe": -0.0332
   },
   {
+    "ticker": "SDF.AX",
+    "name": "Steadfast Group Limited",
+    "sector": "Financial Services",
+    "marketCap": 5726757376.0,
+    "pe": 16.09375,
+    "pb": 2.4582338,
+    "divYield": 3.79,
+    "roe": 0.16476
+  },
+  {
+    "ticker": "DOW.AX",
+    "name": "Downer EDI Limited",
+    "sector": "Industrials",
+    "marketCap": 5349894144.0,
+    "pe": 33.791664,
+    "pb": 2.7260504,
+    "divYield": 3.3,
+    "roe": 0.07801
+  },
+  {
     "ticker": "CWY.AX",
     "name": "Cleanaway Waste Management Limited",
     "sector": "Industrials",
@@ -660,6 +890,16 @@
     "roe": 0.04025
   },
   {
+    "ticker": "TLX.AX",
+    "name": "Telix Pharmaceuticals Limited",
+    "sector": "Healthcare",
+    "marketCap": 4912267264.0,
+    "pe": null,
+    "pb": 8.184221,
+    "divYield": null,
+    "roe": -0.018550001
+  },
+  {
     "ticker": "SEK.AX",
     "name": "SEEK Limited",
     "sector": "Communication Services",
@@ -668,6 +908,36 @@
     "pb": 2.0416417,
     "divYield": 3.52,
     "roe": -0.03068
+  },
+  {
+    "ticker": "A2M.AX",
+    "name": "The a2 Milk Company Limited",
+    "sector": "Consumer Defensive",
+    "marketCap": 4867609600.0,
+    "pe": 26.84,
+    "pb": 4.245625,
+    "divYield": 2.8,
+    "roe": 0.14722
+  },
+  {
+    "ticker": "PDN.AX",
+    "name": "Paladin Energy Ltd",
+    "sector": "Energy",
+    "marketCap": 4502571520.0,
+    "pe": null,
+    "pb": 2.7308378,
+    "divYield": null,
+    "roe": -0.03579
+  },
+  {
+    "ticker": "ANN.AX",
+    "name": "Ansell Limited",
+    "sector": "Healthcare",
+    "marketCap": 4236388352.0,
+    "pe": 22.893131,
+    "pb": 1.5306876,
+    "divYield": null,
+    "roe": 0.06964
   },
   {
     "ticker": "BOQ.AX",
@@ -700,6 +970,26 @@
     "roe": -0.09907
   },
   {
+    "ticker": "VEA.AX",
+    "name": "Viva Energy Group Limited",
+    "sector": "Energy",
+    "marketCap": 3580695808.0,
+    "pe": null,
+    "pb": 2.480091,
+    "divYield": null,
+    "roe": -0.25348
+  },
+  {
+    "ticker": "MTS.AX",
+    "name": "Metcash Limited",
+    "sector": "Consumer Defensive",
+    "marketCap": 3497129472.0,
+    "pe": 12.23077,
+    "pb": 2.1003962,
+    "divYield": 5.56,
+    "roe": 0.17499
+  },
+  {
     "ticker": "NHF.AX",
     "name": "nib holdings limited",
     "sector": "Financial Services",
@@ -718,6 +1008,26 @@
     "pb": 1.6240914,
     "divYield": 0.63,
     "roe": -0.13023
+  },
+  {
+    "ticker": "RWC.AX",
+    "name": "Reliance Worldwide Corporation Limited",
+    "sector": "Industrials",
+    "marketCap": 2797665024.0,
+    "pe": 19.684212,
+    "pb": 1.4642308,
+    "divYield": 1.8,
+    "roe": 0.076469995
+  },
+  {
+    "ticker": "RGN.AX",
+    "name": "Region Group",
+    "sector": "Real Estate",
+    "marketCap": 2779956480.0,
+    "pe": 8.962963,
+    "pb": 0.9467919,
+    "divYield": null,
+    "roe": 0.10769
   },
   {
     "ticker": "FLT.AX",
@@ -788,6 +1098,16 @@
     "pb": 2.2289157,
     "divYield": null,
     "roe": 0.120740004
+  },
+  {
+    "ticker": "DMP.AX",
+    "name": "Domino's Pizza Enterprises Limited",
+    "sector": "Consumer Cyclical",
+    "marketCap": 1581325184.0,
+    "pe": 26.492065,
+    "pb": 2.313557,
+    "divYield": null,
+    "roe": 0.09075
   },
   {
     "ticker": "NEC.AX",
@@ -910,28 +1230,8 @@
     "roe": null
   },
   {
-    "ticker": "IPL.AX",
-    "name": "IPL",
-    "sector": null,
-    "marketCap": null,
-    "pe": null,
-    "pb": null,
-    "divYield": null,
-    "roe": null
-  },
-  {
     "ticker": "LNK.AX",
     "name": "LNK",
-    "sector": null,
-    "marketCap": null,
-    "pe": null,
-    "pb": null,
-    "divYield": null,
-    "roe": null
-  },
-  {
-    "ticker": "NCM.AX",
-    "name": "NCM",
     "sector": null,
     "marketCap": null,
     "pe": null,
@@ -950,8 +1250,98 @@
     "roe": null
   },
   {
+    "ticker": "AKE.AX",
+    "name": "AKE",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "AWC.AX",
+    "name": "AWC",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "NCM.AX",
+    "name": "NCM",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "ALU.AX",
+    "name": "ALU",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "IPL.AX",
+    "name": "IPL",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "LTM.AX",
+    "name": "LTM",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "PMI.AX",
+    "name": "PMI",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "SQ2.AX",
+    "name": "SQ2",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
     "ticker": "SVW.AX",
     "name": "SVW",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "VUK.AX",
+    "name": "VUK",
     "sector": null,
     "marketCap": null,
     "pe": null,
