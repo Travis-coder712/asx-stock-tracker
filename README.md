@@ -77,9 +77,43 @@ python3 pipeline/exporters/export_json.py
 cd frontend && npm install && npm run dev
 ```
 
+## Where this lives
+
+| Location | URL / Path | How to update |
+|---|---|---|
+| **Live app** | [travis-coder712.github.io/asx-stock-tracker](https://travis-coder712.github.io/asx-stock-tracker/) | Push to `main` — GitHub Actions deploys automatically |
+| **GitHub repo** | [Travis-coder712/asx-stock-tracker](https://github.com/Travis-coder712/asx-stock-tracker) | Standard git workflow |
+| **Travis Dashboard** | `~/Studio/Dashboard.html` — open via `file:///Users/travishughes/Studio/Dashboard.html` | Edit the HTML directly, no build step. It's a single local file, not a git repo |
+| **Studio (public)** | [travis-coder712.github.io/studio](https://travis-coder712.github.io/studio/) | Edit `~/Studio/studio-public/index.html`, commit and push to `main` |
+| **Local dev** | `http://localhost:5174/asx-stock-tracker/` | `cd frontend && npm run dev` |
+
+### Editing the Dashboard
+
+Travis Dashboard is a single HTML file at `~/Studio/Dashboard.html`. To edit:
+
+1. Open `~/Studio/Dashboard.html` in any text editor (or ask Claude Code to edit it)
+2. Find the relevant card `<div class="card" ...>` block
+3. Edit the title, description, version, or links
+4. Save — changes are immediate when you refresh the local file in the browser
+
+The Dashboard is **not** in a git repo — it's a local file opened directly via `file://`. No push needed. Studio (the public version) is a separate repo at `~/Studio/studio-public/` that deploys to GitHub Pages.
+
+## Data refresh
+
+See [docs/DATA_REFRESH.md](docs/DATA_REFRESH.md) for the full runbook. Quick version:
+
+```bash
+python3 pipeline/importers/import_prices.py --all --start 2023-01-01
+python3 -m pipeline.models.compute_tsr
+python3 -m pipeline.models.run_all_periods
+python3 -m pipeline.models.compute_hold_periods
+python3 -m pipeline.models.compute_peer_tsr
+python3 pipeline/exporters/export_json.py
+```
+
 ## Status
 
-v0.1.0 — scaffolding. Strategy models and live data coming soon.
+v1.2.0 — all 7 phases complete. 5 strategies live, 28 lessons, AGL peer ranking, PWA.
 
 ---
 
