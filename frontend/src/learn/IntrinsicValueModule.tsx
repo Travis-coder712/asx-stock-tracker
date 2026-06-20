@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { MODULES } from './curriculum'
+import { ResourceBox, ExampleBox, DidYouKnow } from './InteractiveElements'
 
 const mod = MODULES[2]
 interface Props { onBack: () => void }
@@ -111,9 +112,18 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         <p>But cheap relative to peers returned only +9.2% over the tracking period — the worst of the momentum-style strategies. Why? Because sometimes stocks are cheap for a reason. The market was right about some of these companies.</p>
         <h4>Damodaran's warning</h4>
         <p>Relative valuation has a fundamental flaw: if the entire sector is overvalued, the "cheapest" stock in the sector is still overvalued. During the tech bubble, stocks with P/E ratios of 50 were "cheap" relative to peers at P/E 200. They still crashed.</p>
+        <ExampleBox title="Sector-relative valuation in this app">
+          <p>The Damodaran strategy found CCL (Coca-Cola Amatil) at P/E 24.8 vs its sector median of 53.4 — a 54% discount to peers. SOL at P/E 6.9 vs sector median 19.1 — a 64% discount. But the overall strategy returned only +9.2%. Being cheap relative to peers wasn't enough — the peers themselves were expensive.</p>
+        </ExampleBox>
+        <DidYouKnow>Damodaran updates his valuation datasets for every publicly traded company in the world — for free — on his NYU website. He's valued over 40,000 companies and makes all his spreadsheets available for download.</DidYouKnow>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> Relative valuation is fast and intuitive — but it only tells you which stocks are cheaper than their peers, not whether they're actually cheap in absolute terms. Combine it with DCF for a more complete picture.
         </div>
+        <ResourceBox title="Further reading" resources={[
+          { name: 'The Little Book of Valuation', author: 'Aswath Damodaran', type: 'Book', note: 'Compact, practical intro to valuation. Covers DCF and relative methods with worked examples.' },
+          { name: 'Damodaran on Valuation (YouTube)', author: 'NYU Stern', type: 'Video', note: 'Full semester of valuation lectures, free. The best graduate-level finance education available online.' },
+          { name: 'Musings on Markets (blog)', author: 'Aswath Damodaran', type: 'Blog', note: 'Damodaran\'s blog where he values companies in real-time — Tesla, Uber, Apple, etc.' },
+        ]} />
       </>
     ),
   },

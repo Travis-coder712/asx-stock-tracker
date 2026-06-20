@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { MODULES } from './curriculum'
+import { RiskQuiz, ResourceBox, ExampleBox, DidYouKnow } from './InteractiveElements'
 
 const mod = MODULES[6]
 interface Props { onBack: () => void }
@@ -23,6 +24,8 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         <p>It feels safer to do what everyone else is doing. But buying popular stocks at popular prices is how you guarantee average (or below-average) returns. The Contrarian Value strategy deliberately buys unpopular stocks — it fights the herd by design.</p>
         <p><strong>6. Overconfidence</strong></p>
         <p>After a few winning trades, you believe you have skill. You increase position sizes, trade more frequently, take bigger risks. Studies consistently show that the most confident retail traders have the worst returns.</p>
+        <RiskQuiz />
+        <DidYouKnow>Professional fund managers suffer from the same biases as retail investors. Studies show that 80-90% of actively managed funds underperform their benchmark index over 10+ years — partly because even professionals make emotional decisions.</DidYouKnow>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> You can't eliminate these biases — they're hardwired. But you can build systems that bypass them. That's the entire point of this app: systematic strategies with fixed rules remove the human decision-maker (and their biases) from the process.
         </div>
@@ -115,9 +118,19 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         </ul>
         <p>Review the journal quarterly. You'll quickly see patterns in your decision-making — and you'll find that many of your panic sells were mistakes.</p>
         <p>This app's systematic approach removes the sell decision from human judgment: rebalance every 6 months, re-screen, replace what no longer qualifies. No emotion, no agonising, no regret.</p>
+        <ExampleBox title="The sell decision in this app">
+          <p>Every 6 months, each strategy re-screens the ASX 100. Stocks that no longer qualify are automatically sold, and new qualifiers are bought. This removes the emotional sell decision entirely. Look at how the Padley Momentum holdings changed between H1 2024 and H2 2024 — stocks rotated based on rules, not feelings.</p>
+        </ExampleBox>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> The best investors sell rarely and deliberately. They sell because the business changed, not because the price changed. If you can't articulate why you're selling in one sentence — without referencing the recent price — you probably shouldn't sell.
         </div>
+        <ResourceBox title="Further reading" resources={[
+          { name: 'Thinking, Fast and Slow', author: 'Daniel Kahneman', type: 'Book', note: 'The definitive guide to cognitive biases. Won the Nobel Prize in Economics.' },
+          { name: 'The Psychology of Money', author: 'Morgan Housel', type: 'Book', note: 'Short, readable chapters on how behaviour matters more than knowledge in investing.' },
+          { name: 'Thinking in Bets', author: 'Annie Duke', type: 'Book', note: 'How to make better decisions under uncertainty. Separates decision quality from outcome quality.' },
+          { name: 'Moneysmart', type: 'Website', note: 'ASIC\'s free financial literacy resource — moneysmart.gov.au. Tax calculators, super guidance, scam alerts.' },
+          { name: 'Passive Investing Australia', type: 'Website', note: 'Evidence-based investing for Australians. Strong case for index funds over stock picking.' },
+        ]} />
       </>
     ),
   },

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { MODULES } from './curriculum'
+import { GrahamCalculator, ResourceBox, ExampleBox, DidYouKnow } from './InteractiveElements'
 
 const mod = MODULES[5]
 interface Props { onBack: () => void }
@@ -24,9 +25,21 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         <p>SOL (Soul Pattinson) had the largest Graham discount at +131% — its Graham Number was well above its market price. But strict value investing returned only +6.5% cumulatively — the worst-performing momentum strategies did 10x better.</p>
         <h4>Net-net investing</h4>
         <p>Graham's most extreme strategy: buy stocks trading below their <strong>net current asset value</strong> (current assets minus <em>all</em> liabilities). You're getting the business for less than its liquidation value — essentially free. These are vanishingly rare on the modern ASX, but they existed in Graham's depression-era market.</p>
+        <GrahamCalculator />
+        <ExampleBox title="Try it with this app's picks">
+          <p>SOL (Soul Pattinson): EPS $4.70, BVPS $31.50, Price ~$33. Graham Number = √(22.5 × 4.70 × 31.50) = $57.75. That's a 75% discount — strong buy signal. SOL was the app's top Contrarian pick.</p>
+          <p>Now try PME: EPS $0.90, BVPS $1.20, Price ~$180. Graham Number = √(22.5 × 0.90 × 1.20) = $4.92. At $180, PME is 36x Graham's maximum price. Yet it was the top momentum performer. Graham and Padley would disagree violently about this stock.</p>
+        </ExampleBox>
+        <DidYouKnow>Warren Buffett took Graham's class at Columbia Business School in 1950-51 and was the only student ever to receive an A+. He later worked at Graham's fund, Graham-Newman, before starting his own partnership.</DidYouKnow>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> Graham's genius was the margin of safety — accepting that you'll be wrong and building in protection. His specific numbers (P/E &lt; 15, P/B &lt; 1.5) are aggressive filters that produce very concentrated, often unloved portfolios. The returns are modest but the downside protection is real.
         </div>
+        <ResourceBox title="Further reading" resources={[
+          { name: 'The Intelligent Investor', author: 'Benjamin Graham', type: 'Book', note: 'The bible of value investing. The revised edition with Jason Zweig\'s commentary is the one to get.' },
+          { name: 'Security Analysis', author: 'Graham & Dodd', type: 'Book', note: 'The technical companion to The Intelligent Investor. Heavy but comprehensive.' },
+          { name: 'Berkshire Hathaway Annual Letters', author: 'Warren Buffett', type: 'Free online', note: 'Buffett\'s letters to shareholders from 1965 to present. The best free investing education available.' },
+          { name: 'Damodaran Online', author: 'Aswath Damodaran', type: 'Website', note: 'Free valuation spreadsheets, datasets, and lecture videos at pages.stern.nyu.edu/~adamodar/' },
+        ]} />
       </>
     ),
   },

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { MODULES } from './curriculum'
+import { ResourceBox, ExampleBox, DidYouKnow } from './InteractiveElements'
 
 const mod = MODULES[3]
 interface Props { onBack: () => void }
@@ -27,6 +28,12 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         <h4>How this app uses factors</h4>
         <p>The Quant Factors strategy in this app scores every ASX stock across three factors — Value (P/B rank), Momentum (12-month return rank), and Quality (ROE rank) — then buys the top 10 by composite score. It returned <strong>+60.7% cumulatively</strong>, the second-best strategy.</p>
         <p>The power of combining factors is that they're partially uncorrelated: when value stocks are underperforming, momentum stocks often pick up the slack, and vice versa. The composite smooths out any single factor's bad periods.</p>
+        <ExampleBox title="Factor scores from this app">
+          <p><strong>SOL:</strong> Value #22, Momentum #26, Quality #20 = Composite 68. Strong across ALL three factors — no single weakness. This is the ideal factor stock.</p>
+          <p><strong>PME:</strong> Value #99 (worst!), Momentum #2, Quality #3 = Composite 104. Extreme momentum and quality compensated for terrible value. Two strong factors overcame one weak one.</p>
+          <p><strong>This is the beauty of multi-factor:</strong> you don't need perfection. A stock with one glaring weakness can still be a top pick if it excels elsewhere.</p>
+        </ExampleBox>
+        <DidYouKnow>The five factors (value, size, momentum, quality, low vol) explain about 90% of the variation in stock returns across different portfolios. Individual stock-picking skill — "alpha" — explains less than 10%.</DidYouKnow>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> Factor investing is systematic, evidence-based, and removes emotion from stock selection. It's the closest thing to a "scientific" approach to picking stocks — and the Quant Factors strategy's +60.7% return demonstrates it works on the ASX.
         </div>
@@ -75,6 +82,11 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> Factor investing works over long periods but requires patience through drawdowns, discipline to stick to the model, and enough capital to absorb transaction costs. It's not a get-rich-quick strategy — it's a get-rich-slowly system.
         </div>
+        <ResourceBox title="Further reading" resources={[
+          { name: 'Your Complete Guide to Factor-Based Investing', author: 'Berkin & Swedroe', type: 'Book', note: 'The accessible entry point. Covers all five factors with evidence and implementation advice.' },
+          { name: 'AQR Research Papers', type: 'Website', note: 'AQR Capital (Cliff Asness) publishes excellent free research on factor investing at aqr.com/insights' },
+          { name: 'Expected Returns', author: 'Antti Ilmanen', type: 'Book', note: 'The definitive (and dense) reference on what drives returns across asset classes.' },
+        ]} />
       </>
     ),
   },

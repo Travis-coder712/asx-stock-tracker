@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { MODULES } from './curriculum'
+import { FrankingCalculator, ResourceBox, DidYouKnow } from './InteractiveElements'
 
 const mod = MODULES[4]
 interface Props { onBack: () => void }
@@ -33,9 +34,16 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         <p>The fully franked dividend delivers <strong>43% more after-tax income</strong> than the same yield unfranked. For investors in lower tax brackets (or superannuation at 15%), the advantage is even larger — some receive a <em>refund</em> from the ATO.</p>
         <h4>Dividends as a signal</h4>
         <p>Companies that pay consistent, growing dividends are signalling confidence in their future earnings. Cutting a dividend is one of the most negative signals a company can send — boards avoid it at almost any cost. This makes dividend history a useful quality filter.</p>
+        <FrankingCalculator />
+        <DidYouKnow>Australia is one of only a handful of countries with a full dividend imputation system. New Zealand has a partial system. Most countries (US, UK, Europe) double-tax corporate profits — once at the company level, again in the shareholder's hands.</DidYouKnow>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> On the ASX, a 4% fully franked yield delivers more after-tax income than a 5.5% savings account for most taxpayers. The Dividend Income strategy in this app returned +13% cumulatively — not the highest, but with the steadiest income stream and lowest volatility.
         </div>
+        <ResourceBox title="Further reading" resources={[
+          { name: 'ATO Dividend Imputation Guide', type: 'Website', note: 'Official ATO guidance on how franking credits work in your tax return.' },
+          { name: 'Motivated Money', author: 'Peter Thornhill', type: 'Book', note: 'Australian classic on dividend investing. Thornhill advocates 100% equities with dividend reinvestment.' },
+          { name: 'Get Started Investing Podcast', author: 'Equity Mates', type: 'Podcast', note: 'Ep 15-18 cover dividends and franking in plain language.' },
+        ]} />
       </>
     ),
   },

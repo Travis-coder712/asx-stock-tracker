@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { MODULES } from './curriculum'
+import { ResourceBox, ExampleBox, DidYouKnow } from './InteractiveElements'
 
 const mod = MODULES[1]
 
@@ -20,6 +21,10 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         </ul>
         <h4>The evidence on the ASX</h4>
         <p>Look at this app's Padley Momentum strategy — it picked the 10 highest-momentum stocks in January 2024 and returned <strong>+24.9%</strong> in the first 6 months alone. The strategy compounds well in rising markets because momentum feeds on itself.</p>
+        <ExampleBox title="From this app's data">
+          <p>PME (Pro Medicus) had +78% momentum when selected in H1 2024. It was the top momentum pick. Six months later, it was still leading. But by H2 2025, the same momentum that drove it up started driving it sideways. Momentum stocks are exciting on the way up — and painful on the way down.</p>
+        </ExampleBox>
+        <DidYouKnow>The momentum effect was first documented on the US market, but it's been confirmed on every major stock exchange in the world — including the ASX. It even works across asset classes (currencies, commodities, bonds).</DidYouKnow>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> Momentum is real, well-documented, and exploitable — but it reverses suddenly. The same H1 2024 picks eventually gave back gains by H1 2026 (-10.7%). Momentum is a tool, not a religion.
         </div>
@@ -106,6 +111,11 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> Momentum is highest-return and highest-risk. The Padley strategy in this app returned +64% cumulatively — best of all five — but had the deepest drawdown periods. It's not for everyone, and it's definitely not a "set and forget" approach.
         </div>
+        <ResourceBox title="Further reading" resources={[
+          { name: 'Marcus Today Newsletter', author: 'Marcus Padley', type: 'Newsletter', note: 'The source — Padley\'s daily market commentary and MT20 portfolio. Paid subscription, 14-day free trial.' },
+          { name: 'Returns to Buying Winners and Selling Losers', author: 'Jegadeesh & Titman (1993)', type: 'Paper', note: 'The landmark academic paper that proved momentum exists. Dense but foundational.' },
+          { name: 'Dual Momentum Investing', author: 'Gary Antonacci', type: 'Book', note: 'Combines absolute and relative momentum. Practical, implementable approach.' },
+        ]} />
       </>
     ),
   },

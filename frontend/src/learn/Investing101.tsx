@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { MODULES } from './curriculum'
+import { CompoundCalculator, ResourceBox, ExampleBox, DidYouKnow } from './InteractiveElements'
 
 const mod = MODULES[0]
 
@@ -26,6 +27,10 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
           <li><strong>Interest rates</strong> — when rates rise, cash in the bank becomes more attractive, and share prices tend to fall</li>
           <li><strong>Sentiment</strong> — fear and greed. Markets overshoot in both directions</li>
         </ul>
+        <ExampleBox title="Real example: CSL Limited">
+          <p>CSL (ASX:CSL) makes blood plasma products. In 2000, it traded at ~$10. By 2024, it was ~$300. That 30x return wasn't luck — CSL grew its earnings every single year for two decades. The share price followed the earnings. That's what "owning a business" means in practice.</p>
+        </ExampleBox>
+        <DidYouKnow>There are over 2,000 companies listed on the ASX, but the top 20 make up about 45% of the total market value. BHP, CBA, and CSL alone account for roughly 15%.</DidYouKnow>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> A share is not a lottery ticket — it's a piece of a real business. The price should, over time, reflect what that business earns.
         </div>
@@ -105,6 +110,8 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         <p>The magic is in the last decade. From year 20 to year 30, you gained $27,000 — more than the first 20 years combined. That's compounding: you earn returns on your returns.</p>
         <h4>The real lesson</h4>
         <p><strong>Time is your most valuable asset.</strong> Starting 10 years earlier is worth more than doubling your investment amount. A 25-year-old who invests $200/month beats a 35-year-old who invests $400/month — by retirement.</p>
+        <CompoundCalculator />
+        <DidYouKnow>If you invested $5,000 in the ASX 200 at the bottom of the GFC (March 2009) and reinvested all dividends, you'd have over $35,000 by 2024. Time in market, not timing the market.</DidYouKnow>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> Start now, even with small amounts. The app's Dividend Income strategy shows how $5,000 grew to $5,648 in just 2.5 years — compounding dividends reinvested into more shares.
         </div>
@@ -186,9 +193,19 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         <p>"I bought at $10, so I'll sell when it gets back to $10." The price you paid is irrelevant to where the stock is going. The Damodaran Value strategy focuses on what a stock is <em>worth</em>, not what you paid for it.</p>
         <h4>6. Recency bias</h4>
         <p>Whatever happened recently feels like it will continue forever. Markets crash? "It'll never recover." Markets boom? "It'll never end." The extended hold analysis in this app shows how different the picture looks at 6 months vs 24 months.</p>
+        <ExampleBox title="Real example from this app">
+          <p>The H1 2024 Padley Momentum picks dropped early — causing the instinct to sell. But the "What If You Held Longer?" data shows those picks went on to return +89% at 18 months. Panic selling would have cost you a near-double.</p>
+        </ExampleBox>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> The best defence against these biases is a systematic approach — pick a strategy, follow its rules, rebalance on schedule, and don't check your portfolio every day. That's exactly what this app is designed to test.
         </div>
+        <ResourceBox title="Further reading" resources={[
+          { name: 'The Intelligent Investor', author: 'Benjamin Graham', type: 'Book', note: 'The classic. Chapter 8 ("Mr Market") and Chapter 20 ("Margin of Safety") are essential.' },
+          { name: 'A Random Walk Down Wall Street', author: 'Burton Malkiel', type: 'Book', note: 'The case for index investing and why most active managers underperform.' },
+          { name: 'Thinking, Fast and Slow', author: 'Daniel Kahneman', type: 'Book', note: 'The definitive guide to cognitive biases. Chapter on loss aversion directly applies to investing.' },
+          { name: 'ASX Investor Education', type: 'Website', note: 'Free courses from the ASX itself — asx.com.au/education' },
+          { name: 'Equity Mates Podcast', type: 'Podcast', note: 'Australian investing podcast for beginners. Approachable, no jargon.' },
+        ]} />
       </>
     ),
   },
