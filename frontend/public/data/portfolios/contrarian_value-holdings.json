@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "ticker": "HVN.AX",
+    "name": "Harvey Norman Holdings Limited",
+    "shares": 191.7027,
+    "buyPrice": 3.73,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "P/E 10.7, P/B 1.23, EPS $0.45, Graham discount 69.5%"
+  },
+  {
+    "ticker": "NEC.AX",
+    "name": "Nine Entertainment Co. Holdings Limited",
+    "shares": 584.4411,
+    "buyPrice": 1.22,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "P/E 13.1, P/B 0.88, EPS $0.07, Graham discount 4.7%"
+  },
+  {
+    "ticker": "ORA.AX",
+    "name": "Orora Limited",
+    "shares": 305.1753,
+    "buyPrice": 2.34,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "P/E 14.3, P/B 0.64, EPS $0.1, Graham discount -3.9%"
+  },
+  {
+    "ticker": "SGP.AX",
+    "name": "Stockland",
+    "shares": 178.4862,
+    "buyPrice": 4.0,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "P/E 11.9, P/B 1.0, EPS $0.36, Graham discount 47.4%"
+  },
+  {
+    "ticker": "SOL.AX",
+    "name": "WHSP Holdings Limited",
+    "shares": 23.1346,
+    "buyPrice": 30.88,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "P/E 6.9, P/B 1.26, EPS $6.42, Graham discount 130.9%"
+  },
+  {
+    "ticker": "WDS.AX",
+    "name": "Woodside Energy Group Ltd",
+    "shares": 26.7403,
+    "buyPrice": 26.71,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "P/E 14.4, P/B 1.07, EPS $2.01, Graham discount 30.8%"
+  },
+  {
+    "ticker": "WHC.AX",
+    "name": "Whitehaven Coal Limited",
+    "shares": 97.8878,
+    "buyPrice": 7.3,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "P/E 10.3, P/B 1.14, EPS $0.79, Graham discount 54.8%"
+  }
+]

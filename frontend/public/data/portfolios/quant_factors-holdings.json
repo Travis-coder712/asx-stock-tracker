@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "ticker": "360.AX",
+    "name": "Life360, Inc.",
+    "shares": 66.8449,
+    "buyPrice": 7.48,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Value rank 88, Mom rank 9 (+54%), Quality rank 7 (ROE 30.6%), Composite 104"
+  },
+  {
+    "ticker": "FMG.AX",
+    "name": "Fortescue Ltd",
+    "shares": 20.3917,
+    "buyPrice": 24.52,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Value rank 45, Mom rank 6 (+57%), Quality rank 25 (ROE 18.7%), Composite 76"
+  },
+  {
+    "ticker": "JBH.AX",
+    "name": "JB Hi-Fi Limited",
+    "shares": 10.2493,
+    "buyPrice": 48.78,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Value rank 80, Mom rank 16 (+38%), Quality rank 8 (ROE 29.2%), Composite 104"
+  },
+  {
+    "ticker": "NEC.AX",
+    "name": "Nine Entertainment Co. Holdings Limited",
+    "shares": 409.1088,
+    "buyPrice": 1.22,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Value rank 8, Mom rank 37 (+18%), Quality rank 56 (ROE 9.1%), Composite 101"
+  },
+  {
+    "ticker": "NST.AX",
+    "name": "Northern Star Resources Limited",
+    "shares": 38.8884,
+    "buyPrice": 12.86,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Value rank 42, Mom rank 25 (+26%), Quality rank 37 (ROE 12.8%), Composite 104"
+  },
+  {
+    "ticker": "PME.AX",
+    "name": "Pro Medicus Limited",
+    "shares": 5.2333,
+    "buyPrice": 95.54,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Value rank 99, Mom rank 2 (+78%), Quality rank 3 (ROE 76.8%), Composite 104"
+  },
+  {
+    "ticker": "REA.AX",
+    "name": "REA Group Limited",
+    "shares": 2.7979,
+    "buyPrice": 178.71,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Value rank 90, Mom rank 3 (+71%), Quality rank 10 (ROE 28.4%), Composite 103"
+  },
+  {
+    "ticker": "RWC.AX",
+    "name": "Reliance Worldwide Corporation Limited",
+    "shares": 117.9533,
+    "buyPrice": 4.24,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Value rank 26, Mom rank 8 (+54%), Quality rank 65 (ROE 7.6%), Composite 99"
+  },
+  {
+    "ticker": "SGP.AX",
+    "name": "Stockland",
+    "shares": 124.9403,
+    "buyPrice": 4.0,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Value rank 12, Mom rank 23 (+30%), Quality rank 60 (ROE 8.6%), Composite 95"
+  },
+  {
+    "ticker": "SOL.AX",
+    "name": "WHSP Holdings Limited",
+    "shares": 16.1942,
+    "buyPrice": 30.88,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Value rank 22, Mom rank 26 (+25%), Quality rank 20 (ROE 20.7%), Composite 68"
+  }
+]

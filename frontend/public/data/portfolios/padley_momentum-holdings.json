@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "ticker": "360.AX",
+    "name": "Life360, Inc.",
+    "shares": 66.8449,
+    "buyPrice": 7.48,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Mom +54%, ROE 31%, EPS $0.83, P/E 28.7"
+  },
+  {
+    "ticker": "ALL.AX",
+    "name": "Aristocrat Leisure Limited",
+    "shares": 12.7021,
+    "buyPrice": 39.36,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Mom +36%, ROE 22%, EPS $2.38, P/E 23.1"
+  },
+  {
+    "ticker": "ARB.AX",
+    "name": "ARB Corporation Limited",
+    "shares": 14.8339,
+    "buyPrice": 33.71,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Mom +42%, ROE 12%, EPS $1.07, P/E 18.3"
+  },
+  {
+    "ticker": "CAR.AX",
+    "name": "CAR Group Limited",
+    "shares": 16.8857,
+    "buyPrice": 29.61,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Mom +59%, ROE 10%, EPS $0.78, P/E 35.6"
+  },
+  {
+    "ticker": "COH.AX",
+    "name": "Cochlear Limited",
+    "shares": 1.7313,
+    "buyPrice": 288.79,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Mom +52%, ROE 18%, EPS $5.28, P/E 22.4"
+  },
+  {
+    "ticker": "FMG.AX",
+    "name": "Fortescue Ltd",
+    "shares": 20.3917,
+    "buyPrice": 24.52,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Mom +57%, ROE 19%, EPS $1.72, P/E 11.5"
+  },
+  {
+    "ticker": "HUB.AX",
+    "name": "HUB24 Limited",
+    "shares": 14.1896,
+    "buyPrice": 35.24,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Mom +37%, ROE 20%, EPS $1.28, P/E 57.5"
+  },
+  {
+    "ticker": "JBH.AX",
+    "name": "JB Hi-Fi Limited",
+    "shares": 10.2493,
+    "buyPrice": 48.78,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Mom +38%, ROE 29%, EPS $4.41, P/E 17.7"
+  },
+  {
+    "ticker": "PME.AX",
+    "name": "Pro Medicus Limited",
+    "shares": 5.2333,
+    "buyPrice": 95.54,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Mom +78%, ROE 77%, EPS $2.25, P/E 76.8"
+  },
+  {
+    "ticker": "REA.AX",
+    "name": "REA Group Limited",
+    "shares": 2.7979,
+    "buyPrice": 178.71,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Mom +71%, ROE 28%, EPS $4.33, P/E 32.4"
+  }
+]
