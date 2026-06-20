@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 import Dashboard from './Dashboard'
+import LearnHub from './learn/LearnHub'
+import Investing101 from './learn/Investing101'
 import './App.css'
 
 interface TsrSummary {
@@ -152,6 +154,7 @@ function App() {
   const [priceData, setPriceData] = useState<PricePoint[]>([])
   const [metadata, setMetadata] = useState<Metadata | null>(null)
   const [strategyData, setStrategyData] = useState<Record<string, StrategyData>>({})
+  const [activeModule, setActiveModule] = useState<string | null>(null)
   const [peerRankings, setPeerRankings] = useState<Record<string, PeerRanking>>({})
   const [selectedPeriod, setSelectedPeriod] = useState('2023-07-01')
 
@@ -440,6 +443,12 @@ function App() {
       </div>
 
       <Dashboard />
+
+      {activeModule === 'investing-101' ? (
+        <Investing101 onBack={() => setActiveModule(null)} />
+      ) : (
+        <LearnHub onSelectModule={setActiveModule} />
+      )}
 
       <footer className="footer">
         ASX Stock Tracker · built with Claude Code · data via yfinance
