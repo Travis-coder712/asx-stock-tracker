@@ -1,4 +1,4 @@
-"""Compute Total Shareholder Return for AGL vs ASX 200 benchmark."""
+"""Compute Total Shareholder Return for AGL vs ASX 100 benchmark."""
 
 import sqlite3
 import os
@@ -14,7 +14,7 @@ PERIODS = [
     '2026-07-01',
 ]
 
-TICKERS = ['AGL.AX', 'STW.AX']
+TICKERS = ['AGL.AX', '^ATOI', 'STW.AX']
 
 
 def compute_tsr(conn: sqlite3.Connection, ticker: str, period_start: str) -> None:

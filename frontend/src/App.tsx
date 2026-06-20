@@ -12,7 +12,7 @@ interface TsrSummary {
 interface PricePoint {
   date: string
   agl: number | null
-  stw: number | null
+  asx100: number | null
 }
 
 interface Metadata {
@@ -22,6 +22,31 @@ interface Metadata {
   stockCount: number
 }
 
+interface PortfolioSnapshot {
+  date: string
+  totalValue: number
+  cash: number
+  numHoldings: number
+  dailyReturn: number | null
+}
+
+interface Holding {
+  ticker: string
+  name: string
+  shares: number
+  buyPrice: number
+  buyDate: string
+  sellPrice: number | null
+  sellDate: string | null
+  isManual: boolean
+  rationale: string
+}
+
+interface StrategyData {
+  snapshots: PortfolioSnapshot[]
+  holdings: Holding[]
+}
+
 const BASE = import.meta.env.BASE_URL
 
 const STRATEGIES = [
@@ -29,7 +54,7 @@ const STRATEGIES = [
     id: 'padley_momentum',
     name: 'Padley Momentum',
     css: 'padley',
-    description: 'Trend-following with capital preservation. Screen by earnings momentum + ROE, rank by 12-month price momentum. Go to cash when ASX 200 breaks below 200-day MA.',
+    description: 'Trend-following with capital preservation. Screen by earnings momentum + ROE, rank by 12-month price momentum. Go to cash when ASX 100 breaks below 200-day MA.',
     inspired: 'Marcus Padley / Marcus Today',
   },
   {
@@ -106,6 +131,7 @@ function App() {
   const [tsrSummary, setTsrSummary] = useState<TsrSummary[]>([])
   const [priceData, setPriceData] = useState<PricePoint[]>([])
   const [metadata, setMetadata] = useState<Metadata | null>(null)
+  const [strategyData, setStrategyData] = useState<Record<string, StrategyData>>({})
 
   useEffect(() => {
     fetch(`${BASE}data/tsr/tsr-summary.json`)
@@ -120,6 +146,15 @@ function App() {
       .then(r => r.ok ? r.json() : null)
       .then(setMetadata)
       .catch(() => {})
+
+    STRATEGIES.forEach(s => {
+      Promise.all([
+        fetch(`${BASE}data/portfolios/${s.id}.json`).then(r => r.ok ? r.json() : []),
+        fetch(`${BASE}data/portfolios/${s.id}-holdings.json`).then(r => r.ok ? r.json() : []),
+      ]).then(([snapshots, holdings]) => {
+        setStrategyData(prev => ({ ...prev, [s.id]: { snapshots, holdings } }))
+      }).catch(() => {})
+    })
   }, [])
 
   const chartData = priceData.filter((_, i) => i % 5 === 0 || i === priceData.length - 1)
@@ -164,10 +199,10 @@ function App() {
       </div>
 
       <div className="tsr-card">
-        <h3>AGL Energy (ASX:AGL) vs S&P/ASX 200</h3>
+        <h3>AGL Energy (ASX:AGL) vs S&P/ASX 100</h3>
         <p className="tsr-subtitle">
           Total shareholder return (price + reinvested dividends) over rolling periods from 1 July.
-          Benchmark: STW ETF (ASX 200 total return proxy).
+          Benchmark: S&P/ASX 100 Index (price return; AGL gap is wider on total return basis).
           {tsrSummary.find(s => s.asOf) && (
             <> Data as of {tsrSummary.find(s => s.asOf)?.asOf}.</>
           )}
@@ -186,7 +221,7 @@ function App() {
                     </div>
                   </div>
                   <div className="tsr-item">
-                    <div className="name">ASX 200</div>
+                    <div className="name">ASX 100</div>
                     <div className="val" style={{ color: tsrColor(data?.indexTsr ?? null, 'index') }}>
                       {formatTsr(data?.indexTsr ?? null)}
                     </div>
@@ -201,8 +236,8 @@ function App() {
       {/* Price chart */}
       {chartData.length > 0 && (
         <div className="tsr-card" style={{ marginTop: 16 }}>
-          <h3>AGL vs ASX 200 ETF — Price History</h3>
-          <p className="tsr-subtitle">Daily closing prices since July 2023. AGL (blue) vs STW ETF (grey).</p>
+          <h3>AGL vs ASX 100 — Price History</h3>
+          <p className="tsr-subtitle">Daily closing prices since July 2023. AGL (blue) vs S&P/ASX 100 Index (grey).</p>
           <div style={{ width: '100%', height: 300 }}>
             <ResponsiveContainer>
               <LineChart data={chartData}>
@@ -224,7 +259,7 @@ function App() {
                   domain={['auto', 'auto']}
                 />
                 <YAxis
-                  yAxisId="stw"
+                  yAxisId="idx"
                   orientation="right"
                   tick={{ fill: 'var(--text-mute)', fontSize: 11 }}
                   axisLine={false}
@@ -246,10 +281,10 @@ function App() {
                   dot={false}
                 />
                 <Line
-                  yAxisId="stw"
+                  yAxisId="idx"
                   type="monotone"
-                  dataKey="stw"
-                  name="STW (ASX 200)"
+                  dataKey="asx100"
+                  name="ASX 100"
                   stroke="var(--text-mute)"
                   strokeWidth={1.5}
                   dot={false}
@@ -268,22 +303,44 @@ function App() {
       </div>
 
       <div className="strategy-grid">
-        {STRATEGIES.map(s => (
-          <div key={s.id} className={`strategy-card ${s.css}`}>
-            <div className="card-header">
-              <h3>{s.name}</h3>
-              <span className="coming-soon">Coming Soon</span>
+        {STRATEGIES.map(s => {
+          const data = strategyData[s.id]
+          const hasData = data && data.snapshots.length > 0
+          const latest = hasData ? data.snapshots[data.snapshots.length - 1] : null
+          const returnPct = latest ? ((latest.totalValue - 5000) / 5000) * 100 : null
+
+          return (
+            <div key={s.id} className={`strategy-card ${s.css}`}>
+              <div className="card-header">
+                <h3>{s.name}</h3>
+                {hasData ? (
+                  <span className="badge">{data.holdings.length} holdings</span>
+                ) : (
+                  <span className="coming-soon">Coming Soon</span>
+                )}
+              </div>
+              <p className="description">{s.description}</p>
+              <p className="description" style={{ fontStyle: 'italic', fontSize: 12 }}>
+                Inspired by: {s.inspired}
+              </p>
+              {hasData && data.holdings.length > 0 && (
+                <div className="holdings-list">
+                  {data.holdings.map(h => (
+                    <span key={h.ticker} className="holding-chip">{h.ticker.replace('.AX', '')}</span>
+                  ))}
+                </div>
+              )}
+              <div className="portfolio-value">
+                <span className="amount" style={{ color: hasData ? 'var(--text)' : 'var(--text-mute)' }}>
+                  {latest ? `$${latest.totalValue.toLocaleString('en-AU', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}` : '$5,000'}
+                </span>
+                <span className={`return ${returnPct !== null ? (returnPct >= 0 ? 'positive' : 'negative') : ''}`}>
+                  {returnPct !== null ? `${returnPct >= 0 ? '+' : ''}${returnPct.toFixed(1)}%` : '—'}
+                </span>
+              </div>
             </div>
-            <p className="description">{s.description}</p>
-            <p className="description" style={{ fontStyle: 'italic', fontSize: 12 }}>
-              Inspired by: {s.inspired}
-            </p>
-            <div className="portfolio-value">
-              <span className="amount" style={{ color: 'var(--text-mute)' }}>$5,000</span>
-              <span className="return" style={{ color: 'var(--text-mute)' }}>—</span>
-            </div>
-          </div>
-        ))}
+          )
+        })}
       </div>
 
       <footer className="footer">

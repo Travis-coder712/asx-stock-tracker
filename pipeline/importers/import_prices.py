@@ -32,7 +32,7 @@ ASX_100_TICKERS = [
 ]
 
 AGL_TICKER = 'AGL.AX'
-ASX200_INDEX = '^AXJO'
+ASX100_INDEX = '^ATOI'
 ASX200_ETF = 'STW.AX'
 
 
@@ -195,7 +195,7 @@ def main():
 
     # Fetch ASX 200 index + STW ETF (total return proxy) for TSR comparison
     for idx_ticker, idx_name in [
-        (ASX200_INDEX, 'S&P/ASX 200 Index'),
+        (ASX100_INDEX, 'S&P/ASX 100 Index'),
         (ASX200_ETF, 'SPDR S&P/ASX 200 ETF (total return proxy)'),
     ]:
         print(f"\nFetching {idx_name} ({idx_ticker})...")

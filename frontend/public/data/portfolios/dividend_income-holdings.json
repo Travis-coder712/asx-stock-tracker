@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "ticker": "CSL.AX",
+    "name": "CSL Limited",
+    "shares": 1.8157,
+    "buyPrice": 275.37,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Div yield 3.99%, payout 45.5%, EPS $8.72, P/E 13.3"
+  },
+  {
+    "ticker": "FMG.AX",
+    "name": "Fortescue Ltd",
+    "shares": 20.3917,
+    "buyPrice": 24.52,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Div yield 6.1%, payout 58.0%, EPS $1.72, P/E 11.5"
+  },
+  {
+    "ticker": "HVN.AX",
+    "name": "Harvey Norman Holdings Limited",
+    "shares": 134.1919,
+    "buyPrice": 3.73,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Div yield 5.95%, payout 59.0%, EPS $0.45, P/E 10.7"
+  },
+  {
+    "ticker": "IAG.AX",
+    "name": "Insurance Australia Group Limited",
+    "shares": 98.9446,
+    "buyPrice": 5.05,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Div yield 3.88%, payout 67.6%, EPS $0.46, P/E 17.3"
+  },
+  {
+    "ticker": "JBH.AX",
+    "name": "JB Hi-Fi Limited",
+    "shares": 10.2493,
+    "buyPrice": 48.78,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Div yield 4.0%, payout 62.5%, EPS $4.41, P/E 17.7"
+  },
+  {
+    "ticker": "MQG.AX",
+    "name": "Macquarie Group Limited",
+    "shares": 2.9393,
+    "buyPrice": 170.11,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Div yield 3.43%, payout 67.0%, EPS $9.71, P/E 25.7"
+  },
+  {
+    "ticker": "QAN.AX",
+    "name": "Qantas Airways Limited",
+    "shares": 100.6998,
+    "buyPrice": 4.97,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Div yield 3.97%, payout 31.2%, EPS $1.06, P/E 9.5"
+  },
+  {
+    "ticker": "SGP.AX",
+    "name": "Stockland",
+    "shares": 124.9403,
+    "buyPrice": 4.0,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Div yield 6.09%, payout 72.6%, EPS $0.36, P/E 11.9"
+  },
+  {
+    "ticker": "VCX.AX",
+    "name": "Vicinity Centres",
+    "shares": 277.9868,
+    "buyPrice": 1.8,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Div yield 4.81%, payout 41.8%, EPS $0.29, P/E 8.9"
+  },
+  {
+    "ticker": "WOR.AX",
+    "name": "Worley Limited",
+    "shares": 31.3049,
+    "buyPrice": 15.97,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "Div yield 3.9%, payout 76.0%, EPS $0.66, P/E 18.5"
+  }
+]

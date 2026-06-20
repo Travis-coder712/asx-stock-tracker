@@ -146,6 +146,22 @@
 .strategy-card .portfolio-value .return.positive { color: var(--green); }
 .strategy-card .portfolio-value .return.negative { color: var(--red); }
 
+.holdings-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.holding-chip {
+  font-size: 11px;
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+}
+
 /* AGL TSR section */
 .tsr-card {
   background: var(--surface);

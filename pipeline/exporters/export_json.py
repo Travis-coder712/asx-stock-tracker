@@ -107,7 +107,7 @@ def export_tsr_summary(conn: sqlite3.Connection) -> None:
         ).fetchone()
         row_idx = conn.execute(
             "SELECT date, tsr_pct FROM tsr_tracking "
-            "WHERE ticker='STW.AX' AND period_start=? ORDER BY date DESC LIMIT 1",
+            "WHERE ticker='^ATOI' AND period_start=? ORDER BY date DESC LIMIT 1",
             (period,)
         ).fetchone()
         summary.append({
@@ -127,14 +127,14 @@ def export_agl_price_chart(conn: sqlite3.Connection) -> None:
     """Export AGL + STW daily prices for the chart."""
     ensure_dir(os.path.join(OUTPUT_DIR, 'charts'))
     rows = conn.execute(
-        "SELECT p1.date, p1.adj_close as agl, p2.adj_close as stw "
+        "SELECT p1.date, p1.adj_close as agl, p2.adj_close as asx100 "
         "FROM price_history p1 "
-        "LEFT JOIN price_history p2 ON p1.date = p2.date AND p2.ticker = 'STW.AX' "
+        "LEFT JOIN price_history p2 ON p1.date = p2.date AND p2.ticker = '^ATOI' "
         "WHERE p1.ticker = 'AGL.AX' AND p1.date >= '2023-07-01' "
         "ORDER BY p1.date"
     ).fetchall()
     data = [{'date': r[0], 'agl': round(r[1], 2) if r[1] else None,
-             'stw': round(r[2], 2) if r[2] else None} for r in rows]
+             'asx100': round(r[2], 2) if r[2] else None} for r in rows]
     path = os.path.join(OUTPUT_DIR, 'charts', 'agl-vs-index.json')
     with open(path, 'w') as f:
         json.dump(data, f)

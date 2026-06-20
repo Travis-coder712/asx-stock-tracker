@@ -5996,5 +5996,3007 @@
       "cumulativeDiv": 5.679662090939078,
       "tsrPct": 32.26
     }
+  ],
+  "^ATOI": [
+    {
+      "date": "2024-07-01",
+      "price": 6516.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.0
+    },
+    {
+      "date": "2024-07-02",
+      "price": 6487.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -0.44
+    },
+    {
+      "date": "2024-07-03",
+      "price": 6504.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -0.18
+    },
+    {
+      "date": "2024-07-04",
+      "price": 6585.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.05
+    },
+    {
+      "date": "2024-07-05",
+      "price": 6575.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.91
+    },
+    {
+      "date": "2024-07-08",
+      "price": 6522.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.09
+    },
+    {
+      "date": "2024-07-09",
+      "price": 6580.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.99
+    },
+    {
+      "date": "2024-07-10",
+      "price": 6570.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.83
+    },
+    {
+      "date": "2024-07-11",
+      "price": 6629.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.74
+    },
+    {
+      "date": "2024-07-12",
+      "price": 6684.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.58
+    },
+    {
+      "date": "2024-07-15",
+      "price": 6736.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.38
+    },
+    {
+      "date": "2024-07-16",
+      "price": 6721.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.14
+    },
+    {
+      "date": "2024-07-17",
+      "price": 6768.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.86
+    },
+    {
+      "date": "2024-07-18",
+      "price": 6754.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.65
+    },
+    {
+      "date": "2024-07-19",
+      "price": 6702.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.85
+    },
+    {
+      "date": "2024-07-22",
+      "price": 6667.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.32
+    },
+    {
+      "date": "2024-07-23",
+      "price": 6700.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.82
+    },
+    {
+      "date": "2024-07-24",
+      "price": 6691.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.68
+    },
+    {
+      "date": "2024-07-25",
+      "price": 6608.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.41
+    },
+    {
+      "date": "2024-07-26",
+      "price": 6662.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.24
+    },
+    {
+      "date": "2024-07-29",
+      "price": 6719.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.12
+    },
+    {
+      "date": "2024-07-30",
+      "price": 6690.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.67
+    },
+    {
+      "date": "2024-07-31",
+      "price": 6802.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.39
+    },
+    {
+      "date": "2024-08-01",
+      "price": 6820.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.66
+    },
+    {
+      "date": "2024-08-02",
+      "price": 6676.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.46
+    },
+    {
+      "date": "2024-08-05",
+      "price": 6434.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -1.26
+    },
+    {
+      "date": "2024-08-06",
+      "price": 6463.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -0.81
+    },
+    {
+      "date": "2024-08-07",
+      "price": 6477.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -0.59
+    },
+    {
+      "date": "2024-08-08",
+      "price": 6467.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -0.76
+    },
+    {
+      "date": "2024-08-09",
+      "price": 6543.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.42
+    },
+    {
+      "date": "2024-08-12",
+      "price": 6573.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.88
+    },
+    {
+      "date": "2024-08-13",
+      "price": 6582.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.02
+    },
+    {
+      "date": "2024-08-14",
+      "price": 6601.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.3
+    },
+    {
+      "date": "2024-08-15",
+      "price": 6613.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.48
+    },
+    {
+      "date": "2024-08-16",
+      "price": 6700.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.83
+    },
+    {
+      "date": "2024-08-19",
+      "price": 6710.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.98
+    },
+    {
+      "date": "2024-08-20",
+      "price": 6725.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.21
+    },
+    {
+      "date": "2024-08-21",
+      "price": 6733.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.33
+    },
+    {
+      "date": "2024-08-22",
+      "price": 6750.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.59
+    },
+    {
+      "date": "2024-08-23",
+      "price": 6751.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.6
+    },
+    {
+      "date": "2024-08-26",
+      "price": 6802.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.4
+    },
+    {
+      "date": "2024-08-27",
+      "price": 6796.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.29
+    },
+    {
+      "date": "2024-08-28",
+      "price": 6799.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.34
+    },
+    {
+      "date": "2024-08-29",
+      "price": 6782.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.08
+    },
+    {
+      "date": "2024-08-30",
+      "price": 6818.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.63
+    },
+    {
+      "date": "2024-09-02",
+      "price": 6838.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.94
+    },
+    {
+      "date": "2024-09-03",
+      "price": 6832.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.85
+    },
+    {
+      "date": "2024-09-04",
+      "price": 6707.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.94
+    },
+    {
+      "date": "2024-09-05",
+      "price": 6735.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.36
+    },
+    {
+      "date": "2024-09-06",
+      "price": 6765.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.82
+    },
+    {
+      "date": "2024-09-09",
+      "price": 6747.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.54
+    },
+    {
+      "date": "2024-09-10",
+      "price": 6765.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.82
+    },
+    {
+      "date": "2024-09-11",
+      "price": 6743.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.48
+    },
+    {
+      "date": "2024-09-12",
+      "price": 6812.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.55
+    },
+    {
+      "date": "2024-09-13",
+      "price": 6827.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.77
+    },
+    {
+      "date": "2024-09-16",
+      "price": 6848.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.1
+    },
+    {
+      "date": "2024-09-17",
+      "price": 6864.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.34
+    },
+    {
+      "date": "2024-09-18",
+      "price": 6865.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.35
+    },
+    {
+      "date": "2024-09-19",
+      "price": 6902.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.93
+    },
+    {
+      "date": "2024-09-20",
+      "price": 6916.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.13
+    },
+    {
+      "date": "2024-09-23",
+      "price": 6866.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.37
+    },
+    {
+      "date": "2024-09-24",
+      "price": 6853.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.17
+    },
+    {
+      "date": "2024-09-25",
+      "price": 6838.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.94
+    },
+    {
+      "date": "2024-09-26",
+      "price": 6897.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.84
+    },
+    {
+      "date": "2024-09-27",
+      "price": 6904.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.96
+    },
+    {
+      "date": "2024-09-30",
+      "price": 6958.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.79
+    },
+    {
+      "date": "2024-10-01",
+      "price": 6901.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.92
+    },
+    {
+      "date": "2024-10-02",
+      "price": 6895.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.82
+    },
+    {
+      "date": "2024-10-03",
+      "price": 6903.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.95
+    },
+    {
+      "date": "2024-10-04",
+      "price": 6856.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.21
+    },
+    {
+      "date": "2024-10-07",
+      "price": 6899.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.87
+    },
+    {
+      "date": "2024-10-08",
+      "price": 6876.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.52
+    },
+    {
+      "date": "2024-10-09",
+      "price": 6884.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.65
+    },
+    {
+      "date": "2024-10-10",
+      "price": 6909.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.04
+    },
+    {
+      "date": "2024-10-11",
+      "price": 6899.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.87
+    },
+    {
+      "date": "2024-10-14",
+      "price": 6936.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.45
+    },
+    {
+      "date": "2024-10-15",
+      "price": 6987.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.23
+    },
+    {
+      "date": "2024-10-16",
+      "price": 6960.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.82
+    },
+    {
+      "date": "2024-10-17",
+      "price": 7017.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.68
+    },
+    {
+      "date": "2024-10-18",
+      "price": 6958.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.79
+    },
+    {
+      "date": "2024-10-21",
+      "price": 7005.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.51
+    },
+    {
+      "date": "2024-10-22",
+      "price": 6886.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.68
+    },
+    {
+      "date": "2024-10-23",
+      "price": 6895.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.81
+    },
+    {
+      "date": "2024-10-24",
+      "price": 6890.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.74
+    },
+    {
+      "date": "2024-10-25",
+      "price": 6895.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.81
+    },
+    {
+      "date": "2024-10-28",
+      "price": 6905.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.97
+    },
+    {
+      "date": "2024-10-29",
+      "price": 6928.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.33
+    },
+    {
+      "date": "2024-10-30",
+      "price": 6869.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.41
+    },
+    {
+      "date": "2024-10-31",
+      "price": 6850.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.13
+    },
+    {
+      "date": "2024-11-01",
+      "price": 6816.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.61
+    },
+    {
+      "date": "2024-11-04",
+      "price": 6857.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.23
+    },
+    {
+      "date": "2024-11-05",
+      "price": 6831.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.84
+    },
+    {
+      "date": "2024-11-06",
+      "price": 6888.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.7
+    },
+    {
+      "date": "2024-11-07",
+      "price": 6960.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.82
+    },
+    {
+      "date": "2024-11-08",
+      "price": 6970.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.97
+    },
+    {
+      "date": "2024-11-11",
+      "price": 6946.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.6
+    },
+    {
+      "date": "2024-11-12",
+      "price": 6937.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.47
+    },
+    {
+      "date": "2024-11-13",
+      "price": 6887.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.7
+    },
+    {
+      "date": "2024-11-14",
+      "price": 6918.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.17
+    },
+    {
+      "date": "2024-11-15",
+      "price": 6969.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.95
+    },
+    {
+      "date": "2024-11-18",
+      "price": 6981.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.13
+    },
+    {
+      "date": "2024-11-19",
+      "price": 7044.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.1
+    },
+    {
+      "date": "2024-11-20",
+      "price": 7006.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.52
+    },
+    {
+      "date": "2024-11-21",
+      "price": 7003.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.48
+    },
+    {
+      "date": "2024-11-22",
+      "price": 7063.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.39
+    },
+    {
+      "date": "2024-11-25",
+      "price": 7083.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.7
+    },
+    {
+      "date": "2024-11-26",
+      "price": 7029.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.88
+    },
+    {
+      "date": "2024-11-27",
+      "price": 7067.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.46
+    },
+    {
+      "date": "2024-11-28",
+      "price": 7100.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.97
+    },
+    {
+      "date": "2024-11-29",
+      "price": 7092.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.85
+    },
+    {
+      "date": "2024-12-02",
+      "price": 7101.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.98
+    },
+    {
+      "date": "2024-12-03",
+      "price": 7143.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.62
+    },
+    {
+      "date": "2024-12-04",
+      "price": 7115.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.19
+    },
+    {
+      "date": "2024-12-05",
+      "price": 7119.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.26
+    },
+    {
+      "date": "2024-12-06",
+      "price": 7075.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.58
+    },
+    {
+      "date": "2024-12-09",
+      "price": 7082.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.68
+    },
+    {
+      "date": "2024-12-10",
+      "price": 7058.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.31
+    },
+    {
+      "date": "2024-12-11",
+      "price": 7022.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.77
+    },
+    {
+      "date": "2024-12-12",
+      "price": 7005.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.51
+    },
+    {
+      "date": "2024-12-13",
+      "price": 6974.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.03
+    },
+    {
+      "date": "2024-12-16",
+      "price": 6941.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.52
+    },
+    {
+      "date": "2024-12-17",
+      "price": 6995.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.35
+    },
+    {
+      "date": "2024-12-18",
+      "price": 6991.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.29
+    },
+    {
+      "date": "2024-12-19",
+      "price": 6874.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.5
+    },
+    {
+      "date": "2024-12-20",
+      "price": 6786.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.15
+    },
+    {
+      "date": "2024-12-23",
+      "price": 6900.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.9
+    },
+    {
+      "date": "2024-12-24",
+      "price": 6918.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.18
+    },
+    {
+      "date": "2024-12-27",
+      "price": 6950.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.66
+    },
+    {
+      "date": "2024-12-30",
+      "price": 6929.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.34
+    },
+    {
+      "date": "2024-12-31",
+      "price": 6866.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.37
+    },
+    {
+      "date": "2025-01-02",
+      "price": 6901.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.91
+    },
+    {
+      "date": "2025-01-03",
+      "price": 6942.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.53
+    },
+    {
+      "date": "2025-01-06",
+      "price": 6975.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.05
+    },
+    {
+      "date": "2025-01-07",
+      "price": 6971.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.99
+    },
+    {
+      "date": "2025-01-08",
+      "price": 7028.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.86
+    },
+    {
+      "date": "2025-01-09",
+      "price": 7014.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.64
+    },
+    {
+      "date": "2025-01-10",
+      "price": 6981.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.14
+    },
+    {
+      "date": "2025-01-13",
+      "price": 6898.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.86
+    },
+    {
+      "date": "2025-01-14",
+      "price": 6927.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.31
+    },
+    {
+      "date": "2025-01-15",
+      "price": 6910.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.05
+    },
+    {
+      "date": "2025-01-16",
+      "price": 7005.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.5
+    },
+    {
+      "date": "2025-01-17",
+      "price": 6985.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.2
+    },
+    {
+      "date": "2025-01-20",
+      "price": 7063.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.4
+    },
+    {
+      "date": "2025-01-21",
+      "price": 7076.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.59
+    },
+    {
+      "date": "2025-01-22",
+      "price": 7083.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.7
+    },
+    {
+      "date": "2025-01-23",
+      "price": 7039.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.02
+    },
+    {
+      "date": "2025-01-24",
+      "price": 7064.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.41
+    },
+    {
+      "date": "2025-01-28",
+      "price": 7059.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.34
+    },
+    {
+      "date": "2025-01-29",
+      "price": 7094.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.87
+    },
+    {
+      "date": "2025-01-30",
+      "price": 7187.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.3
+    },
+    {
+      "date": "2025-01-31",
+      "price": 7171.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.06
+    },
+    {
+      "date": "2025-02-03",
+      "price": 7045.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.13
+    },
+    {
+      "date": "2025-02-04",
+      "price": 7039.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.03
+    },
+    {
+      "date": "2025-02-05",
+      "price": 7070.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.5
+    },
+    {
+      "date": "2025-02-06",
+      "price": 7161.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.91
+    },
+    {
+      "date": "2025-02-07",
+      "price": 7153.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.78
+    },
+    {
+      "date": "2025-02-10",
+      "price": 7130.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.43
+    },
+    {
+      "date": "2025-02-11",
+      "price": 7129.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.41
+    },
+    {
+      "date": "2025-02-12",
+      "price": 7182.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.22
+    },
+    {
+      "date": "2025-02-13",
+      "price": 7185.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.26
+    },
+    {
+      "date": "2025-02-14",
+      "price": 7192.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.38
+    },
+    {
+      "date": "2025-02-17",
+      "price": 7142.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.6
+    },
+    {
+      "date": "2025-02-18",
+      "price": 7122.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.3
+    },
+    {
+      "date": "2025-02-19",
+      "price": 7064.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.41
+    },
+    {
+      "date": "2025-02-20",
+      "price": 6980.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.13
+    },
+    {
+      "date": "2025-02-21",
+      "price": 6958.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.79
+    },
+    {
+      "date": "2025-02-24",
+      "price": 6975.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.05
+    },
+    {
+      "date": "2025-02-25",
+      "price": 6925.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.27
+    },
+    {
+      "date": "2025-02-26",
+      "price": 6919.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.19
+    },
+    {
+      "date": "2025-02-27",
+      "price": 6940.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.5
+    },
+    {
+      "date": "2025-02-28",
+      "price": 6859.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.26
+    },
+    {
+      "date": "2025-03-03",
+      "price": 6922.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.23
+    },
+    {
+      "date": "2025-03-04",
+      "price": 6889.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.73
+    },
+    {
+      "date": "2025-03-05",
+      "price": 6842.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.0
+    },
+    {
+      "date": "2025-03-06",
+      "price": 6796.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.3
+    },
+    {
+      "date": "2025-03-07",
+      "price": 6670.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.36
+    },
+    {
+      "date": "2025-03-10",
+      "price": 6681.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.54
+    },
+    {
+      "date": "2025-03-11",
+      "price": 6631.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.76
+    },
+    {
+      "date": "2025-03-12",
+      "price": 6542.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.39
+    },
+    {
+      "date": "2025-03-13",
+      "price": 6507.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -0.14
+    },
+    {
+      "date": "2025-03-14",
+      "price": 6536.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.31
+    },
+    {
+      "date": "2025-03-17",
+      "price": 6590.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.14
+    },
+    {
+      "date": "2025-03-18",
+      "price": 6592.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.16
+    },
+    {
+      "date": "2025-03-19",
+      "price": 6569.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.82
+    },
+    {
+      "date": "2025-03-20",
+      "price": 6642.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.94
+    },
+    {
+      "date": "2025-03-21",
+      "price": 6655.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.13
+    },
+    {
+      "date": "2025-03-24",
+      "price": 6665.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.28
+    },
+    {
+      "date": "2025-03-25",
+      "price": 6667.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.32
+    },
+    {
+      "date": "2025-03-26",
+      "price": 6717.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.08
+    },
+    {
+      "date": "2025-03-27",
+      "price": 6693.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.72
+    },
+    {
+      "date": "2025-03-28",
+      "price": 6704.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.88
+    },
+    {
+      "date": "2025-03-31",
+      "price": 6590.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.13
+    },
+    {
+      "date": "2025-04-01",
+      "price": 6663.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.26
+    },
+    {
+      "date": "2025-04-02",
+      "price": 6675.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.45
+    },
+    {
+      "date": "2025-04-03",
+      "price": 6612.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 1.47
+    },
+    {
+      "date": "2025-04-04",
+      "price": 6454.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -0.95
+    },
+    {
+      "date": "2025-04-07",
+      "price": 6180.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -5.15
+    },
+    {
+      "date": "2025-04-08",
+      "price": 6316.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -3.07
+    },
+    {
+      "date": "2025-04-09",
+      "price": 6207.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -4.74
+    },
+    {
+      "date": "2025-04-10",
+      "price": 6479.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -0.57
+    },
+    {
+      "date": "2025-04-11",
+      "price": 6423.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -1.43
+    },
+    {
+      "date": "2025-04-14",
+      "price": 6509.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": -0.11
+    },
+    {
+      "date": "2025-04-15",
+      "price": 6524.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.12
+    },
+    {
+      "date": "2025-04-16",
+      "price": 6520.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.06
+    },
+    {
+      "date": "2025-04-17",
+      "price": 6568.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.8
+    },
+    {
+      "date": "2025-04-22",
+      "price": 6571.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 0.85
+    },
+    {
+      "date": "2025-04-23",
+      "price": 6669.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.34
+    },
+    {
+      "date": "2025-04-24",
+      "price": 6706.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 2.91
+    },
+    {
+      "date": "2025-04-28",
+      "price": 6733.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 3.33
+    },
+    {
+      "date": "2025-04-29",
+      "price": 6789.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.19
+    },
+    {
+      "date": "2025-04-30",
+      "price": 6840.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 4.98
+    },
+    {
+      "date": "2025-05-01",
+      "price": 6855.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.2
+    },
+    {
+      "date": "2025-05-02",
+      "price": 6936.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.44
+    },
+    {
+      "date": "2025-05-05",
+      "price": 6867.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.39
+    },
+    {
+      "date": "2025-05-06",
+      "price": 6855.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.2
+    },
+    {
+      "date": "2025-05-07",
+      "price": 6869.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.42
+    },
+    {
+      "date": "2025-05-08",
+      "price": 6875.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.5
+    },
+    {
+      "date": "2025-05-09",
+      "price": 6907.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 5.99
+    },
+    {
+      "date": "2025-05-12",
+      "price": 6912.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.08
+    },
+    {
+      "date": "2025-05-13",
+      "price": 6943.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.56
+    },
+    {
+      "date": "2025-05-14",
+      "price": 6954.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 6.72
+    },
+    {
+      "date": "2025-05-15",
+      "price": 6977.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.08
+    },
+    {
+      "date": "2025-05-16",
+      "price": 7013.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.63
+    },
+    {
+      "date": "2025-05-19",
+      "price": 6973.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.02
+    },
+    {
+      "date": "2025-05-20",
+      "price": 7015.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.67
+    },
+    {
+      "date": "2025-05-21",
+      "price": 7053.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.24
+    },
+    {
+      "date": "2025-05-22",
+      "price": 7017.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.68
+    },
+    {
+      "date": "2025-05-23",
+      "price": 7026.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.83
+    },
+    {
+      "date": "2025-05-26",
+      "price": 7026.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.83
+    },
+    {
+      "date": "2025-05-27",
+      "price": 7067.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.45
+    },
+    {
+      "date": "2025-05-28",
+      "price": 7054.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.26
+    },
+    {
+      "date": "2025-05-29",
+      "price": 7064.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.41
+    },
+    {
+      "date": "2025-05-30",
+      "price": 7085.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.73
+    },
+    {
+      "date": "2025-06-02",
+      "price": 7067.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.46
+    },
+    {
+      "date": "2025-06-03",
+      "price": 7110.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.12
+    },
+    {
+      "date": "2025-06-04",
+      "price": 7172.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.07
+    },
+    {
+      "date": "2025-06-05",
+      "price": 7171.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.06
+    },
+    {
+      "date": "2025-06-06",
+      "price": 7156.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.82
+    },
+    {
+      "date": "2025-06-10",
+      "price": 7220.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.81
+    },
+    {
+      "date": "2025-06-11",
+      "price": 7224.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.86
+    },
+    {
+      "date": "2025-06-12",
+      "price": 7196.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.43
+    },
+    {
+      "date": "2025-06-13",
+      "price": 7180.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.18
+    },
+    {
+      "date": "2025-06-16",
+      "price": 7182.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.22
+    },
+    {
+      "date": "2025-06-17",
+      "price": 7174.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.09
+    },
+    {
+      "date": "2025-06-18",
+      "price": 7168.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.01
+    },
+    {
+      "date": "2025-06-19",
+      "price": 7168.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.0
+    },
+    {
+      "date": "2025-06-20",
+      "price": 7150.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.72
+    },
+    {
+      "date": "2025-06-23",
+      "price": 7127.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.38
+    },
+    {
+      "date": "2025-06-24",
+      "price": 7197.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.45
+    },
+    {
+      "date": "2025-06-25",
+      "price": 7202.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.53
+    },
+    {
+      "date": "2025-06-26",
+      "price": 7193.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.39
+    },
+    {
+      "date": "2025-06-27",
+      "price": 7159.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.87
+    },
+    {
+      "date": "2025-06-30",
+      "price": 7181.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.21
+    },
+    {
+      "date": "2025-07-01",
+      "price": 7177.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.15
+    },
+    {
+      "date": "2025-07-02",
+      "price": 7230.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.95
+    },
+    {
+      "date": "2025-07-03",
+      "price": 7227.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.92
+    },
+    {
+      "date": "2025-07-04",
+      "price": 7233.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.01
+    },
+    {
+      "date": "2025-07-07",
+      "price": 7224.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.86
+    },
+    {
+      "date": "2025-07-08",
+      "price": 7223.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.86
+    },
+    {
+      "date": "2025-07-09",
+      "price": 7182.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.22
+    },
+    {
+      "date": "2025-07-10",
+      "price": 7224.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.86
+    },
+    {
+      "date": "2025-07-11",
+      "price": 7217.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.76
+    },
+    {
+      "date": "2025-07-14",
+      "price": 7207.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.61
+    },
+    {
+      "date": "2025-07-15",
+      "price": 7256.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.35
+    },
+    {
+      "date": "2025-07-16",
+      "price": 7195.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.42
+    },
+    {
+      "date": "2025-07-17",
+      "price": 7261.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.43
+    },
+    {
+      "date": "2025-07-18",
+      "price": 7359.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.94
+    },
+    {
+      "date": "2025-07-21",
+      "price": 7284.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.78
+    },
+    {
+      "date": "2025-07-22",
+      "price": 7286.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.81
+    },
+    {
+      "date": "2025-07-23",
+      "price": 7337.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.6
+    },
+    {
+      "date": "2025-07-24",
+      "price": 7313.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.24
+    },
+    {
+      "date": "2025-07-25",
+      "price": 7279.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.7
+    },
+    {
+      "date": "2025-07-28",
+      "price": 7309.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.17
+    },
+    {
+      "date": "2025-07-29",
+      "price": 7317.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.29
+    },
+    {
+      "date": "2025-07-30",
+      "price": 7361.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.97
+    },
+    {
+      "date": "2025-07-31",
+      "price": 7352.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.83
+    },
+    {
+      "date": "2025-08-01",
+      "price": 7281.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.74
+    },
+    {
+      "date": "2025-08-04",
+      "price": 7281.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.74
+    },
+    {
+      "date": "2025-08-05",
+      "price": 7367.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.06
+    },
+    {
+      "date": "2025-08-06",
+      "price": 7425.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.95
+    },
+    {
+      "date": "2025-08-07",
+      "price": 7410.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.72
+    },
+    {
+      "date": "2025-08-08",
+      "price": 7387.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.37
+    },
+    {
+      "date": "2025-08-11",
+      "price": 7422.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.9
+    },
+    {
+      "date": "2025-08-12",
+      "price": 7456.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.42
+    },
+    {
+      "date": "2025-08-13",
+      "price": 7404.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.63
+    },
+    {
+      "date": "2025-08-14",
+      "price": 7444.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.25
+    },
+    {
+      "date": "2025-08-15",
+      "price": 7500.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.1
+    },
+    {
+      "date": "2025-08-18",
+      "price": 7520.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.4
+    },
+    {
+      "date": "2025-08-19",
+      "price": 7463.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.53
+    },
+    {
+      "date": "2025-08-20",
+      "price": 7484.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.86
+    },
+    {
+      "date": "2025-08-21",
+      "price": 7569.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 16.16
+    },
+    {
+      "date": "2025-08-22",
+      "price": 7522.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.45
+    },
+    {
+      "date": "2025-08-25",
+      "price": 7514.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.32
+    },
+    {
+      "date": "2025-08-26",
+      "price": 7481.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.81
+    },
+    {
+      "date": "2025-08-27",
+      "price": 7495.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.02
+    },
+    {
+      "date": "2025-08-28",
+      "price": 7517.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.36
+    },
+    {
+      "date": "2025-08-29",
+      "price": 7503.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.15
+    },
+    {
+      "date": "2025-09-01",
+      "price": 7458.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.45
+    },
+    {
+      "date": "2025-09-02",
+      "price": 7436.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.12
+    },
+    {
+      "date": "2025-09-03",
+      "price": 7297.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.99
+    },
+    {
+      "date": "2025-09-04",
+      "price": 7373.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.16
+    },
+    {
+      "date": "2025-09-05",
+      "price": 7404.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.62
+    },
+    {
+      "date": "2025-09-08",
+      "price": 7385.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.34
+    },
+    {
+      "date": "2025-09-09",
+      "price": 7343.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.7
+    },
+    {
+      "date": "2025-09-10",
+      "price": 7370.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.1
+    },
+    {
+      "date": "2025-09-11",
+      "price": 7346.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.73
+    },
+    {
+      "date": "2025-09-12",
+      "price": 7395.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.48
+    },
+    {
+      "date": "2025-09-15",
+      "price": 7386.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.35
+    },
+    {
+      "date": "2025-09-16",
+      "price": 7402.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.59
+    },
+    {
+      "date": "2025-09-17",
+      "price": 7355.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.88
+    },
+    {
+      "date": "2025-09-18",
+      "price": 7286.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.82
+    },
+    {
+      "date": "2025-09-19",
+      "price": 7312.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.22
+    },
+    {
+      "date": "2025-09-22",
+      "price": 7341.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.66
+    },
+    {
+      "date": "2025-09-23",
+      "price": 7370.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.11
+    },
+    {
+      "date": "2025-09-24",
+      "price": 7298.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.0
+    },
+    {
+      "date": "2025-09-25",
+      "price": 7309.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.18
+    },
+    {
+      "date": "2025-09-26",
+      "price": 7321.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.35
+    },
+    {
+      "date": "2025-09-29",
+      "price": 7385.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.34
+    },
+    {
+      "date": "2025-09-30",
+      "price": 7372.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.13
+    },
+    {
+      "date": "2025-10-01",
+      "price": 7362.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.99
+    },
+    {
+      "date": "2025-10-02",
+      "price": 7446.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.28
+    },
+    {
+      "date": "2025-10-03",
+      "price": 7474.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.7
+    },
+    {
+      "date": "2025-10-06",
+      "price": 7470.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.63
+    },
+    {
+      "date": "2025-10-07",
+      "price": 7447.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.28
+    },
+    {
+      "date": "2025-10-08",
+      "price": 7437.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.13
+    },
+    {
+      "date": "2025-10-09",
+      "price": 7453.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.38
+    },
+    {
+      "date": "2025-10-10",
+      "price": 7446.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.28
+    },
+    {
+      "date": "2025-10-13",
+      "price": 7383.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.3
+    },
+    {
+      "date": "2025-10-14",
+      "price": 7390.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.42
+    },
+    {
+      "date": "2025-10-15",
+      "price": 7470.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.64
+    },
+    {
+      "date": "2025-10-16",
+      "price": 7542.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.75
+    },
+    {
+      "date": "2025-10-17",
+      "price": 7484.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.86
+    },
+    {
+      "date": "2025-10-20",
+      "price": 7525.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.48
+    },
+    {
+      "date": "2025-10-21",
+      "price": 7576.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 16.27
+    },
+    {
+      "date": "2025-10-22",
+      "price": 7530.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.57
+    },
+    {
+      "date": "2025-10-23",
+      "price": 7529.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.55
+    },
+    {
+      "date": "2025-10-24",
+      "price": 7515.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.32
+    },
+    {
+      "date": "2025-10-27",
+      "price": 7546.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.81
+    },
+    {
+      "date": "2025-10-28",
+      "price": 7514.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.31
+    },
+    {
+      "date": "2025-10-29",
+      "price": 7432.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.06
+    },
+    {
+      "date": "2025-10-30",
+      "price": 7396.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.5
+    },
+    {
+      "date": "2025-10-31",
+      "price": 7388.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.38
+    },
+    {
+      "date": "2025-11-03",
+      "price": 7401.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.58
+    },
+    {
+      "date": "2025-11-04",
+      "price": 7334.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.55
+    },
+    {
+      "date": "2025-11-05",
+      "price": 7332.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.53
+    },
+    {
+      "date": "2025-11-06",
+      "price": 7358.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.92
+    },
+    {
+      "date": "2025-11-07",
+      "price": 7308.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.15
+    },
+    {
+      "date": "2025-11-10",
+      "price": 7345.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.73
+    },
+    {
+      "date": "2025-11-11",
+      "price": 7334.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.55
+    },
+    {
+      "date": "2025-11-12",
+      "price": 7316.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.28
+    },
+    {
+      "date": "2025-11-13",
+      "price": 7277.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.68
+    },
+    {
+      "date": "2025-11-14",
+      "price": 7181.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.2
+    },
+    {
+      "date": "2025-11-17",
+      "price": 7177.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.14
+    },
+    {
+      "date": "2025-11-18",
+      "price": 7043.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.09
+    },
+    {
+      "date": "2025-11-19",
+      "price": 7026.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.83
+    },
+    {
+      "date": "2025-11-20",
+      "price": 7112.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.15
+    },
+    {
+      "date": "2025-11-21",
+      "price": 7009.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.56
+    },
+    {
+      "date": "2025-11-24",
+      "price": 7096.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.89
+    },
+    {
+      "date": "2025-11-25",
+      "price": 7097.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.92
+    },
+    {
+      "date": "2025-11-26",
+      "price": 7153.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.77
+    },
+    {
+      "date": "2025-11-27",
+      "price": 7161.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.89
+    },
+    {
+      "date": "2025-11-28",
+      "price": 7154.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.79
+    },
+    {
+      "date": "2025-12-01",
+      "price": 7115.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.19
+    },
+    {
+      "date": "2025-12-02",
+      "price": 7129.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.41
+    },
+    {
+      "date": "2025-12-03",
+      "price": 7143.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.62
+    },
+    {
+      "date": "2025-12-04",
+      "price": 7170.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.04
+    },
+    {
+      "date": "2025-12-05",
+      "price": 7182.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.22
+    },
+    {
+      "date": "2025-12-08",
+      "price": 7173.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.08
+    },
+    {
+      "date": "2025-12-09",
+      "price": 7141.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.6
+    },
+    {
+      "date": "2025-12-10",
+      "price": 7134.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.48
+    },
+    {
+      "date": "2025-12-11",
+      "price": 7146.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.67
+    },
+    {
+      "date": "2025-12-12",
+      "price": 7233.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.0
+    },
+    {
+      "date": "2025-12-15",
+      "price": 7180.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.19
+    },
+    {
+      "date": "2025-12-16",
+      "price": 7150.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.73
+    },
+    {
+      "date": "2025-12-17",
+      "price": 7133.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.47
+    },
+    {
+      "date": "2025-12-18",
+      "price": 7139.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.55
+    },
+    {
+      "date": "2025-12-19",
+      "price": 7164.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.94
+    },
+    {
+      "date": "2025-12-22",
+      "price": 7221.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.82
+    },
+    {
+      "date": "2025-12-23",
+      "price": 7304.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.09
+    },
+    {
+      "date": "2025-12-24",
+      "price": 7276.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.67
+    },
+    {
+      "date": "2025-12-29",
+      "price": 7248.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.23
+    },
+    {
+      "date": "2025-12-30",
+      "price": 7244.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.17
+    },
+    {
+      "date": "2025-12-31",
+      "price": 7242.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.14
+    },
+    {
+      "date": "2026-01-02",
+      "price": 7248.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.24
+    },
+    {
+      "date": "2026-01-05",
+      "price": 7246.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.2
+    },
+    {
+      "date": "2026-01-06",
+      "price": 7227.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.91
+    },
+    {
+      "date": "2026-01-07",
+      "price": 7209.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.64
+    },
+    {
+      "date": "2026-01-08",
+      "price": 7229.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.94
+    },
+    {
+      "date": "2026-01-09",
+      "price": 7224.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.86
+    },
+    {
+      "date": "2026-01-12",
+      "price": 7287.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.83
+    },
+    {
+      "date": "2026-01-13",
+      "price": 7296.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.97
+    },
+    {
+      "date": "2026-01-14",
+      "price": 7303.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.08
+    },
+    {
+      "date": "2026-01-15",
+      "price": 7343.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.69
+    },
+    {
+      "date": "2026-01-16",
+      "price": 7373.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.16
+    },
+    {
+      "date": "2026-01-19",
+      "price": 7346.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.73
+    },
+    {
+      "date": "2026-01-20",
+      "price": 7296.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.97
+    },
+    {
+      "date": "2026-01-21",
+      "price": 7259.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.4
+    },
+    {
+      "date": "2026-01-22",
+      "price": 7321.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.36
+    },
+    {
+      "date": "2026-01-23",
+      "price": 7327.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.44
+    },
+    {
+      "date": "2026-01-27",
+      "price": 7401.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.59
+    },
+    {
+      "date": "2026-01-28",
+      "price": 7393.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.46
+    },
+    {
+      "date": "2026-01-29",
+      "price": 7431.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.05
+    },
+    {
+      "date": "2026-01-30",
+      "price": 7357.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.9
+    },
+    {
+      "date": "2026-02-02",
+      "price": 7289.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.87
+    },
+    {
+      "date": "2026-02-03",
+      "price": 7357.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.91
+    },
+    {
+      "date": "2026-02-04",
+      "price": 7425.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.94
+    },
+    {
+      "date": "2026-02-05",
+      "price": 7404.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.63
+    },
+    {
+      "date": "2026-02-06",
+      "price": 7267.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.52
+    },
+    {
+      "date": "2026-02-09",
+      "price": 7421.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.88
+    },
+    {
+      "date": "2026-02-10",
+      "price": 7377.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.22
+    },
+    {
+      "date": "2026-02-11",
+      "price": 7503.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.14
+    },
+    {
+      "date": "2026-02-12",
+      "price": 7540.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.72
+    },
+    {
+      "date": "2026-02-13",
+      "price": 7446.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.27
+    },
+    {
+      "date": "2026-02-16",
+      "price": 7487.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.9
+    },
+    {
+      "date": "2026-02-17",
+      "price": 7479.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.78
+    },
+    {
+      "date": "2026-02-18",
+      "price": 7513.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.31
+    },
+    {
+      "date": "2026-02-19",
+      "price": 7582.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 16.36
+    },
+    {
+      "date": "2026-02-20",
+      "price": 7579.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 16.32
+    },
+    {
+      "date": "2026-02-23",
+      "price": 7533.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.6
+    },
+    {
+      "date": "2026-02-24",
+      "price": 7531.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.58
+    },
+    {
+      "date": "2026-02-25",
+      "price": 7617.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 16.9
+    },
+    {
+      "date": "2026-02-26",
+      "price": 7655.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 17.49
+    },
+    {
+      "date": "2026-02-27",
+      "price": 7676.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 17.8
+    },
+    {
+      "date": "2026-03-02",
+      "price": 7647.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 17.35
+    },
+    {
+      "date": "2026-03-03",
+      "price": 7572.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 16.21
+    },
+    {
+      "date": "2026-03-04",
+      "price": 7430.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.03
+    },
+    {
+      "date": "2026-03-05",
+      "price": 7461.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.51
+    },
+    {
+      "date": "2026-03-06",
+      "price": 7390.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.41
+    },
+    {
+      "date": "2026-03-09",
+      "price": 7186.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.28
+    },
+    {
+      "date": "2026-03-10",
+      "price": 7263.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.47
+    },
+    {
+      "date": "2026-03-11",
+      "price": 7307.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.13
+    },
+    {
+      "date": "2026-03-12",
+      "price": 7218.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.77
+    },
+    {
+      "date": "2026-03-13",
+      "price": 7208.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.62
+    },
+    {
+      "date": "2026-03-16",
+      "price": 7187.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.29
+    },
+    {
+      "date": "2026-03-17",
+      "price": 7211.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.66
+    },
+    {
+      "date": "2026-03-18",
+      "price": 7226.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.9
+    },
+    {
+      "date": "2026-03-19",
+      "price": 7118.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.24
+    },
+    {
+      "date": "2026-03-20",
+      "price": 7062.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.38
+    },
+    {
+      "date": "2026-03-23",
+      "price": 7014.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.64
+    },
+    {
+      "date": "2026-03-24",
+      "price": 7023.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 7.78
+    },
+    {
+      "date": "2026-03-25",
+      "price": 7162.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.91
+    },
+    {
+      "date": "2026-03-26",
+      "price": 7138.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.55
+    },
+    {
+      "date": "2026-03-27",
+      "price": 7134.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.49
+    },
+    {
+      "date": "2026-03-30",
+      "price": 7086.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.75
+    },
+    {
+      "date": "2026-03-31",
+      "price": 7101.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 8.98
+    },
+    {
+      "date": "2026-04-01",
+      "price": 7258.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.39
+    },
+    {
+      "date": "2026-04-02",
+      "price": 7190.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.34
+    },
+    {
+      "date": "2026-04-07",
+      "price": 7317.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.29
+    },
+    {
+      "date": "2026-04-08",
+      "price": 7497.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.05
+    },
+    {
+      "date": "2026-04-09",
+      "price": 7523.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.45
+    },
+    {
+      "date": "2026-04-10",
+      "price": 7512.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.28
+    },
+    {
+      "date": "2026-04-13",
+      "price": 7488.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.92
+    },
+    {
+      "date": "2026-04-14",
+      "price": 7523.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.46
+    },
+    {
+      "date": "2026-04-15",
+      "price": 7527.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.52
+    },
+    {
+      "date": "2026-04-16",
+      "price": 7497.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.06
+    },
+    {
+      "date": "2026-04-17",
+      "price": 7488.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.91
+    },
+    {
+      "date": "2026-04-20",
+      "price": 7492.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.98
+    },
+    {
+      "date": "2026-04-21",
+      "price": 7484.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.86
+    },
+    {
+      "date": "2026-04-22",
+      "price": 7392.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.45
+    },
+    {
+      "date": "2026-04-23",
+      "price": 7348.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.76
+    },
+    {
+      "date": "2026-04-24",
+      "price": 7347.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.75
+    },
+    {
+      "date": "2026-04-27",
+      "price": 7332.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.52
+    },
+    {
+      "date": "2026-04-28",
+      "price": 7286.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.82
+    },
+    {
+      "date": "2026-04-29",
+      "price": 7263.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.46
+    },
+    {
+      "date": "2026-04-30",
+      "price": 7251.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.28
+    },
+    {
+      "date": "2026-05-01",
+      "price": 7298.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.0
+    },
+    {
+      "date": "2026-05-04",
+      "price": 7270.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.57
+    },
+    {
+      "date": "2026-05-05",
+      "price": 7261.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.44
+    },
+    {
+      "date": "2026-05-06",
+      "price": 7362.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.98
+    },
+    {
+      "date": "2026-05-07",
+      "price": 7430.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.03
+    },
+    {
+      "date": "2026-05-08",
+      "price": 7318.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.31
+    },
+    {
+      "date": "2026-05-11",
+      "price": 7277.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.68
+    },
+    {
+      "date": "2026-05-12",
+      "price": 7252.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.29
+    },
+    {
+      "date": "2026-05-13",
+      "price": 7215.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.73
+    },
+    {
+      "date": "2026-05-14",
+      "price": 7226.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.9
+    },
+    {
+      "date": "2026-05-15",
+      "price": 7218.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.77
+    },
+    {
+      "date": "2026-05-18",
+      "price": 7121.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.29
+    },
+    {
+      "date": "2026-05-19",
+      "price": 7207.39990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.6
+    },
+    {
+      "date": "2026-05-20",
+      "price": 7122.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 9.3
+    },
+    {
+      "date": "2026-05-21",
+      "price": 7226.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.89
+    },
+    {
+      "date": "2026-05-22",
+      "price": 7253.10009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.31
+    },
+    {
+      "date": "2026-05-25",
+      "price": 7277.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.68
+    },
+    {
+      "date": "2026-05-26",
+      "price": 7248.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.23
+    },
+    {
+      "date": "2026-05-27",
+      "price": 7296.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.96
+    },
+    {
+      "date": "2026-05-28",
+      "price": 7192.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.37
+    },
+    {
+      "date": "2026-05-29",
+      "price": 7304.7998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.1
+    },
+    {
+      "date": "2026-06-01",
+      "price": 7301.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.04
+    },
+    {
+      "date": "2026-06-02",
+      "price": 7297.89990234375,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.99
+    },
+    {
+      "date": "2026-06-03",
+      "price": 7352.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 12.83
+    },
+    {
+      "date": "2026-06-04",
+      "price": 7270.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.56
+    },
+    {
+      "date": "2026-06-05",
+      "price": 7216.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.75
+    },
+    {
+      "date": "2026-06-09",
+      "price": 7199.2998046875,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 10.48
+    },
+    {
+      "date": "2026-06-10",
+      "price": 7249.60009765625,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.25
+    },
+    {
+      "date": "2026-06-11",
+      "price": 7233.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 11.0
+    },
+    {
+      "date": "2026-06-12",
+      "price": 7374.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.17
+    },
+    {
+      "date": "2026-06-15",
+      "price": 7458.0,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.45
+    },
+    {
+      "date": "2026-06-16",
+      "price": 7462.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.52
+    },
+    {
+      "date": "2026-06-17",
+      "price": 7497.2001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 15.05
+    },
+    {
+      "date": "2026-06-18",
+      "price": 7454.7001953125,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 14.4
+    },
+    {
+      "date": "2026-06-19",
+      "price": 7382.5,
+      "cumulativeDiv": 0.0,
+      "tsrPct": 13.29
+    }
   ]
 }
