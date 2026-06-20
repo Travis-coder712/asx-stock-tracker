@@ -28,7 +28,7 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
           <li><strong>Sentiment</strong> — fear and greed. Markets overshoot in both directions</li>
         </ul>
         <ExampleBox title="Real example: CSL Limited">
-          <p>CSL (ASX:CSL) makes blood plasma products. In 2000, it traded at ~$10. By 2024, it was ~$300. That 30x return wasn't luck — CSL grew its earnings every single year for two decades. The share price followed the earnings. That's what "owning a business" means in practice.</p>
+          <p>CSL (ASX:CSL) makes blood plasma products. In 2000, it traded at ~$10. By 2024, it peaked near $300 — a 30x return driven by two decades of consistent earnings growth. But the story doesn't end there: in 2025-26, CSL dropped sharply from those highs, reminding investors that <em>even great businesses can be overvalued</em>. The long-term return is still extraordinary, but the lesson cuts both ways — owning a business means owning the downturns too.</p>
         </ExampleBox>
         <DidYouKnow>There are over 2,000 companies listed on the ASX, but the top 20 make up about 45% of the total market value. BHP, CBA, and CSL alone account for roughly 15%.</DidYouKnow>
         <div className="lesson-callout">
@@ -111,7 +111,7 @@ const LESSONS: Record<string, { title: string; content: React.ReactNode }> = {
         <h4>The real lesson</h4>
         <p><strong>Time is your most valuable asset.</strong> Starting 10 years earlier is worth more than doubling your investment amount. A 25-year-old who invests $200/month beats a 35-year-old who invests $400/month — by retirement.</p>
         <CompoundCalculator />
-        <DidYouKnow>If you invested $5,000 in the ASX 200 at the bottom of the GFC (March 2009) and reinvested all dividends, you'd have over $35,000 by 2024. Time in market, not timing the market.</DidYouKnow>
+        <DidYouKnow>If you'd invested $5,000 in the ASX 200 in January 2000 — right before the dot-com crash — and held through the GFC, COVID, and every correction since, reinvesting dividends, you'd have over $25,000 by 2024. Twenty-four years through two major crashes, and you still 5x'd your money. That's genuine "time in market" — not cherry-picking the bottom of a crash, but surviving everything the market threw at you.</DidYouKnow>
         <div className="lesson-callout">
           <strong>Key takeaway:</strong> Start now, even with small amounts. The app's Dividend Income strategy shows how $5,000 grew to $5,648 in just 2.5 years — compounding dividends reinvested into more shares.
         </div>

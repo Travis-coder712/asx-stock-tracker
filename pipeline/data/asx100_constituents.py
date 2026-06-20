@@ -4,7 +4,7 @@ These are the TSR peer groups — AGL is ranked against these companies
 for each period. The list is fixed at the start date (no survivorship bias).
 """
 
-# As at 30 June 2023 — from AGL's TSR comparator group documentation
+# As at 30 June 2023 — S&P/ASX 100 constituents
 ASX100_JUN_2023 = [
     'A2M.AX',   # The A2 Milk Company Limited
     'AGL.AX',   # AGL Energy Limited
