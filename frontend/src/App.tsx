@@ -11,6 +11,7 @@ import DividendModule from './learn/DividendModule'
 import ValueModule from './learn/ValueModule'
 import WatchOutModule from './learn/WatchOutModule'
 import GammaScalpingModule from './learn/GammaScalpingModule'
+import PositionSizingModule from './learn/PositionSizingModule'
 import './App.css'
 
 interface Metadata {
@@ -87,6 +88,7 @@ function App() {
       'value-investing': <ValueModule onBack={onBack} />,
       'watch-out': <WatchOutModule onBack={onBack} />,
       'gamma-scalping': <GammaScalpingModule onBack={onBack} />,
+      'position-sizing': <PositionSizingModule onBack={onBack} />,
     }
     return <div className="app">{mods[activeModule] ?? <LearnHub onSelectModule={setActiveModule} />}</div>
   }

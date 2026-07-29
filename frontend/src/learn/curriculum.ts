@@ -135,4 +135,20 @@ export const MODULES: Module[] = [
       { id: 'reality-check', number: 6, title: 'Reality check for an ASX investor', summary: 'Where this actually applies for you, what it costs, and honestly whether it is worth it.', readingTime: '8 min', status: 'built' },
     ],
   },
+  {
+    id: 'position-sizing',
+    number: 9,
+    title: 'Position Sizing & Risk of Ruin',
+    tagline: 'How much to bet matters more than what you pick — Kelly, ruin, and the maths of drawdown.',
+    accent: '#f783ac',
+    status: 'available',
+    lessons: [
+      { id: 'sizing-beats-selection', number: 1, title: 'Sizing beats selection', summary: 'Why how much you bet decides your fate more than what you buy — and the brutal maths of drawdowns.', readingTime: '7 min', status: 'built' },
+      { id: 'expectancy', number: 2, title: 'Expectancy: is your edge real?', summary: 'Win rate × average win vs loss rate × average loss. The one number that says whether to bet at all.', readingTime: '7 min', status: 'built' },
+      { id: 'kelly', number: 3, title: 'The Kelly criterion', summary: 'The bet size that grows wealth fastest in the long run — in plain English, with a live simulator.', readingTime: '9 min', status: 'built' },
+      { id: 'fractional-kelly', number: 4, title: 'Fractional Kelly & risk of ruin', summary: 'Why professionals bet half of Kelly, and how over-betting turns a winning edge into certain ruin.', readingTime: '8 min', status: 'built' },
+      { id: 'sizing-in-practice', number: 5, title: 'Sizing in practice', summary: 'Volatility-based sizing, correlation, and why overlapping holdings quietly concentrate your risk.', readingTime: '8 min', status: 'built' },
+      { id: 'sizing-reality-check', number: 6, title: 'A sane rule for a retail investor', summary: 'A simple, robust sizing framework you can actually use on the ASX — and the honest caveats.', readingTime: '7 min', status: 'built' },
+    ],
+  },
 ]

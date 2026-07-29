@@ -12,7 +12,7 @@ export default function LearnHub({ onSelectModule }: Props) {
         <div className="line" />
       </div>
       <p style={{ color: 'var(--text-dim)', marginBottom: 24, fontSize: 14 }}>
-        An 8-module curriculum covering investing foundations, the thinking behind each strategy, and how options traders bet on volatility.
+        A 9-module curriculum covering investing foundations, the thinking behind each strategy, how options traders bet on volatility, and how much to bet.
         Interactive exercises use live data from the portfolios above.
       </p>
 
