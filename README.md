@@ -1,6 +1,6 @@
 # ASX Stock Tracker
 
-Five investment philosophies tested on the ASX with hypothetical portfolios — auto-picked by strategy rules, rebalanced every 6 months, tracked with real data. Includes a macro view, "Pick Today" portfolio builder, AGL peer analysis, and a 7-module investing curriculum.
+Five investment philosophies tested on the ASX with hypothetical portfolios — auto-picked by strategy rules, rebalanced every 6 months, tracked with real data. Includes a macro view, "Pick Today" portfolio builder, AGL peer analysis, and an 8-module investing curriculum with interactive simulators.
 
 **Live:** [travis-coder712.github.io/asx-stock-tracker](https://travis-coder712.github.io/asx-stock-tracker/)
 
@@ -28,7 +28,7 @@ Live screening against current data — what each strategy would select right no
 AGL Energy performance vs S&P/ASX 100 peer group — TSR (price + reinvested dividends) measured from 1 July each year, with full peer ranking table across 92+ ASX 100 constituents. Period selector for FY24/FY25/FY26.
 
 ### Learn
-7-module investing curriculum with 28 lessons, interactive calculators, and curated resources:
+8-module investing curriculum with 34 lessons, interactive calculators/simulators, and curated resources:
 
 | # | Module | Lessons |
 |---|---|---|
@@ -39,6 +39,9 @@ AGL Energy performance vs S&P/ASX 100 peer group — TSR (price + reinvested div
 | 5 | **Dividend & Income** | 3 — franking calculator, sustainability tests, dividend traps |
 | 6 | **Value Investing** | 3 — Graham Number calculator, Buffett's evolution, value traps |
 | 7 | **What to Watch Out For** | 4 — cognitive biases, media trap, tax/fees, risk profile quiz |
+| 8 | **Options & Volatility** | 6 — options primer, delta-hedging, gamma vs theta, realised vs implied vol, frequency & path dependency, ASX reality check + **gamma scalping simulator** |
+
+**Gamma Scalping Simulator** — an interactive tool that runs a Black-Scholes gamma calculation over a simulated price path and splits the P&L into *gamma harvested* vs *theta paid* vs *transaction costs*. Drag implied vol, realised vol, days-to-expiry, hedge frequency and cost-per-hedge, then roll a "New path" to see how much of long-vol P&L is genuine edge and how much is path luck.
 
 ## Architecture
 
@@ -56,7 +59,7 @@ asx-stock-tracker/
 │       ├── Dashboard.tsx   Strategy comparison dashboard
 │       ├── AglAnalysis.tsx AGL peer analysis
 │       ├── PickToday.tsx   Live screening + macro + portfolio builder
-│       └── learn/          7-module curriculum
+│       └── learn/          8-module curriculum + interactive simulators
 ├── pipeline/
 │   ├── importers/         Fetch data from yfinance
 │   ├── exporters/         Export SQLite → JSON
@@ -123,7 +126,29 @@ python3 pipeline/exporters/export_json.py
 
 ## Status
 
-v1.4.0 — all phases complete plus Pick Today. 5 strategies, 135 stocks, 28 lessons, macro view, portfolio builder.
+v1.5.0 — 5 strategies, 135 stocks, macro view, portfolio builder, and an 8-module / 34-lesson curriculum. Latest addition: **Options & Volatility** module with an interactive gamma scalping simulator.
+
+## Roadmap
+
+The curriculum is designed to grow toward the two things a stock-picker most often lacks: an understanding of **volatility as a tradeable quantity** and a disciplined approach to **how much to bet**. Two modules are planned next, each built around an interactive simulator in the same pattern as the gamma scalping tool.
+
+### (b) Vega & Vol Crush — planned Module 9
+
+The natural follow-on to Options & Volatility. Where gamma scalping is about *realised* vol, this module is about *implied* vol and the money made and lost when it moves.
+
+- **Concepts:** vega (sensitivity to implied vol), the volatility term structure, why implied vol inflates before scheduled events (results, RBA decisions, resource catalysts) and collapses immediately after — the "vol crush" — and why you can be right on direction and still lose on the option.
+- **Interactive tool — Vol Crush Simulator:** buy a straddle/option into an event at an elevated implied vol; set the post-event realised move and the implied-vol collapse; watch the option's value get pulled in opposite directions by the actual move (delta/gamma) and the vega repricing. Shows the classic trap: a correct directional call that still loses because vega dominated.
+- **ASX angle:** why buying protection right before AGL / resource-sector results is expensive, and when writing it is the better side of the trade.
+
+### (c) Position Sizing & Risk of Ruin — planned Module 10
+
+The highest-leverage gap in the current curriculum: every existing strategy tells you *what* to buy, none tell you *how much*. This module argues that sizing matters more than selection.
+
+- **Concepts:** expectancy, the Kelly criterion and why fractional Kelly is used in practice, risk of ruin, volatility-based sizing (equal-risk rather than equal-dollar), correlation and why overlapping holdings quietly concentrate risk, and the maths of drawdown recovery (a −50% loss needs +100% to recover).
+- **Interactive tool — Position Sizing Simulator:** set win rate, average win/loss, and bet fraction; run many simulated sequences to show how the *same* edge compounds to wealth at a sensible size and to ruin when over-bet. A Kelly slider makes the "too big fails, too small underperforms" trade-off tangible.
+- **App integration:** a sizing overlay for the existing five strategies, and a concentration/correlation check that flags when the same stock (e.g. FMG) appears across multiple portfolios.
+
+Both follow the guiding principle behind this app: *build the interactive thing to understand the thing.* Reading about path dependency or risk of ruin is forgettable; watching a "winning" trade lose money on a slider is not.
 
 ---
 

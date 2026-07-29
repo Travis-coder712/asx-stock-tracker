@@ -119,4 +119,20 @@ export const MODULES: Module[] = [
       { id: 'when-to-sell', number: 4, title: 'When to sell', summary: 'The hardest decision in investing. Frameworks for letting go.', readingTime: '7 min', status: 'built' },
     ],
   },
+  {
+    id: 'gamma-scalping',
+    number: 8,
+    title: 'Options & Volatility',
+    tagline: 'Gamma scalping — how a delta-hedged option becomes a bet on realised vs implied vol.',
+    accent: '#20c997',
+    status: 'available',
+    lessons: [
+      { id: 'options-primer', number: 1, title: 'Options in 90 seconds', summary: 'Calls, puts, premium, strike, expiry — the vocabulary you need before anything else makes sense.', readingTime: '7 min', status: 'built' },
+      { id: 'delta-and-hedging', number: 2, title: 'Delta and delta-hedging', summary: 'What delta is, why hedging it turns a directional bet into a volatility bet.', readingTime: '7 min', status: 'built' },
+      { id: 'the-scalp', number: 3, title: 'The scalp: gamma vs theta', summary: 'Long gamma buys low and sells high automatically; theta is the daily rent you pay for it.', readingTime: '8 min', status: 'built' },
+      { id: 'realized-vs-implied', number: 4, title: 'Realised vs implied vol', summary: 'The trade in one sentence: you profit when the market moves more than the implied vol you paid.', readingTime: '8 min', status: 'built' },
+      { id: 'frequency-and-path', number: 5, title: 'Frequency & path dependency', summary: 'Clock vs band re-hedging, why the SAME realised vol can pay differently, and where the edge leaks.', readingTime: '8 min', status: 'built' },
+      { id: 'reality-check', number: 6, title: 'Reality check for an ASX investor', summary: 'Where this actually applies for you, what it costs, and honestly whether it is worth it.', readingTime: '8 min', status: 'built' },
+    ],
+  },
 ]
