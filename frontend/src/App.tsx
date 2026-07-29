@@ -3,6 +3,7 @@ import Dashboard from './Dashboard'
 import AglAnalysis from './AglAnalysis'
 import PickToday from './PickToday'
 import PortfolioRisk from './PortfolioRisk'
+import About from './About'
 import LearnHub from './learn/LearnHub'
 import Investing101 from './learn/Investing101'
 import MomentumModule from './learn/MomentumModule'
@@ -39,7 +40,7 @@ interface StrategyData {
 
 const BASE = import.meta.env.BASE_URL
 
-type Tab = 'strategies' | 'pick-today' | 'agl' | 'risk' | 'learn'
+type Tab = 'strategies' | 'pick-today' | 'agl' | 'risk' | 'learn' | 'about'
 
 const STRATEGIES = [
   { id: 'padley_momentum', name: 'Padley Momentum', css: 'padley',
@@ -126,6 +127,9 @@ function App() {
         </button>
         <button className={`main-tab ${tab === 'learn' ? 'active' : ''}`} onClick={() => setTab('learn')}>
           Learn
+        </button>
+        <button className={`main-tab ${tab === 'about' ? 'active' : ''}`} onClick={() => setTab('about')}>
+          About
         </button>
       </div>
 
@@ -242,6 +246,9 @@ function App() {
 
       {/* Learn tab */}
       {tab === 'learn' && <LearnHub onSelectModule={setActiveModule} />}
+
+      {/* About tab */}
+      {tab === 'about' && <About onGoToLearn={() => setTab('learn')} />}
 
       <footer className="footer">
         ASX Stock Tracker · built with Claude Code · data via yfinance

@@ -35,6 +35,9 @@ Analyses what happens if you ran **all five strategies together** — the divers
 - **Stock-by-stock correlation** — the full holdings correlation matrix
 - Built from `pipeline/exporters/export_risk.py` → `public/data/risk/portfolio-risk.json`
 
+### About
+An in-app statement of purpose — what the app is trying to achieve (make strategies concrete, compare honestly, teach the thinking, surface hidden risk) and, importantly, **what it is not**: not financial advice, not a live trading system, not a predictor (results are backtested with hindsight), and not a complete data source. Read it first if you're new.
+
 ### Learn
 10-module investing curriculum with 46 lessons, interactive calculators/simulators, and curated resources:
 
@@ -144,7 +147,9 @@ python3 -m pipeline.exporters.export_risk   # portfolio-risk (overlap, correlati
 
 ## Status
 
-v1.8.0 — 5 strategies, 135 stocks, macro view, portfolio builder, a **Portfolio Risk** tab (cross-strategy overlap + real return-correlation heatmaps), and a 10-module / 46-lesson curriculum with three interactive derivatives/risk simulators (gamma scalping, position sizing, vol crush).
+v1.9.0 — 5 strategies, 135 stocks, macro view, portfolio builder, a **Portfolio Risk** tab (cross-strategy overlap + real return-correlation heatmaps), an in-app **About** page (purpose + honest scope/limitations), and a 10-module / 46-lesson curriculum with three interactive derivatives/risk simulators (gamma scalping, position sizing, vol crush).
+
+Parked ideas live in [docs/BACKLOG.md](docs/BACKLOG.md).
 
 ## Roadmap
 
