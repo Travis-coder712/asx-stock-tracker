@@ -151,4 +151,20 @@ export const MODULES: Module[] = [
       { id: 'sizing-reality-check', number: 6, title: 'A sane rule for a retail investor', summary: 'A simple, robust sizing framework you can actually use on the ASX — and the honest caveats.', readingTime: '7 min', status: 'built' },
     ],
   },
+  {
+    id: 'vega-vol-crush',
+    number: 10,
+    title: 'Vega & Vol Crush',
+    tagline: 'Why you can call the direction right and still lose — implied vol is a price that moves too.',
+    accent: '#9775fa',
+    status: 'available',
+    lessons: [
+      { id: 'vega-primer', number: 1, title: 'Vega: the price of fear', summary: 'The Greek that measures how much an option gains or loses when implied volatility itself moves.', readingTime: '7 min', status: 'built' },
+      { id: 'term-structure', number: 2, title: 'Event vol & the term structure', summary: 'Why implied vol balloons before scheduled events — results, RBA, resource catalysts — and what that costs.', readingTime: '7 min', status: 'built' },
+      { id: 'vol-crush', number: 3, title: 'The vol crush', summary: 'The moment the event passes, uncertainty resolves, and implied vol collapses — with a live simulator.', readingTime: '9 min', status: 'built' },
+      { id: 'right-still-lose', number: 4, title: 'Right on direction, still lose', summary: 'How much the underlying must move just to overcome the crush — the breakeven trap in numbers.', readingTime: '8 min', status: 'built' },
+      { id: 'which-side', number: 5, title: 'Which side to be on', summary: 'Buying vol vs selling it: the premium-seller\'s edge, and the tail risk that can bankrupt them.', readingTime: '8 min', status: 'built' },
+      { id: 'vega-reality-check', number: 6, title: 'Reality check for an ASX investor', summary: 'Results season, franking, and how this reshapes buying protection or writing covered calls locally.', readingTime: '8 min', status: 'built' },
+    ],
+  },
 ]

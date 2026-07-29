@@ -1,6 +1,6 @@
 # ASX Stock Tracker
 
-Five investment philosophies tested on the ASX with hypothetical portfolios — auto-picked by strategy rules, rebalanced every 6 months, tracked with real data. Includes a macro view, "Pick Today" portfolio builder, AGL peer analysis, and an 8-module investing curriculum with interactive simulators.
+Five investment philosophies tested on the ASX with hypothetical portfolios — auto-picked by strategy rules, rebalanced every 6 months, tracked with real data. Includes a macro view, "Pick Today" portfolio builder, AGL peer analysis, and a 10-module investing curriculum with interactive simulators.
 
 **Live:** [travis-coder712.github.io/asx-stock-tracker](https://travis-coder712.github.io/asx-stock-tracker/)
 
@@ -28,7 +28,7 @@ Live screening against current data — what each strategy would select right no
 AGL Energy performance vs S&P/ASX 100 peer group — TSR (price + reinvested dividends) measured from 1 July each year, with full peer ranking table across 92+ ASX 100 constituents. Period selector for FY24/FY25/FY26.
 
 ### Learn
-8-module investing curriculum with 34 lessons, interactive calculators/simulators, and curated resources:
+10-module investing curriculum with 46 lessons, interactive calculators/simulators, and curated resources:
 
 | # | Module | Lessons |
 |---|---|---|
@@ -40,8 +40,14 @@ AGL Energy performance vs S&P/ASX 100 peer group — TSR (price + reinvested div
 | 6 | **Value Investing** | 3 — Graham Number calculator, Buffett's evolution, value traps |
 | 7 | **What to Watch Out For** | 4 — cognitive biases, media trap, tax/fees, risk profile quiz |
 | 8 | **Options & Volatility** | 6 — options primer, delta-hedging, gamma vs theta, realised vs implied vol, frequency & path dependency, ASX reality check + **gamma scalping simulator** |
+| 9 | **Position Sizing & Risk of Ruin** | 6 — sizing beats selection, expectancy, the Kelly criterion, fractional Kelly & ruin, volatility/correlation sizing, a sane retail rule + **position sizing simulator** |
+| 10 | **Vega & Vol Crush** | 6 — vega, event vol & term structure, the vol crush, right-on-direction-still-lose, which side to be on, ASX reality check + **vol crush simulator** |
 
-**Gamma Scalping Simulator** — an interactive tool that runs a Black-Scholes gamma calculation over a simulated price path and splits the P&L into *gamma harvested* vs *theta paid* vs *transaction costs*. Drag implied vol, realised vol, days-to-expiry, hedge frequency and cost-per-hedge, then roll a "New path" to see how much of long-vol P&L is genuine edge and how much is path luck.
+Three interactive simulators anchor the advanced modules:
+
+- **Gamma Scalping Simulator** (Module 8) — runs a Black-Scholes gamma calculation over a simulated price path and splits the P&L into *gamma harvested* vs *theta paid* vs *transaction costs*. Drag implied vol, realised vol, days-to-expiry, hedge frequency and cost-per-hedge, then roll a "New path" to see how much of long-vol P&L is genuine edge and how much is path luck.
+- **Position Sizing Simulator** (Module 9) — a Monte-Carlo of 400 equity curves for a repeated bet, with a live Kelly calculator. Shows how the *same* edge compounds to wealth at a sane size and to ruin when over-bet — the median outcome peaks near Kelly then collapses as the wipe-out rate climbs.
+- **Vol Crush Simulator** (Module 10) — a Black-Scholes option held through an event. Plots value-vs-move with and without the implied-vol collapse, marks the premium paid and breakeven move, and decomposes P&L into *spot move (delta/gamma)* vs *theta* vs *vega crush* — making concrete how you can call the direction right and still lose.
 
 ## Architecture
 
@@ -59,7 +65,7 @@ asx-stock-tracker/
 │       ├── Dashboard.tsx   Strategy comparison dashboard
 │       ├── AglAnalysis.tsx AGL peer analysis
 │       ├── PickToday.tsx   Live screening + macro + portfolio builder
-│       └── learn/          8-module curriculum + interactive simulators
+│       └── learn/          10-module curriculum + interactive simulators
 ├── pipeline/
 │   ├── importers/         Fetch data from yfinance
 │   ├── exporters/         Export SQLite → JSON
@@ -126,29 +132,15 @@ python3 pipeline/exporters/export_json.py
 
 ## Status
 
-v1.5.0 — 5 strategies, 135 stocks, macro view, portfolio builder, and an 8-module / 34-lesson curriculum. Latest addition: **Options & Volatility** module with an interactive gamma scalping simulator.
+v1.7.0 — 5 strategies, 135 stocks, macro view, portfolio builder, and a 10-module / 46-lesson curriculum with three interactive derivatives/risk simulators (gamma scalping, position sizing, vol crush).
 
 ## Roadmap
 
-The curriculum is designed to grow toward the two things a stock-picker most often lacks: an understanding of **volatility as a tradeable quantity** and a disciplined approach to **how much to bet**. Two modules are planned next, each built around an interactive simulator in the same pattern as the gamma scalping tool.
+The advanced curriculum now covers the two things a stock-picker most often lacks — an understanding of **volatility as a tradeable quantity** (Modules 8 & 10) and a disciplined approach to **how much to bet** (Module 9). Possible next steps, all in the same "build the interactive thing to understand the thing" spirit:
 
-### (b) Vega & Vol Crush — planned Module 9
-
-The natural follow-on to Options & Volatility. Where gamma scalping is about *realised* vol, this module is about *implied* vol and the money made and lost when it moves.
-
-- **Concepts:** vega (sensitivity to implied vol), the volatility term structure, why implied vol inflates before scheduled events (results, RBA decisions, resource catalysts) and collapses immediately after — the "vol crush" — and why you can be right on direction and still lose on the option.
-- **Interactive tool — Vol Crush Simulator:** buy a straddle/option into an event at an elevated implied vol; set the post-event realised move and the implied-vol collapse; watch the option's value get pulled in opposite directions by the actual move (delta/gamma) and the vega repricing. Shows the classic trap: a correct directional call that still loses because vega dominated.
-- **ASX angle:** why buying protection right before AGL / resource-sector results is expensive, and when writing it is the better side of the trade.
-
-### (c) Position Sizing & Risk of Ruin — planned Module 10
-
-The highest-leverage gap in the current curriculum: every existing strategy tells you *what* to buy, none tell you *how much*. This module argues that sizing matters more than selection.
-
-- **Concepts:** expectancy, the Kelly criterion and why fractional Kelly is used in practice, risk of ruin, volatility-based sizing (equal-risk rather than equal-dollar), correlation and why overlapping holdings quietly concentrate risk, and the maths of drawdown recovery (a −50% loss needs +100% to recover).
-- **Interactive tool — Position Sizing Simulator:** set win rate, average win/loss, and bet fraction; run many simulated sequences to show how the *same* edge compounds to wealth at a sensible size and to ruin when over-bet. A Kelly slider makes the "too big fails, too small underperforms" trade-off tangible.
-- **App integration:** a sizing overlay for the existing five strategies, and a concentration/correlation check that flags when the same stock (e.g. FMG) appears across multiple portfolios.
-
-Both follow the guiding principle behind this app: *build the interactive thing to understand the thing.* Reading about path dependency or risk of ruin is forgettable; watching a "winning" trade lose money on a slider is not.
+- **Correlation & concentration tool** — turn Module 9's warning into a live check: a correlation matrix across the five strategy portfolios that flags when the same stock or theme (e.g. FMG across three portfolios) is quietly one concentrated bet.
+- **Volatility term-structure explorer** — visualise Module 10's event vol: implied vol by expiry with the pre-event bump, and how the crush flattens it.
+- **Position-sizing overlay** — apply a fractional-Kelly / volatility-based sizing rule to the existing strategy holdings and compare against equal-dollar weighting.
 
 ---
 
