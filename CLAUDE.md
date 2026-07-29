@@ -22,6 +22,7 @@ python pipeline/importers/import_prices.py --all    # full ASX 100
 
 # Export to JSON for frontend
 python pipeline/exporters/export_json.py
+python -m pipeline.exporters.export_risk   # portfolio-risk (overlap, correlations) — run after export_json
 
 # Frontend dev
 cd frontend && npm run dev

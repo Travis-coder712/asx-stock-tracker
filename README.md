@@ -27,6 +27,14 @@ Live screening against current data — what each strategy would select right no
 ### AGL Analysis
 AGL Energy performance vs S&P/ASX 100 peer group — TSR (price + reinvested dividends) measured from 1 July each year, with full peer ranking table across 92+ ASX 100 constituents. Period selector for FY24/FY25/FY26.
 
+### Portfolio Risk
+Analyses what happens if you ran **all five strategies together** — the diversification the five separate portfolios hide.
+- **Cross-strategy overlap** — which stocks are held in more than one strategy (e.g. FMG in four) and their combined weight
+- **Strategy correlation heatmap** — real daily-return correlations between the five strategies (they average ~0.67 — far from five independent bets)
+- **Combined sector concentration** — where an equal split across the five actually lands, with flags over 20%
+- **Stock-by-stock correlation** — the full holdings correlation matrix
+- Built from `pipeline/exporters/export_risk.py` → `public/data/risk/portfolio-risk.json`
+
 ### Learn
 10-module investing curriculum with 46 lessons, interactive calculators/simulators, and curated resources:
 
@@ -59,13 +67,15 @@ asx-stock-tracker/
 │   │   ├── periods/       Multi-period tracking data + hold analysis
 │   │   ├── tsr/           AGL TSR + peer rankings
 │   │   ├── today/         Pick Today screening results
+│   │   ├── risk/          Portfolio-risk (overlap, correlations, concentration)
 │   │   └── charts/        Price history data
 │   └── src/
-│       ├── App.tsx         Main app with tab navigation
-│       ├── Dashboard.tsx   Strategy comparison dashboard
-│       ├── AglAnalysis.tsx AGL peer analysis
-│       ├── PickToday.tsx   Live screening + macro + portfolio builder
-│       └── learn/          10-module curriculum + interactive simulators
+│       ├── App.tsx           Main app with tab navigation
+│       ├── Dashboard.tsx     Strategy comparison dashboard
+│       ├── AglAnalysis.tsx   AGL peer analysis
+│       ├── PickToday.tsx     Live screening + macro + portfolio builder
+│       ├── PortfolioRisk.tsx Cross-strategy overlap + correlation heatmaps
+│       └── learn/            10-module curriculum + interactive simulators
 ├── pipeline/
 │   ├── importers/         Fetch data from yfinance
 │   ├── exporters/         Export SQLite → JSON
@@ -101,6 +111,7 @@ python3 -m pipeline.models.pick_today
 
 # Export to JSON
 python3 pipeline/exporters/export_json.py
+python3 -m pipeline.exporters.export_risk   # portfolio-risk (overlap, correlations)
 
 # Run frontend
 cd frontend && npm install && npm run dev
@@ -118,6 +129,7 @@ python3 -m pipeline.models.compute_hold_periods
 python3 -m pipeline.models.compute_peer_tsr
 python3 -m pipeline.models.pick_today
 python3 pipeline/exporters/export_json.py
+python3 -m pipeline.exporters.export_risk   # portfolio-risk (overlap, correlations)
 ```
 
 ## Where this lives
@@ -132,15 +144,15 @@ python3 pipeline/exporters/export_json.py
 
 ## Status
 
-v1.7.0 — 5 strategies, 135 stocks, macro view, portfolio builder, and a 10-module / 46-lesson curriculum with three interactive derivatives/risk simulators (gamma scalping, position sizing, vol crush).
+v1.8.0 — 5 strategies, 135 stocks, macro view, portfolio builder, a **Portfolio Risk** tab (cross-strategy overlap + real return-correlation heatmaps), and a 10-module / 46-lesson curriculum with three interactive derivatives/risk simulators (gamma scalping, position sizing, vol crush).
 
 ## Roadmap
 
-The advanced curriculum now covers the two things a stock-picker most often lacks — an understanding of **volatility as a tradeable quantity** (Modules 8 & 10) and a disciplined approach to **how much to bet** (Module 9). Possible next steps, all in the same "build the interactive thing to understand the thing" spirit:
+The advanced curriculum now covers the two things a stock-picker most often lacks — an understanding of **volatility as a tradeable quantity** (Modules 8 & 10) and a disciplined approach to **how much to bet** (Module 9) — and the **Portfolio Risk** tab turns Module 9's correlation/concentration warning into a live check against the real portfolios. Possible next steps, in the same "build the interactive thing to understand the thing" spirit:
 
-- **Correlation & concentration tool** — turn Module 9's warning into a live check: a correlation matrix across the five strategy portfolios that flags when the same stock or theme (e.g. FMG across three portfolios) is quietly one concentrated bet.
 - **Volatility term-structure explorer** — visualise Module 10's event vol: implied vol by expiry with the pre-event bump, and how the crush flattens it.
 - **Position-sizing overlay** — apply a fractional-Kelly / volatility-based sizing rule to the existing strategy holdings and compare against equal-dollar weighting.
+- **Effective-number-of-bets metric** — collapse the Portfolio Risk correlation matrix into a single "you think you have 5 bets; you effectively have N" number.
 
 ---
 

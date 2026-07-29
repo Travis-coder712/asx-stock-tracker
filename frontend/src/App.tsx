@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Dashboard from './Dashboard'
 import AglAnalysis from './AglAnalysis'
 import PickToday from './PickToday'
+import PortfolioRisk from './PortfolioRisk'
 import LearnHub from './learn/LearnHub'
 import Investing101 from './learn/Investing101'
 import MomentumModule from './learn/MomentumModule'
@@ -38,7 +39,7 @@ interface StrategyData {
 
 const BASE = import.meta.env.BASE_URL
 
-type Tab = 'strategies' | 'pick-today' | 'agl' | 'learn'
+type Tab = 'strategies' | 'pick-today' | 'agl' | 'risk' | 'learn'
 
 const STRATEGIES = [
   { id: 'padley_momentum', name: 'Padley Momentum', css: 'padley',
@@ -119,6 +120,9 @@ function App() {
         </button>
         <button className={`main-tab ${tab === 'agl' ? 'active' : ''}`} onClick={() => setTab('agl')}>
           AGL Analysis
+        </button>
+        <button className={`main-tab ${tab === 'risk' ? 'active' : ''}`} onClick={() => setTab('risk')}>
+          Portfolio Risk
         </button>
         <button className={`main-tab ${tab === 'learn' ? 'active' : ''}`} onClick={() => setTab('learn')}>
           Learn
@@ -232,6 +236,9 @@ function App() {
 
       {/* AGL Analysis tab */}
       {tab === 'agl' && <AglAnalysis />}
+
+      {/* Portfolio Risk tab */}
+      {tab === 'risk' && <PortfolioRisk />}
 
       {/* Learn tab */}
       {tab === 'learn' && <LearnHub onSelectModule={setActiveModule} />}

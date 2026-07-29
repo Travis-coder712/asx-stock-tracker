@@ -10,6 +10,7 @@ python3 -m pipeline.models.compute_tsr
 python3 -m pipeline.models.run_all_periods
 python3 -m pipeline.models.compute_hold_periods
 python3 pipeline/exporters/export_json.py
+python3 -m pipeline.exporters.export_risk
 ```
 
 ## After adding new ASX 100 constituent lists
@@ -17,7 +18,7 @@ python3 pipeline/exporters/export_json.py
 1. Add the list to `pipeline/data/asx100_constituents.py`
 2. Fetch data for any new tickers: `python3 pipeline/importers/import_prices.py --ticker NEW.AX --start 2023-01-01`
 3. Recompute peer rankings: `python3 -m pipeline.models.compute_peer_tsr`
-4. Re-export: `python3 pipeline/exporters/export_json.py`
+4. Re-export: `python3 pipeline/exporters/export_json.py && python3 -m pipeline.exporters.export_risk`
 
 ## After rebalance (every 6 months)
 
