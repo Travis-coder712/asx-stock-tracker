@@ -99,7 +99,7 @@
           "QAN",
           "WOR"
         ],
-        "buyValue": 5000.14,
+        "buyValue": 5000.63,
         "holdPeriods": [
           {
             "months": 6,
@@ -117,12 +117,12 @@
             "months": 18,
             "endDate": "2025-07-02",
             "value": 6563.01,
-            "returnPct": 31.3
+            "returnPct": 31.2
           },
           {
             "months": 24,
             "endDate": "2026-01-02",
-            "value": 6756.04,
+            "value": 6756.05,
             "returnPct": 35.1
           }
         ]
@@ -226,7 +226,7 @@
           "IAG",
           "JBH"
         ],
-        "buyValue": 6245.91,
+        "buyValue": 6245.9,
         "holdPeriods": [
           {
             "months": 6,
@@ -237,19 +237,19 @@
           {
             "months": 12,
             "endDate": "2025-07-01",
-            "value": 9292.94,
+            "value": 9292.93,
             "returnPct": 48.8
           },
           {
             "months": 18,
             "endDate": "2025-12-31",
-            "value": 8499.44,
+            "value": 8499.43,
             "returnPct": 36.1
           },
           {
             "months": 24,
             "endDate": "2026-07-01",
-            "value": 7037.83,
+            "value": 7037.82,
             "returnPct": 12.7
           }
         ]
@@ -308,31 +308,31 @@
           "QAN",
           "WOR"
         ],
-        "buyValue": 4955.08,
+        "buyValue": 4956.49,
         "holdPeriods": [
           {
             "months": 6,
             "endDate": "2024-12-31",
             "value": 5617.07,
-            "returnPct": 13.4
+            "returnPct": 13.3
           },
           {
             "months": 12,
             "endDate": "2025-07-01",
             "value": 6306.98,
-            "returnPct": 27.3
+            "returnPct": 27.2
           },
           {
             "months": 18,
             "endDate": "2025-12-31",
             "value": 6583.89,
-            "returnPct": 32.9
+            "returnPct": 32.8
           },
           {
             "months": 24,
             "endDate": "2026-07-01",
-            "value": 5737.37,
-            "returnPct": 15.8
+            "value": 5783.64,
+            "returnPct": 16.7
           }
         ]
       },
@@ -387,30 +387,30 @@
           "RWC",
           "GPT"
         ],
-        "buyValue": 4154.76,
+        "buyValue": 4654.0,
         "holdPeriods": [
           {
             "months": 6,
             "endDate": "2024-12-31",
-            "value": 4367.23,
+            "value": 4892.0,
             "returnPct": 5.1
           },
           {
             "months": 12,
             "endDate": "2025-07-01",
-            "value": 4531.39,
+            "value": 5075.89,
             "returnPct": 9.1
           },
           {
             "months": 18,
             "endDate": "2025-12-31",
-            "value": 5204.67,
+            "value": 5830.07,
             "returnPct": 25.3
           },
           {
             "months": 24,
             "endDate": "2026-07-01",
-            "value": 4771.7,
+            "value": 5345.08,
             "returnPct": 14.8
           }
         ]
@@ -435,7 +435,7 @@
           "CAR",
           "BXB"
         ],
-        "buyValue": 8103.37,
+        "buyValue": 8103.34,
         "holdPeriods": [
           {
             "months": 6,
@@ -476,7 +476,7 @@
           "SGP",
           "RWC"
         ],
-        "buyValue": 7243.35,
+        "buyValue": 7243.28,
         "holdPeriods": [
           {
             "months": 6,
@@ -487,19 +487,19 @@
           {
             "months": 12,
             "endDate": "2026-01-02",
-            "value": 7828.1,
+            "value": 7828.11,
             "returnPct": 8.1
           },
           {
             "months": 18,
             "endDate": "2026-07-02",
-            "value": 7553.53,
+            "value": 7554.76,
             "returnPct": 4.3
           },
           {
             "months": 24,
             "endDate": "2026-10-23",
-            "value": 7763.61,
+            "value": 7765.12,
             "returnPct": 7.2
           }
         ]
@@ -517,7 +517,7 @@
           "QAN",
           "WOR"
         ],
-        "buyValue": 5618.93,
+        "buyValue": 5618.4,
         "holdPeriods": [
           {
             "months": 6,
@@ -534,14 +534,14 @@
           {
             "months": 18,
             "endDate": "2026-07-02",
-            "value": 5528.77,
-            "returnPct": -1.6
+            "value": 5571.39,
+            "returnPct": -0.8
           },
           {
             "months": 24,
             "endDate": "2026-10-23",
-            "value": 5359.05,
-            "returnPct": -4.6
+            "value": 5396.79,
+            "returnPct": -3.9
           }
         ]
       },
@@ -596,30 +596,30 @@
           "RWC",
           "GPT"
         ],
-        "buyValue": 4363.27,
+        "buyValue": 4887.57,
         "holdPeriods": [
           {
             "months": 6,
             "endDate": "2025-07-02",
-            "value": 4550.22,
+            "value": 5096.98,
             "returnPct": 4.3
           },
           {
             "months": 12,
             "endDate": "2026-01-02",
-            "value": 5195.28,
+            "value": 5819.55,
             "returnPct": 19.1
           },
           {
             "months": 18,
             "endDate": "2026-07-02",
-            "value": 4736.25,
+            "value": 5305.36,
             "returnPct": 8.5
           },
           {
             "months": 24,
             "endDate": "2026-10-23",
-            "value": 4862.08,
+            "value": 5446.32,
             "returnPct": 11.4
           }
         ]
@@ -685,7 +685,7 @@
           "NST",
           "RMD"
         ],
-        "buyValue": 8337.3,
+        "buyValue": 8337.35,
         "holdPeriods": [
           {
             "months": 6,
@@ -696,19 +696,19 @@
           {
             "months": 12,
             "endDate": "2026-07-01",
-            "value": 8188.24,
+            "value": 8189.54,
             "returnPct": -1.8
           },
           {
             "months": 18,
             "endDate": "2026-10-23",
-            "value": 8653.76,
+            "value": 8655.4,
             "returnPct": 3.8
           },
           {
             "months": 24,
             "endDate": "2026-10-23",
-            "value": 8653.76,
+            "value": 8655.4,
             "returnPct": 3.8
           }
         ]
@@ -726,7 +726,7 @@
           "QAN",
           "WOR"
         ],
-        "buyValue": 6090.8,
+        "buyValue": 6089.99,
         "holdPeriods": [
           {
             "months": 6,
@@ -737,20 +737,20 @@
           {
             "months": 12,
             "endDate": "2026-07-01",
-            "value": 5565.41,
-            "returnPct": -8.6
+            "value": 5608.34,
+            "returnPct": -7.9
           },
           {
             "months": 18,
             "endDate": "2026-10-23",
-            "value": 5334.03,
-            "returnPct": -12.4
+            "value": 5371.96,
+            "returnPct": -11.8
           },
           {
             "months": 24,
             "endDate": "2026-10-23",
-            "value": 5334.03,
-            "returnPct": -12.4
+            "value": 5371.96,
+            "returnPct": -11.8
           }
         ]
       },
@@ -805,30 +805,30 @@
           "RWC",
           "GPT"
         ],
-        "buyValue": 4469.11,
+        "buyValue": 5006.13,
         "holdPeriods": [
           {
             "months": 6,
             "endDate": "2025-12-31",
-            "value": 5117.29,
+            "value": 5732.19,
             "returnPct": 14.5
           },
           {
             "months": 12,
             "endDate": "2026-07-01",
-            "value": 4609.89,
+            "value": 5163.82,
             "returnPct": 3.2
           },
           {
             "months": 18,
             "endDate": "2026-10-23",
-            "value": 4695.54,
+            "value": 5259.76,
             "returnPct": 5.1
           },
           {
             "months": 24,
             "endDate": "2026-10-23",
-            "value": 4695.54,
+            "value": 5259.76,
             "returnPct": 5.1
           }
         ]
@@ -935,31 +935,31 @@
           "QAN",
           "WOR"
         ],
-        "buyValue": 6438.8,
+        "buyValue": 6439.77,
         "holdPeriods": [
           {
             "months": 6,
             "endDate": "2026-07-02",
-            "value": 5462.71,
-            "returnPct": -15.2
+            "value": 5505.29,
+            "returnPct": -14.5
           },
           {
             "months": 12,
             "endDate": "2026-10-23",
-            "value": 5459.56,
-            "returnPct": -15.2
+            "value": 5497.29,
+            "returnPct": -14.6
           },
           {
             "months": 18,
             "endDate": "2026-10-23",
-            "value": 5459.56,
-            "returnPct": -15.2
+            "value": 5497.29,
+            "returnPct": -14.6
           },
           {
             "months": 24,
             "endDate": "2026-10-23",
-            "value": 5459.56,
-            "returnPct": -15.2
+            "value": 5497.29,
+            "returnPct": -14.6
           }
         ]
       },
@@ -1014,30 +1014,30 @@
           "RWC",
           "GPT"
         ],
-        "buyValue": 5113.3,
+        "buyValue": 5727.72,
         "holdPeriods": [
           {
             "months": 6,
             "endDate": "2026-07-02",
-            "value": 4546.2,
+            "value": 5092.48,
             "returnPct": -11.1
           },
           {
             "months": 12,
             "endDate": "2026-10-23",
-            "value": 4710.93,
+            "value": 5277.0,
             "returnPct": -7.9
           },
           {
             "months": 18,
             "endDate": "2026-10-23",
-            "value": 4710.93,
+            "value": 5277.0,
             "returnPct": -7.9
           },
           {
             "months": 24,
             "endDate": "2026-10-23",
-            "value": 4710.93,
+            "value": 5277.0,
             "returnPct": -7.9
           }
         ]

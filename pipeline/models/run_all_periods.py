@@ -112,7 +112,10 @@ def run_strategy_period(conn, strategy_id, mod, buy_date, end_date, budget, peri
             "SELECT date, adj_close FROM price_history WHERE ticker=? AND adj_close IS NOT NULL ORDER BY date",
             (h['ticker'],)).fetchall()
     ptr = {h['ticker']: 0 for h in holdings}
-    last = {h['ticker']: None for h in holdings}
+    # Seed each holding at its buy price, so before its first price tick appears
+    # it is valued at cost (full capital deployed) rather than $0 — otherwise the
+    # series starts below budget whenever a holding's first tick lags the buy date.
+    last = {h['ticker']: h['buyPrice'] for h in holdings}
 
     snapshots = []
     prev_value = None

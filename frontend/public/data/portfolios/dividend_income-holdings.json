@@ -68,8 +68,8 @@
   {
     "ticker": "QAN.AX",
     "name": "Qantas Airways Limited",
-    "shares": 100.6998,
-    "buyPrice": 4.97,
+    "shares": 102.9574,
+    "buyPrice": 4.86,
     "buyDate": "2024-01-02",
     "sellPrice": null,
     "sellDate": null,
@@ -101,8 +101,8 @@
   {
     "ticker": "WOR.AX",
     "name": "Worley Limited",
-    "shares": 31.3049,
-    "buyPrice": 15.97,
+    "shares": 32.0899,
+    "buyPrice": 15.58,
     "buyDate": "2024-01-02",
     "sellPrice": null,
     "sellDate": null,

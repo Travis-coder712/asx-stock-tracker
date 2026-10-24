@@ -23,7 +23,7 @@
     "ticker": "CBA.AX",
     "name": "Commonwealth Bank of Australia",
     "sector": "Financial Services",
-    "marketCap": 274228297728.0,
+    "marketCap": 274180227072.0,
     "pe": 26.109325,
     "pb": 3.5160646,
     "divYield": 3.02,
@@ -33,7 +33,7 @@
     "ticker": "CBA.AX",
     "name": "Commonwealth Bank of Australia",
     "sector": "Financial Services",
-    "marketCap": 274228297728.0,
+    "marketCap": 274180227072.0,
     "pe": 24.117647,
     "pb": 3.4836545,
     "divYield": 3.21,
@@ -145,7 +145,7 @@
     "sector": "Healthcare",
     "marketCap": 94393237504.0,
     "pe": null,
-    "pb": 4.438339,
+    "pb": 4.474818,
     "divYield": 2.07,
     "roe": -0.15835
   },
@@ -465,7 +465,7 @@
     "sector": "Energy",
     "marketCap": 29392345088.0,
     "pe": 27.424242,
-    "pb": 1.3309922,
+    "pb": 1.3121194,
     "divYield": 3.35,
     "roe": 0.046729997
   },
@@ -584,7 +584,7 @@
     "name": "Suncorp Group Limited",
     "sector": "Financial Services",
     "marketCap": 21614446592.0,
-    "pe": 21.020617,
+    "pe": 21.463158,
     "pb": 2.0859334,
     "divYield": 3.38,
     "roe": 0.10145
@@ -604,7 +604,7 @@
     "name": "REA Group Limited",
     "sector": "Communication Services",
     "marketCap": 21475403776.0,
-    "pe": 32.11546,
+    "pe": 32.49703,
     "pb": 11.303899,
     "divYield": 2.08,
     "roe": 0.34877
@@ -885,7 +885,7 @@
     "sector": "Utilities",
     "marketCap": 12200288256.0,
     "pe": 114.75001,
-    "pb": 1.4806165,
+    "pb": 1.504826,
     "divYield": 3.91,
     "roe": 0.01377
   },
@@ -1084,7 +1084,7 @@
     "name": "CAR Group Limited",
     "sector": "Communication Services",
     "marketCap": 9492152320.0,
-    "pe": 29.785715,
+    "pe": 30.512196,
     "pb": 3.4558012,
     "divYield": 3.46,
     "roe": 0.11337
@@ -1124,7 +1124,7 @@
     "name": "Sonic Healthcare Limited",
     "sector": "Healthcare",
     "marketCap": 9336154112.0,
-    "pe": 15.357723,
+    "pe": 15.2338705,
     "pb": 1.1194074,
     "divYield": 5.69,
     "roe": 0.07501
@@ -1214,7 +1214,7 @@
     "name": "JB Hi-Fi Limited",
     "sector": "Consumer Cyclical",
     "marketCap": 8007620608.0,
-    "pe": 16.68337,
+    "pe": 16.061403,
     "pb": 4.887228,
     "divYield": 4.7,
     "roe": 0.29984
@@ -1504,7 +1504,7 @@
     "name": "Harvey Norman Holdings Limited",
     "sector": "Consumer Cyclical",
     "marketCap": 5195847680.0,
-    "pe": 9.928572,
+    "pe": 9.477273,
     "pb": 1.0610687,
     "divYield": 6.81,
     "roe": 0.10978
@@ -1995,7 +1995,7 @@
     "sector": "Consumer Cyclical",
     "marketCap": 612195584.0,
     "pe": 27.750002,
-    "pb": 0.48729354,
+    "pb": 0.48785517,
     "divYield": 0.0,
     "roe": 0.01268
   },

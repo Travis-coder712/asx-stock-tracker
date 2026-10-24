@@ -102,7 +102,7 @@
     "totalValue": 5025.1,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": 0.771
+    "dailyReturn": 0.7709
   },
   {
     "date": "2024-01-23",
@@ -326,7 +326,7 @@
     "totalValue": 5033.74,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": 0.7747
+    "dailyReturn": 0.7748
   },
   {
     "date": "2024-03-08",
@@ -438,7 +438,7 @@
     "totalValue": 5029.65,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -2.1782
+    "dailyReturn": -2.1781
   },
   {
     "date": "2024-04-03",
@@ -683,7 +683,7 @@
     "totalValue": 4683.84,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.7457
+    "dailyReturn": -0.7456
   },
   {
     "date": "2024-05-23",
@@ -956,7 +956,7 @@
     "totalValue": 4885.38,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": 1.0145
+    "dailyReturn": 1.0146
   },
   {
     "date": "2024-07-18",
@@ -1698,7 +1698,7 @@
     "totalValue": 4852.43,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.1691
+    "dailyReturn": -0.169
   },
   {
     "date": "2024-12-13",
@@ -1740,7 +1740,7 @@
     "totalValue": 4692.42,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.4318
+    "dailyReturn": -0.4319
   },
   {
     "date": "2024-12-23",
@@ -1940,7 +1940,7 @@
   },
   {
     "date": "2025-02-05",
-    "totalValue": 4866.45,
+    "totalValue": 4866.44,
     "cash": 0.0,
     "numHoldings": 7,
     "dailyReturn": 0.7732
@@ -2129,7 +2129,7 @@
   },
   {
     "date": "2025-03-14",
-    "totalValue": 4732.85,
+    "totalValue": 4732.84,
     "cash": 0.0,
     "numHoldings": 7,
     "dailyReturn": -0.1216
@@ -2405,7 +2405,7 @@
     "totalValue": 4999.81,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": 0.9697
+    "dailyReturn": 0.9696
   },
   {
     "date": "2025-05-14",
@@ -3525,7 +3525,7 @@
     "totalValue": 5854.32,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.1403
+    "dailyReturn": -0.1402
   },
   {
     "date": "2025-12-29",
@@ -3791,7 +3791,7 @@
     "totalValue": 5702.98,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.5739
+    "dailyReturn": -0.574
   },
   {
     "date": "2026-02-23",

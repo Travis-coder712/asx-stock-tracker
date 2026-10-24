@@ -45,7 +45,7 @@
         {
           "ticker": "NEC.AX",
           "name": "Nine Entertainment Co. Holdings Limited",
-          "shares": 424.3551,
+          "shares": 424.355,
           "buyPrice": 1.18,
           "buyDate": "2024-01-02",
           "rationale": ""
@@ -290,7 +290,7 @@
         {
           "date": "2024-02-27",
           "totalValue": 5147.96,
-          "dailyReturn": -0.536
+          "dailyReturn": -0.5359
         },
         {
           "date": "2024-02-28",
@@ -390,7 +390,7 @@
         {
           "date": "2024-03-26",
           "totalValue": 5583.38,
-          "dailyReturn": -0.7413
+          "dailyReturn": -0.7412
         },
         {
           "date": "2024-03-27",
@@ -400,7 +400,7 @@
         {
           "date": "2024-03-28",
           "totalValue": 5662.68,
-          "dailyReturn": 1.3522
+          "dailyReturn": 1.3523
         },
         {
           "date": "2024-04-02",
@@ -665,7 +665,7 @@
         {
           "date": "2024-06-17",
           "totalValue": 5636.76,
-          "dailyReturn": 0.3297
+          "dailyReturn": 0.3296
         },
         {
           "date": "2024-06-18",
@@ -875,13 +875,13 @@
         },
         {
           "date": "2024-07-18",
-          "totalValue": 5859.64,
+          "totalValue": 5859.65,
           "dailyReturn": -1.1121
         },
         {
           "date": "2024-07-19",
           "totalValue": 5814.46,
-          "dailyReturn": -0.7711
+          "dailyReturn": -0.7712
         },
         {
           "date": "2024-07-22",
@@ -1001,7 +1001,7 @@
         {
           "date": "2024-08-22",
           "totalValue": 6213.28,
-          "dailyReturn": 0.9321
+          "dailyReturn": 0.932
         },
         {
           "date": "2024-08-23",
@@ -1246,7 +1246,7 @@
         {
           "date": "2024-10-30",
           "totalValue": 6695.07,
-          "dailyReturn": -0.152
+          "dailyReturn": -0.1521
         },
         {
           "date": "2024-10-31",
@@ -1260,7 +1260,7 @@
         },
         {
           "date": "2024-11-04",
-          "totalValue": 6711.94,
+          "totalValue": 6711.95,
           "dailyReturn": 0.4473
         },
         {
@@ -1395,7 +1395,7 @@
         },
         {
           "date": "2024-12-11",
-          "totalValue": 7314.01,
+          "totalValue": 7314.0,
           "dailyReturn": -0.2047
         },
         {
@@ -1515,8 +1515,8 @@
         {
           "ticker": "RMD.AX",
           "name": "ResMed Inc.",
-          "shares": 19.7763,
-          "buyPrice": 36.62,
+          "shares": 19.8184,
+          "buyPrice": 36.54,
           "buyDate": "2025-01-02",
           "rationale": ""
         },
@@ -1524,7 +1524,7 @@
           "ticker": "PME.AX",
           "name": "Pro Medicus Limited",
           "shares": 2.89,
-          "buyPrice": 250.6,
+          "buyPrice": 250.59,
           "buyDate": "2025-01-02",
           "rationale": ""
         },
@@ -1567,7 +1567,7 @@
         {
           "date": "2025-01-06",
           "totalValue": 7298.54,
-          "dailyReturn": 0.2108
+          "dailyReturn": 0.2107
         },
         {
           "date": "2025-01-07",
@@ -1581,7 +1581,7 @@
         },
         {
           "date": "2025-01-09",
-          "totalValue": 7344.03,
+          "totalValue": 7344.04,
           "dailyReturn": 0.0777
         },
         {
@@ -1591,7 +1591,7 @@
         },
         {
           "date": "2025-01-13",
-          "totalValue": 7173.79,
+          "totalValue": 7173.8,
           "dailyReturn": -2.2496
         },
         {
@@ -1646,7 +1646,7 @@
         },
         {
           "date": "2025-01-29",
-          "totalValue": 7666.97,
+          "totalValue": 7666.98,
           "dailyReturn": 1.2612
         },
         {
@@ -1701,12 +1701,12 @@
         },
         {
           "date": "2025-02-13",
-          "totalValue": 7450.75,
+          "totalValue": 7450.76,
           "dailyReturn": -2.0889
         },
         {
           "date": "2025-02-14",
-          "totalValue": 7562.6,
+          "totalValue": 7562.61,
           "dailyReturn": 1.5012
         },
         {
@@ -1736,7 +1736,7 @@
         },
         {
           "date": "2025-02-24",
-          "totalValue": 7419.44,
+          "totalValue": 7419.45,
           "dailyReturn": -0.5114
         },
         {
@@ -1761,7 +1761,7 @@
         },
         {
           "date": "2025-03-03",
-          "totalValue": 7426.75,
+          "totalValue": 7426.76,
           "dailyReturn": 1.0579
         },
         {
@@ -1776,7 +1776,7 @@
         },
         {
           "date": "2025-03-06",
-          "totalValue": 7323.28,
+          "totalValue": 7323.29,
           "dailyReturn": -0.3468
         },
         {
@@ -1786,7 +1786,7 @@
         },
         {
           "date": "2025-03-10",
-          "totalValue": 7291.84,
+          "totalValue": 7291.85,
           "dailyReturn": 0.9114
         },
         {
@@ -1811,7 +1811,7 @@
         },
         {
           "date": "2025-03-17",
-          "totalValue": 6977.44,
+          "totalValue": 6977.45,
           "dailyReturn": -0.3623
         },
         {
@@ -1836,7 +1836,7 @@
         },
         {
           "date": "2025-03-24",
-          "totalValue": 7108.3,
+          "totalValue": 7108.31,
           "dailyReturn": -0.0584
         },
         {
@@ -1851,7 +1851,7 @@
         },
         {
           "date": "2025-03-27",
-          "totalValue": 7113.84,
+          "totalValue": 7113.85,
           "dailyReturn": -1.4785
         },
         {
@@ -1931,12 +1931,12 @@
         },
         {
           "date": "2025-04-22",
-          "totalValue": 7006.57,
+          "totalValue": 7006.58,
           "dailyReturn": -0.77
         },
         {
           "date": "2025-04-23",
-          "totalValue": 7157.86,
+          "totalValue": 7157.87,
           "dailyReturn": 2.1593
         },
         {
@@ -1956,7 +1956,7 @@
         },
         {
           "date": "2025-04-30",
-          "totalValue": 7473.38,
+          "totalValue": 7473.39,
           "dailyReturn": 1.1539
         },
         {
@@ -1976,7 +1976,7 @@
         },
         {
           "date": "2025-05-06",
-          "totalValue": 7567.61,
+          "totalValue": 7567.62,
           "dailyReturn": 0.942
         },
         {
@@ -2032,7 +2032,7 @@
         {
           "date": "2025-05-21",
           "totalValue": 8155.59,
-          "dailyReturn": 0.7311
+          "dailyReturn": 0.7312
         },
         {
           "date": "2025-05-22",
@@ -2066,12 +2066,12 @@
         },
         {
           "date": "2025-05-30",
-          "totalValue": 8199.68,
+          "totalValue": 8199.69,
           "dailyReturn": -0.2048
         },
         {
           "date": "2025-06-02",
-          "totalValue": 8318.87,
+          "totalValue": 8318.88,
           "dailyReturn": 1.4536
         },
         {
@@ -2081,7 +2081,7 @@
         },
         {
           "date": "2025-06-04",
-          "totalValue": 8377.48,
+          "totalValue": 8377.49,
           "dailyReturn": 0.678
         },
         {
@@ -2091,7 +2091,7 @@
         },
         {
           "date": "2025-06-06",
-          "totalValue": 8281.24,
+          "totalValue": 8281.25,
           "dailyReturn": -0.4866
         },
         {
@@ -2111,7 +2111,7 @@
         },
         {
           "date": "2025-06-13",
-          "totalValue": 8279.59,
+          "totalValue": 8279.6,
           "dailyReturn": -0.9669
         },
         {
@@ -2136,17 +2136,17 @@
         },
         {
           "date": "2025-06-20",
-          "totalValue": 8315.76,
+          "totalValue": 8315.77,
           "dailyReturn": 0.149
         },
         {
           "date": "2025-06-23",
-          "totalValue": 8298.3,
+          "totalValue": 8298.31,
           "dailyReturn": -0.21
         },
         {
           "date": "2025-06-24",
-          "totalValue": 8327.35,
+          "totalValue": 8327.36,
           "dailyReturn": 0.3501
         },
         {
@@ -2161,7 +2161,7 @@
         },
         {
           "date": "2025-06-27",
-          "totalValue": 8285.94,
+          "totalValue": 8285.95,
           "dailyReturn": -0.0626
         },
         {
@@ -2258,8 +2258,8 @@
         {
           "ticker": "RMD.AX",
           "name": "ResMed Inc.",
-          "shares": 21.5015,
-          "buyPrice": 38.79,
+          "shares": 21.5472,
+          "buyPrice": 38.71,
           "buyDate": "2025-07-01",
           "rationale": ""
         }
@@ -2312,12 +2312,12 @@
         },
         {
           "date": "2025-07-14",
-          "totalValue": 8059.78,
+          "totalValue": 8059.77,
           "dailyReturn": 0.3155
         },
         {
           "date": "2025-07-15",
-          "totalValue": 8162.29,
+          "totalValue": 8162.28,
           "dailyReturn": 1.2719
         },
         {
@@ -2333,7 +2333,7 @@
         {
           "date": "2025-07-18",
           "totalValue": 8244.12,
-          "dailyReturn": 0.9948
+          "dailyReturn": 0.9947
         },
         {
           "date": "2025-07-21",
@@ -2412,7 +2412,7 @@
         },
         {
           "date": "2025-08-11",
-          "totalValue": 8325.64,
+          "totalValue": 8325.63,
           "dailyReturn": -1.4086
         },
         {
@@ -2532,7 +2532,7 @@
         },
         {
           "date": "2025-09-12",
-          "totalValue": 9293.71,
+          "totalValue": 9293.7,
           "dailyReturn": 1.0148
         },
         {
@@ -2657,7 +2657,7 @@
         },
         {
           "date": "2025-10-17",
-          "totalValue": 9382.26,
+          "totalValue": 9382.25,
           "dailyReturn": -1.9229
         },
         {
@@ -2682,7 +2682,7 @@
         },
         {
           "date": "2025-10-24",
-          "totalValue": 9301.46,
+          "totalValue": 9301.45,
           "dailyReturn": -0.3708
         },
         {
@@ -2808,7 +2808,7 @@
         {
           "date": "2025-11-28",
           "totalValue": 9057.14,
-          "dailyReturn": 0.5541
+          "dailyReturn": 0.554
         },
         {
           "date": "2025-12-01",
@@ -2827,7 +2827,7 @@
         },
         {
           "date": "2025-12-04",
-          "totalValue": 8807.07,
+          "totalValue": 8807.06,
           "dailyReturn": -1.1325
         },
         {
@@ -2837,7 +2837,7 @@
         },
         {
           "date": "2025-12-08",
-          "totalValue": 8815.23,
+          "totalValue": 8815.22,
           "dailyReturn": -0.8592
         },
         {
@@ -2892,7 +2892,7 @@
         },
         {
           "date": "2025-12-23",
-          "totalValue": 8982.34,
+          "totalValue": 8982.33,
           "dailyReturn": 0.6706
         },
         {
@@ -3034,7 +3034,7 @@
         {
           "date": "2026-01-08",
           "totalValue": 8897.18,
-          "dailyReturn": 0.0746
+          "dailyReturn": 0.0745
         },
         {
           "date": "2026-01-09",
@@ -3279,7 +3279,7 @@
         {
           "date": "2026-03-19",
           "totalValue": 7507.64,
-          "dailyReturn": -4.5078
+          "dailyReturn": -4.5079
         },
         {
           "date": "2026-03-20",

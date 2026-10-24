@@ -693,6 +693,36 @@
   .tsr-periods { grid-template-columns: 1fr; }
 }
 
+/* Time Explorer */
+.te-window {
+  text-align: center; font-size: 14px; font-weight: 600; color: var(--text);
+  margin: 4px 0 12px; font-family: ui-monospace, monospace;
+}
+.te-sliders { display: flex; flex-direction: column; gap: 10px; margin-bottom: 18px; }
+.te-sliders label { display: flex; align-items: center; gap: 12px; font-size: 12px; color: var(--text-dim); }
+.te-sliders label span { width: 36px; flex-shrink: 0; }
+.te-sliders input[type="range"] { flex: 1; accent-color: var(--accent); }
+.te-bars { display: flex; flex-direction: column; gap: 8px; }
+.te-bar-row { display: grid; grid-template-columns: 130px 1fr 64px; align-items: center; gap: 10px; }
+.te-bar-name { font-size: 12px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.te-bar-track { height: 10px; background: var(--surface-2); border-radius: 5px; overflow: hidden; }
+.te-bar-fill { height: 100%; border-radius: 5px; transition: width 0.15s ease; }
+.te-bar-val { font-size: 13px; font-weight: 600; text-align: right; font-family: ui-monospace, monospace; }
+.te-picks { margin-top: 18px; border-top: 1px solid var(--border); padding-top: 14px; }
+.te-picks-title { font-size: 14px; margin: 0 0 10px; }
+.te-hint { font-size: 13px; color: var(--text-mute); font-style: italic; }
+.te-reb { margin-bottom: 12px; }
+.te-reb-head { display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+.te-reb-head .positive { color: var(--green); }
+.te-reb-head .negative { color: var(--red); }
+.te-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip-added { border-color: var(--green); color: var(--green); background: rgba(81,207,102,0.08); }
+.chip-removed { border-color: var(--red); color: var(--red); background: rgba(255,107,107,0.06); text-decoration: line-through; opacity: 0.8; }
+.te-legend { font-size: 11px; color: var(--text-mute); margin-top: 10px; display: flex; align-items: center; gap: 4px; }
+.chip-added-key, .chip-removed-key { display: inline-block; width: 12px; height: 12px; border-radius: 3px; border: 1px solid; vertical-align: middle; }
+.chip-added-key { border-color: var(--green); background: rgba(81,207,102,0.2); }
+.chip-removed-key { border-color: var(--red); background: rgba(255,107,107,0.15); }
+
 /* About tab */
 .about-page { max-width: 760px; }
 .about-lead { font-size: 16px; line-height: 1.7; color: var(--text); margin: 0 0 8px; }

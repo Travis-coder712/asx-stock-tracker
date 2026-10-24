@@ -13,20 +13,20 @@
   },
   {
     "id": "dividend_income",
-    "totalReturn": 16.7,
-    "finalValue": 5835.94,
+    "totalReturn": 17.6,
+    "finalValue": 5881.42,
+    "periods": 6
+  },
+  {
+    "id": "damodaran_dcf",
+    "totalReturn": 13.9,
+    "finalValue": 5693.25,
     "periods": 6
   },
   {
     "id": "contrarian_value",
     "totalReturn": 8.4,
     "finalValue": 5421.98,
-    "periods": 6
-  },
-  {
-    "id": "damodaran_dcf",
-    "totalReturn": 1.7,
-    "finalValue": 5082.51,
     "periods": 6
   }
 ]

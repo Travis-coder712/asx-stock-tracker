@@ -79,6 +79,10 @@ function formatDate(d: string) {
   return new Date(d).toLocaleDateString('en-AU', { month: 'short', year: '2-digit' })
 }
 
+function formatDateFull(d: string) {
+  return new Date(d).toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' })
+}
+
 function DashboardTooltip({ active, payload, label }: {
   active?: boolean; payload?: Array<{ name: string; value: number; color: string }>; label?: string
 }) {
@@ -101,6 +105,8 @@ function DashboardTooltip({ active, payload, label }: {
 export default function Dashboard() {
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([])
   const [comparison, setComparison] = useState<ComparisonPoint[]>([])
+  const [fullComparison, setFullComparison] = useState<ComparisonPoint[]>([])
+  const [range, setRange] = useState<{ start: number; end: number } | null>(null)
   const [strategyDetail, setStrategyDetail] = useState<Record<string, StrategyPeriods>>({})
   const [selectedStrategy, setSelectedStrategy] = useState<string | null>(null)
   const [holdPeriods, setHoldPeriods] = useState<Record<string, HoldPeriodData>>({})
@@ -122,6 +128,8 @@ export default function Dashboard() {
           }
         }
         const sorted = Object.values(dateMap).sort((a, b) => (a.date as string).localeCompare(b.date as string))
+        setFullComparison(sorted)
+        setRange({ start: 0, end: sorted.length - 1 })
         // Sample every 3rd point for performance
         setComparison(sorted.filter((_, i) => i % 3 === 0 || i === sorted.length - 1))
       })
@@ -143,6 +151,41 @@ export default function Dashboard() {
   }, [])
 
   const detail = selectedStrategy ? strategyDetail[selectedStrategy] : null
+
+  // --- Time Explorer: windowed returns + pick rotations over a chosen window ---
+  const nearestValue = (idx: number, sid: string, dir: 1 | -1): number | null => {
+    for (let i = idx; i >= 0 && i < fullComparison.length; i += dir) {
+      const v = fullComparison[i]?.[sid]
+      if (typeof v === 'number') return v
+    }
+    return null
+  }
+  const startDate = range ? (fullComparison[range.start]?.date as string) : null
+  const endDate = range ? (fullComparison[range.end]?.date as string) : null
+  const windowedReturns = range
+    ? Object.keys(STRATEGY_NAMES).map(sid => {
+        const sv = nearestValue(range.start, sid, 1)
+        const ev = nearestValue(range.end, sid, -1)
+        return { sid, ret: sv && ev ? (ev / sv - 1) * 100 : null }
+      }).sort((a, b) => (b.ret ?? -9999) - (a.ret ?? -9999))
+    : []
+  const maxAbsRet = Math.max(1, ...windowedReturns.map(w => Math.abs(w.ret ?? 0)))
+  const pickTimeline = (() => {
+    if (!selectedStrategy || !strategyDetail[selectedStrategy] || !startDate || !endDate) return []
+    const periods = strategyDetail[selectedStrategy].periods.filter(p => p.holdings.length > 0)
+    return periods
+      .map((p, idx) => {
+        const cur = p.holdings.map(h => h.ticker.replace('.AX', ''))
+        const prev = idx > 0 ? periods[idx - 1].holdings.map(h => h.ticker.replace('.AX', '')) : []
+        return {
+          id: p.period.id, label: p.period.label, ret: p.returnPct, buy: p.period.buy, end: p.period.end,
+          holdings: cur,
+          added: cur.filter(t => !prev.includes(t)),
+          removed: prev.filter(t => !cur.includes(t)),
+        }
+      })
+      .filter(p => p.buy <= endDate && p.end >= startDate)
+  })()
 
   return (
     <div className="dashboard-section">
@@ -209,6 +252,82 @@ export default function Dashboard() {
                 ))}
               </LineChart>
             </ResponsiveContainer>
+          </div>
+        </div>
+      )}
+
+      {/* Time Explorer */}
+      {range && fullComparison.length > 2 && (
+        <div className="tsr-card" style={{ marginTop: 16 }}>
+          <h3>Time Explorer</h3>
+          <p className="tsr-subtitle">
+            Drag the handles to any window. See each strategy's return over just that period — and,
+            for a selected strategy, how its picks rotated.
+          </p>
+          <div className="te-window">{startDate ? formatDateFull(startDate) : ''} → {endDate ? formatDateFull(endDate) : ''}</div>
+          <div className="te-sliders">
+            <label>
+              <span>From</span>
+              <input type="range" min={0} max={fullComparison.length - 1} value={range.start}
+                onChange={e => setRange(r => r && { ...r, start: Math.min(+e.target.value, r.end - 1) })} />
+            </label>
+            <label>
+              <span>To</span>
+              <input type="range" min={0} max={fullComparison.length - 1} value={range.end}
+                onChange={e => setRange(r => r && { ...r, end: Math.max(+e.target.value, r.start + 1) })} />
+            </label>
+          </div>
+
+          <div className="te-bars">
+            {windowedReturns.map(({ sid, ret }) => (
+              <div key={sid} className="te-bar-row">
+                <span className="te-bar-name" style={{ color: STRATEGY_COLORS[sid] }}>{STRATEGY_NAMES[sid]}</span>
+                <div className="te-bar-track">
+                  <div className="te-bar-fill" style={{
+                    width: `${(Math.abs(ret ?? 0) / maxAbsRet) * 100}%`,
+                    background: STRATEGY_COLORS[sid],
+                    opacity: ret == null ? 0.2 : 1,
+                  }} />
+                </div>
+                <span className="te-bar-val" style={{ color: (ret ?? 0) >= 0 ? 'var(--green)' : 'var(--red)' }}>
+                  {ret == null ? '—' : `${ret >= 0 ? '+' : ''}${ret.toFixed(1)}%`}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <div className="te-picks">
+            {selectedStrategy ? (
+              pickTimeline.length ? (
+                <>
+                  <h4 className="te-picks-title" style={{ color: STRATEGY_COLORS[selectedStrategy] }}>
+                    {STRATEGY_NAMES[selectedStrategy]} — picks &amp; rotations in this window
+                  </h4>
+                  {pickTimeline.map(p => (
+                    <div key={p.id} className="te-reb">
+                      <div className="te-reb-head">
+                        <span>{p.label}</span>
+                        <span className={p.ret >= 0 ? 'positive' : 'negative'}>{p.ret >= 0 ? '+' : ''}{p.ret}%</span>
+                      </div>
+                      <div className="te-chips">
+                        {p.holdings.map(t => (
+                          <span key={t} className={`holding-chip ${p.added.includes(t) ? 'chip-added' : ''}`}>{t}</span>
+                        ))}
+                        {p.removed.map(t => (
+                          <span key={'r' + t} className="holding-chip chip-removed">− {t}</span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                  <p className="te-legend">
+                    <span className="chip-added-key" /> added this rebalance &nbsp;
+                    <span className="chip-removed-key" /> dropped since last
+                  </p>
+                </>
+              ) : <p className="te-hint">No 6-monthly rebalances fall inside this window.</p>
+            ) : (
+              <p className="te-hint">Click a strategy in the leaderboard above to see how its picks rotated over this window.</p>
+            )}
           </div>
         </div>
       )}

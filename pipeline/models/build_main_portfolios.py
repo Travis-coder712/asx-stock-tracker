@@ -54,7 +54,7 @@ def build(conn, sid):
             "INSERT INTO portfolio_holdings "
             "(strategy_id, ticker, shares, buy_price, buy_date, rationale) VALUES (?,?,?,?,?,?)",
             (sid, h['ticker'], round(shares, 4), round(buy_price, 2), bd, h.get('rationale')))
-        holdings.append({'ticker': h['ticker'], 'shares': shares})
+        holdings.append({'ticker': h['ticker'], 'shares': shares, 'buyPrice': buy_price})
 
     # Pre-load each holding's series and a pointer for forward-fill
     series = {h['ticker']: price_series(conn, h['ticker']) for h in holdings}
@@ -66,7 +66,7 @@ def build(conn, sid):
     # Forward-fill valuation
     conn.execute("DELETE FROM portfolio_snapshots WHERE strategy_id=?", (sid,))
     ptr = {t: 0 for t in series}
-    last = {t: None for t in series}
+    last = {h['ticker']: h['buyPrice'] for h in holdings}  # value at cost until first real tick
     prev_value = None
     for d in all_dates:
         for t, ser in series.items():
