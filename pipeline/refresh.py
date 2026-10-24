@@ -143,6 +143,7 @@ def main():
     run([py, '-m', 'pipeline.models.pick_today'])
     run([py, 'pipeline/exporters/export_json.py'])
     run([py, '-m', 'pipeline.exporters.export_risk'])
+    run([py, '-m', 'pipeline.exporters.export_stress'])
 
     bump_version()
     print("\nRefresh complete.")

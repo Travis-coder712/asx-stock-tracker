@@ -740,6 +740,38 @@
 .chip-added-key { border-color: var(--green); background: rgba(81,207,102,0.2); }
 .chip-removed-key { border-color: var(--red); background: rgba(255,107,107,0.15); }
 
+/* Correction stress test */
+.stress-section { margin-top: 36px; }
+.risk-sub { font-size: 13px; color: var(--text-dim); line-height: 1.6; margin: 0 0 14px; max-width: 760px; }
+.stress-signal {
+  border: 1px solid; border-radius: var(--radius-sm); padding: 10px 14px; margin-bottom: 16px;
+  font-size: 13px; font-weight: 600; background: rgba(255,255,255,0.02);
+}
+.stress-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-bottom: 18px; }
+.stress-presets { display: flex; gap: 6px; }
+.stress-slider { display: flex; align-items: center; gap: 10px; font-size: 12px; color: var(--text-dim); flex: 1; min-width: 200px; }
+.stress-slider input[type="range"] { flex: 1; accent-color: var(--red); }
+.stress-rows { display: flex; flex-direction: column; gap: 16px; }
+.stress-row { }
+.stress-row-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+.stress-name { font-size: 14px; font-weight: 600; color: var(--text); }
+.stress-beta { font-size: 12px; color: var(--text-mute); font-family: ui-monospace, monospace; }
+.stress-bar-wrap { display: flex; align-items: center; gap: 10px; }
+.stress-bar-track { position: relative; flex: 1; height: 14px; background: var(--surface-2); border-radius: 7px; overflow: visible; }
+.stress-bar-fill { height: 100%; background: linear-gradient(90deg, #ff8787, #ff6b6b); border-radius: 7px; transition: width 0.15s ease; }
+.stress-dd-marker { position: absolute; top: -3px; width: 2px; height: 20px; background: var(--text); border-radius: 1px; transform: translateX(-1px); }
+.stress-implied { font-size: 13px; font-weight: 700; color: var(--red); width: 56px; text-align: right; font-family: ui-monospace, monospace; }
+.stress-row-foot { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+.stress-dd { color: var(--text-mute); }
+.stress-exposure { display: flex; height: 6px; border-radius: 3px; overflow: hidden; margin-top: 6px; background: var(--surface-2); }
+.stress-exp-seg { height: 100%; }
+.stress-legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 18px; font-size: 11px; color: var(--text-dim); }
+.stress-legend-item { display: flex; align-items: center; gap: 5px; }
+.stress-legend-dot { width: 10px; height: 10px; border-radius: 3px; }
+.stress-marker-key { font-size: 11px; color: var(--text-mute); margin-top: 10px; line-height: 1.5; }
+.stress-dd-marker-key { display: inline-block; width: 2px; height: 11px; background: var(--text); vertical-align: middle; margin-right: 4px; }
+.stress-disclaimer { font-size: 12px; color: var(--text-mute); line-height: 1.6; margin-top: 16px; border-top: 1px solid var(--border); padding-top: 12px; }
+
 /* About tab */
 .about-page { max-width: 760px; }
 .about-lead { font-size: 16px; line-height: 1.7; color: var(--text); margin: 0 0 8px; }

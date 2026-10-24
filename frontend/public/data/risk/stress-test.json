@@ -1,0 +1,88 @@
+{
+  "asOf": "2026-10-23",
+  "index": {
+    "name": "ASX 100",
+    "maxDrawdown": -14.1,
+    "current": 7440.2,
+    "ma200": 7394.6,
+    "pctVsMa200": 0.6,
+    "riskOff": false
+  },
+  "strategies": [
+    {
+      "id": "padley_momentum",
+      "name": "Padley Momentum",
+      "beta": 1.28,
+      "maxDrawdown": -47.7,
+      "currentValue": 6739.85,
+      "holdings": 10,
+      "exposure": {
+        "rates": 10,
+        "commodity": 10,
+        "cyclical": 60,
+        "defensive": 20,
+        "other": 0
+      }
+    },
+    {
+      "id": "quant_factors",
+      "name": "Quant Factors",
+      "beta": 1.17,
+      "maxDrawdown": -45.0,
+      "currentValue": 7088.26,
+      "holdings": 10,
+      "exposure": {
+        "rates": 20,
+        "commodity": 20,
+        "cyclical": 50,
+        "defensive": 10,
+        "other": 0
+      }
+    },
+    {
+      "id": "dividend_income",
+      "name": "Dividend Income",
+      "beta": 0.92,
+      "maxDrawdown": -23.0,
+      "currentValue": 6044.61,
+      "holdings": 10,
+      "exposure": {
+        "rates": 40,
+        "commodity": 20,
+        "cyclical": 30,
+        "defensive": 10,
+        "other": 0
+      }
+    },
+    {
+      "id": "damodaran_dcf",
+      "name": "Damodaran Value",
+      "beta": 0.76,
+      "maxDrawdown": -15.5,
+      "currentValue": 5687.52,
+      "holdings": 10,
+      "exposure": {
+        "rates": 20,
+        "commodity": 10,
+        "cyclical": 60,
+        "defensive": 10,
+        "other": 0
+      }
+    },
+    {
+      "id": "contrarian_value",
+      "name": "Contrarian Value",
+      "beta": 0.71,
+      "maxDrawdown": -17.7,
+      "currentValue": 5267.64,
+      "holdings": 7,
+      "exposure": {
+        "rates": 29,
+        "commodity": 29,
+        "cyclical": 43,
+        "defensive": 0,
+        "other": 0
+      }
+    }
+  ]
+}

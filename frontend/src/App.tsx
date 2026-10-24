@@ -3,6 +3,7 @@ import Dashboard from './Dashboard'
 import AglAnalysis from './AglAnalysis'
 import PickToday from './PickToday'
 import PortfolioRisk from './PortfolioRisk'
+import StressTest from './StressTest'
 import About from './About'
 import LearnHub from './learn/LearnHub'
 import Investing101 from './learn/Investing101'
@@ -252,7 +253,7 @@ function App() {
       {tab === 'agl' && <AglAnalysis />}
 
       {/* Portfolio Risk tab */}
-      {tab === 'risk' && <PortfolioRisk />}
+      {tab === 'risk' && <><PortfolioRisk /><StressTest /></>}
 
       {/* Learn tab */}
       {tab === 'learn' && <LearnHub onSelectModule={setActiveModule} />}
