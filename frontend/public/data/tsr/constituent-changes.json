@@ -1,0 +1,154 @@
+[
+  {
+    "from": "Jun 2023",
+    "to": "Jun 2024",
+    "entered": [
+      {
+        "ticker": "FLT",
+        "name": "Flight Centre Travel Group Limited"
+      },
+      {
+        "ticker": "LTM",
+        "name": "Arcadium Lithium (acquired by Rio Tinto)"
+      },
+      {
+        "ticker": "NEM",
+        "name": "Newmont Corporation"
+      },
+      {
+        "ticker": "PDN",
+        "name": "Paladin Energy Ltd"
+      },
+      {
+        "ticker": "PME",
+        "name": "Pro Medicus Limited"
+      },
+      {
+        "ticker": "VEA",
+        "name": "Viva Energy Group Limited"
+      }
+    ],
+    "exited": [
+      {
+        "ticker": "AKE",
+        "name": "Allkem (merged \u2192 Arcadium)"
+      },
+      {
+        "ticker": "AWC",
+        "name": "Alumina (acquired by Alcoa)"
+      },
+      {
+        "ticker": "HVN",
+        "name": "Harvey Norman Holdings Limited"
+      },
+      {
+        "ticker": "NCM",
+        "name": "Newcrest Mining (acquired by Newmont)"
+      },
+      {
+        "ticker": "NEC",
+        "name": "Nine Entertainment Co. Holdings Limited"
+      },
+      {
+        "ticker": "RGN",
+        "name": "Region Group"
+      }
+    ]
+  },
+  {
+    "from": "Jun 2024",
+    "to": "Jun 2025",
+    "entered": [
+      {
+        "ticker": "360",
+        "name": "Life360, Inc."
+      },
+      {
+        "ticker": "DNL",
+        "name": "Dyno Nobel Limited"
+      },
+      {
+        "ticker": "HUB",
+        "name": "HUB24 Limited"
+      },
+      {
+        "ticker": "LNW",
+        "name": "Light & Wonder, Inc."
+      },
+      {
+        "ticker": "PMI",
+        "name": "Pengana / index change"
+      },
+      {
+        "ticker": "PRU",
+        "name": "Perseus Mining Limited"
+      },
+      {
+        "ticker": "SFR",
+        "name": "Sandfire Resources Limited"
+      },
+      {
+        "ticker": "SGH",
+        "name": "SGH Limited"
+      },
+      {
+        "ticker": "SIG",
+        "name": "Sigma Healthcare Limited"
+      },
+      {
+        "ticker": "TLX",
+        "name": "Telix Pharmaceuticals Limited"
+      },
+      {
+        "ticker": "XYZ",
+        "name": "Block, Inc."
+      }
+    ],
+    "exited": [
+      {
+        "ticker": "ALU",
+        "name": "Altium (acquired by Renesas)"
+      },
+      {
+        "ticker": "DMP",
+        "name": "Domino's Pizza Enterprises Limited"
+      },
+      {
+        "ticker": "ILU",
+        "name": "Iluka Resources Limited"
+      },
+      {
+        "ticker": "IPL",
+        "name": "Incitec Pivot"
+      },
+      {
+        "ticker": "LTM",
+        "name": "Arcadium Lithium (acquired by Rio Tinto)"
+      },
+      {
+        "ticker": "NHF",
+        "name": "nib holdings limited"
+      },
+      {
+        "ticker": "PDN",
+        "name": "Paladin Energy Ltd"
+      },
+      {
+        "ticker": "SQ2",
+        "name": "Block Inc (CDIs delisted)"
+      },
+      {
+        "ticker": "SVW",
+        "name": "Seven Group Holdings (privatised)"
+      },
+      {
+        "ticker": "VEA",
+        "name": "Viva Energy Group Limited"
+      },
+      {
+        "ticker": "VUK",
+        "name": "Virgin Money UK (acquired)"
+      }
+    ]
+  }
+]

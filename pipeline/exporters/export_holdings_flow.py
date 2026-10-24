@@ -39,7 +39,11 @@ def price_on(conn, ticker, date, direction):
 def main():
     conn = sqlite3.connect(DB_PATH)
     latest = conn.execute("SELECT MAX(date) FROM price_history").fetchone()[0]
-    out = {}
+    names = {r[0].replace('.AX', ''): r[1] for r in conn.execute("SELECT ticker, name FROM stocks")}
+    out = {'strategies': {}}
+
+    all_periods = {}             # pid -> label (union across strategies)
+    universe = {}                # ticker -> {name, cells: {pid: {ret, strategies:[sid]}}}
 
     for sid, name in STRATEGIES.items():
         path = os.path.join(DATA_DIR, 'periods', f'{sid}.json')
@@ -56,6 +60,7 @@ def main():
             per = p['period']
             pid, buy, end = per['id'], per['buy'], min(per['end'], latest)
             periods_meta.append({'id': pid, 'label': per['label']})
+            all_periods[pid] = per['label']
 
             rets = []
             for h in holds:
@@ -66,20 +71,30 @@ def main():
                     rets.append((t.replace('.AX', ''), (ep / bp - 1) * 100))
             rets.sort(key=lambda x: -x[1])
             for rank, (tk, r) in enumerate(rets, 1):
-                stock_cells.setdefault(tk, {})[pid] = {'rank': rank, 'ret': round(r, 1)}
+                rr = round(r, 1)
+                stock_cells.setdefault(tk, {})[pid] = {'rank': rank, 'ret': rr}
+                u = universe.setdefault(tk, {'name': names.get(tk, tk), 'cells': {}})
+                cell = u['cells'].setdefault(pid, {'ret': rr, 'strategies': []})
+                cell['strategies'].append(sid)
 
-        stocks = [{'ticker': tk, 'cells': cells} for tk, cells in stock_cells.items()]
-        # stable order: by first period of appearance then best rank
+        stocks = [{'ticker': tk, 'name': names.get(tk, tk), 'cells': cells}
+                  for tk, cells in stock_cells.items()]
         order = {pm['id']: i for i, pm in enumerate(periods_meta)}
         stocks.sort(key=lambda s: (min(order[p] for p in s['cells']),
                                    min(c['rank'] for c in s['cells'].values())))
-        out[sid] = {'name': name, 'periods': periods_meta, 'stocks': stocks}
+        out['strategies'][sid] = {'name': name, 'periods': periods_meta, 'stocks': stocks}
+
+    # period order for the union (by first strategy's ordering — all share the calendar)
+    ref = next(iter(out['strategies'].values()))['periods'] if out['strategies'] else []
+    out['allPeriods'] = [{'id': p['id'], 'label': p['label']} for p in ref]
+    out['universe'] = {tk: u for tk, u in sorted(universe.items())}
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, 'w') as f:
         json.dump(out, f, indent=2)
-    tot = sum(len(v['stocks']) for v in out.values())
-    print(f"Exported holdings-flow for {len(out)} strategies ({tot} stock-tracks) → {OUT_PATH}")
+    tot = sum(len(v['stocks']) for v in out['strategies'].values())
+    print(f"Exported holdings-flow: {len(out['strategies'])} strategies ({tot} tracks), "
+          f"{len(universe)} unique stocks → {OUT_PATH}")
 
 
 if __name__ == '__main__':

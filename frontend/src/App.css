@@ -740,6 +740,21 @@
 .chip-added-key { border-color: var(--green); background: rgba(81,207,102,0.2); }
 .chip-removed-key { border-color: var(--red); background: rgba(255,107,107,0.15); }
 
+/* ASX 100 constituent changes (AGL tab) */
+.cc-block { margin-top: 16px; }
+.cc-head { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 10px; }
+.cc-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.cc-col { display: flex; flex-direction: column; gap: 6px; }
+.cc-label { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 2px; }
+.cc-out { color: var(--red); }
+.cc-in { color: var(--green); }
+.cc-item { display: flex; align-items: baseline; gap: 8px; font-size: 13px; }
+.cc-tick { font-family: ui-monospace, monospace; font-weight: 700; font-size: 12px; padding: 1px 6px; border-radius: 4px; flex-shrink: 0; }
+.cc-tick-out { color: var(--red); background: rgba(255,107,107,0.1); }
+.cc-tick-in { color: var(--green); background: rgba(81,207,102,0.1); }
+.cc-name { color: var(--text-dim); }
+@media (max-width: 640px) { .cc-cols { grid-template-columns: 1fr; gap: 16px; } }
+
 /* Holdings Flow bump chart */
 .flow-section { margin-top: 24px; }
 .flow-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
@@ -752,6 +767,24 @@
 .flow-legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; font-size: 11px; color: var(--text-dim); align-items: center; }
 .flow-legend-item { display: flex; align-items: center; gap: 5px; }
 .flow-dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+.flow-hover-name { font-size: 13px; font-weight: 600; color: var(--text); min-height: 18px; margin-bottom: 4px; }
+.flow-spotlight { margin-top: 20px; border-top: 1px solid var(--border); padding-top: 16px; }
+.flow-spot-pick { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 13px; color: var(--text-dim); }
+.flow-spot-pick select {
+  background: var(--surface-2); border: 1px solid var(--border); color: var(--text);
+  border-radius: var(--radius-sm); padding: 6px 10px; font-size: 13px; font-family: inherit; max-width: 320px;
+}
+.flow-spot-panel { margin-top: 14px; }
+.flow-spot-title { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 10px; }
+.flow-spot-grid { display: grid; gap: 3px; align-items: center; }
+.fsg-contents { display: contents; }
+.fsg-head { font-size: 11px; color: var(--text-dim); text-align: center; font-weight: 600; }
+.fsg-rowlabel { font-size: 12px; color: var(--text-dim); text-align: right; padding-right: 8px; white-space: nowrap; }
+.fsg-ret { font-weight: 700; color: var(--text); }
+.fsg-cell { text-align: center; font-size: 12px; border-radius: 4px; padding: 4px 0; color: #0b0d12; font-weight: 700; min-height: 22px; line-height: 22px; }
+.fsg-ret-cell { font-family: ui-monospace, monospace; background: transparent !important; }
+.fsg-empty { color: var(--text-mute); }
+.flow-spot-note { font-size: 12px; color: var(--text-mute); line-height: 1.5; margin-top: 10px; }
 
 /* Correction stress test */
 .stress-section { margin-top: 36px; }

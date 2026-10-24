@@ -1,1693 +1,3207 @@
 {
-  "padley_momentum": {
-    "name": "Padley Momentum",
-    "periods": [
-      {
-        "id": "H1-2024",
-        "label": "H1 2024"
-      },
-      {
-        "id": "H2-2024",
-        "label": "H2 2024"
-      },
-      {
-        "id": "H1-2025",
-        "label": "H1 2025"
-      },
-      {
-        "id": "H2-2025",
-        "label": "H2 2025"
-      },
-      {
-        "id": "H1-2026",
-        "label": "H1 2026 (current)"
-      },
-      {
-        "id": "H2-2026",
-        "label": "H2 2026 (forward)"
-      }
-    ],
-    "stocks": [
-      {
-        "ticker": "360",
-        "cells": {
-          "H1-2024": {
-            "rank": 1,
-            "ret": 118.9
-          },
-          "H2-2024": {
-            "rank": 4,
-            "ret": 39.7
-          },
-          "H1-2025": {
-            "rank": 1,
-            "ret": 42.5
-          },
-          "H2-2025": {
-            "rank": 3,
-            "ret": -0.2
-          },
-          "H1-2026": {
-            "rank": 8,
-            "ret": -17.7
-          },
-          "H2-2026": {
-            "rank": 10,
-            "ret": -17.0
+  "strategies": {
+    "padley_momentum": {
+      "name": "Padley Momentum",
+      "periods": [
+        {
+          "id": "H1-2024",
+          "label": "H1 2024"
+        },
+        {
+          "id": "H2-2024",
+          "label": "H2 2024"
+        },
+        {
+          "id": "H1-2025",
+          "label": "H1 2025"
+        },
+        {
+          "id": "H2-2025",
+          "label": "H2 2025"
+        },
+        {
+          "id": "H1-2026",
+          "label": "H1 2026 (current)"
+        },
+        {
+          "id": "H2-2026",
+          "label": "H2 2026 (forward)"
+        }
+      ],
+      "stocks": [
+        {
+          "ticker": "360",
+          "name": "Life360, Inc.",
+          "cells": {
+            "H1-2024": {
+              "rank": 1,
+              "ret": 118.9
+            },
+            "H2-2024": {
+              "rank": 4,
+              "ret": 39.7
+            },
+            "H1-2025": {
+              "rank": 1,
+              "ret": 42.5
+            },
+            "H2-2025": {
+              "rank": 3,
+              "ret": -0.2
+            },
+            "H1-2026": {
+              "rank": 8,
+              "ret": -17.7
+            },
+            "H2-2026": {
+              "rank": 10,
+              "ret": -17.0
+            }
+          }
+        },
+        {
+          "ticker": "PME",
+          "name": "Pro Medicus Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 2,
+              "ret": 49.0
+            },
+            "H2-2024": {
+              "rank": 1,
+              "ret": 84.6
+            },
+            "H1-2025": {
+              "rank": 6,
+              "ret": 13.1
+            },
+            "H2-2025": {
+              "rank": 8,
+              "ret": -21.5
+            },
+            "H1-2026": {
+              "rank": 4,
+              "ret": -8.4
+            },
+            "H2-2026": {
+              "rank": 7,
+              "ret": -2.0
+            }
+          }
+        },
+        {
+          "ticker": "HUB",
+          "name": "HUB24 Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 3,
+              "ret": 30.2
+            },
+            "H2-2024": {
+              "rank": 3,
+              "ret": 51.6
+            },
+            "H1-2025": {
+              "rank": 3,
+              "ret": 29.9
+            },
+            "H2-2025": {
+              "rank": 2,
+              "ret": 9.0
+            },
+            "H1-2026": {
+              "rank": 10,
+              "ret": -23.7
+            },
+            "H2-2026": {
+              "rank": 9,
+              "ret": -11.8
+            }
+          }
+        },
+        {
+          "ticker": "JBH",
+          "name": "JB Hi-Fi Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 5,
+              "ret": 15.3
+            },
+            "H2-2024": {
+              "rank": 2,
+              "ret": 56.1
+            },
+            "H1-2025": {
+              "rank": 5,
+              "ret": 18.8
+            },
+            "H2-2025": {
+              "rank": 7,
+              "ret": -11.5
+            },
+            "H1-2026": {
+              "rank": 7,
+              "ret": -14.2
+            },
+            "H2-2026": {
+              "rank": 8,
+              "ret": -4.6
+            }
+          }
+        },
+        {
+          "ticker": "ALL",
+          "name": "Aristocrat Leisure Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 4,
+              "ret": 22.5
+            },
+            "H2-2024": {
+              "rank": 5,
+              "ret": 37.5
+            },
+            "H1-2025": {
+              "rank": 10,
+              "ret": -4.4
+            },
+            "H2-2025": {
+              "rank": 6,
+              "ret": -10.7
+            }
+          }
+        },
+        {
+          "ticker": "CAR",
+          "name": "CAR Group Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 6,
+              "ret": 13.3
+            },
+            "H2-2024": {
+              "rank": 8,
+              "ret": 5.0
+            },
+            "H1-2025": {
+              "rank": 8,
+              "ret": 3.7
+            }
+          }
+        },
+        {
+          "ticker": "REA",
+          "name": "REA Group Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 8,
+              "ret": 7.6
+            },
+            "H2-2024": {
+              "rank": 6,
+              "ret": 22.6
+            },
+            "H1-2025": {
+              "rank": 9,
+              "ret": 2.7
+            },
+            "H2-2025": {
+              "rank": 9,
+              "ret": -22.5
+            }
+          }
+        },
+        {
+          "ticker": "COH",
+          "name": "Cochlear Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 7,
+              "ret": 11.0
+            },
+            "H2-2024": {
+              "rank": 9,
+              "ret": -9.5
+            }
+          }
+        },
+        {
+          "ticker": "ARB",
+          "name": "ARB Corporation Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 9,
+              "ret": 5.5
+            }
+          }
+        },
+        {
+          "ticker": "FMG",
+          "name": "Fortescue Ltd",
+          "cells": {
+            "H1-2024": {
+              "rank": 10,
+              "ret": -24.2
+            }
+          }
+        },
+        {
+          "ticker": "IAG",
+          "name": "Insurance Australia Group Limited",
+          "cells": {
+            "H2-2024": {
+              "rank": 7,
+              "ret": 21.8
+            },
+            "H1-2025": {
+              "rank": 7,
+              "ret": 7.4
+            },
+            "H2-2025": {
+              "rank": 5,
+              "ret": -9.1
+            }
+          }
+        },
+        {
+          "ticker": "LNW",
+          "name": "Light & Wonder, Inc.",
+          "cells": {
+            "H2-2024": {
+              "rank": 10,
+              "ret": -12.1
+            }
+          }
+        },
+        {
+          "ticker": "TNE",
+          "name": "Technology One Limited",
+          "cells": {
+            "H1-2025": {
+              "rank": 2,
+              "ret": 34.2
+            },
+            "H2-2025": {
+              "rank": 10,
+              "ret": -30.6
+            },
+            "H1-2026": {
+              "rank": 1,
+              "ret": 6.1
+            },
+            "H2-2026": {
+              "rank": 4,
+              "ret": 9.1
+            }
+          }
+        },
+        {
+          "ticker": "BXB",
+          "name": "Brambles Limited",
+          "cells": {
+            "H1-2025": {
+              "rank": 4,
+              "ret": 22.4
+            },
+            "H2-2025": {
+              "rank": 4,
+              "ret": -0.3
+            }
+          }
+        },
+        {
+          "ticker": "EVN",
+          "name": "Evolution Mining Limited",
+          "cells": {
+            "H2-2025": {
+              "rank": 1,
+              "ret": 65.1
+            },
+            "H1-2026": {
+              "rank": 3,
+              "ret": -6.3
+            },
+            "H2-2026": {
+              "rank": 6,
+              "ret": -0.7
+            }
+          }
+        },
+        {
+          "ticker": "CHC",
+          "name": "Charter Hall Group",
+          "cells": {
+            "H1-2026": {
+              "rank": 2,
+              "ret": -5.4
+            }
+          }
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "cells": {
+            "H1-2026": {
+              "rank": 5,
+              "ret": -10.7
+            },
+            "H2-2026": {
+              "rank": 2,
+              "ret": 17.6
+            }
+          }
+        },
+        {
+          "ticker": "PRU",
+          "name": "Perseus Mining Limited",
+          "cells": {
+            "H1-2026": {
+              "rank": 6,
+              "ret": -14.2
+            },
+            "H2-2026": {
+              "rank": 3,
+              "ret": 14.2
+            }
+          }
+        },
+        {
+          "ticker": "NST",
+          "name": "Northern Star Resources Limited",
+          "cells": {
+            "H1-2026": {
+              "rank": 9,
+              "ret": -21.8
+            }
+          }
+        },
+        {
+          "ticker": "CCL",
+          "name": "Cuscal Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 1,
+              "ret": 18.7
+            }
+          }
+        },
+        {
+          "ticker": "QBE",
+          "name": "QBE Insurance Group Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 5,
+              "ret": 7.8
+            }
           }
         }
-      },
-      {
-        "ticker": "PME",
-        "cells": {
-          "H1-2024": {
-            "rank": 2,
-            "ret": 49.0
-          },
-          "H2-2024": {
-            "rank": 1,
-            "ret": 84.6
-          },
-          "H1-2025": {
-            "rank": 6,
-            "ret": 13.1
-          },
-          "H2-2025": {
-            "rank": 8,
-            "ret": -21.5
-          },
-          "H1-2026": {
-            "rank": 4,
-            "ret": -8.4
-          },
-          "H2-2026": {
-            "rank": 7,
-            "ret": -2.0
+      ]
+    },
+    "quant_factors": {
+      "name": "Quant Factors",
+      "periods": [
+        {
+          "id": "H1-2024",
+          "label": "H1 2024"
+        },
+        {
+          "id": "H2-2024",
+          "label": "H2 2024"
+        },
+        {
+          "id": "H1-2025",
+          "label": "H1 2025"
+        },
+        {
+          "id": "H2-2025",
+          "label": "H2 2025"
+        },
+        {
+          "id": "H1-2026",
+          "label": "H1 2026 (current)"
+        },
+        {
+          "id": "H2-2026",
+          "label": "H2 2026 (forward)"
+        }
+      ],
+      "stocks": [
+        {
+          "ticker": "360",
+          "name": "Life360, Inc.",
+          "cells": {
+            "H1-2024": {
+              "rank": 1,
+              "ret": 118.9
+            },
+            "H2-2024": {
+              "rank": 3,
+              "ret": 39.7
+            },
+            "H1-2025": {
+              "rank": 1,
+              "ret": 42.5
+            },
+            "H2-2025": {
+              "rank": 5,
+              "ret": -0.2
+            },
+            "H1-2026": {
+              "rank": 7,
+              "ret": -17.7
+            },
+            "H2-2026": {
+              "rank": 10,
+              "ret": -17.0
+            }
+          }
+        },
+        {
+          "ticker": "PME",
+          "name": "Pro Medicus Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 2,
+              "ret": 49.0
+            },
+            "H2-2024": {
+              "rank": 1,
+              "ret": 84.6
+            },
+            "H1-2025": {
+              "rank": 7,
+              "ret": 13.1
+            },
+            "H2-2026": {
+              "rank": 7,
+              "ret": -2.0
+            }
+          }
+        },
+        {
+          "ticker": "SOL",
+          "name": "Washington H. Soul Pattinson and Company Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 6,
+              "ret": 0.8
+            },
+            "H2-2024": {
+              "rank": 9,
+              "ret": 5.6
+            },
+            "H1-2025": {
+              "rank": 2,
+              "ret": 24.6
+            },
+            "H2-2025": {
+              "rank": 8,
+              "ret": -11.3
+            },
+            "H1-2026": {
+              "rank": 1,
+              "ret": 24.8
+            },
+            "H2-2026": {
+              "rank": 5,
+              "ret": 3.6
+            }
+          }
+        },
+        {
+          "ticker": "JBH",
+          "name": "JB Hi-Fi Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 3,
+              "ret": 15.3
+            },
+            "H2-2024": {
+              "rank": 2,
+              "ret": 56.1
+            },
+            "H1-2025": {
+              "rank": 5,
+              "ret": 18.8
+            },
+            "H2-2025": {
+              "rank": 9,
+              "ret": -11.5
+            },
+            "H1-2026": {
+              "rank": 6,
+              "ret": -14.2
+            },
+            "H2-2026": {
+              "rank": 8,
+              "ret": -4.6
+            }
+          }
+        },
+        {
+          "ticker": "NST",
+          "name": "Northern Star Resources Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 8,
+              "ret": -4.2
+            },
+            "H2-2025": {
+              "rank": 2,
+              "ret": 44.4
+            },
+            "H1-2026": {
+              "rank": 8,
+              "ret": -21.8
+            }
+          }
+        },
+        {
+          "ticker": "SGP",
+          "name": "Stockland",
+          "cells": {
+            "H1-2024": {
+              "rank": 7,
+              "ret": -2.2
+            },
+            "H2-2024": {
+              "rank": 6,
+              "ret": 14.8
+            },
+            "H1-2025": {
+              "rank": 6,
+              "ret": 14.5
+            },
+            "H2-2025": {
+              "rank": 3,
+              "ret": 6.8
+            },
+            "H1-2026": {
+              "rank": 9,
+              "ret": -26.3
+            }
+          }
+        },
+        {
+          "ticker": "REA",
+          "name": "REA Group Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 4,
+              "ret": 7.6
+            },
+            "H2-2024": {
+              "rank": 4,
+              "ret": 22.6
+            }
+          }
+        },
+        {
+          "ticker": "RWC",
+          "name": "Reliance Worldwide Corporation Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 5,
+              "ret": 3.1
+            },
+            "H2-2024": {
+              "rank": 8,
+              "ret": 13.9
+            },
+            "H1-2025": {
+              "rank": 10,
+              "ret": -18.6
+            }
+          }
+        },
+        {
+          "ticker": "FMG",
+          "name": "Fortescue Ltd",
+          "cells": {
+            "H1-2024": {
+              "rank": 9,
+              "ret": -24.2
+            }
+          }
+        },
+        {
+          "ticker": "NEC",
+          "name": "Nine Entertainment Co. Holdings Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 10,
+              "ret": -29.0
+            }
+          }
+        },
+        {
+          "ticker": "QBE",
+          "name": "QBE Insurance Group Limited",
+          "cells": {
+            "H2-2024": {
+              "rank": 7,
+              "ret": 14.2
+            },
+            "H1-2025": {
+              "rank": 3,
+              "ret": 23.6
+            },
+            "H2-2025": {
+              "rank": 10,
+              "ret": -13.9
+            },
+            "H2-2026": {
+              "rank": 4,
+              "ret": 7.8
+            }
+          }
+        },
+        {
+          "ticker": "ORG",
+          "name": "Origin Energy Limited",
+          "cells": {
+            "H2-2024": {
+              "rank": 10,
+              "ret": 2.6
+            },
+            "H2-2026": {
+              "rank": 3,
+              "ret": 12.8
+            }
+          }
+        },
+        {
+          "ticker": "IAG",
+          "name": "Insurance Australia Group Limited",
+          "cells": {
+            "H2-2024": {
+              "rank": 5,
+              "ret": 21.8
+            },
+            "H1-2025": {
+              "rank": 8,
+              "ret": 7.4
+            },
+            "H2-2025": {
+              "rank": 7,
+              "ret": -9.1
+            }
+          }
+        },
+        {
+          "ticker": "VCX",
+          "name": "Vicinity Centres",
+          "cells": {
+            "H1-2025": {
+              "rank": 4,
+              "ret": 19.1
+            },
+            "H2-2025": {
+              "rank": 4,
+              "ret": 4.4
+            },
+            "H1-2026": {
+              "rank": 2,
+              "ret": 2.5
+            },
+            "H2-2026": {
+              "rank": 9,
+              "ret": -5.8
+            }
+          }
+        },
+        {
+          "ticker": "RMD",
+          "name": "ResMed Inc.",
+          "cells": {
+            "H1-2025": {
+              "rank": 9,
+              "ret": 6.7
+            },
+            "H2-2025": {
+              "rank": 6,
+              "ret": -7.7
+            }
+          }
+        },
+        {
+          "ticker": "EVN",
+          "name": "Evolution Mining Limited",
+          "cells": {
+            "H2-2025": {
+              "rank": 1,
+              "ret": 65.1
+            },
+            "H1-2026": {
+              "rank": 3,
+              "ret": -6.3
+            },
+            "H2-2026": {
+              "rank": 6,
+              "ret": -0.7
+            }
+          }
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "cells": {
+            "H1-2026": {
+              "rank": 4,
+              "ret": -10.7
+            },
+            "H2-2026": {
+              "rank": 1,
+              "ret": 17.6
+            }
+          }
+        },
+        {
+          "ticker": "PRU",
+          "name": "Perseus Mining Limited",
+          "cells": {
+            "H1-2026": {
+              "rank": 5,
+              "ret": -14.2
+            },
+            "H2-2026": {
+              "rank": 2,
+              "ret": 14.2
+            }
+          }
+        },
+        {
+          "ticker": "HVN",
+          "name": "Harvey Norman Holdings Limited",
+          "cells": {
+            "H1-2026": {
+              "rank": 10,
+              "ret": -29.2
+            }
           }
         }
-      },
-      {
-        "ticker": "HUB",
-        "cells": {
-          "H1-2024": {
-            "rank": 3,
-            "ret": 30.2
-          },
-          "H2-2024": {
-            "rank": 3,
-            "ret": 51.6
-          },
-          "H1-2025": {
-            "rank": 3,
-            "ret": 29.9
-          },
-          "H2-2025": {
-            "rank": 2,
-            "ret": 9.0
-          },
-          "H1-2026": {
-            "rank": 10,
-            "ret": -23.7
-          },
-          "H2-2026": {
-            "rank": 9,
-            "ret": -11.8
+      ]
+    },
+    "dividend_income": {
+      "name": "Dividend Income",
+      "periods": [
+        {
+          "id": "H1-2024",
+          "label": "H1 2024"
+        },
+        {
+          "id": "H2-2024",
+          "label": "H2 2024"
+        },
+        {
+          "id": "H1-2025",
+          "label": "H1 2025"
+        },
+        {
+          "id": "H2-2025",
+          "label": "H2 2025"
+        },
+        {
+          "id": "H1-2026",
+          "label": "H1 2026 (current)"
+        },
+        {
+          "id": "H2-2026",
+          "label": "H2 2026 (forward)"
+        }
+      ],
+      "stocks": [
+        {
+          "ticker": "JBH",
+          "name": "JB Hi-Fi Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 1,
+              "ret": 15.3
+            },
+            "H2-2024": {
+              "rank": 1,
+              "ret": 56.1
+            },
+            "H1-2025": {
+              "rank": 4,
+              "ret": 18.8
+            },
+            "H2-2025": {
+              "rank": 8,
+              "ret": -11.5
+            },
+            "H1-2026": {
+              "rank": 7,
+              "ret": -14.2
+            }
+          }
+        },
+        {
+          "ticker": "QAN",
+          "name": "Qantas Airways Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 2,
+              "ret": 9.3
+            },
+            "H2-2024": {
+              "rank": 2,
+              "ret": 51.8
+            },
+            "H1-2025": {
+              "rank": 2,
+              "ret": 21.4
+            },
+            "H2-2025": {
+              "rank": 7,
+              "ret": -1.2
+            },
+            "H1-2026": {
+              "rank": 1,
+              "ret": 3.6
+            }
+          }
+        },
+        {
+          "ticker": "MTS",
+          "name": "Metcash Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 6,
+              "ret": 1.1
+            },
+            "H2-2024": {
+              "rank": 9,
+              "ret": -8.5
+            },
+            "H1-2025": {
+              "rank": 1,
+              "ret": 24.9
+            },
+            "H2-2025": {
+              "rank": 9,
+              "ret": -12.0
+            },
+            "H1-2026": {
+              "rank": 5,
+              "ret": -10.9
+            },
+            "H2-2026": {
+              "rank": 4,
+              "ret": 11.5
+            }
+          }
+        },
+        {
+          "ticker": "FMG",
+          "name": "Fortescue Ltd",
+          "cells": {
+            "H1-2024": {
+              "rank": 10,
+              "ret": -24.2
+            },
+            "H2-2024": {
+              "rank": 10,
+              "ret": -11.7
+            },
+            "H1-2025": {
+              "rank": 10,
+              "ret": -16.4
+            },
+            "H2-2025": {
+              "rank": 1,
+              "ret": 47.7
+            },
+            "H1-2026": {
+              "rank": 6,
+              "ret": -10.9
+            }
+          }
+        },
+        {
+          "ticker": "HVN",
+          "name": "Harvey Norman Holdings Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 5,
+              "ret": 1.5
+            },
+            "H2-2024": {
+              "rank": 5,
+              "ret": 14.5
+            },
+            "H1-2025": {
+              "rank": 5,
+              "ret": 14.9
+            },
+            "H2-2025": {
+              "rank": 2,
+              "ret": 32.2
+            },
+            "H1-2026": {
+              "rank": 9,
+              "ret": -29.2
+            },
+            "H2-2026": {
+              "rank": 10,
+              "ret": -10.1
+            }
+          }
+        },
+        {
+          "ticker": "VCX",
+          "name": "Vicinity Centres",
+          "cells": {
+            "H1-2024": {
+              "rank": 8,
+              "ret": -7.1
+            },
+            "H2-2024": {
+              "rank": 4,
+              "ret": 14.8
+            },
+            "H1-2025": {
+              "rank": 3,
+              "ret": 19.1
+            },
+            "H2-2025": {
+              "rank": 5,
+              "ret": 4.4
+            },
+            "H1-2026": {
+              "rank": 2,
+              "ret": 2.5
+            },
+            "H2-2026": {
+              "rank": 9,
+              "ret": -5.8
+            }
+          }
+        },
+        {
+          "ticker": "SCG",
+          "name": "Scentre Group",
+          "cells": {
+            "H1-2024": {
+              "rank": 3,
+              "ret": 6.9
+            },
+            "H2-2024": {
+              "rank": 6,
+              "ret": 11.3
+            },
+            "H1-2025": {
+              "rank": 7,
+              "ret": 4.4
+            },
+            "H2-2025": {
+              "rank": 3,
+              "ret": 17.4
+            },
+            "H1-2026": {
+              "rank": 3,
+              "ret": -6.6
+            }
+          }
+        },
+        {
+          "ticker": "SGP",
+          "name": "Stockland",
+          "cells": {
+            "H1-2024": {
+              "rank": 7,
+              "ret": -2.2
+            },
+            "H2-2024": {
+              "rank": 3,
+              "ret": 14.8
+            },
+            "H1-2025": {
+              "rank": 6,
+              "ret": 14.5
+            },
+            "H2-2025": {
+              "rank": 4,
+              "ret": 6.8
+            },
+            "H1-2026": {
+              "rank": 8,
+              "ret": -26.3
+            },
+            "H2-2026": {
+              "rank": 7,
+              "ret": 4.9
+            }
+          }
+        },
+        {
+          "ticker": "CSL",
+          "name": "CSL Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 4,
+              "ret": 3.0
+            },
+            "H2-2024": {
+              "rank": 7,
+              "ret": -3.1
+            },
+            "H1-2025": {
+              "rank": 9,
+              "ret": -14.1
+            },
+            "H2-2025": {
+              "rank": 10,
+              "ret": -26.7
+            },
+            "H1-2026": {
+              "rank": 10,
+              "ret": -32.4
+            }
+          }
+        },
+        {
+          "ticker": "WOR",
+          "name": "Worley Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 9,
+              "ret": -12.8
+            },
+            "H2-2024": {
+              "rank": 8,
+              "ret": -6.4
+            },
+            "H1-2025": {
+              "rank": 8,
+              "ret": -2.7
+            },
+            "H2-2025": {
+              "rank": 6,
+              "ret": -0.5
+            },
+            "H1-2026": {
+              "rank": 4,
+              "ret": -9.9
+            }
+          }
+        },
+        {
+          "ticker": "WDS",
+          "name": "Woodside Energy Group Ltd",
+          "cells": {
+            "H2-2026": {
+              "rank": 1,
+              "ret": 18.6
+            }
+          }
+        },
+        {
+          "ticker": "ORG",
+          "name": "Origin Energy Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 2,
+              "ret": 12.8
+            }
+          }
+        },
+        {
+          "ticker": "AGL",
+          "name": "AGL Energy Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 3,
+              "ret": 12.0
+            }
+          }
+        },
+        {
+          "ticker": "DXS",
+          "name": "DEXUS",
+          "cells": {
+            "H2-2026": {
+              "rank": 5,
+              "ret": 6.9
+            }
+          }
+        },
+        {
+          "ticker": "MGR",
+          "name": "Mirvac Group",
+          "cells": {
+            "H2-2026": {
+              "rank": 6,
+              "ret": 5.8
+            }
+          }
+        },
+        {
+          "ticker": "GPT",
+          "name": "The GPT Group",
+          "cells": {
+            "H2-2026": {
+              "rank": 8,
+              "ret": -1.7
+            }
           }
         }
-      },
-      {
-        "ticker": "JBH",
-        "cells": {
-          "H1-2024": {
-            "rank": 5,
-            "ret": 15.3
-          },
-          "H2-2024": {
-            "rank": 2,
-            "ret": 56.1
-          },
-          "H1-2025": {
-            "rank": 5,
-            "ret": 18.8
-          },
-          "H2-2025": {
-            "rank": 7,
-            "ret": -11.5
-          },
-          "H1-2026": {
-            "rank": 7,
-            "ret": -14.2
-          },
-          "H2-2026": {
-            "rank": 8,
-            "ret": -4.6
+      ]
+    },
+    "damodaran_dcf": {
+      "name": "Damodaran Value",
+      "periods": [
+        {
+          "id": "H1-2024",
+          "label": "H1 2024"
+        },
+        {
+          "id": "H2-2024",
+          "label": "H2 2024"
+        },
+        {
+          "id": "H1-2025",
+          "label": "H1 2025"
+        },
+        {
+          "id": "H2-2025",
+          "label": "H2 2025"
+        },
+        {
+          "id": "H1-2026",
+          "label": "H1 2026 (current)"
+        },
+        {
+          "id": "H2-2026",
+          "label": "H2 2026 (forward)"
+        }
+      ],
+      "stocks": [
+        {
+          "ticker": "ORG",
+          "name": "Origin Energy Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 1,
+              "ret": 32.3
+            },
+            "H2-2024": {
+              "rank": 6,
+              "ret": 2.6
+            },
+            "H1-2025": {
+              "rank": 6,
+              "ret": 2.0
+            },
+            "H2-2025": {
+              "rank": 6,
+              "ret": 8.2
+            },
+            "H1-2026": {
+              "rank": 4,
+              "ret": -0.7
+            }
+          }
+        },
+        {
+          "ticker": "SOL",
+          "name": "Washington H. Soul Pattinson and Company Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 4,
+              "ret": 0.8
+            },
+            "H2-2024": {
+              "rank": 5,
+              "ret": 5.6
+            },
+            "H1-2025": {
+              "rank": 3,
+              "ret": 24.6
+            },
+            "H2-2025": {
+              "rank": 10,
+              "ret": -11.3
+            },
+            "H1-2026": {
+              "rank": 1,
+              "ret": 24.8
+            },
+            "H2-2026": {
+              "rank": 7,
+              "ret": 3.6
+            }
+          }
+        },
+        {
+          "ticker": "ORA",
+          "name": "Orora Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 7,
+              "ret": -23.1
+            },
+            "H2-2024": {
+              "rank": 1,
+              "ret": 27.4
+            },
+            "H1-2025": {
+              "rank": 9,
+              "ret": -21.4
+            },
+            "H2-2025": {
+              "rank": 4,
+              "ret": 18.5
+            },
+            "H1-2026": {
+              "rank": 9,
+              "ret": -36.2
+            },
+            "H2-2026": {
+              "rank": 5,
+              "ret": 12.3
+            }
+          }
+        },
+        {
+          "ticker": "NEC",
+          "name": "Nine Entertainment Co. Holdings Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 9,
+              "ret": -29.0
+            },
+            "H2-2024": {
+              "rank": 9,
+              "ret": -6.5
+            },
+            "H1-2025": {
+              "rank": 1,
+              "ret": 35.0
+            },
+            "H2-2025": {
+              "rank": 7,
+              "ret": -2.0
+            },
+            "H1-2026": {
+              "rank": 7,
+              "ret": -16.5
+            },
+            "H2-2026": {
+              "rank": 10,
+              "ret": -22.5
+            }
+          }
+        },
+        {
+          "ticker": "RWC",
+          "name": "Reliance Worldwide Corporation Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 2,
+              "ret": 3.1
+            },
+            "H2-2024": {
+              "rank": 3,
+              "ret": 13.9
+            },
+            "H1-2025": {
+              "rank": 8,
+              "ret": -18.6
+            },
+            "H2-2025": {
+              "rank": 8,
+              "ret": -4.9
+            },
+            "H1-2026": {
+              "rank": 3,
+              "ret": 2.4
+            },
+            "H2-2026": {
+              "rank": 3,
+              "ret": 15.5
+            }
+          }
+        },
+        {
+          "ticker": "HVN",
+          "name": "Harvey Norman Holdings Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 3,
+              "ret": 1.5
+            },
+            "H2-2024": {
+              "rank": 2,
+              "ret": 14.5
+            },
+            "H1-2025": {
+              "rank": 4,
+              "ret": 14.9
+            },
+            "H2-2025": {
+              "rank": 3,
+              "ret": 32.2
+            },
+            "H1-2026": {
+              "rank": 8,
+              "ret": -29.2
+            },
+            "H2-2026": {
+              "rank": 9,
+              "ret": -10.1
+            }
+          }
+        },
+        {
+          "ticker": "FMG",
+          "name": "Fortescue Ltd",
+          "cells": {
+            "H1-2024": {
+              "rank": 8,
+              "ret": -24.2
+            },
+            "H2-2024": {
+              "rank": 10,
+              "ret": -11.7
+            },
+            "H1-2025": {
+              "rank": 7,
+              "ret": -16.4
+            },
+            "H2-2025": {
+              "rank": 2,
+              "ret": 47.7
+            },
+            "H1-2026": {
+              "rank": 6,
+              "ret": -10.9
+            }
+          }
+        },
+        {
+          "ticker": "GPT",
+          "name": "The GPT Group",
+          "cells": {
+            "H1-2024": {
+              "rank": 5,
+              "ret": -10.5
+            },
+            "H2-2024": {
+              "rank": 4,
+              "ret": 11.6
+            },
+            "H1-2025": {
+              "rank": 5,
+              "ret": 12.2
+            },
+            "H2-2025": {
+              "rank": 5,
+              "ret": 12.1
+            },
+            "H1-2026": {
+              "rank": 5,
+              "ret": -8.4
+            }
+          }
+        },
+        {
+          "ticker": "SKC",
+          "name": "SkyCity Entertainment Group Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 6,
+              "ret": -19.8
+            },
+            "H2-2024": {
+              "rank": 8,
+              "ret": -4.4
+            },
+            "H1-2025": {
+              "rank": 10,
+              "ret": -36.8
+            },
+            "H2-2025": {
+              "rank": 9,
+              "ret": -6.0
+            },
+            "H1-2026": {
+              "rank": 10,
+              "ret": -40.6
+            }
+          }
+        },
+        {
+          "ticker": "CCL",
+          "name": "Cuscal Limited",
+          "cells": {
+            "H2-2024": {
+              "rank": 7,
+              "ret": -2.2
+            },
+            "H1-2025": {
+              "rank": 2,
+              "ret": 28.2
+            },
+            "H2-2025": {
+              "rank": 1,
+              "ret": 50.1
+            },
+            "H1-2026": {
+              "rank": 2,
+              "ret": 14.8
+            },
+            "H2-2026": {
+              "rank": 2,
+              "ret": 18.7
+            }
+          }
+        },
+        {
+          "ticker": "CSL",
+          "name": "CSL Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 1,
+              "ret": 68.3
+            }
+          }
+        },
+        {
+          "ticker": "BPT",
+          "name": "Beach Energy Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 4,
+              "ret": 13.2
+            }
+          }
+        },
+        {
+          "ticker": "AGL",
+          "name": "AGL Energy Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 6,
+              "ret": 12.0
+            }
+          }
+        },
+        {
+          "ticker": "SHL",
+          "name": "Sonic Healthcare Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 8,
+              "ret": -7.0
+            }
           }
         }
-      },
-      {
-        "ticker": "ALL",
-        "cells": {
-          "H1-2024": {
-            "rank": 4,
-            "ret": 22.5
-          },
-          "H2-2024": {
-            "rank": 5,
-            "ret": 37.5
-          },
-          "H1-2025": {
-            "rank": 10,
-            "ret": -4.4
-          },
-          "H2-2025": {
-            "rank": 6,
-            "ret": -10.7
+      ]
+    },
+    "contrarian_value": {
+      "name": "Contrarian Value",
+      "periods": [
+        {
+          "id": "H1-2024",
+          "label": "H1 2024"
+        },
+        {
+          "id": "H2-2024",
+          "label": "H2 2024"
+        },
+        {
+          "id": "H1-2025",
+          "label": "H1 2025"
+        },
+        {
+          "id": "H2-2025",
+          "label": "H2 2025"
+        },
+        {
+          "id": "H1-2026",
+          "label": "H1 2026 (current)"
+        },
+        {
+          "id": "H2-2026",
+          "label": "H2 2026 (forward)"
+        }
+      ],
+      "stocks": [
+        {
+          "ticker": "HVN",
+          "name": "Harvey Norman Holdings Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 1,
+              "ret": 1.5
+            },
+            "H2-2024": {
+              "rank": 3,
+              "ret": 14.5
+            },
+            "H1-2025": {
+              "rank": 3,
+              "ret": 14.9
+            },
+            "H2-2025": {
+              "rank": 2,
+              "ret": 32.2
+            },
+            "H1-2026": {
+              "rank": 6,
+              "ret": -29.2
+            },
+            "H2-2026": {
+              "rank": 9,
+              "ret": -10.1
+            }
+          }
+        },
+        {
+          "ticker": "SOL",
+          "name": "Washington H. Soul Pattinson and Company Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 2,
+              "ret": 0.8
+            },
+            "H2-2024": {
+              "rank": 4,
+              "ret": 5.6
+            },
+            "H1-2025": {
+              "rank": 2,
+              "ret": 24.6
+            },
+            "H2-2025": {
+              "rank": 7,
+              "ret": -11.3
+            },
+            "H1-2026": {
+              "rank": 1,
+              "ret": 24.8
+            },
+            "H2-2026": {
+              "rank": 7,
+              "ret": 3.6
+            }
+          }
+        },
+        {
+          "ticker": "WHC",
+          "name": "Whitehaven Coal Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 3,
+              "ret": -0.3
+            },
+            "H2-2024": {
+              "rank": 7,
+              "ret": -22.2
+            },
+            "H1-2025": {
+              "rank": 6,
+              "ret": -12.2
+            },
+            "H2-2025": {
+              "rank": 1,
+              "ret": 41.9
+            },
+            "H1-2026": {
+              "rank": 3,
+              "ret": -1.8
+            },
+            "H2-2026": {
+              "rank": 5,
+              "ret": 6.5
+            }
+          }
+        },
+        {
+          "ticker": "WDS",
+          "name": "Woodside Energy Group Ltd",
+          "cells": {
+            "H1-2024": {
+              "rank": 5,
+              "ret": -7.5
+            },
+            "H2-2024": {
+              "rank": 6,
+              "ret": -9.5
+            },
+            "H1-2025": {
+              "rank": 5,
+              "ret": -1.9
+            },
+            "H2-2025": {
+              "rank": 5,
+              "ret": 3.2
+            },
+            "H1-2026": {
+              "rank": 2,
+              "ret": 22.6
+            },
+            "H2-2026": {
+              "rank": 1,
+              "ret": 18.6
+            }
+          }
+        },
+        {
+          "ticker": "ORA",
+          "name": "Orora Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 6,
+              "ret": -23.1
+            },
+            "H2-2024": {
+              "rank": 1,
+              "ret": 27.4
+            },
+            "H1-2025": {
+              "rank": 7,
+              "ret": -21.4
+            },
+            "H2-2025": {
+              "rank": 3,
+              "ret": 18.5
+            },
+            "H1-2026": {
+              "rank": 7,
+              "ret": -36.2
+            },
+            "H2-2026": {
+              "rank": 3,
+              "ret": 12.3
+            }
+          }
+        },
+        {
+          "ticker": "NEC",
+          "name": "Nine Entertainment Co. Holdings Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 7,
+              "ret": -29.0
+            },
+            "H2-2024": {
+              "rank": 5,
+              "ret": -6.5
+            },
+            "H1-2025": {
+              "rank": 1,
+              "ret": 35.0
+            },
+            "H2-2025": {
+              "rank": 6,
+              "ret": -2.0
+            },
+            "H1-2026": {
+              "rank": 4,
+              "ret": -16.5
+            },
+            "H2-2026": {
+              "rank": 10,
+              "ret": -22.5
+            }
+          }
+        },
+        {
+          "ticker": "SGP",
+          "name": "Stockland",
+          "cells": {
+            "H1-2024": {
+              "rank": 4,
+              "ret": -2.2
+            },
+            "H2-2024": {
+              "rank": 2,
+              "ret": 14.8
+            },
+            "H1-2025": {
+              "rank": 4,
+              "ret": 14.5
+            },
+            "H2-2025": {
+              "rank": 4,
+              "ret": 6.8
+            },
+            "H1-2026": {
+              "rank": 5,
+              "ret": -26.3
+            },
+            "H2-2026": {
+              "rank": 6,
+              "ret": 4.9
+            }
+          }
+        },
+        {
+          "ticker": "BPT",
+          "name": "Beach Energy Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 2,
+              "ret": 13.2
+            }
+          }
+        },
+        {
+          "ticker": "AGL",
+          "name": "AGL Energy Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 4,
+              "ret": 12.0
+            }
+          }
+        },
+        {
+          "ticker": "S32",
+          "name": "South32 Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 8,
+              "ret": -2.0
+            }
           }
         }
-      },
-      {
-        "ticker": "CAR",
-        "cells": {
-          "H1-2024": {
-            "rank": 6,
-            "ret": 13.3
-          },
-          "H2-2024": {
-            "rank": 8,
-            "ret": 5.0
-          },
-          "H1-2025": {
-            "rank": 8,
-            "ret": 3.7
-          }
-        }
-      },
-      {
-        "ticker": "REA",
-        "cells": {
-          "H1-2024": {
-            "rank": 8,
-            "ret": 7.6
-          },
-          "H2-2024": {
-            "rank": 6,
-            "ret": 22.6
-          },
-          "H1-2025": {
-            "rank": 9,
-            "ret": 2.7
-          },
-          "H2-2025": {
-            "rank": 9,
-            "ret": -22.5
-          }
-        }
-      },
-      {
-        "ticker": "COH",
-        "cells": {
-          "H1-2024": {
-            "rank": 7,
-            "ret": 11.0
-          },
-          "H2-2024": {
-            "rank": 9,
-            "ret": -9.5
-          }
-        }
-      },
-      {
-        "ticker": "ARB",
-        "cells": {
-          "H1-2024": {
-            "rank": 9,
-            "ret": 5.5
-          }
-        }
-      },
-      {
-        "ticker": "FMG",
-        "cells": {
-          "H1-2024": {
-            "rank": 10,
-            "ret": -24.2
-          }
-        }
-      },
-      {
-        "ticker": "IAG",
-        "cells": {
-          "H2-2024": {
-            "rank": 7,
-            "ret": 21.8
-          },
-          "H1-2025": {
-            "rank": 7,
-            "ret": 7.4
-          },
-          "H2-2025": {
-            "rank": 5,
-            "ret": -9.1
-          }
-        }
-      },
-      {
-        "ticker": "LNW",
-        "cells": {
-          "H2-2024": {
-            "rank": 10,
-            "ret": -12.1
-          }
-        }
-      },
-      {
-        "ticker": "TNE",
-        "cells": {
-          "H1-2025": {
-            "rank": 2,
-            "ret": 34.2
-          },
-          "H2-2025": {
-            "rank": 10,
-            "ret": -30.6
-          },
-          "H1-2026": {
-            "rank": 1,
-            "ret": 6.1
-          },
-          "H2-2026": {
-            "rank": 4,
-            "ret": 9.1
-          }
-        }
-      },
-      {
-        "ticker": "BXB",
-        "cells": {
-          "H1-2025": {
-            "rank": 4,
-            "ret": 22.4
-          },
-          "H2-2025": {
-            "rank": 4,
-            "ret": -0.3
-          }
-        }
-      },
-      {
-        "ticker": "EVN",
-        "cells": {
-          "H2-2025": {
-            "rank": 1,
-            "ret": 65.1
-          },
-          "H1-2026": {
-            "rank": 3,
-            "ret": -6.3
-          },
-          "H2-2026": {
-            "rank": 6,
-            "ret": -0.7
-          }
-        }
-      },
-      {
-        "ticker": "CHC",
-        "cells": {
-          "H1-2026": {
-            "rank": 2,
-            "ret": -5.4
-          }
-        }
-      },
-      {
-        "ticker": "NEM",
-        "cells": {
-          "H1-2026": {
-            "rank": 5,
-            "ret": -10.7
-          },
-          "H2-2026": {
-            "rank": 2,
-            "ret": 17.6
-          }
-        }
-      },
-      {
-        "ticker": "PRU",
-        "cells": {
-          "H1-2026": {
-            "rank": 6,
-            "ret": -14.2
-          },
-          "H2-2026": {
-            "rank": 3,
-            "ret": 14.2
-          }
-        }
-      },
-      {
-        "ticker": "NST",
-        "cells": {
-          "H1-2026": {
-            "rank": 9,
-            "ret": -21.8
-          }
-        }
-      },
-      {
-        "ticker": "CCL",
-        "cells": {
-          "H2-2026": {
-            "rank": 1,
-            "ret": 18.7
-          }
-        }
-      },
-      {
-        "ticker": "QBE",
-        "cells": {
-          "H2-2026": {
-            "rank": 5,
-            "ret": 7.8
-          }
-        }
-      }
-    ]
+      ]
+    }
   },
-  "quant_factors": {
-    "name": "Quant Factors",
-    "periods": [
-      {
-        "id": "H1-2024",
-        "label": "H1 2024"
-      },
-      {
-        "id": "H2-2024",
-        "label": "H2 2024"
-      },
-      {
-        "id": "H1-2025",
-        "label": "H1 2025"
-      },
-      {
-        "id": "H2-2025",
-        "label": "H2 2025"
-      },
-      {
-        "id": "H1-2026",
-        "label": "H1 2026 (current)"
-      },
-      {
-        "id": "H2-2026",
-        "label": "H2 2026 (forward)"
-      }
-    ],
-    "stocks": [
-      {
-        "ticker": "360",
-        "cells": {
-          "H1-2024": {
-            "rank": 1,
-            "ret": 118.9
-          },
-          "H2-2024": {
-            "rank": 3,
-            "ret": 39.7
-          },
-          "H1-2025": {
-            "rank": 1,
-            "ret": 42.5
-          },
-          "H2-2025": {
-            "rank": 5,
-            "ret": -0.2
-          },
-          "H1-2026": {
-            "rank": 7,
-            "ret": -17.7
-          },
-          "H2-2026": {
-            "rank": 10,
-            "ret": -17.0
-          }
-        }
-      },
-      {
-        "ticker": "PME",
-        "cells": {
-          "H1-2024": {
-            "rank": 2,
-            "ret": 49.0
-          },
-          "H2-2024": {
-            "rank": 1,
-            "ret": 84.6
-          },
-          "H1-2025": {
-            "rank": 7,
-            "ret": 13.1
-          },
-          "H2-2026": {
-            "rank": 7,
-            "ret": -2.0
-          }
-        }
-      },
-      {
-        "ticker": "SOL",
-        "cells": {
-          "H1-2024": {
-            "rank": 6,
-            "ret": 0.8
-          },
-          "H2-2024": {
-            "rank": 9,
-            "ret": 5.6
-          },
-          "H1-2025": {
-            "rank": 2,
-            "ret": 24.6
-          },
-          "H2-2025": {
-            "rank": 8,
-            "ret": -11.3
-          },
-          "H1-2026": {
-            "rank": 1,
-            "ret": 24.8
-          },
-          "H2-2026": {
-            "rank": 5,
-            "ret": 3.6
-          }
-        }
-      },
-      {
-        "ticker": "JBH",
-        "cells": {
-          "H1-2024": {
-            "rank": 3,
-            "ret": 15.3
-          },
-          "H2-2024": {
-            "rank": 2,
-            "ret": 56.1
-          },
-          "H1-2025": {
-            "rank": 5,
-            "ret": 18.8
-          },
-          "H2-2025": {
-            "rank": 9,
-            "ret": -11.5
-          },
-          "H1-2026": {
-            "rank": 6,
-            "ret": -14.2
-          },
-          "H2-2026": {
-            "rank": 8,
-            "ret": -4.6
-          }
-        }
-      },
-      {
-        "ticker": "NST",
-        "cells": {
-          "H1-2024": {
-            "rank": 8,
-            "ret": -4.2
-          },
-          "H2-2025": {
-            "rank": 2,
-            "ret": 44.4
-          },
-          "H1-2026": {
-            "rank": 8,
-            "ret": -21.8
-          }
-        }
-      },
-      {
-        "ticker": "SGP",
-        "cells": {
-          "H1-2024": {
-            "rank": 7,
-            "ret": -2.2
-          },
-          "H2-2024": {
-            "rank": 6,
-            "ret": 14.8
-          },
-          "H1-2025": {
-            "rank": 6,
-            "ret": 14.5
-          },
-          "H2-2025": {
-            "rank": 3,
-            "ret": 6.8
-          },
-          "H1-2026": {
-            "rank": 9,
-            "ret": -26.3
-          }
-        }
-      },
-      {
-        "ticker": "REA",
-        "cells": {
-          "H1-2024": {
-            "rank": 4,
-            "ret": 7.6
-          },
-          "H2-2024": {
-            "rank": 4,
-            "ret": 22.6
-          }
-        }
-      },
-      {
-        "ticker": "RWC",
-        "cells": {
-          "H1-2024": {
-            "rank": 5,
-            "ret": 3.1
-          },
-          "H2-2024": {
-            "rank": 8,
-            "ret": 13.9
-          },
-          "H1-2025": {
-            "rank": 10,
-            "ret": -18.6
-          }
-        }
-      },
-      {
-        "ticker": "FMG",
-        "cells": {
-          "H1-2024": {
-            "rank": 9,
-            "ret": -24.2
-          }
-        }
-      },
-      {
-        "ticker": "NEC",
-        "cells": {
-          "H1-2024": {
-            "rank": 10,
-            "ret": -29.0
-          }
-        }
-      },
-      {
-        "ticker": "QBE",
-        "cells": {
-          "H2-2024": {
-            "rank": 7,
-            "ret": 14.2
-          },
-          "H1-2025": {
-            "rank": 3,
-            "ret": 23.6
-          },
-          "H2-2025": {
-            "rank": 10,
-            "ret": -13.9
-          },
-          "H2-2026": {
-            "rank": 4,
-            "ret": 7.8
-          }
-        }
-      },
-      {
-        "ticker": "ORG",
-        "cells": {
-          "H2-2024": {
-            "rank": 10,
-            "ret": 2.6
-          },
-          "H2-2026": {
-            "rank": 3,
-            "ret": 12.8
-          }
-        }
-      },
-      {
-        "ticker": "IAG",
-        "cells": {
-          "H2-2024": {
-            "rank": 5,
-            "ret": 21.8
-          },
-          "H1-2025": {
-            "rank": 8,
-            "ret": 7.4
-          },
-          "H2-2025": {
-            "rank": 7,
-            "ret": -9.1
-          }
-        }
-      },
-      {
-        "ticker": "VCX",
-        "cells": {
-          "H1-2025": {
-            "rank": 4,
-            "ret": 19.1
-          },
-          "H2-2025": {
-            "rank": 4,
-            "ret": 4.4
-          },
-          "H1-2026": {
-            "rank": 2,
-            "ret": 2.5
-          },
-          "H2-2026": {
-            "rank": 9,
-            "ret": -5.8
-          }
-        }
-      },
-      {
-        "ticker": "RMD",
-        "cells": {
-          "H1-2025": {
-            "rank": 9,
-            "ret": 6.7
-          },
-          "H2-2025": {
-            "rank": 6,
-            "ret": -7.7
-          }
-        }
-      },
-      {
-        "ticker": "EVN",
-        "cells": {
-          "H2-2025": {
-            "rank": 1,
-            "ret": 65.1
-          },
-          "H1-2026": {
-            "rank": 3,
-            "ret": -6.3
-          },
-          "H2-2026": {
-            "rank": 6,
-            "ret": -0.7
-          }
-        }
-      },
-      {
-        "ticker": "NEM",
-        "cells": {
-          "H1-2026": {
-            "rank": 4,
-            "ret": -10.7
-          },
-          "H2-2026": {
-            "rank": 1,
-            "ret": 17.6
-          }
-        }
-      },
-      {
-        "ticker": "PRU",
-        "cells": {
-          "H1-2026": {
-            "rank": 5,
-            "ret": -14.2
-          },
-          "H2-2026": {
-            "rank": 2,
-            "ret": 14.2
-          }
-        }
-      },
-      {
-        "ticker": "HVN",
-        "cells": {
-          "H1-2026": {
-            "rank": 10,
-            "ret": -29.2
-          }
+  "allPeriods": [
+    {
+      "id": "H1-2024",
+      "label": "H1 2024"
+    },
+    {
+      "id": "H2-2024",
+      "label": "H2 2024"
+    },
+    {
+      "id": "H1-2025",
+      "label": "H1 2025"
+    },
+    {
+      "id": "H2-2025",
+      "label": "H2 2025"
+    },
+    {
+      "id": "H1-2026",
+      "label": "H1 2026 (current)"
+    },
+    {
+      "id": "H2-2026",
+      "label": "H2 2026 (forward)"
+    }
+  ],
+  "universe": {
+    "360": {
+      "name": "Life360, Inc.",
+      "cells": {
+        "H1-2024": {
+          "ret": 118.9,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2024": {
+          "ret": 39.7,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H1-2025": {
+          "ret": 42.5,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2025": {
+          "ret": -0.2,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H1-2026": {
+          "ret": -17.7,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2026": {
+          "ret": -17.0,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
         }
       }
-    ]
-  },
-  "dividend_income": {
-    "name": "Dividend Income",
-    "periods": [
-      {
-        "id": "H1-2024",
-        "label": "H1 2024"
-      },
-      {
-        "id": "H2-2024",
-        "label": "H2 2024"
-      },
-      {
-        "id": "H1-2025",
-        "label": "H1 2025"
-      },
-      {
-        "id": "H2-2025",
-        "label": "H2 2025"
-      },
-      {
-        "id": "H1-2026",
-        "label": "H1 2026 (current)"
-      },
-      {
-        "id": "H2-2026",
-        "label": "H2 2026 (forward)"
-      }
-    ],
-    "stocks": [
-      {
-        "ticker": "JBH",
-        "cells": {
-          "H1-2024": {
-            "rank": 1,
-            "ret": 15.3
-          },
-          "H2-2024": {
-            "rank": 1,
-            "ret": 56.1
-          },
-          "H1-2025": {
-            "rank": 4,
-            "ret": 18.8
-          },
-          "H2-2025": {
-            "rank": 8,
-            "ret": -11.5
-          },
-          "H1-2026": {
-            "rank": 7,
-            "ret": -14.2
-          }
-        }
-      },
-      {
-        "ticker": "QAN",
-        "cells": {
-          "H1-2024": {
-            "rank": 2,
-            "ret": 9.3
-          },
-          "H2-2024": {
-            "rank": 2,
-            "ret": 51.8
-          },
-          "H1-2025": {
-            "rank": 2,
-            "ret": 21.4
-          },
-          "H2-2025": {
-            "rank": 7,
-            "ret": -1.2
-          },
-          "H1-2026": {
-            "rank": 1,
-            "ret": 3.6
-          }
-        }
-      },
-      {
-        "ticker": "MTS",
-        "cells": {
-          "H1-2024": {
-            "rank": 6,
-            "ret": 1.1
-          },
-          "H2-2024": {
-            "rank": 9,
-            "ret": -8.5
-          },
-          "H1-2025": {
-            "rank": 1,
-            "ret": 24.9
-          },
-          "H2-2025": {
-            "rank": 9,
-            "ret": -12.0
-          },
-          "H1-2026": {
-            "rank": 5,
-            "ret": -10.9
-          },
-          "H2-2026": {
-            "rank": 4,
-            "ret": 11.5
-          }
-        }
-      },
-      {
-        "ticker": "FMG",
-        "cells": {
-          "H1-2024": {
-            "rank": 10,
-            "ret": -24.2
-          },
-          "H2-2024": {
-            "rank": 10,
-            "ret": -11.7
-          },
-          "H1-2025": {
-            "rank": 10,
-            "ret": -16.4
-          },
-          "H2-2025": {
-            "rank": 1,
-            "ret": 47.7
-          },
-          "H1-2026": {
-            "rank": 6,
-            "ret": -10.9
-          }
-        }
-      },
-      {
-        "ticker": "HVN",
-        "cells": {
-          "H1-2024": {
-            "rank": 5,
-            "ret": 1.5
-          },
-          "H2-2024": {
-            "rank": 5,
-            "ret": 14.5
-          },
-          "H1-2025": {
-            "rank": 5,
-            "ret": 14.9
-          },
-          "H2-2025": {
-            "rank": 2,
-            "ret": 32.2
-          },
-          "H1-2026": {
-            "rank": 9,
-            "ret": -29.2
-          },
-          "H2-2026": {
-            "rank": 10,
-            "ret": -10.1
-          }
-        }
-      },
-      {
-        "ticker": "VCX",
-        "cells": {
-          "H1-2024": {
-            "rank": 8,
-            "ret": -7.1
-          },
-          "H2-2024": {
-            "rank": 4,
-            "ret": 14.8
-          },
-          "H1-2025": {
-            "rank": 3,
-            "ret": 19.1
-          },
-          "H2-2025": {
-            "rank": 5,
-            "ret": 4.4
-          },
-          "H1-2026": {
-            "rank": 2,
-            "ret": 2.5
-          },
-          "H2-2026": {
-            "rank": 9,
-            "ret": -5.8
-          }
-        }
-      },
-      {
-        "ticker": "SCG",
-        "cells": {
-          "H1-2024": {
-            "rank": 3,
-            "ret": 6.9
-          },
-          "H2-2024": {
-            "rank": 6,
-            "ret": 11.3
-          },
-          "H1-2025": {
-            "rank": 7,
-            "ret": 4.4
-          },
-          "H2-2025": {
-            "rank": 3,
-            "ret": 17.4
-          },
-          "H1-2026": {
-            "rank": 3,
-            "ret": -6.6
-          }
-        }
-      },
-      {
-        "ticker": "SGP",
-        "cells": {
-          "H1-2024": {
-            "rank": 7,
-            "ret": -2.2
-          },
-          "H2-2024": {
-            "rank": 3,
-            "ret": 14.8
-          },
-          "H1-2025": {
-            "rank": 6,
-            "ret": 14.5
-          },
-          "H2-2025": {
-            "rank": 4,
-            "ret": 6.8
-          },
-          "H1-2026": {
-            "rank": 8,
-            "ret": -26.3
-          },
-          "H2-2026": {
-            "rank": 7,
-            "ret": 4.9
-          }
-        }
-      },
-      {
-        "ticker": "CSL",
-        "cells": {
-          "H1-2024": {
-            "rank": 4,
-            "ret": 3.0
-          },
-          "H2-2024": {
-            "rank": 7,
-            "ret": -3.1
-          },
-          "H1-2025": {
-            "rank": 9,
-            "ret": -14.1
-          },
-          "H2-2025": {
-            "rank": 10,
-            "ret": -26.7
-          },
-          "H1-2026": {
-            "rank": 10,
-            "ret": -32.4
-          }
-        }
-      },
-      {
-        "ticker": "WOR",
-        "cells": {
-          "H1-2024": {
-            "rank": 9,
-            "ret": -12.8
-          },
-          "H2-2024": {
-            "rank": 8,
-            "ret": -6.4
-          },
-          "H1-2025": {
-            "rank": 8,
-            "ret": -2.7
-          },
-          "H2-2025": {
-            "rank": 6,
-            "ret": -0.5
-          },
-          "H1-2026": {
-            "rank": 4,
-            "ret": -9.9
-          }
-        }
-      },
-      {
-        "ticker": "WDS",
-        "cells": {
-          "H2-2026": {
-            "rank": 1,
-            "ret": 18.6
-          }
-        }
-      },
-      {
-        "ticker": "ORG",
-        "cells": {
-          "H2-2026": {
-            "rank": 2,
-            "ret": 12.8
-          }
-        }
-      },
-      {
-        "ticker": "AGL",
-        "cells": {
-          "H2-2026": {
-            "rank": 3,
-            "ret": 12.0
-          }
-        }
-      },
-      {
-        "ticker": "DXS",
-        "cells": {
-          "H2-2026": {
-            "rank": 5,
-            "ret": 6.9
-          }
-        }
-      },
-      {
-        "ticker": "MGR",
-        "cells": {
-          "H2-2026": {
-            "rank": 6,
-            "ret": 5.8
-          }
-        }
-      },
-      {
-        "ticker": "GPT",
-        "cells": {
-          "H2-2026": {
-            "rank": 8,
-            "ret": -1.7
-          }
+    },
+    "AGL": {
+      "name": "AGL Energy Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": 12.0,
+          "strategies": [
+            "dividend_income",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
         }
       }
-    ]
-  },
-  "damodaran_dcf": {
-    "name": "Damodaran Value",
-    "periods": [
-      {
-        "id": "H1-2024",
-        "label": "H1 2024"
-      },
-      {
-        "id": "H2-2024",
-        "label": "H2 2024"
-      },
-      {
-        "id": "H1-2025",
-        "label": "H1 2025"
-      },
-      {
-        "id": "H2-2025",
-        "label": "H2 2025"
-      },
-      {
-        "id": "H1-2026",
-        "label": "H1 2026 (current)"
-      },
-      {
-        "id": "H2-2026",
-        "label": "H2 2026 (forward)"
-      }
-    ],
-    "stocks": [
-      {
-        "ticker": "ORG",
-        "cells": {
-          "H1-2024": {
-            "rank": 1,
-            "ret": 32.3
-          },
-          "H2-2024": {
-            "rank": 6,
-            "ret": 2.6
-          },
-          "H1-2025": {
-            "rank": 6,
-            "ret": 2.0
-          },
-          "H2-2025": {
-            "rank": 6,
-            "ret": 8.2
-          },
-          "H1-2026": {
-            "rank": 4,
-            "ret": -0.7
-          }
-        }
-      },
-      {
-        "ticker": "SOL",
-        "cells": {
-          "H1-2024": {
-            "rank": 4,
-            "ret": 0.8
-          },
-          "H2-2024": {
-            "rank": 5,
-            "ret": 5.6
-          },
-          "H1-2025": {
-            "rank": 3,
-            "ret": 24.6
-          },
-          "H2-2025": {
-            "rank": 10,
-            "ret": -11.3
-          },
-          "H1-2026": {
-            "rank": 1,
-            "ret": 24.8
-          },
-          "H2-2026": {
-            "rank": 7,
-            "ret": 3.6
-          }
-        }
-      },
-      {
-        "ticker": "ORA",
-        "cells": {
-          "H1-2024": {
-            "rank": 7,
-            "ret": -23.1
-          },
-          "H2-2024": {
-            "rank": 1,
-            "ret": 27.4
-          },
-          "H1-2025": {
-            "rank": 9,
-            "ret": -21.4
-          },
-          "H2-2025": {
-            "rank": 4,
-            "ret": 18.5
-          },
-          "H1-2026": {
-            "rank": 9,
-            "ret": -36.2
-          },
-          "H2-2026": {
-            "rank": 5,
-            "ret": 12.3
-          }
-        }
-      },
-      {
-        "ticker": "NEC",
-        "cells": {
-          "H1-2024": {
-            "rank": 9,
-            "ret": -29.0
-          },
-          "H2-2024": {
-            "rank": 9,
-            "ret": -6.5
-          },
-          "H1-2025": {
-            "rank": 1,
-            "ret": 35.0
-          },
-          "H2-2025": {
-            "rank": 7,
-            "ret": -2.0
-          },
-          "H1-2026": {
-            "rank": 7,
-            "ret": -16.5
-          },
-          "H2-2026": {
-            "rank": 10,
-            "ret": -22.5
-          }
-        }
-      },
-      {
-        "ticker": "RWC",
-        "cells": {
-          "H1-2024": {
-            "rank": 2,
-            "ret": 3.1
-          },
-          "H2-2024": {
-            "rank": 3,
-            "ret": 13.9
-          },
-          "H1-2025": {
-            "rank": 8,
-            "ret": -18.6
-          },
-          "H2-2025": {
-            "rank": 8,
-            "ret": -4.9
-          },
-          "H1-2026": {
-            "rank": 3,
-            "ret": 2.4
-          },
-          "H2-2026": {
-            "rank": 3,
-            "ret": 15.5
-          }
-        }
-      },
-      {
-        "ticker": "HVN",
-        "cells": {
-          "H1-2024": {
-            "rank": 3,
-            "ret": 1.5
-          },
-          "H2-2024": {
-            "rank": 2,
-            "ret": 14.5
-          },
-          "H1-2025": {
-            "rank": 4,
-            "ret": 14.9
-          },
-          "H2-2025": {
-            "rank": 3,
-            "ret": 32.2
-          },
-          "H1-2026": {
-            "rank": 8,
-            "ret": -29.2
-          },
-          "H2-2026": {
-            "rank": 9,
-            "ret": -10.1
-          }
-        }
-      },
-      {
-        "ticker": "FMG",
-        "cells": {
-          "H1-2024": {
-            "rank": 8,
-            "ret": -24.2
-          },
-          "H2-2024": {
-            "rank": 10,
-            "ret": -11.7
-          },
-          "H1-2025": {
-            "rank": 7,
-            "ret": -16.4
-          },
-          "H2-2025": {
-            "rank": 2,
-            "ret": 47.7
-          },
-          "H1-2026": {
-            "rank": 6,
-            "ret": -10.9
-          }
-        }
-      },
-      {
-        "ticker": "GPT",
-        "cells": {
-          "H1-2024": {
-            "rank": 5,
-            "ret": -10.5
-          },
-          "H2-2024": {
-            "rank": 4,
-            "ret": 11.6
-          },
-          "H1-2025": {
-            "rank": 5,
-            "ret": 12.2
-          },
-          "H2-2025": {
-            "rank": 5,
-            "ret": 12.1
-          },
-          "H1-2026": {
-            "rank": 5,
-            "ret": -8.4
-          }
-        }
-      },
-      {
-        "ticker": "SKC",
-        "cells": {
-          "H1-2024": {
-            "rank": 6,
-            "ret": -19.8
-          },
-          "H2-2024": {
-            "rank": 8,
-            "ret": -4.4
-          },
-          "H1-2025": {
-            "rank": 10,
-            "ret": -36.8
-          },
-          "H2-2025": {
-            "rank": 9,
-            "ret": -6.0
-          },
-          "H1-2026": {
-            "rank": 10,
-            "ret": -40.6
-          }
-        }
-      },
-      {
-        "ticker": "CCL",
-        "cells": {
-          "H2-2024": {
-            "rank": 7,
-            "ret": -2.2
-          },
-          "H1-2025": {
-            "rank": 2,
-            "ret": 28.2
-          },
-          "H2-2025": {
-            "rank": 1,
-            "ret": 50.1
-          },
-          "H1-2026": {
-            "rank": 2,
-            "ret": 14.8
-          },
-          "H2-2026": {
-            "rank": 2,
-            "ret": 18.7
-          }
-        }
-      },
-      {
-        "ticker": "CSL",
-        "cells": {
-          "H2-2026": {
-            "rank": 1,
-            "ret": 68.3
-          }
-        }
-      },
-      {
-        "ticker": "BPT",
-        "cells": {
-          "H2-2026": {
-            "rank": 4,
-            "ret": 13.2
-          }
-        }
-      },
-      {
-        "ticker": "AGL",
-        "cells": {
-          "H2-2026": {
-            "rank": 6,
-            "ret": 12.0
-          }
-        }
-      },
-      {
-        "ticker": "SHL",
-        "cells": {
-          "H2-2026": {
-            "rank": 8,
-            "ret": -7.0
-          }
+    },
+    "ALL": {
+      "name": "Aristocrat Leisure Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 22.5,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2024": {
+          "ret": 37.5,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H1-2025": {
+          "ret": -4.4,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2025": {
+          "ret": -10.7,
+          "strategies": [
+            "padley_momentum"
+          ]
         }
       }
-    ]
-  },
-  "contrarian_value": {
-    "name": "Contrarian Value",
-    "periods": [
-      {
-        "id": "H1-2024",
-        "label": "H1 2024"
-      },
-      {
-        "id": "H2-2024",
-        "label": "H2 2024"
-      },
-      {
-        "id": "H1-2025",
-        "label": "H1 2025"
-      },
-      {
-        "id": "H2-2025",
-        "label": "H2 2025"
-      },
-      {
-        "id": "H1-2026",
-        "label": "H1 2026 (current)"
-      },
-      {
-        "id": "H2-2026",
-        "label": "H2 2026 (forward)"
-      }
-    ],
-    "stocks": [
-      {
-        "ticker": "HVN",
-        "cells": {
-          "H1-2024": {
-            "rank": 1,
-            "ret": 1.5
-          },
-          "H2-2024": {
-            "rank": 3,
-            "ret": 14.5
-          },
-          "H1-2025": {
-            "rank": 3,
-            "ret": 14.9
-          },
-          "H2-2025": {
-            "rank": 2,
-            "ret": 32.2
-          },
-          "H1-2026": {
-            "rank": 6,
-            "ret": -29.2
-          },
-          "H2-2026": {
-            "rank": 9,
-            "ret": -10.1
-          }
-        }
-      },
-      {
-        "ticker": "SOL",
-        "cells": {
-          "H1-2024": {
-            "rank": 2,
-            "ret": 0.8
-          },
-          "H2-2024": {
-            "rank": 4,
-            "ret": 5.6
-          },
-          "H1-2025": {
-            "rank": 2,
-            "ret": 24.6
-          },
-          "H2-2025": {
-            "rank": 7,
-            "ret": -11.3
-          },
-          "H1-2026": {
-            "rank": 1,
-            "ret": 24.8
-          },
-          "H2-2026": {
-            "rank": 7,
-            "ret": 3.6
-          }
-        }
-      },
-      {
-        "ticker": "WHC",
-        "cells": {
-          "H1-2024": {
-            "rank": 3,
-            "ret": -0.3
-          },
-          "H2-2024": {
-            "rank": 7,
-            "ret": -22.2
-          },
-          "H1-2025": {
-            "rank": 6,
-            "ret": -12.2
-          },
-          "H2-2025": {
-            "rank": 1,
-            "ret": 41.9
-          },
-          "H1-2026": {
-            "rank": 3,
-            "ret": -1.8
-          },
-          "H2-2026": {
-            "rank": 5,
-            "ret": 6.5
-          }
-        }
-      },
-      {
-        "ticker": "WDS",
-        "cells": {
-          "H1-2024": {
-            "rank": 5,
-            "ret": -7.5
-          },
-          "H2-2024": {
-            "rank": 6,
-            "ret": -9.5
-          },
-          "H1-2025": {
-            "rank": 5,
-            "ret": -1.9
-          },
-          "H2-2025": {
-            "rank": 5,
-            "ret": 3.2
-          },
-          "H1-2026": {
-            "rank": 2,
-            "ret": 22.6
-          },
-          "H2-2026": {
-            "rank": 1,
-            "ret": 18.6
-          }
-        }
-      },
-      {
-        "ticker": "ORA",
-        "cells": {
-          "H1-2024": {
-            "rank": 6,
-            "ret": -23.1
-          },
-          "H2-2024": {
-            "rank": 1,
-            "ret": 27.4
-          },
-          "H1-2025": {
-            "rank": 7,
-            "ret": -21.4
-          },
-          "H2-2025": {
-            "rank": 3,
-            "ret": 18.5
-          },
-          "H1-2026": {
-            "rank": 7,
-            "ret": -36.2
-          },
-          "H2-2026": {
-            "rank": 3,
-            "ret": 12.3
-          }
-        }
-      },
-      {
-        "ticker": "NEC",
-        "cells": {
-          "H1-2024": {
-            "rank": 7,
-            "ret": -29.0
-          },
-          "H2-2024": {
-            "rank": 5,
-            "ret": -6.5
-          },
-          "H1-2025": {
-            "rank": 1,
-            "ret": 35.0
-          },
-          "H2-2025": {
-            "rank": 6,
-            "ret": -2.0
-          },
-          "H1-2026": {
-            "rank": 4,
-            "ret": -16.5
-          },
-          "H2-2026": {
-            "rank": 10,
-            "ret": -22.5
-          }
-        }
-      },
-      {
-        "ticker": "SGP",
-        "cells": {
-          "H1-2024": {
-            "rank": 4,
-            "ret": -2.2
-          },
-          "H2-2024": {
-            "rank": 2,
-            "ret": 14.8
-          },
-          "H1-2025": {
-            "rank": 4,
-            "ret": 14.5
-          },
-          "H2-2025": {
-            "rank": 4,
-            "ret": 6.8
-          },
-          "H1-2026": {
-            "rank": 5,
-            "ret": -26.3
-          },
-          "H2-2026": {
-            "rank": 6,
-            "ret": 4.9
-          }
-        }
-      },
-      {
-        "ticker": "BPT",
-        "cells": {
-          "H2-2026": {
-            "rank": 2,
-            "ret": 13.2
-          }
-        }
-      },
-      {
-        "ticker": "AGL",
-        "cells": {
-          "H2-2026": {
-            "rank": 4,
-            "ret": 12.0
-          }
-        }
-      },
-      {
-        "ticker": "S32",
-        "cells": {
-          "H2-2026": {
-            "rank": 8,
-            "ret": -2.0
-          }
+    },
+    "ARB": {
+      "name": "ARB Corporation Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 5.5,
+          "strategies": [
+            "padley_momentum"
+          ]
         }
       }
-    ]
+    },
+    "BPT": {
+      "name": "Beach Energy Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": 13.2,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        }
+      }
+    },
+    "BXB": {
+      "name": "Brambles Limited",
+      "cells": {
+        "H1-2025": {
+          "ret": 22.4,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2025": {
+          "ret": -0.3,
+          "strategies": [
+            "padley_momentum"
+          ]
+        }
+      }
+    },
+    "CAR": {
+      "name": "CAR Group Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 13.3,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2024": {
+          "ret": 5.0,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H1-2025": {
+          "ret": 3.7,
+          "strategies": [
+            "padley_momentum"
+          ]
+        }
+      }
+    },
+    "CCL": {
+      "name": "Cuscal Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": 18.7,
+          "strategies": [
+            "padley_momentum",
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2024": {
+          "ret": -2.2,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2025": {
+          "ret": 28.2,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2025": {
+          "ret": 50.1,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2026": {
+          "ret": 14.8,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "CHC": {
+      "name": "Charter Hall Group",
+      "cells": {
+        "H1-2026": {
+          "ret": -5.4,
+          "strategies": [
+            "padley_momentum"
+          ]
+        }
+      }
+    },
+    "COH": {
+      "name": "Cochlear Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 11.0,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2024": {
+          "ret": -9.5,
+          "strategies": [
+            "padley_momentum"
+          ]
+        }
+      }
+    },
+    "CSL": {
+      "name": "CSL Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 3.0,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2024": {
+          "ret": -3.1,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2025": {
+          "ret": -14.1,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2025": {
+          "ret": -26.7,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2026": {
+          "ret": -32.4,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2026": {
+          "ret": 68.3,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "DXS": {
+      "name": "DEXUS",
+      "cells": {
+        "H2-2026": {
+          "ret": 6.9,
+          "strategies": [
+            "dividend_income"
+          ]
+        }
+      }
+    },
+    "EVN": {
+      "name": "Evolution Mining Limited",
+      "cells": {
+        "H2-2025": {
+          "ret": 65.1,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H1-2026": {
+          "ret": -6.3,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2026": {
+          "ret": -0.7,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        }
+      }
+    },
+    "FMG": {
+      "name": "Fortescue Ltd",
+      "cells": {
+        "H1-2024": {
+          "ret": -24.2,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors",
+            "dividend_income",
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2024": {
+          "ret": -11.7,
+          "strategies": [
+            "dividend_income",
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2025": {
+          "ret": -16.4,
+          "strategies": [
+            "dividend_income",
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2025": {
+          "ret": 47.7,
+          "strategies": [
+            "dividend_income",
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2026": {
+          "ret": -10.9,
+          "strategies": [
+            "dividend_income",
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "GPT": {
+      "name": "The GPT Group",
+      "cells": {
+        "H2-2026": {
+          "ret": -1.7,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2024": {
+          "ret": -10.5,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2024": {
+          "ret": 11.6,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2025": {
+          "ret": 12.2,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2025": {
+          "ret": 12.1,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2026": {
+          "ret": -8.4,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "HUB": {
+      "name": "HUB24 Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 30.2,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2024": {
+          "ret": 51.6,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H1-2025": {
+          "ret": 29.9,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2025": {
+          "ret": 9.0,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H1-2026": {
+          "ret": -23.7,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2026": {
+          "ret": -11.8,
+          "strategies": [
+            "padley_momentum"
+          ]
+        }
+      }
+    },
+    "HVN": {
+      "name": "Harvey Norman Holdings Limited",
+      "cells": {
+        "H1-2026": {
+          "ret": -29.2,
+          "strategies": [
+            "quant_factors",
+            "dividend_income",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H1-2024": {
+          "ret": 1.5,
+          "strategies": [
+            "dividend_income",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2024": {
+          "ret": 14.5,
+          "strategies": [
+            "dividend_income",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H1-2025": {
+          "ret": 14.9,
+          "strategies": [
+            "dividend_income",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2025": {
+          "ret": 32.2,
+          "strategies": [
+            "dividend_income",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2026": {
+          "ret": -10.1,
+          "strategies": [
+            "dividend_income",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        }
+      }
+    },
+    "IAG": {
+      "name": "Insurance Australia Group Limited",
+      "cells": {
+        "H2-2024": {
+          "ret": 21.8,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H1-2025": {
+          "ret": 7.4,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2025": {
+          "ret": -9.1,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        }
+      }
+    },
+    "JBH": {
+      "name": "JB Hi-Fi Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 15.3,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors",
+            "dividend_income"
+          ]
+        },
+        "H2-2024": {
+          "ret": 56.1,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors",
+            "dividend_income"
+          ]
+        },
+        "H1-2025": {
+          "ret": 18.8,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors",
+            "dividend_income"
+          ]
+        },
+        "H2-2025": {
+          "ret": -11.5,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors",
+            "dividend_income"
+          ]
+        },
+        "H1-2026": {
+          "ret": -14.2,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors",
+            "dividend_income"
+          ]
+        },
+        "H2-2026": {
+          "ret": -4.6,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        }
+      }
+    },
+    "LNW": {
+      "name": "Light & Wonder, Inc.",
+      "cells": {
+        "H2-2024": {
+          "ret": -12.1,
+          "strategies": [
+            "padley_momentum"
+          ]
+        }
+      }
+    },
+    "MGR": {
+      "name": "Mirvac Group",
+      "cells": {
+        "H2-2026": {
+          "ret": 5.8,
+          "strategies": [
+            "dividend_income"
+          ]
+        }
+      }
+    },
+    "MTS": {
+      "name": "Metcash Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 1.1,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2024": {
+          "ret": -8.5,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2025": {
+          "ret": 24.9,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2025": {
+          "ret": -12.0,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2026": {
+          "ret": -10.9,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2026": {
+          "ret": 11.5,
+          "strategies": [
+            "dividend_income"
+          ]
+        }
+      }
+    },
+    "NEC": {
+      "name": "Nine Entertainment Co. Holdings Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": -29.0,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2024": {
+          "ret": -6.5,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H1-2025": {
+          "ret": 35.0,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2025": {
+          "ret": -2.0,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H1-2026": {
+          "ret": -16.5,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2026": {
+          "ret": -22.5,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        }
+      }
+    },
+    "NEM": {
+      "name": "Newmont Corporation",
+      "cells": {
+        "H1-2026": {
+          "ret": -10.7,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2026": {
+          "ret": 17.6,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        }
+      }
+    },
+    "NST": {
+      "name": "Northern Star Resources Limited",
+      "cells": {
+        "H1-2026": {
+          "ret": -21.8,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H1-2024": {
+          "ret": -4.2,
+          "strategies": [
+            "quant_factors"
+          ]
+        },
+        "H2-2025": {
+          "ret": 44.4,
+          "strategies": [
+            "quant_factors"
+          ]
+        }
+      }
+    },
+    "ORA": {
+      "name": "Orora Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": -23.1,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2024": {
+          "ret": 27.4,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H1-2025": {
+          "ret": -21.4,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2025": {
+          "ret": 18.5,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H1-2026": {
+          "ret": -36.2,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2026": {
+          "ret": 12.3,
+          "strategies": [
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        }
+      }
+    },
+    "ORG": {
+      "name": "Origin Energy Limited",
+      "cells": {
+        "H2-2024": {
+          "ret": 2.6,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2026": {
+          "ret": 12.8,
+          "strategies": [
+            "quant_factors",
+            "dividend_income"
+          ]
+        },
+        "H1-2024": {
+          "ret": 32.3,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2025": {
+          "ret": 2.0,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2025": {
+          "ret": 8.2,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2026": {
+          "ret": -0.7,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "PME": {
+      "name": "Pro Medicus Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 49.0,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2024": {
+          "ret": 84.6,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H1-2025": {
+          "ret": 13.1,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2025": {
+          "ret": -21.5,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H1-2026": {
+          "ret": -8.4,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2026": {
+          "ret": -2.0,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        }
+      }
+    },
+    "PRU": {
+      "name": "Perseus Mining Limited",
+      "cells": {
+        "H1-2026": {
+          "ret": -14.2,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2026": {
+          "ret": 14.2,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        }
+      }
+    },
+    "QAN": {
+      "name": "Qantas Airways Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 9.3,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2024": {
+          "ret": 51.8,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2025": {
+          "ret": 21.4,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2025": {
+          "ret": -1.2,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2026": {
+          "ret": 3.6,
+          "strategies": [
+            "dividend_income"
+          ]
+        }
+      }
+    },
+    "QBE": {
+      "name": "QBE Insurance Group Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": 7.8,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2024": {
+          "ret": 14.2,
+          "strategies": [
+            "quant_factors"
+          ]
+        },
+        "H1-2025": {
+          "ret": 23.6,
+          "strategies": [
+            "quant_factors"
+          ]
+        },
+        "H2-2025": {
+          "ret": -13.9,
+          "strategies": [
+            "quant_factors"
+          ]
+        }
+      }
+    },
+    "REA": {
+      "name": "REA Group Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 7.6,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2024": {
+          "ret": 22.6,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H1-2025": {
+          "ret": 2.7,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2025": {
+          "ret": -22.5,
+          "strategies": [
+            "padley_momentum"
+          ]
+        }
+      }
+    },
+    "RMD": {
+      "name": "ResMed Inc.",
+      "cells": {
+        "H1-2025": {
+          "ret": 6.7,
+          "strategies": [
+            "quant_factors"
+          ]
+        },
+        "H2-2025": {
+          "ret": -7.7,
+          "strategies": [
+            "quant_factors"
+          ]
+        }
+      }
+    },
+    "RWC": {
+      "name": "Reliance Worldwide Corporation Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 3.1,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2024": {
+          "ret": 13.9,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2025": {
+          "ret": -18.6,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2025": {
+          "ret": -4.9,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2026": {
+          "ret": 2.4,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2026": {
+          "ret": 15.5,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "S32": {
+      "name": "South32 Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": -2.0,
+          "strategies": [
+            "contrarian_value"
+          ]
+        }
+      }
+    },
+    "SCG": {
+      "name": "Scentre Group",
+      "cells": {
+        "H1-2024": {
+          "ret": 6.9,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2024": {
+          "ret": 11.3,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2025": {
+          "ret": 4.4,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2025": {
+          "ret": 17.4,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2026": {
+          "ret": -6.6,
+          "strategies": [
+            "dividend_income"
+          ]
+        }
+      }
+    },
+    "SGP": {
+      "name": "Stockland",
+      "cells": {
+        "H1-2024": {
+          "ret": -2.2,
+          "strategies": [
+            "quant_factors",
+            "dividend_income",
+            "contrarian_value"
+          ]
+        },
+        "H2-2024": {
+          "ret": 14.8,
+          "strategies": [
+            "quant_factors",
+            "dividend_income",
+            "contrarian_value"
+          ]
+        },
+        "H1-2025": {
+          "ret": 14.5,
+          "strategies": [
+            "quant_factors",
+            "dividend_income",
+            "contrarian_value"
+          ]
+        },
+        "H2-2025": {
+          "ret": 6.8,
+          "strategies": [
+            "quant_factors",
+            "dividend_income",
+            "contrarian_value"
+          ]
+        },
+        "H1-2026": {
+          "ret": -26.3,
+          "strategies": [
+            "quant_factors",
+            "dividend_income",
+            "contrarian_value"
+          ]
+        },
+        "H2-2026": {
+          "ret": 4.9,
+          "strategies": [
+            "dividend_income",
+            "contrarian_value"
+          ]
+        }
+      }
+    },
+    "SHL": {
+      "name": "Sonic Healthcare Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": -7.0,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "SKC": {
+      "name": "SkyCity Entertainment Group Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": -19.8,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2024": {
+          "ret": -4.4,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2025": {
+          "ret": -36.8,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2025": {
+          "ret": -6.0,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2026": {
+          "ret": -40.6,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "SOL": {
+      "name": "Washington H. Soul Pattinson and Company Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 0.8,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2024": {
+          "ret": 5.6,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H1-2025": {
+          "ret": 24.6,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2025": {
+          "ret": -11.3,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H1-2026": {
+          "ret": 24.8,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        },
+        "H2-2026": {
+          "ret": 3.6,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf",
+            "contrarian_value"
+          ]
+        }
+      }
+    },
+    "TNE": {
+      "name": "Technology One Limited",
+      "cells": {
+        "H1-2025": {
+          "ret": 34.2,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2025": {
+          "ret": -30.6,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H1-2026": {
+          "ret": 6.1,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2026": {
+          "ret": 9.1,
+          "strategies": [
+            "padley_momentum"
+          ]
+        }
+      }
+    },
+    "VCX": {
+      "name": "Vicinity Centres",
+      "cells": {
+        "H1-2025": {
+          "ret": 19.1,
+          "strategies": [
+            "quant_factors",
+            "dividend_income"
+          ]
+        },
+        "H2-2025": {
+          "ret": 4.4,
+          "strategies": [
+            "quant_factors",
+            "dividend_income"
+          ]
+        },
+        "H1-2026": {
+          "ret": 2.5,
+          "strategies": [
+            "quant_factors",
+            "dividend_income"
+          ]
+        },
+        "H2-2026": {
+          "ret": -5.8,
+          "strategies": [
+            "quant_factors",
+            "dividend_income"
+          ]
+        },
+        "H1-2024": {
+          "ret": -7.1,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2024": {
+          "ret": 14.8,
+          "strategies": [
+            "dividend_income"
+          ]
+        }
+      }
+    },
+    "WDS": {
+      "name": "Woodside Energy Group Ltd",
+      "cells": {
+        "H2-2026": {
+          "ret": 18.6,
+          "strategies": [
+            "dividend_income",
+            "contrarian_value"
+          ]
+        },
+        "H1-2024": {
+          "ret": -7.5,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H2-2024": {
+          "ret": -9.5,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H1-2025": {
+          "ret": -1.9,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H2-2025": {
+          "ret": 3.2,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H1-2026": {
+          "ret": 22.6,
+          "strategies": [
+            "contrarian_value"
+          ]
+        }
+      }
+    },
+    "WHC": {
+      "name": "Whitehaven Coal Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": -0.3,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H2-2024": {
+          "ret": -22.2,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H1-2025": {
+          "ret": -12.2,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H2-2025": {
+          "ret": 41.9,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H1-2026": {
+          "ret": -1.8,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H2-2026": {
+          "ret": 6.5,
+          "strategies": [
+            "contrarian_value"
+          ]
+        }
+      }
+    },
+    "WOR": {
+      "name": "Worley Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": -12.8,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2024": {
+          "ret": -6.4,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2025": {
+          "ret": -2.7,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2025": {
+          "ret": -0.5,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2026": {
+          "ret": -9.9,
+          "strategies": [
+            "dividend_income"
+          ]
+        }
+      }
+    }
   }
 }

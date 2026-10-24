@@ -12,6 +12,9 @@ interface TsrSummary {
 
 interface PricePoint { date: string; agl: number | null; asx100: number | null }
 
+interface IndexName { ticker: string; name: string }
+interface ConstituentChange { from: string; to: string; entered: IndexName[]; exited: IndexName[] }
+
 interface PeerRanking {
   periodStart: string
   peerCount: number
@@ -68,10 +71,12 @@ export default function AglAnalysis() {
   const [priceData, setPriceData] = useState<PricePoint[]>([])
   const [peerRankings, setPeerRankings] = useState<Record<string, PeerRanking>>({})
   const [selectedPeriod, setSelectedPeriod] = useState('2023-07-01')
+  const [changes, setChanges] = useState<ConstituentChange[]>([])
 
   useEffect(() => {
     fetch(`${BASE}data/tsr/tsr-summary.json`).then(r => r.ok ? r.json() : []).then(setTsrSummary).catch(() => {})
     fetch(`${BASE}data/charts/agl-vs-index.json`).then(r => r.ok ? r.json() : []).then(setPriceData).catch(() => {})
+    fetch(`${BASE}data/tsr/constituent-changes.json`).then(r => r.ok ? r.json() : []).then(setChanges).catch(() => {})
     const peerPeriods = ['2023-07-01', '2024-07-01', '2025-07-01']
     peerPeriods.forEach(p => {
       fetch(`${BASE}data/tsr/peer-ranking-${p}.json`)
@@ -186,6 +191,44 @@ export default function AglAnalysis() {
               </LineChart>
             </ResponsiveContainer>
           </div>
+        </div>
+      )}
+
+      {/* ASX 100 constituent changes */}
+      {changes.length > 0 && (
+        <div className="tsr-card" style={{ marginTop: 16 }}>
+          <h3>Who left (and joined) the ASX 100</h3>
+          <p className="tsr-subtitle">
+            AGL is ranked against the S&P/ASX 100 as it stood each 1 July. The index reshuffles
+            annually — these are the peers that <strong>dropped out</strong> (mostly taken over or
+            fell in size) and the new names that <strong>came in</strong>, so the peer group isn't
+            identical period to period.
+          </p>
+          {changes.map(c => (
+            <div key={`${c.from}-${c.to}`} className="cc-block">
+              <div className="cc-head">{c.from} → {c.to}</div>
+              <div className="cc-cols">
+                <div className="cc-col">
+                  <div className="cc-label cc-out">Left the index ({c.exited.length})</div>
+                  {c.exited.map(s => (
+                    <div key={s.ticker} className="cc-item">
+                      <span className="cc-tick cc-tick-out">{s.ticker}</span>
+                      <span className="cc-name">{s.name}</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="cc-col">
+                  <div className="cc-label cc-in">Joined the index ({c.entered.length})</div>
+                  {c.entered.map(s => (
+                    <div key={s.ticker} className="cc-item">
+                      <span className="cc-tick cc-tick-in">{s.ticker}</span>
+                      <span className="cc-name">{s.name}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       )}
     </>
