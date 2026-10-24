@@ -275,7 +275,7 @@ ASX100_JUN_2025 = [
     'ORI.AX',   # Orica Limited
     'PLS.AX',   # Pilbara Minerals Limited
     'PME.AX',   # Pro Medicus Limited
-    'PMI.AX',   # Pinnacle Investment Management Group Limited
+    'PNI.AX',   # Pinnacle Investment Management Group Limited
     'PRU.AX',   # Perseus Mining Limited
     'QAN.AX',   # Qantas Airways Limited
     'QBE.AX',   # QBE Insurance Group Limited

@@ -6,7 +6,7 @@
   "aglRank": 61,
   "aglTsr": 12.95,
   "aglPercentile": 35.5,
-  "median": 29.83,
+  "median": 29.88,
   "top": {
     "ticker": "EVN.AX",
     "name": "Evolution Mining Limited",
@@ -128,16 +128,16 @@
       "percentile": 84.9
     },
     {
-      "ticker": "ANZ.AX",
-      "name": "ANZ Group Holdings Limited",
-      "tsrPct": 72.38,
+      "ticker": "QAN.AX",
+      "name": "Qantas Airways Limited",
+      "tsrPct": 73.73,
       "rank": 16,
       "percentile": 83.9
     },
     {
-      "ticker": "QAN.AX",
-      "name": "Qantas Airways Limited",
-      "tsrPct": 69.63,
+      "ticker": "ANZ.AX",
+      "name": "ANZ Group Holdings Limited",
+      "tsrPct": 72.38,
       "rank": 17,
       "percentile": 82.8
     },
@@ -296,37 +296,37 @@
       "percentile": 59.1
     },
     {
+      "ticker": "SCG.AX",
+      "name": "Scentre Group",
+      "tsrPct": 39.16,
+      "rank": 40,
+      "percentile": 58.1
+    },
+    {
       "ticker": "WES.AX",
       "name": "Wesfarmers Limited",
       "tsrPct": 39.08,
-      "rank": 40,
-      "percentile": 58.1
+      "rank": 41,
+      "percentile": 57.0
     },
     {
       "ticker": "MQG.AX",
       "name": "Macquarie Group Limited",
       "tsrPct": 37.79,
-      "rank": 41,
-      "percentile": 57.0
+      "rank": 42,
+      "percentile": 55.9
     },
     {
       "ticker": "NAB.AX",
       "name": "National Australia Bank Limited",
       "tsrPct": 36.48,
-      "rank": 42,
-      "percentile": 55.9
+      "rank": 43,
+      "percentile": 54.8
     },
     {
       "ticker": "ALL.AX",
       "name": "Aristocrat Leisure Limited",
       "tsrPct": 36.31,
-      "rank": 43,
-      "percentile": 54.8
-    },
-    {
-      "ticker": "SCG.AX",
-      "name": "Scentre Group",
-      "tsrPct": 35.54,
       "rank": 44,
       "percentile": 53.8
     },
@@ -345,16 +345,16 @@
       "percentile": 51.6
     },
     {
-      "ticker": "ASX.AX",
-      "name": "ASX Limited",
-      "tsrPct": 29.88,
+      "ticker": "RMD.AX",
+      "name": "ResMed Inc.",
+      "tsrPct": 30.11,
       "rank": 47,
       "percentile": 50.5
     },
     {
-      "ticker": "RMD.AX",
-      "name": "ResMed Inc.",
-      "tsrPct": 29.83,
+      "ticker": "ASX.AX",
+      "name": "ASX Limited",
+      "tsrPct": 29.88,
       "rank": 48,
       "percentile": 49.5
     },
@@ -578,7 +578,7 @@
     {
       "ticker": "WOR.AX",
       "name": "Worley Limited",
-      "tsrPct": -24.1,
+      "tsrPct": -22.05,
       "rank": 80,
       "percentile": 15.1
     },
