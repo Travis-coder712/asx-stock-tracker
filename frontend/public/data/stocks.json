@@ -2090,16 +2090,6 @@
     "roe": null
   },
   {
-    "ticker": "PMI.AX",
-    "name": "PMI",
-    "sector": null,
-    "marketCap": null,
-    "pe": null,
-    "pb": null,
-    "divYield": null,
-    "roe": null
-  },
-  {
     "ticker": "SQ2.AX",
     "name": "SQ2",
     "sector": null,
@@ -2293,6 +2283,16 @@
     "ticker": "SVW.AX",
     "name": "SVW",
     "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "PNI.AX",
+    "name": "Pinnacle Investment Management Group Limited",
+    "sector": "Financial Services",
     "marketCap": null,
     "pe": null,
     "pb": null,
