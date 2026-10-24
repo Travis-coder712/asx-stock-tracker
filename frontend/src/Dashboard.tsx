@@ -274,7 +274,7 @@ export default function Dashboard() {
 
       {/* Time Explorer */}
       {range && fullComparison.length > 2 && (
-        <div className="tsr-card" style={{ marginTop: 16 }}>
+        <div id="time-explorer" className="tsr-card te-card" style={{ marginTop: 16 }}>
           <h3>Time Explorer</h3>
           <p className="tsr-subtitle">
             Drag the handles to any window. See each strategy's return over just that period — and,

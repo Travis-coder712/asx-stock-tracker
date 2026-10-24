@@ -693,7 +693,16 @@
   .tsr-periods { grid-template-columns: 1fr; }
 }
 
+/* Jump link in section header */
+.jump-link {
+  flex-shrink: 0; white-space: nowrap; font-size: 12px; font-weight: 600;
+  color: var(--accent); text-decoration: none; padding: 4px 12px;
+  border: 1px solid var(--border); border-radius: 999px; transition: all 0.12s ease;
+}
+.jump-link:hover { border-color: var(--accent); background: rgba(107,140,255,0.08); }
+
 /* Time Explorer */
+.te-card { scroll-margin-top: 14px; }
 .te-presets { display: flex; gap: 6px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
 .te-preset {
   background: var(--surface-2); border: 1px solid var(--border); color: var(--text-dim);

@@ -158,6 +158,16 @@ function App() {
           <div className="section-header">
             <h2>Strategy Portfolios</h2>
             <div className="line" />
+            <a
+              href="#time-explorer"
+              className="jump-link"
+              onClick={e => {
+                e.preventDefault()
+                document.getElementById('time-explorer')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+              }}
+            >
+              ↓ Time Explorer
+            </a>
           </div>
 
           <div className="strategy-grid">
