@@ -11,6 +11,8 @@ import json
 import importlib
 from datetime import datetime
 
+from pipeline.models import freeze
+
 DB_PATH = os.path.join(os.path.dirname(__file__), '..', '..', 'database', 'asx_tracker.db')
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', '..', 'frontend', 'public', 'data')
 
@@ -42,22 +44,32 @@ def get_price_on_date(conn, ticker, date, direction='ASC'):
     return row[0] if row and row[0] else None
 
 
-def run_strategy_period(conn, strategy_id, mod, buy_date, end_date, budget):
-    """Screen stocks and compute period performance for one strategy/period."""
+def run_strategy_period(conn, strategy_id, mod, buy_date, end_date, budget, period_id=None):
+    """Compute period performance for one strategy/period.
 
-    # Temporarily patch the module's BUY_DATE if it has one
-    if hasattr(mod, 'BUY_DATE'):
-        original_buy = mod.BUY_DATE
-        mod.BUY_DATE = buy_date
+    Picks are FROZEN: if this (strategy, period) was screened before, reuse the
+    stored picks and only re-price forward. Only a genuinely new period gets
+    screened — once — and is then frozen so it never drifts on future refreshes.
+    """
 
-    # Screen stocks
-    candidates = mod.screen_stocks(conn)
+    frozen = freeze.get_frozen(conn, strategy_id, period_id) if period_id else None
 
-    max_h = getattr(mod, 'MAX_HOLDINGS', 10)
-    picks = candidates[:max_h]
-
-    if hasattr(mod, 'BUY_DATE'):
-        mod.BUY_DATE = original_buy
+    if frozen:
+        picks = [{'ticker': f['ticker'], 'name': f.get('name', f['ticker']),
+                  'rationale': f.get('rationale', '')} for f in frozen]
+    else:
+        # First time we've seen this period — screen it, then freeze it.
+        if hasattr(mod, 'BUY_DATE'):
+            original_buy = mod.BUY_DATE
+            mod.BUY_DATE = buy_date
+        candidates = mod.screen_stocks(conn)
+        max_h = getattr(mod, 'MAX_HOLDINGS', 10)
+        picks = candidates[:max_h]
+        if hasattr(mod, 'BUY_DATE'):
+            mod.BUY_DATE = original_buy
+        if picks and period_id:
+            freeze.freeze(conn, strategy_id, period_id, picks)
+            print(f"    (froze {len(picks)} new picks for {period_id})")
 
     if not picks:
         return {
@@ -85,29 +97,34 @@ def run_strategy_period(conn, strategy_id, mod, buy_date, end_date, budget):
             'rationale': pick.get('rationale', ''),
         })
 
-    # Compute daily snapshots
-    dates = conn.execute(
+    # Compute daily snapshots with FORWARD-FILL valuation so a holding that
+    # didn't trade on a given day is never silently dropped (which would fake
+    # a drawdown). Each holding is valued at its last adj_close on or before
+    # the snapshot date.
+    dates = [r[0] for r in conn.execute(
         "SELECT DISTINCT date FROM price_history WHERE date >= ? AND date <= ? ORDER BY date",
         (buy_date, end_date)
-    ).fetchall()
+    ).fetchall()]
+
+    series = {}
+    for h in holdings:
+        series[h['ticker']] = conn.execute(
+            "SELECT date, adj_close FROM price_history WHERE ticker=? AND adj_close IS NOT NULL ORDER BY date",
+            (h['ticker'],)).fetchall()
+    ptr = {h['ticker']: 0 for h in holdings}
+    last = {h['ticker']: None for h in holdings}
 
     snapshots = []
     prev_value = None
-    for (date_str,) in dates:
-        total = 0
-        count = 0
+    for date_str in dates:
         for h in holdings:
-            p = get_price_on_date(conn, h['ticker'], date_str)
-            if p:
-                # Find exact date match first
-                exact = conn.execute(
-                    "SELECT adj_close FROM price_history WHERE ticker=? AND date=?",
-                    (h['ticker'], date_str)
-                ).fetchone()
-                if exact and exact[0]:
-                    total += h['shares'] * exact[0]
-                    count += 1
-        if count == 0:
+            t = h['ticker']
+            ser = series[t]
+            while ptr[t] < len(ser) and ser[ptr[t]][0] <= date_str:
+                last[t] = ser[ptr[t]][1]
+                ptr[t] += 1
+        total = sum(h['shares'] * last[h['ticker']] for h in holdings if last[h['ticker']] is not None)
+        if total <= 0:
             continue
 
         daily_ret = round((total - prev_value) / prev_value * 100, 4) if prev_value and prev_value > 0 else None
@@ -132,6 +149,10 @@ def run_strategy_period(conn, strategy_id, mod, buy_date, end_date, budget):
 def main():
     conn = sqlite3.connect(DB_PATH)
     os.makedirs(os.path.join(OUTPUT_DIR, 'periods'), exist_ok=True)
+
+    n = freeze.seed_if_empty(conn)
+    if n:
+        print(f"Seeded {n} frozen picks from committed originals.")
 
     all_results = {}
 
@@ -169,7 +190,8 @@ def main():
                 })
                 continue
 
-            result = run_strategy_period(conn, sid, mod, buy_date, end_date, cumulative_value)
+            result = run_strategy_period(conn, sid, mod, buy_date, end_date, cumulative_value,
+                                         period_id=period['id'])
 
             cumulative_return = ((result['endValue'] - INITIAL_BUDGET) / INITIAL_BUDGET) * 100
 

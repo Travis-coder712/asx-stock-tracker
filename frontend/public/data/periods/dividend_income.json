@@ -13,40 +13,40 @@
         {
           "ticker": "FMG.AX",
           "name": "Fortescue Ltd",
-          "shares": 20.3917,
-          "buyPrice": 24.52,
+          "shares": 20.9358,
+          "buyPrice": 23.88,
           "buyDate": "2024-01-02",
           "rationale": ""
         },
         {
           "ticker": "SGP.AX",
           "name": "Stockland",
-          "shares": 124.9403,
-          "buyPrice": 4.0,
+          "shares": 129.8082,
+          "buyPrice": 3.85,
           "buyDate": "2024-01-02",
           "rationale": ""
         },
         {
           "ticker": "HVN.AX",
           "name": "Harvey Norman Holdings Limited",
-          "shares": 134.1919,
-          "buyPrice": 3.73,
+          "shares": 138.564,
+          "buyPrice": 3.61,
           "buyDate": "2024-01-02",
           "rationale": ""
         },
         {
           "ticker": "MTS.AX",
           "name": "Metcash Limited",
-          "shares": 157.6641,
-          "buyPrice": 3.17,
+          "shares": 162.6819,
+          "buyPrice": 3.07,
           "buyDate": "2024-01-02",
           "rationale": ""
         },
         {
           "ticker": "VCX.AX",
           "name": "Vicinity Centres",
-          "shares": 277.9868,
-          "buyPrice": 1.8,
+          "shares": 284.8046,
+          "buyPrice": 1.76,
           "buyDate": "2024-01-02",
           "rationale": ""
         },
@@ -61,16 +61,16 @@
         {
           "ticker": "JBH.AX",
           "name": "JB Hi-Fi Limited",
-          "shares": 10.2493,
-          "buyPrice": 48.78,
+          "shares": 10.4412,
+          "buyPrice": 47.89,
           "buyDate": "2024-01-02",
           "rationale": ""
         },
         {
           "ticker": "CSL.AX",
           "name": "CSL Limited",
-          "shares": 1.8157,
-          "buyPrice": 275.37,
+          "shares": 1.8393,
+          "buyPrice": 271.84,
           "buyDate": "2024-01-02",
           "rationale": ""
         },
@@ -139,7 +139,7 @@
         },
         {
           "date": "2024-01-15",
-          "totalValue": 4985.85,
+          "totalValue": 4985.86,
           "dailyReturn": -0.0643
         },
         {
@@ -174,7 +174,7 @@
         },
         {
           "date": "2024-01-24",
-          "totalValue": 4977.05,
+          "totalValue": 4977.06,
           "dailyReturn": 0.3036
         },
         {
@@ -189,7 +189,7 @@
         },
         {
           "date": "2024-01-30",
-          "totalValue": 5001.68,
+          "totalValue": 5001.69,
           "dailyReturn": 0.2333
         },
         {
@@ -329,7 +329,7 @@
         },
         {
           "date": "2024-03-08",
-          "totalValue": 5221.52,
+          "totalValue": 5221.53,
           "dailyReturn": 0.789
         },
         {
@@ -380,7 +380,7 @@
         {
           "date": "2024-03-22",
           "totalValue": 5277.02,
-          "dailyReturn": -0.1904
+          "dailyReturn": -0.1905
         },
         {
           "date": "2024-03-25",
@@ -404,7 +404,7 @@
         },
         {
           "date": "2024-04-02",
-          "totalValue": 5395.72,
+          "totalValue": 5395.73,
           "dailyReturn": -0.0054
         },
         {
@@ -434,7 +434,7 @@
         },
         {
           "date": "2024-04-10",
-          "totalValue": 5366.83,
+          "totalValue": 5366.84,
           "dailyReturn": 0.9699
         },
         {
@@ -499,7 +499,7 @@
         },
         {
           "date": "2024-04-30",
-          "totalValue": 5162.02,
+          "totalValue": 5162.03,
           "dailyReturn": -0.0834
         },
         {
@@ -509,7 +509,7 @@
         },
         {
           "date": "2024-05-02",
-          "totalValue": 5057.95,
+          "totalValue": 5057.96,
           "dailyReturn": -0.0693
         },
         {
@@ -529,7 +529,7 @@
         },
         {
           "date": "2024-05-08",
-          "totalValue": 5217.63,
+          "totalValue": 5217.64,
           "dailyReturn": 0.0215
         },
         {
@@ -554,7 +554,7 @@
         },
         {
           "date": "2024-05-15",
-          "totalValue": 5139.42,
+          "totalValue": 5139.43,
           "dailyReturn": 0.4686
         },
         {
@@ -564,7 +564,7 @@
         },
         {
           "date": "2024-05-17",
-          "totalValue": 5140.09,
+          "totalValue": 5140.1,
           "dailyReturn": -1.1324
         },
         {
@@ -575,7 +575,7 @@
         {
           "date": "2024-05-21",
           "totalValue": 5158.08,
-          "dailyReturn": 0.4432
+          "dailyReturn": 0.4431
         },
         {
           "date": "2024-05-22",
@@ -590,11 +590,11 @@
         {
           "date": "2024-05-24",
           "totalValue": 5074.9,
-          "dailyReturn": -1.1205
+          "dailyReturn": -1.1206
         },
         {
           "date": "2024-05-27",
-          "totalValue": 5130.26,
+          "totalValue": 5130.27,
           "dailyReturn": 1.0909
         },
         {
@@ -619,7 +619,7 @@
         },
         {
           "date": "2024-06-03",
-          "totalValue": 5112.96,
+          "totalValue": 5112.97,
           "dailyReturn": 0.5718
         },
         {
@@ -729,40 +729,40 @@
         {
           "ticker": "FMG.AX",
           "name": "Fortescue Ltd",
-          "shares": 26.2239,
-          "buyPrice": 18.9,
+          "shares": 26.9236,
+          "buyPrice": 18.4,
           "buyDate": "2024-07-01",
           "rationale": ""
         },
         {
           "ticker": "SGP.AX",
           "name": "Stockland",
-          "shares": 124.1953,
-          "buyPrice": 3.99,
+          "shares": 129.0341,
+          "buyPrice": 3.84,
           "buyDate": "2024-07-01",
           "rationale": ""
         },
         {
           "ticker": "HVN.AX",
           "name": "Harvey Norman Holdings Limited",
-          "shares": 130.7186,
-          "buyPrice": 3.79,
+          "shares": 134.9777,
+          "buyPrice": 3.67,
           "buyDate": "2024-07-01",
           "rationale": ""
         },
         {
           "ticker": "MTS.AX",
           "name": "Metcash Limited",
-          "shares": 153.6174,
-          "buyPrice": 3.23,
+          "shares": 158.5064,
+          "buyPrice": 3.13,
           "buyDate": "2024-07-01",
           "rationale": ""
         },
         {
           "ticker": "VCX.AX",
           "name": "Vicinity Centres",
-          "shares": 291.7497,
-          "buyPrice": 1.7,
+          "shares": 298.905,
+          "buyPrice": 1.66,
           "buyDate": "2024-07-01",
           "rationale": ""
         },
@@ -777,16 +777,16 @@
         {
           "ticker": "JBH.AX",
           "name": "JB Hi-Fi Limited",
-          "shares": 8.8647,
-          "buyPrice": 55.9,
+          "shares": 9.0306,
+          "buyPrice": 54.87,
           "buyDate": "2024-07-01",
           "rationale": ""
         },
         {
           "ticker": "CSL.AX",
           "name": "CSL Limited",
-          "shares": 1.7618,
-          "buyPrice": 281.25,
+          "shares": 1.7847,
+          "buyPrice": 277.64,
           "buyDate": "2024-07-01",
           "rationale": ""
         },
@@ -815,7 +815,7 @@
         },
         {
           "date": "2024-07-02",
-          "totalValue": 4931.06,
+          "totalValue": 4931.05,
           "dailyReturn": -0.4867
         },
         {
@@ -835,7 +835,7 @@
         },
         {
           "date": "2024-07-08",
-          "totalValue": 5008.21,
+          "totalValue": 5008.2,
           "dailyReturn": -0.5768
         },
         {
@@ -845,7 +845,7 @@
         },
         {
           "date": "2024-07-10",
-          "totalValue": 5037.45,
+          "totalValue": 5037.44,
           "dailyReturn": -0.0617
         },
         {
@@ -855,12 +855,12 @@
         },
         {
           "date": "2024-07-12",
-          "totalValue": 5180.51,
+          "totalValue": 5180.5,
           "dailyReturn": 1.5429
         },
         {
           "date": "2024-07-15",
-          "totalValue": 5220.97,
+          "totalValue": 5220.96,
           "dailyReturn": 0.781
         },
         {
@@ -895,7 +895,7 @@
         },
         {
           "date": "2024-07-24",
-          "totalValue": 5184.09,
+          "totalValue": 5184.08,
           "dailyReturn": -0.404
         },
         {
@@ -905,7 +905,7 @@
         },
         {
           "date": "2024-07-26",
-          "totalValue": 5159.07,
+          "totalValue": 5159.06,
           "dailyReturn": 0.7309
         },
         {
@@ -920,12 +920,12 @@
         },
         {
           "date": "2024-07-31",
-          "totalValue": 5294.78,
+          "totalValue": 5294.77,
           "dailyReturn": 3.0447
         },
         {
           "date": "2024-08-01",
-          "totalValue": 5304.7,
+          "totalValue": 5304.69,
           "dailyReturn": 0.1874
         },
         {
@@ -950,13 +950,13 @@
         },
         {
           "date": "2024-08-08",
-          "totalValue": 5033.54,
+          "totalValue": 5033.53,
           "dailyReturn": -1.0176
         },
         {
           "date": "2024-08-09",
-          "totalValue": 5119.08,
-          "dailyReturn": 1.6994
+          "totalValue": 5119.07,
+          "dailyReturn": 1.6995
         },
         {
           "date": "2024-08-12",
@@ -965,17 +965,17 @@
         },
         {
           "date": "2024-08-13",
-          "totalValue": 5188.35,
+          "totalValue": 5188.34,
           "dailyReturn": 0.1555
         },
         {
           "date": "2024-08-14",
           "totalValue": 5215.61,
-          "dailyReturn": 0.5255
+          "dailyReturn": 0.5256
         },
         {
           "date": "2024-08-15",
-          "totalValue": 5211.68,
+          "totalValue": 5211.67,
           "dailyReturn": -0.0755
         },
         {
@@ -1000,12 +1000,12 @@
         },
         {
           "date": "2024-08-22",
-          "totalValue": 5367.97,
+          "totalValue": 5367.96,
           "dailyReturn": 0.9965
         },
         {
           "date": "2024-08-23",
-          "totalValue": 5384.61,
+          "totalValue": 5384.6,
           "dailyReturn": 0.31
         },
         {
@@ -1015,17 +1015,17 @@
         },
         {
           "date": "2024-08-27",
-          "totalValue": 5438.66,
+          "totalValue": 5438.65,
           "dailyReturn": -0.103
         },
         {
           "date": "2024-08-28",
           "totalValue": 5449.88,
-          "dailyReturn": 0.2063
+          "dailyReturn": 0.2064
         },
         {
           "date": "2024-08-29",
-          "totalValue": 5456.28,
+          "totalValue": 5456.27,
           "dailyReturn": 0.1174
         },
         {
@@ -1040,18 +1040,18 @@
         },
         {
           "date": "2024-09-03",
-          "totalValue": 5498.43,
+          "totalValue": 5498.42,
           "dailyReturn": -0.0531
         },
         {
           "date": "2024-09-04",
-          "totalValue": 5413.19,
+          "totalValue": 5413.18,
           "dailyReturn": -1.5503
         },
         {
           "date": "2024-09-05",
           "totalValue": 5469.78,
-          "dailyReturn": 1.0455
+          "dailyReturn": 1.0456
         },
         {
           "date": "2024-09-06",
@@ -1060,7 +1060,7 @@
         },
         {
           "date": "2024-09-09",
-          "totalValue": 5485.44,
+          "totalValue": 5485.43,
           "dailyReturn": 0.1565
         },
         {
@@ -1070,7 +1070,7 @@
         },
         {
           "date": "2024-09-11",
-          "totalValue": 5498.24,
+          "totalValue": 5498.23,
           "dailyReturn": -0.0477
         },
         {
@@ -1086,7 +1086,7 @@
         {
           "date": "2024-09-16",
           "totalValue": 5613.25,
-          "dailyReturn": -0.0186
+          "dailyReturn": -0.0187
         },
         {
           "date": "2024-09-17",
@@ -1100,17 +1100,17 @@
         },
         {
           "date": "2024-09-19",
-          "totalValue": 5651.36,
+          "totalValue": 5651.35,
           "dailyReturn": 0.7121
         },
         {
           "date": "2024-09-20",
-          "totalValue": 5630.37,
+          "totalValue": 5630.36,
           "dailyReturn": -0.3715
         },
         {
           "date": "2024-09-23",
-          "totalValue": 5568.26,
+          "totalValue": 5568.25,
           "dailyReturn": -1.1031
         },
         {
@@ -1120,12 +1120,12 @@
         },
         {
           "date": "2024-09-25",
-          "totalValue": 5592.47,
+          "totalValue": 5592.46,
           "dailyReturn": 0.1793
         },
         {
           "date": "2024-09-26",
-          "totalValue": 5699.09,
+          "totalValue": 5699.08,
           "dailyReturn": 1.9065
         },
         {
@@ -1140,18 +1140,18 @@
         },
         {
           "date": "2024-10-01",
-          "totalValue": 5651.89,
+          "totalValue": 5651.88,
           "dailyReturn": -0.2992
         },
         {
           "date": "2024-10-02",
-          "totalValue": 5610.73,
+          "totalValue": 5610.72,
           "dailyReturn": -0.7283
         },
         {
           "date": "2024-10-03",
           "totalValue": 5617.28,
-          "dailyReturn": 0.1169
+          "dailyReturn": 0.1168
         },
         {
           "date": "2024-10-04",
@@ -1165,12 +1165,12 @@
         },
         {
           "date": "2024-10-08",
-          "totalValue": 5612.82,
+          "totalValue": 5612.81,
           "dailyReturn": -0.2515
         },
         {
           "date": "2024-10-09",
-          "totalValue": 5623.95,
+          "totalValue": 5623.94,
           "dailyReturn": 0.1983
         },
         {
@@ -1180,7 +1180,7 @@
         },
         {
           "date": "2024-10-11",
-          "totalValue": 5620.3,
+          "totalValue": 5620.29,
           "dailyReturn": -0.4043
         },
         {
@@ -1190,17 +1190,17 @@
         },
         {
           "date": "2024-10-15",
-          "totalValue": 5701.57,
+          "totalValue": 5701.56,
           "dailyReturn": 1.0054
         },
         {
           "date": "2024-10-16",
-          "totalValue": 5695.33,
+          "totalValue": 5695.32,
           "dailyReturn": -0.1095
         },
         {
           "date": "2024-10-17",
-          "totalValue": 5762.18,
+          "totalValue": 5762.17,
           "dailyReturn": 1.1738
         },
         {
@@ -1210,22 +1210,22 @@
         },
         {
           "date": "2024-10-21",
-          "totalValue": 5697.43,
+          "totalValue": 5697.42,
           "dailyReturn": 0.4616
         },
         {
           "date": "2024-10-22",
-          "totalValue": 5575.13,
+          "totalValue": 5575.12,
           "dailyReturn": -2.1466
         },
         {
           "date": "2024-10-23",
-          "totalValue": 5602.77,
+          "totalValue": 5602.76,
           "dailyReturn": 0.4957
         },
         {
           "date": "2024-10-24",
-          "totalValue": 5577.42,
+          "totalValue": 5577.41,
           "dailyReturn": -0.4525
         },
         {
@@ -1235,7 +1235,7 @@
         },
         {
           "date": "2024-10-28",
-          "totalValue": 5546.16,
+          "totalValue": 5546.15,
           "dailyReturn": -0.1203
         },
         {
@@ -1255,7 +1255,7 @@
         },
         {
           "date": "2024-11-01",
-          "totalValue": 5503.67,
+          "totalValue": 5503.66,
           "dailyReturn": -0.5927
         },
         {
@@ -1265,12 +1265,12 @@
         },
         {
           "date": "2024-11-05",
-          "totalValue": 5504.42,
+          "totalValue": 5504.41,
           "dailyReturn": -0.487
         },
         {
           "date": "2024-11-06",
-          "totalValue": 5537.82,
+          "totalValue": 5537.81,
           "dailyReturn": 0.6068
         },
         {
@@ -1285,22 +1285,22 @@
         },
         {
           "date": "2024-11-11",
-          "totalValue": 5548.05,
+          "totalValue": 5548.04,
           "dailyReturn": -0.4096
         },
         {
           "date": "2024-11-12",
-          "totalValue": 5589.65,
+          "totalValue": 5589.64,
           "dailyReturn": 0.7498
         },
         {
           "date": "2024-11-13",
           "totalValue": 5581.92,
-          "dailyReturn": -0.1382
+          "dailyReturn": -0.1381
         },
         {
           "date": "2024-11-14",
-          "totalValue": 5577.98,
+          "totalValue": 5577.97,
           "dailyReturn": -0.0707
         },
         {
@@ -1335,7 +1335,7 @@
         },
         {
           "date": "2024-11-25",
-          "totalValue": 5686.73,
+          "totalValue": 5686.72,
           "dailyReturn": 0.459
         },
         {
@@ -1350,7 +1350,7 @@
         },
         {
           "date": "2024-11-28",
-          "totalValue": 5730.13,
+          "totalValue": 5730.12,
           "dailyReturn": -0.2043
         },
         {
@@ -1360,7 +1360,7 @@
         },
         {
           "date": "2024-12-02",
-          "totalValue": 5735.08,
+          "totalValue": 5735.07,
           "dailyReturn": 0.4698
         },
         {
@@ -1380,7 +1380,7 @@
         },
         {
           "date": "2024-12-06",
-          "totalValue": 5773.96,
+          "totalValue": 5773.95,
           "dailyReturn": 0.0133
         },
         {
@@ -1390,7 +1390,7 @@
         },
         {
           "date": "2024-12-10",
-          "totalValue": 5722.38,
+          "totalValue": 5722.37,
           "dailyReturn": -0.0417
         },
         {
@@ -1415,7 +1415,7 @@
         },
         {
           "date": "2024-12-17",
-          "totalValue": 5689.47,
+          "totalValue": 5689.46,
           "dailyReturn": 0.9078
         },
         {
@@ -1445,7 +1445,7 @@
         },
         {
           "date": "2024-12-27",
-          "totalValue": 5720.44,
+          "totalValue": 5720.43,
           "dailyReturn": 0.2603
         },
         {
@@ -1475,40 +1475,40 @@
         {
           "ticker": "FMG.AX",
           "name": "Fortescue Ltd",
-          "shares": 32.6597,
-          "buyPrice": 17.2,
+          "shares": 33.5312,
+          "buyPrice": 16.75,
           "buyDate": "2025-01-02",
           "rationale": ""
         },
         {
           "ticker": "SGP.AX",
           "name": "Stockland",
-          "shares": 121.8929,
-          "buyPrice": 4.61,
+          "shares": 126.6419,
+          "buyPrice": 4.44,
           "buyDate": "2025-01-02",
           "rationale": ""
         },
         {
           "ticker": "HVN.AX",
           "name": "Harvey Norman Holdings Limited",
-          "shares": 128.5643,
-          "buyPrice": 4.37,
+          "shares": 132.7531,
+          "buyPrice": 4.23,
           "buyDate": "2025-01-02",
           "rationale": ""
         },
         {
           "ticker": "MTS.AX",
           "name": "Metcash Limited",
-          "shares": 188.5731,
-          "buyPrice": 2.98,
+          "shares": 194.5746,
+          "buyPrice": 2.89,
           "buyDate": "2025-01-02",
           "rationale": ""
         },
         {
           "ticker": "VCX.AX",
           "name": "Vicinity Centres",
-          "shares": 284.1455,
-          "buyPrice": 1.98,
+          "shares": 291.1143,
+          "buyPrice": 1.93,
           "buyDate": "2025-01-02",
           "rationale": ""
         },
@@ -1523,16 +1523,16 @@
         {
           "ticker": "JBH.AX",
           "name": "JB Hi-Fi Limited",
-          "shares": 6.3071,
-          "buyPrice": 89.06,
+          "shares": 6.4252,
+          "buyPrice": 87.42,
           "buyDate": "2025-01-02",
           "rationale": ""
         },
         {
           "ticker": "CSL.AX",
           "name": "CSL Limited",
-          "shares": 2.0634,
-          "buyPrice": 272.22,
+          "shares": 2.0902,
+          "buyPrice": 268.73,
           "buyDate": "2025-01-02",
           "rationale": ""
         },
@@ -1581,13 +1581,13 @@
         },
         {
           "date": "2025-01-09",
-          "totalValue": 5641.97,
-          "dailyReturn": -0.0673
+          "totalValue": 5641.96,
+          "dailyReturn": -0.0672
         },
         {
           "date": "2025-01-10",
-          "totalValue": 5640.99,
-          "dailyReturn": -0.0174
+          "totalValue": 5640.98,
+          "dailyReturn": -0.0173
         },
         {
           "date": "2025-01-13",
@@ -1601,12 +1601,12 @@
         },
         {
           "date": "2025-01-15",
-          "totalValue": 5618.1,
+          "totalValue": 5618.09,
           "dailyReturn": -0.0913
         },
         {
           "date": "2025-01-16",
-          "totalValue": 5652.26,
+          "totalValue": 5652.25,
           "dailyReturn": 0.608
         },
         {
@@ -1626,7 +1626,7 @@
         },
         {
           "date": "2025-01-22",
-          "totalValue": 5762.44,
+          "totalValue": 5762.43,
           "dailyReturn": 0.7024
         },
         {
@@ -1636,7 +1636,7 @@
         },
         {
           "date": "2025-01-24",
-          "totalValue": 5763.73,
+          "totalValue": 5763.72,
           "dailyReturn": 0.6904
         },
         {
@@ -1651,7 +1651,7 @@
         },
         {
           "date": "2025-01-30",
-          "totalValue": 5862.54,
+          "totalValue": 5862.53,
           "dailyReturn": 0.2255
         },
         {
@@ -1666,7 +1666,7 @@
         },
         {
           "date": "2025-02-04",
-          "totalValue": 5768.42,
+          "totalValue": 5768.41,
           "dailyReturn": -0.2676
         },
         {
@@ -1681,7 +1681,7 @@
         },
         {
           "date": "2025-02-07",
-          "totalValue": 5867.86,
+          "totalValue": 5867.85,
           "dailyReturn": -0.2487
         },
         {
@@ -1716,12 +1716,12 @@
         },
         {
           "date": "2025-02-18",
-          "totalValue": 5882.07,
+          "totalValue": 5882.06,
           "dailyReturn": -0.4313
         },
         {
           "date": "2025-02-19",
-          "totalValue": 5820.79,
+          "totalValue": 5820.78,
           "dailyReturn": -1.0418
         },
         {
@@ -1752,11 +1752,11 @@
         {
           "date": "2025-02-27",
           "totalValue": 5760.46,
-          "dailyReturn": 0.6924
+          "dailyReturn": 0.6925
         },
         {
           "date": "2025-02-28",
-          "totalValue": 5723.13,
+          "totalValue": 5723.12,
           "dailyReturn": -0.6482
         },
         {
@@ -1776,7 +1776,7 @@
         },
         {
           "date": "2025-03-06",
-          "totalValue": 5719.65,
+          "totalValue": 5719.64,
           "dailyReturn": -0.2984
         },
         {
@@ -1826,12 +1826,12 @@
         },
         {
           "date": "2025-03-20",
-          "totalValue": 5624.32,
+          "totalValue": 5624.31,
           "dailyReturn": 1.1689
         },
         {
           "date": "2025-03-21",
-          "totalValue": 5642.69,
+          "totalValue": 5642.68,
           "dailyReturn": 0.3266
         },
         {
@@ -1841,7 +1841,7 @@
         },
         {
           "date": "2025-03-25",
-          "totalValue": 5692.45,
+          "totalValue": 5692.44,
           "dailyReturn": 0.3947
         },
         {
@@ -1861,7 +1861,7 @@
         },
         {
           "date": "2025-03-31",
-          "totalValue": 5597.18,
+          "totalValue": 5597.17,
           "dailyReturn": -2.0384
         },
         {
@@ -1876,7 +1876,7 @@
         },
         {
           "date": "2025-04-03",
-          "totalValue": 5604.24,
+          "totalValue": 5604.23,
           "dailyReturn": -0.8043
         },
         {
@@ -1886,12 +1886,12 @@
         },
         {
           "date": "2025-04-07",
-          "totalValue": 5264.53,
+          "totalValue": 5264.52,
           "dailyReturn": -4.6955
         },
         {
           "date": "2025-04-08",
-          "totalValue": 5393.49,
+          "totalValue": 5393.48,
           "dailyReturn": 2.4496
         },
         {
@@ -1906,7 +1906,7 @@
         },
         {
           "date": "2025-04-11",
-          "totalValue": 5418.75,
+          "totalValue": 5418.74,
           "dailyReturn": -1.3071
         },
         {
@@ -1936,7 +1936,7 @@
         },
         {
           "date": "2025-04-23",
-          "totalValue": 5629.7,
+          "totalValue": 5629.69,
           "dailyReturn": 2.1562
         },
         {
@@ -1971,7 +1971,7 @@
         },
         {
           "date": "2025-05-05",
-          "totalValue": 5816.8,
+          "totalValue": 5816.79,
           "dailyReturn": -0.7744
         },
         {
@@ -1991,7 +1991,7 @@
         },
         {
           "date": "2025-05-09",
-          "totalValue": 5939.31,
+          "totalValue": 5939.3,
           "dailyReturn": 0.3188
         },
         {
@@ -2016,7 +2016,7 @@
         },
         {
           "date": "2025-05-16",
-          "totalValue": 5957.73,
+          "totalValue": 5957.72,
           "dailyReturn": 1.2511
         },
         {
@@ -2076,7 +2076,7 @@
         },
         {
           "date": "2025-06-03",
-          "totalValue": 6032.26,
+          "totalValue": 6032.25,
           "dailyReturn": 0.6917
         },
         {
@@ -2096,7 +2096,7 @@
         },
         {
           "date": "2025-06-10",
-          "totalValue": 6093.99,
+          "totalValue": 6093.98,
           "dailyReturn": 0.7682
         },
         {
@@ -2111,7 +2111,7 @@
         },
         {
           "date": "2025-06-13",
-          "totalValue": 6115.91,
+          "totalValue": 6115.9,
           "dailyReturn": -0.7887
         },
         {
@@ -2121,12 +2121,12 @@
         },
         {
           "date": "2025-06-17",
-          "totalValue": 6086.52,
+          "totalValue": 6086.51,
           "dailyReturn": -0.015
         },
         {
           "date": "2025-06-18",
-          "totalValue": 6065.52,
+          "totalValue": 6065.51,
           "dailyReturn": -0.345
         },
         {
@@ -2136,8 +2136,8 @@
         },
         {
           "date": "2025-06-20",
-          "totalValue": 6049.23,
-          "dailyReturn": -0.09
+          "totalValue": 6049.22,
+          "dailyReturn": -0.0901
         },
         {
           "date": "2025-06-23",
@@ -2186,40 +2186,40 @@
         {
           "ticker": "FMG.AX",
           "name": "Fortescue Ltd",
-          "shares": 42.1241,
-          "buyPrice": 14.46,
+          "shares": 43.2481,
+          "buyPrice": 14.09,
           "buyDate": "2025-07-01",
           "rationale": ""
         },
         {
           "ticker": "SGP.AX",
           "name": "Stockland",
-          "shares": 113.5575,
-          "buyPrice": 5.37,
+          "shares": 117.9818,
+          "buyPrice": 5.16,
           "buyDate": "2025-07-01",
           "rationale": ""
         },
         {
           "ticker": "HVN.AX",
           "name": "Harvey Norman Holdings Limited",
-          "shares": 119.6005,
-          "buyPrice": 5.09,
+          "shares": 123.4973,
+          "buyPrice": 4.93,
           "buyDate": "2025-07-01",
           "rationale": ""
         },
         {
           "ticker": "MTS.AX",
           "name": "Metcash Limited",
-          "shares": 162.5033,
-          "buyPrice": 3.75,
+          "shares": 167.6751,
+          "buyPrice": 3.63,
           "buyDate": "2025-07-01",
           "rationale": ""
         },
         {
           "ticker": "VCX.AX",
           "name": "Vicinity Centres",
-          "shares": 254.7098,
-          "buyPrice": 2.39,
+          "shares": 260.9566,
+          "buyPrice": 2.33,
           "buyDate": "2025-07-01",
           "rationale": ""
         },
@@ -2234,16 +2234,16 @@
         {
           "ticker": "JBH.AX",
           "name": "JB Hi-Fi Limited",
-          "shares": 5.7488,
-          "buyPrice": 105.99,
+          "shares": 5.8564,
+          "buyPrice": 104.04,
           "buyDate": "2025-07-01",
           "rationale": ""
         },
         {
           "ticker": "CSL.AX",
           "name": "CSL Limited",
-          "shares": 2.6206,
-          "buyPrice": 232.51,
+          "shares": 2.6547,
+          "buyPrice": 229.52,
           "buyDate": "2025-07-01",
           "rationale": ""
         },
@@ -2267,22 +2267,22 @@
       "snapshots": [
         {
           "date": "2025-07-01",
-          "totalValue": 6093.17,
+          "totalValue": 6093.18,
           "dailyReturn": null
         },
         {
           "date": "2025-07-02",
-          "totalValue": 6177.16,
+          "totalValue": 6177.17,
           "dailyReturn": 1.3785
         },
         {
           "date": "2025-07-03",
-          "totalValue": 6181.56,
+          "totalValue": 6181.57,
           "dailyReturn": 0.0712
         },
         {
           "date": "2025-07-04",
-          "totalValue": 6230.33,
+          "totalValue": 6230.34,
           "dailyReturn": 0.789
         },
         {
@@ -2292,32 +2292,32 @@
         },
         {
           "date": "2025-07-08",
-          "totalValue": 6205.75,
+          "totalValue": 6205.76,
           "dailyReturn": -0.5845
         },
         {
           "date": "2025-07-09",
-          "totalValue": 6180.57,
+          "totalValue": 6180.58,
           "dailyReturn": -0.4057
         },
         {
           "date": "2025-07-10",
-          "totalValue": 6232.14,
+          "totalValue": 6232.15,
           "dailyReturn": 0.8343
         },
         {
           "date": "2025-07-11",
-          "totalValue": 6211.0,
+          "totalValue": 6211.01,
           "dailyReturn": -0.3392
         },
         {
           "date": "2025-07-14",
-          "totalValue": 6204.24,
+          "totalValue": 6204.25,
           "dailyReturn": -0.1089
         },
         {
           "date": "2025-07-15",
-          "totalValue": 6233.41,
+          "totalValue": 6233.42,
           "dailyReturn": 0.4702
         },
         {
@@ -2342,27 +2342,27 @@
         },
         {
           "date": "2025-07-22",
-          "totalValue": 6295.36,
+          "totalValue": 6295.37,
           "dailyReturn": 0.6838
         },
         {
           "date": "2025-07-23",
-          "totalValue": 6329.52,
+          "totalValue": 6329.53,
           "dailyReturn": 0.5426
         },
         {
           "date": "2025-07-24",
-          "totalValue": 6321.34,
+          "totalValue": 6321.35,
           "dailyReturn": -0.1293
         },
         {
           "date": "2025-07-25",
-          "totalValue": 6293.03,
+          "totalValue": 6293.04,
           "dailyReturn": -0.4479
         },
         {
           "date": "2025-07-28",
-          "totalValue": 6327.97,
+          "totalValue": 6327.98,
           "dailyReturn": 0.5553
         },
         {
@@ -2377,22 +2377,22 @@
         },
         {
           "date": "2025-07-31",
-          "totalValue": 6383.61,
+          "totalValue": 6383.62,
           "dailyReturn": -0.2261
         },
         {
           "date": "2025-08-01",
-          "totalValue": 6366.03,
+          "totalValue": 6366.04,
           "dailyReturn": -0.2754
         },
         {
           "date": "2025-08-04",
-          "totalValue": 6385.5,
+          "totalValue": 6385.51,
           "dailyReturn": 0.3059
         },
         {
           "date": "2025-08-05",
-          "totalValue": 6445.12,
+          "totalValue": 6445.13,
           "dailyReturn": 0.9336
         },
         {
@@ -2402,17 +2402,17 @@
         },
         {
           "date": "2025-08-07",
-          "totalValue": 6480.91,
+          "totalValue": 6480.92,
           "dailyReturn": 0.1662
         },
         {
           "date": "2025-08-08",
-          "totalValue": 6498.86,
+          "totalValue": 6498.87,
           "dailyReturn": 0.277
         },
         {
           "date": "2025-08-11",
-          "totalValue": 6460.68,
+          "totalValue": 6460.69,
           "dailyReturn": -0.5875
         },
         {
@@ -2432,17 +2432,17 @@
         },
         {
           "date": "2025-08-15",
-          "totalValue": 6631.07,
+          "totalValue": 6631.08,
           "dailyReturn": 0.5258
         },
         {
           "date": "2025-08-18",
-          "totalValue": 6645.07,
+          "totalValue": 6645.08,
           "dailyReturn": 0.2111
         },
         {
           "date": "2025-08-19",
-          "totalValue": 6528.97,
+          "totalValue": 6528.98,
           "dailyReturn": -1.7472
         },
         {
@@ -2462,7 +2462,7 @@
         },
         {
           "date": "2025-08-25",
-          "totalValue": 6652.0,
+          "totalValue": 6652.01,
           "dailyReturn": 0.2747
         },
         {
@@ -2472,17 +2472,17 @@
         },
         {
           "date": "2025-08-27",
-          "totalValue": 6658.51,
+          "totalValue": 6658.52,
           "dailyReturn": 0.9953
         },
         {
           "date": "2025-08-28",
-          "totalValue": 6755.75,
+          "totalValue": 6755.76,
           "dailyReturn": 1.4604
         },
         {
           "date": "2025-08-29",
-          "totalValue": 6809.96,
+          "totalValue": 6809.97,
           "dailyReturn": 0.8025
         },
         {
@@ -2492,7 +2492,7 @@
         },
         {
           "date": "2025-09-02",
-          "totalValue": 6817.6,
+          "totalValue": 6817.61,
           "dailyReturn": -0.5044
         },
         {
@@ -2502,7 +2502,7 @@
         },
         {
           "date": "2025-09-04",
-          "totalValue": 6806.92,
+          "totalValue": 6806.93,
           "dailyReturn": 0.7533
         },
         {
@@ -2512,7 +2512,7 @@
         },
         {
           "date": "2025-09-08",
-          "totalValue": 6840.25,
+          "totalValue": 6840.26,
           "dailyReturn": -0.2573
         },
         {
@@ -2522,17 +2522,17 @@
         },
         {
           "date": "2025-09-10",
-          "totalValue": 6817.53,
+          "totalValue": 6817.54,
           "dailyReturn": -0.2197
         },
         {
           "date": "2025-09-11",
-          "totalValue": 6783.18,
+          "totalValue": 6783.19,
           "dailyReturn": -0.5039
         },
         {
           "date": "2025-09-12",
-          "totalValue": 6797.65,
+          "totalValue": 6797.66,
           "dailyReturn": 0.2133
         },
         {
@@ -2542,7 +2542,7 @@
         },
         {
           "date": "2025-09-16",
-          "totalValue": 6812.56,
+          "totalValue": 6812.57,
           "dailyReturn": 0.5486
         },
         {
@@ -2552,7 +2552,7 @@
         },
         {
           "date": "2025-09-18",
-          "totalValue": 6708.77,
+          "totalValue": 6708.78,
           "dailyReturn": -0.2816
         },
         {
@@ -2562,22 +2562,22 @@
         },
         {
           "date": "2025-09-22",
-          "totalValue": 6733.23,
+          "totalValue": 6733.24,
           "dailyReturn": 0.1325
         },
         {
           "date": "2025-09-23",
-          "totalValue": 6733.0,
+          "totalValue": 6733.01,
           "dailyReturn": -0.0034
         },
         {
           "date": "2025-09-24",
-          "totalValue": 6708.97,
+          "totalValue": 6708.98,
           "dailyReturn": -0.3569
         },
         {
           "date": "2025-09-25",
-          "totalValue": 6710.66,
+          "totalValue": 6710.67,
           "dailyReturn": 0.0252
         },
         {
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2025-09-29",
-          "totalValue": 6706.12,
+          "totalValue": 6706.13,
           "dailyReturn": 0.0702
         },
         {
@@ -2602,17 +2602,17 @@
         },
         {
           "date": "2025-10-02",
-          "totalValue": 6776.79,
+          "totalValue": 6776.8,
           "dailyReturn": 1.0161
         },
         {
           "date": "2025-10-03",
-          "totalValue": 6803.35,
+          "totalValue": 6803.36,
           "dailyReturn": 0.3919
         },
         {
           "date": "2025-10-06",
-          "totalValue": 6790.51,
+          "totalValue": 6790.52,
           "dailyReturn": -0.1887
         },
         {
@@ -2622,17 +2622,17 @@
         },
         {
           "date": "2025-10-08",
-          "totalValue": 6746.81,
+          "totalValue": 6746.82,
           "dailyReturn": -0.4703
         },
         {
           "date": "2025-10-09",
-          "totalValue": 6779.5,
+          "totalValue": 6779.51,
           "dailyReturn": 0.4846
         },
         {
           "date": "2025-10-10",
-          "totalValue": 6806.9,
+          "totalValue": 6806.91,
           "dailyReturn": 0.4041
         },
         {
@@ -2657,7 +2657,7 @@
         },
         {
           "date": "2025-10-17",
-          "totalValue": 6817.06,
+          "totalValue": 6817.07,
           "dailyReturn": -0.2161
         },
         {
@@ -2672,17 +2672,17 @@
         },
         {
           "date": "2025-10-22",
-          "totalValue": 6876.33,
+          "totalValue": 6876.34,
           "dailyReturn": -0.2683
         },
         {
           "date": "2025-10-23",
-          "totalValue": 6929.66,
+          "totalValue": 6929.67,
           "dailyReturn": 0.7756
         },
         {
           "date": "2025-10-24",
-          "totalValue": 6900.19,
+          "totalValue": 6900.2,
           "dailyReturn": -0.4253
         },
         {
@@ -2702,7 +2702,7 @@
         },
         {
           "date": "2025-10-30",
-          "totalValue": 6722.35,
+          "totalValue": 6722.36,
           "dailyReturn": -0.6559
         },
         {
@@ -2732,7 +2732,7 @@
         },
         {
           "date": "2025-11-07",
-          "totalValue": 6553.16,
+          "totalValue": 6553.17,
           "dailyReturn": -0.5498
         },
         {
@@ -2742,22 +2742,22 @@
         },
         {
           "date": "2025-11-11",
-          "totalValue": 6637.23,
+          "totalValue": 6637.24,
           "dailyReturn": 0.6781
         },
         {
           "date": "2025-11-12",
-          "totalValue": 6673.45,
+          "totalValue": 6673.46,
           "dailyReturn": 0.5457
         },
         {
           "date": "2025-11-13",
-          "totalValue": 6568.78,
+          "totalValue": 6568.79,
           "dailyReturn": -1.5684
         },
         {
           "date": "2025-11-14",
-          "totalValue": 6525.52,
+          "totalValue": 6525.53,
           "dailyReturn": -0.6586
         },
         {
@@ -2767,12 +2767,12 @@
         },
         {
           "date": "2025-11-18",
-          "totalValue": 6497.69,
+          "totalValue": 6497.7,
           "dailyReturn": -0.9055
         },
         {
           "date": "2025-11-19",
-          "totalValue": 6526.15,
+          "totalValue": 6526.16,
           "dailyReturn": 0.438
         },
         {
@@ -2797,7 +2797,7 @@
         },
         {
           "date": "2025-11-26",
-          "totalValue": 6551.28,
+          "totalValue": 6551.29,
           "dailyReturn": 0.464
         },
         {
@@ -2812,7 +2812,7 @@
         },
         {
           "date": "2025-12-01",
-          "totalValue": 6420.92,
+          "totalValue": 6420.93,
           "dailyReturn": -1.2359
         },
         {
@@ -2822,7 +2822,7 @@
         },
         {
           "date": "2025-12-03",
-          "totalValue": 6488.44,
+          "totalValue": 6488.45,
           "dailyReturn": 0.6369
         },
         {
@@ -2832,7 +2832,7 @@
         },
         {
           "date": "2025-12-05",
-          "totalValue": 6453.1,
+          "totalValue": 6453.11,
           "dailyReturn": 0.3621
         },
         {
@@ -2852,7 +2852,7 @@
         },
         {
           "date": "2025-12-11",
-          "totalValue": 6401.72,
+          "totalValue": 6401.73,
           "dailyReturn": 0.5003
         },
         {
@@ -2862,7 +2862,7 @@
         },
         {
           "date": "2025-12-15",
-          "totalValue": 6430.46,
+          "totalValue": 6430.47,
           "dailyReturn": -0.4297
         },
         {
@@ -2872,17 +2872,17 @@
         },
         {
           "date": "2025-12-17",
-          "totalValue": 6402.18,
+          "totalValue": 6402.19,
           "dailyReturn": -0.0706
         },
         {
           "date": "2025-12-18",
-          "totalValue": 6417.18,
+          "totalValue": 6417.19,
           "dailyReturn": 0.2342
         },
         {
           "date": "2025-12-19",
-          "totalValue": 6423.5,
+          "totalValue": 6423.51,
           "dailyReturn": 0.0985
         },
         {
@@ -2897,12 +2897,12 @@
         },
         {
           "date": "2025-12-24",
-          "totalValue": 6471.53,
+          "totalValue": 6471.54,
           "dailyReturn": -0.3602
         },
         {
           "date": "2025-12-29",
-          "totalValue": 6443.09,
+          "totalValue": 6443.1,
           "dailyReturn": -0.4395
         },
         {
@@ -2932,40 +2932,40 @@
         {
           "ticker": "FMG.AX",
           "name": "Fortescue Ltd",
-          "shares": 29.9604,
-          "buyPrice": 21.49,
+          "shares": 30.7598,
+          "buyPrice": 20.93,
           "buyDate": "2026-01-02",
           "rationale": ""
         },
         {
           "ticker": "SGP.AX",
           "name": "Stockland",
-          "shares": 111.9774,
-          "buyPrice": 5.75,
+          "shares": 116.3402,
+          "buyPrice": 5.53,
           "buyDate": "2026-01-02",
           "rationale": ""
         },
         {
           "ticker": "HVN.AX",
           "name": "Harvey Norman Holdings Limited",
-          "shares": 94.6336,
-          "buyPrice": 6.8,
+          "shares": 97.7169,
+          "buyPrice": 6.59,
           "buyDate": "2026-01-02",
           "rationale": ""
         },
         {
           "ticker": "MTS.AX",
           "name": "Metcash Limited",
-          "shares": 194.5227,
-          "buyPrice": 3.31,
+          "shares": 200.7135,
+          "buyPrice": 3.21,
           "buyDate": "2026-01-02",
           "rationale": ""
         },
         {
           "ticker": "VCX.AX",
           "name": "Vicinity Centres",
-          "shares": 255.781,
-          "buyPrice": 2.52,
+          "shares": 262.0541,
+          "buyPrice": 2.46,
           "buyDate": "2026-01-02",
           "rationale": ""
         },
@@ -2980,16 +2980,16 @@
         {
           "ticker": "JBH.AX",
           "name": "JB Hi-Fi Limited",
-          "shares": 6.861,
-          "buyPrice": 93.85,
+          "shares": 6.9894,
+          "buyPrice": 92.12,
           "buyDate": "2026-01-02",
           "rationale": ""
         },
         {
           "ticker": "CSL.AX",
           "name": "CSL Limited",
-          "shares": 3.7926,
-          "buyPrice": 169.77,
+          "shares": 3.8419,
+          "buyPrice": 167.59,
           "buyDate": "2026-01-02",
           "rationale": ""
         },
@@ -3013,7 +3013,7 @@
       "snapshots": [
         {
           "date": "2026-01-02",
-          "totalValue": 6438.71,
+          "totalValue": 6438.7,
           "dailyReturn": null
         },
         {
@@ -3023,12 +3023,12 @@
         },
         {
           "date": "2026-01-06",
-          "totalValue": 6382.38,
+          "totalValue": 6382.37,
           "dailyReturn": -1.2849
         },
         {
           "date": "2026-01-07",
-          "totalValue": 6377.85,
+          "totalValue": 6377.84,
           "dailyReturn": -0.071
         },
         {
@@ -3038,7 +3038,7 @@
         },
         {
           "date": "2026-01-09",
-          "totalValue": 6401.43,
+          "totalValue": 6401.42,
           "dailyReturn": -0.2416
         },
         {
@@ -3049,7 +3049,7 @@
         {
           "date": "2026-01-13",
           "totalValue": 6376.16,
-          "dailyReturn": -0.206
+          "dailyReturn": -0.2059
         },
         {
           "date": "2026-01-14",
@@ -3058,7 +3058,7 @@
         },
         {
           "date": "2026-01-15",
-          "totalValue": 6350.45,
+          "totalValue": 6350.44,
           "dailyReturn": -0.5209
         },
         {
@@ -3073,17 +3073,17 @@
         },
         {
           "date": "2026-01-20",
-          "totalValue": 6382.03,
+          "totalValue": 6382.02,
           "dailyReturn": 0.131
         },
         {
           "date": "2026-01-21",
-          "totalValue": 6305.95,
+          "totalValue": 6305.94,
           "dailyReturn": -1.1921
         },
         {
           "date": "2026-01-22",
-          "totalValue": 6305.6,
+          "totalValue": 6305.59,
           "dailyReturn": -0.0055
         },
         {
@@ -3093,7 +3093,7 @@
         },
         {
           "date": "2026-01-27",
-          "totalValue": 6319.65,
+          "totalValue": 6319.64,
           "dailyReturn": 0.673
         },
         {
@@ -3103,7 +3103,7 @@
         },
         {
           "date": "2026-01-29",
-          "totalValue": 6205.41,
+          "totalValue": 6205.4,
           "dailyReturn": -0.7003
         },
         {
@@ -3113,22 +3113,22 @@
         },
         {
           "date": "2026-02-02",
-          "totalValue": 6219.52,
+          "totalValue": 6219.51,
           "dailyReturn": 0.0167
         },
         {
           "date": "2026-02-03",
-          "totalValue": 6251.12,
+          "totalValue": 6251.11,
           "dailyReturn": 0.5081
         },
         {
           "date": "2026-02-04",
-          "totalValue": 6251.31,
+          "totalValue": 6251.3,
           "dailyReturn": 0.0031
         },
         {
           "date": "2026-02-05",
-          "totalValue": 6262.53,
+          "totalValue": 6262.52,
           "dailyReturn": 0.1795
         },
         {
@@ -3143,7 +3143,7 @@
         },
         {
           "date": "2026-02-10",
-          "totalValue": 6172.22,
+          "totalValue": 6172.21,
           "dailyReturn": -0.5273
         },
         {
@@ -3173,12 +3173,12 @@
         },
         {
           "date": "2026-02-18",
-          "totalValue": 6110.11,
+          "totalValue": 6110.1,
           "dailyReturn": 0.2689
         },
         {
           "date": "2026-02-19",
-          "totalValue": 6107.98,
+          "totalValue": 6107.97,
           "dailyReturn": -0.0348
         },
         {
@@ -3203,12 +3203,12 @@
         },
         {
           "date": "2026-02-26",
-          "totalValue": 5938.64,
+          "totalValue": 5938.63,
           "dailyReturn": -1.6372
         },
         {
           "date": "2026-02-27",
-          "totalValue": 5885.08,
+          "totalValue": 5885.07,
           "dailyReturn": -0.9019
         },
         {
@@ -3223,17 +3223,17 @@
         },
         {
           "date": "2026-03-04",
-          "totalValue": 5598.72,
+          "totalValue": 5598.71,
           "dailyReturn": -2.1614
         },
         {
           "date": "2026-03-05",
-          "totalValue": 5635.59,
+          "totalValue": 5635.58,
           "dailyReturn": 0.6585
         },
         {
           "date": "2026-03-06",
-          "totalValue": 5581.37,
+          "totalValue": 5581.36,
           "dailyReturn": -0.9621
         },
         {
@@ -3243,7 +3243,7 @@
         },
         {
           "date": "2026-03-10",
-          "totalValue": 5507.01,
+          "totalValue": 5507.0,
           "dailyReturn": 0.9459
         },
         {
@@ -3253,7 +3253,7 @@
         },
         {
           "date": "2026-03-12",
-          "totalValue": 5418.69,
+          "totalValue": 5418.68,
           "dailyReturn": -1.6733
         },
         {
@@ -3278,22 +3278,22 @@
         },
         {
           "date": "2026-03-19",
-          "totalValue": 5344.39,
+          "totalValue": 5344.38,
           "dailyReturn": -1.8497
         },
         {
           "date": "2026-03-20",
-          "totalValue": 5319.13,
+          "totalValue": 5319.12,
           "dailyReturn": -0.4726
         },
         {
           "date": "2026-03-23",
-          "totalValue": 5296.27,
+          "totalValue": 5296.26,
           "dailyReturn": -0.4298
         },
         {
           "date": "2026-03-24",
-          "totalValue": 5337.96,
+          "totalValue": 5337.95,
           "dailyReturn": 0.7872
         },
         {
@@ -3323,7 +3323,7 @@
         },
         {
           "date": "2026-04-01",
-          "totalValue": 5464.42,
+          "totalValue": 5464.41,
           "dailyReturn": 1.5659
         },
         {
@@ -3339,7 +3339,7 @@
         {
           "date": "2026-04-08",
           "totalValue": 5562.03,
-          "dailyReturn": 3.1219
+          "dailyReturn": 3.122
         },
         {
           "date": "2026-04-09",
@@ -3368,7 +3368,7 @@
         },
         {
           "date": "2026-04-16",
-          "totalValue": 5570.47,
+          "totalValue": 5570.46,
           "dailyReturn": 0.6024
         },
         {
@@ -3398,12 +3398,12 @@
         },
         {
           "date": "2026-04-24",
-          "totalValue": 5436.1,
+          "totalValue": 5436.09,
           "dailyReturn": -0.9174
         },
         {
           "date": "2026-04-27",
-          "totalValue": 5422.41,
+          "totalValue": 5422.4,
           "dailyReturn": -0.2519
         },
         {
@@ -3423,22 +3423,22 @@
         },
         {
           "date": "2026-05-01",
-          "totalValue": 5415.02,
+          "totalValue": 5415.01,
           "dailyReturn": 0.9245
         },
         {
           "date": "2026-05-04",
-          "totalValue": 5392.31,
+          "totalValue": 5392.3,
           "dailyReturn": -0.4193
         },
         {
           "date": "2026-05-05",
-          "totalValue": 5423.85,
+          "totalValue": 5423.84,
           "dailyReturn": 0.5848
         },
         {
           "date": "2026-05-06",
-          "totalValue": 5418.6,
+          "totalValue": 5418.59,
           "dailyReturn": -0.0968
         },
         {
@@ -3468,7 +3468,7 @@
         },
         {
           "date": "2026-05-14",
-          "totalValue": 5353.85,
+          "totalValue": 5353.84,
           "dailyReturn": 0.0886
         },
         {
@@ -3483,17 +3483,17 @@
         },
         {
           "date": "2026-05-19",
-          "totalValue": 5355.89,
+          "totalValue": 5355.88,
           "dailyReturn": 1.2441
         },
         {
           "date": "2026-05-20",
-          "totalValue": 5302.66,
+          "totalValue": 5302.65,
           "dailyReturn": -0.9939
         },
         {
           "date": "2026-05-21",
-          "totalValue": 5389.04,
+          "totalValue": 5389.03,
           "dailyReturn": 1.629
         },
         {
@@ -3503,7 +3503,7 @@
         },
         {
           "date": "2026-05-25",
-          "totalValue": 5488.14,
+          "totalValue": 5488.13,
           "dailyReturn": 1.4449
         },
         {
@@ -3523,12 +3523,12 @@
         },
         {
           "date": "2026-05-29",
-          "totalValue": 5554.12,
+          "totalValue": 5554.11,
           "dailyReturn": 1.4497
         },
         {
           "date": "2026-06-01",
-          "totalValue": 5523.38,
+          "totalValue": 5523.37,
           "dailyReturn": -0.5535
         },
         {
@@ -3538,27 +3538,27 @@
         },
         {
           "date": "2026-06-03",
-          "totalValue": 5328.08,
+          "totalValue": 5328.07,
           "dailyReturn": -1.204
         },
         {
           "date": "2026-06-04",
-          "totalValue": 5358.55,
+          "totalValue": 5358.54,
           "dailyReturn": 0.5718
         },
         {
           "date": "2026-06-05",
-          "totalValue": 5371.89,
+          "totalValue": 5371.88,
           "dailyReturn": 0.249
         },
         {
           "date": "2026-06-09",
-          "totalValue": 5396.17,
+          "totalValue": 5396.16,
           "dailyReturn": 0.4519
         },
         {
           "date": "2026-06-10",
-          "totalValue": 5504.9,
+          "totalValue": 5504.89,
           "dailyReturn": 2.015
         },
         {
@@ -3578,7 +3578,7 @@
         },
         {
           "date": "2026-06-16",
-          "totalValue": 5687.04,
+          "totalValue": 5687.03,
           "dailyReturn": -0.3465
         },
         {
@@ -3588,18 +3588,53 @@
         },
         {
           "date": "2026-06-18",
-          "totalValue": 5640.11,
+          "totalValue": 5640.1,
           "dailyReturn": -0.8309
         },
         {
           "date": "2026-06-19",
           "totalValue": 5648.37,
           "dailyReturn": 0.1465
+        },
+        {
+          "date": "2026-06-22",
+          "totalValue": 5574.13,
+          "dailyReturn": -1.3143
+        },
+        {
+          "date": "2026-06-23",
+          "totalValue": 5529.16,
+          "dailyReturn": -0.8068
+        },
+        {
+          "date": "2026-06-24",
+          "totalValue": 5564.22,
+          "dailyReturn": 0.6342
+        },
+        {
+          "date": "2026-06-25",
+          "totalValue": 5576.48,
+          "dailyReturn": 0.2203
+        },
+        {
+          "date": "2026-06-26",
+          "totalValue": 5579.56,
+          "dailyReturn": 0.0552
+        },
+        {
+          "date": "2026-06-29",
+          "totalValue": 5607.33,
+          "dailyReturn": 0.4978
+        },
+        {
+          "date": "2026-06-30",
+          "totalValue": 5531.27,
+          "dailyReturn": -1.3566
         }
       ],
-      "endValue": 5648.37,
-      "returnPct": -12.3,
-      "cumulativeReturn": 13.0
+      "endValue": 5531.27,
+      "returnPct": -14.1,
+      "cumulativeReturn": 10.6
     },
     {
       "period": {
@@ -3608,14 +3643,511 @@
         "end": "2026-12-31",
         "label": "H2 2026 (forward)"
       },
-      "budget": 5648.37,
-      "holdings": [],
-      "snapshots": [],
-      "endValue": 5648.37,
-      "returnPct": 0,
-      "cumulativeReturn": 13.0
+      "budget": 5531.27,
+      "holdings": [
+        {
+          "ticker": "HVN.AX",
+          "name": "Harvey Norman Holdings Limited",
+          "shares": 119.2377,
+          "buyPrice": 4.64,
+          "buyDate": "2026-07-01",
+          "rationale": null
+        },
+        {
+          "ticker": "DXS.AX",
+          "name": "DEXUS",
+          "shares": 102.8117,
+          "buyPrice": 5.38,
+          "buyDate": "2026-07-01",
+          "rationale": null
+        },
+        {
+          "ticker": "SGP.AX",
+          "name": "Stockland",
+          "shares": 136.5746,
+          "buyPrice": 4.05,
+          "buyDate": "2026-07-01",
+          "rationale": null
+        },
+        {
+          "ticker": "AGL.AX",
+          "name": "AGL Energy Limited",
+          "shares": 67.9388,
+          "buyPrice": 8.14,
+          "buyDate": "2026-07-01",
+          "rationale": null
+        },
+        {
+          "ticker": "MTS.AX",
+          "name": "Metcash Limited",
+          "shares": 192.8144,
+          "buyPrice": 2.87,
+          "buyDate": "2026-07-01",
+          "rationale": null
+        },
+        {
+          "ticker": "MGR.AX",
+          "name": "Mirvac Group",
+          "shares": 323.4661,
+          "buyPrice": 1.71,
+          "buyDate": "2026-07-01",
+          "rationale": null
+        },
+        {
+          "ticker": "VCX.AX",
+          "name": "Vicinity Centres",
+          "shares": 216.2949,
+          "buyPrice": 2.56,
+          "buyDate": "2026-07-01",
+          "rationale": null
+        },
+        {
+          "ticker": "GPT.AX",
+          "name": "The GPT Group",
+          "shares": 114.519,
+          "buyPrice": 4.83,
+          "buyDate": "2026-07-01",
+          "rationale": null
+        },
+        {
+          "ticker": "WDS.AX",
+          "name": "Woodside Energy Group Ltd",
+          "shares": 19.956,
+          "buyPrice": 27.72,
+          "buyDate": "2026-07-01",
+          "rationale": null
+        },
+        {
+          "ticker": "ORG.AX",
+          "name": "Origin Energy Limited",
+          "shares": 51.2349,
+          "buyPrice": 10.8,
+          "buyDate": "2026-07-01",
+          "rationale": null
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-07-01",
+          "totalValue": 5531.27,
+          "dailyReturn": null
+        },
+        {
+          "date": "2026-07-02",
+          "totalValue": 5451.06,
+          "dailyReturn": -1.4501
+        },
+        {
+          "date": "2026-07-03",
+          "totalValue": 5479.33,
+          "dailyReturn": 0.5187
+        },
+        {
+          "date": "2026-07-06",
+          "totalValue": 5477.99,
+          "dailyReturn": -0.0245
+        },
+        {
+          "date": "2026-07-07",
+          "totalValue": 5433.62,
+          "dailyReturn": -0.81
+        },
+        {
+          "date": "2026-07-08",
+          "totalValue": 5565.7,
+          "dailyReturn": 2.4308
+        },
+        {
+          "date": "2026-07-09",
+          "totalValue": 5542.31,
+          "dailyReturn": -0.4203
+        },
+        {
+          "date": "2026-07-10",
+          "totalValue": 5552.1,
+          "dailyReturn": 0.1766
+        },
+        {
+          "date": "2026-07-13",
+          "totalValue": 5543.84,
+          "dailyReturn": -0.1487
+        },
+        {
+          "date": "2026-07-14",
+          "totalValue": 5543.78,
+          "dailyReturn": -0.0012
+        },
+        {
+          "date": "2026-07-15",
+          "totalValue": 5521.62,
+          "dailyReturn": -0.3996
+        },
+        {
+          "date": "2026-07-16",
+          "totalValue": 5549.2,
+          "dailyReturn": 0.4995
+        },
+        {
+          "date": "2026-07-17",
+          "totalValue": 5634.99,
+          "dailyReturn": 1.5459
+        },
+        {
+          "date": "2026-07-20",
+          "totalValue": 5651.75,
+          "dailyReturn": 0.2974
+        },
+        {
+          "date": "2026-07-21",
+          "totalValue": 5657.54,
+          "dailyReturn": 0.1025
+        },
+        {
+          "date": "2026-07-22",
+          "totalValue": 5617.65,
+          "dailyReturn": -0.705
+        },
+        {
+          "date": "2026-07-23",
+          "totalValue": 5606.11,
+          "dailyReturn": -0.2056
+        },
+        {
+          "date": "2026-07-24",
+          "totalValue": 5641.88,
+          "dailyReturn": 0.6381
+        },
+        {
+          "date": "2026-07-27",
+          "totalValue": 5648.32,
+          "dailyReturn": 0.1142
+        },
+        {
+          "date": "2026-07-28",
+          "totalValue": 5759.95,
+          "dailyReturn": 1.9763
+        },
+        {
+          "date": "2026-07-29",
+          "totalValue": 5884.22,
+          "dailyReturn": 2.1575
+        },
+        {
+          "date": "2026-07-30",
+          "totalValue": 5817.86,
+          "dailyReturn": -1.1277
+        },
+        {
+          "date": "2026-07-31",
+          "totalValue": 5811.51,
+          "dailyReturn": -0.1091
+        },
+        {
+          "date": "2026-08-03",
+          "totalValue": 5830.44,
+          "dailyReturn": 0.3258
+        },
+        {
+          "date": "2026-08-04",
+          "totalValue": 5881.19,
+          "dailyReturn": 0.8703
+        },
+        {
+          "date": "2026-08-05",
+          "totalValue": 5843.79,
+          "dailyReturn": -0.6358
+        },
+        {
+          "date": "2026-08-06",
+          "totalValue": 5857.33,
+          "dailyReturn": 0.2316
+        },
+        {
+          "date": "2026-08-07",
+          "totalValue": 5863.28,
+          "dailyReturn": 0.1016
+        },
+        {
+          "date": "2026-08-10",
+          "totalValue": 5847.77,
+          "dailyReturn": -0.2645
+        },
+        {
+          "date": "2026-08-11",
+          "totalValue": 5880.35,
+          "dailyReturn": 0.557
+        },
+        {
+          "date": "2026-08-12",
+          "totalValue": 5876.67,
+          "dailyReturn": -0.0626
+        },
+        {
+          "date": "2026-08-13",
+          "totalValue": 5874.68,
+          "dailyReturn": -0.0339
+        },
+        {
+          "date": "2026-08-14",
+          "totalValue": 5888.21,
+          "dailyReturn": 0.2304
+        },
+        {
+          "date": "2026-08-17",
+          "totalValue": 5796.77,
+          "dailyReturn": -1.5529
+        },
+        {
+          "date": "2026-08-18",
+          "totalValue": 5768.16,
+          "dailyReturn": -0.4935
+        },
+        {
+          "date": "2026-08-19",
+          "totalValue": 5862.95,
+          "dailyReturn": 1.6432
+        },
+        {
+          "date": "2026-08-20",
+          "totalValue": 5900.9,
+          "dailyReturn": 0.6473
+        },
+        {
+          "date": "2026-08-21",
+          "totalValue": 5879.26,
+          "dailyReturn": -0.3668
+        },
+        {
+          "date": "2026-08-24",
+          "totalValue": 5860.52,
+          "dailyReturn": -0.3186
+        },
+        {
+          "date": "2026-08-25",
+          "totalValue": 5857.25,
+          "dailyReturn": -0.0558
+        },
+        {
+          "date": "2026-08-26",
+          "totalValue": 5823.86,
+          "dailyReturn": -0.5701
+        },
+        {
+          "date": "2026-08-27",
+          "totalValue": 5736.08,
+          "dailyReturn": -1.5073
+        },
+        {
+          "date": "2026-08-28",
+          "totalValue": 5707.33,
+          "dailyReturn": -0.5012
+        },
+        {
+          "date": "2026-08-31",
+          "totalValue": 5710.77,
+          "dailyReturn": 0.0602
+        },
+        {
+          "date": "2026-09-01",
+          "totalValue": 5766.62,
+          "dailyReturn": 0.978
+        },
+        {
+          "date": "2026-09-02",
+          "totalValue": 5770.53,
+          "dailyReturn": 0.0679
+        },
+        {
+          "date": "2026-09-03",
+          "totalValue": 5751.62,
+          "dailyReturn": -0.3278
+        },
+        {
+          "date": "2026-09-04",
+          "totalValue": 5753.09,
+          "dailyReturn": 0.0257
+        },
+        {
+          "date": "2026-09-07",
+          "totalValue": 5727.31,
+          "dailyReturn": -0.4482
+        },
+        {
+          "date": "2026-09-08",
+          "totalValue": 5698.77,
+          "dailyReturn": -0.4983
+        },
+        {
+          "date": "2026-09-09",
+          "totalValue": 5667.7,
+          "dailyReturn": -0.5452
+        },
+        {
+          "date": "2026-09-10",
+          "totalValue": 5615.3,
+          "dailyReturn": -0.9245
+        },
+        {
+          "date": "2026-09-11",
+          "totalValue": 5557.63,
+          "dailyReturn": -1.027
+        },
+        {
+          "date": "2026-09-14",
+          "totalValue": 5615.98,
+          "dailyReturn": 1.0498
+        },
+        {
+          "date": "2026-09-15",
+          "totalValue": 5603.44,
+          "dailyReturn": -0.2232
+        },
+        {
+          "date": "2026-09-16",
+          "totalValue": 5598.7,
+          "dailyReturn": -0.0847
+        },
+        {
+          "date": "2026-09-17",
+          "totalValue": 5610.96,
+          "dailyReturn": 0.2191
+        },
+        {
+          "date": "2026-09-18",
+          "totalValue": 5540.48,
+          "dailyReturn": -1.2562
+        },
+        {
+          "date": "2026-09-21",
+          "totalValue": 5546.62,
+          "dailyReturn": 0.1108
+        },
+        {
+          "date": "2026-09-22",
+          "totalValue": 5524.04,
+          "dailyReturn": -0.407
+        },
+        {
+          "date": "2026-09-23",
+          "totalValue": 5505.25,
+          "dailyReturn": -0.3401
+        },
+        {
+          "date": "2026-09-24",
+          "totalValue": 5466.94,
+          "dailyReturn": -0.696
+        },
+        {
+          "date": "2026-09-25",
+          "totalValue": 5420.16,
+          "dailyReturn": -0.8557
+        },
+        {
+          "date": "2026-09-28",
+          "totalValue": 5471.29,
+          "dailyReturn": 0.9433
+        },
+        {
+          "date": "2026-09-29",
+          "totalValue": 5474.75,
+          "dailyReturn": 0.0633
+        },
+        {
+          "date": "2026-09-30",
+          "totalValue": 5617.83,
+          "dailyReturn": 2.6134
+        },
+        {
+          "date": "2026-10-01",
+          "totalValue": 5491.38,
+          "dailyReturn": -2.2508
+        },
+        {
+          "date": "2026-10-02",
+          "totalValue": 5483.69,
+          "dailyReturn": -0.1401
+        },
+        {
+          "date": "2026-10-05",
+          "totalValue": 5427.71,
+          "dailyReturn": -1.0207
+        },
+        {
+          "date": "2026-10-06",
+          "totalValue": 5542.84,
+          "dailyReturn": 2.121
+        },
+        {
+          "date": "2026-10-07",
+          "totalValue": 5589.42,
+          "dailyReturn": 0.8404
+        },
+        {
+          "date": "2026-10-08",
+          "totalValue": 5623.17,
+          "dailyReturn": 0.6038
+        },
+        {
+          "date": "2026-10-09",
+          "totalValue": 5667.12,
+          "dailyReturn": 0.7817
+        },
+        {
+          "date": "2026-10-12",
+          "totalValue": 5642.09,
+          "dailyReturn": -0.4417
+        },
+        {
+          "date": "2026-10-13",
+          "totalValue": 5711.09,
+          "dailyReturn": 1.2229
+        },
+        {
+          "date": "2026-10-14",
+          "totalValue": 5680.86,
+          "dailyReturn": -0.5293
+        },
+        {
+          "date": "2026-10-15",
+          "totalValue": 5762.43,
+          "dailyReturn": 1.4359
+        },
+        {
+          "date": "2026-10-16",
+          "totalValue": 5753.1,
+          "dailyReturn": -0.1619
+        },
+        {
+          "date": "2026-10-19",
+          "totalValue": 5736.89,
+          "dailyReturn": -0.2819
+        },
+        {
+          "date": "2026-10-20",
+          "totalValue": 5745.13,
+          "dailyReturn": 0.1437
+        },
+        {
+          "date": "2026-10-21",
+          "totalValue": 5769.08,
+          "dailyReturn": 0.4168
+        },
+        {
+          "date": "2026-10-22",
+          "totalValue": 5765.38,
+          "dailyReturn": -0.0641
+        },
+        {
+          "date": "2026-10-23",
+          "totalValue": 5835.94,
+          "dailyReturn": 1.2239
+        }
+      ],
+      "endValue": 5835.94,
+      "returnPct": 5.5,
+      "cumulativeReturn": 16.7
     }
   ],
-  "finalValue": 5648.37,
-  "totalReturn": 13.0
+  "finalValue": 5835.94,
+  "totalReturn": 16.7
 }

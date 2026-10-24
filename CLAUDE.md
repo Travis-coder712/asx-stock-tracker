@@ -20,6 +20,11 @@ python pipeline/setup_db.py
 python pipeline/importers/import_prices.py --agl-only
 python pipeline/importers/import_prices.py --all    # full ASX 100
 
+# Refresh portfolios from FROZEN picks (re-price forward; do NOT re-run strategy modules)
+python pipeline/importers/verify_prices.py        # data sanity — must pass
+python -m pipeline.models.build_main_portfolios   # main buy-and-hold, re-priced forward
+python -m pipeline.models.run_all_periods         # rebalanced periods (frozen-aware)
+
 # Export to JSON for frontend
 python pipeline/exporters/export_json.py
 python -m pipeline.exporters.export_risk   # portfolio-risk (overlap, correlations) — run after export_json
