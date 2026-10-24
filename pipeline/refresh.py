@@ -144,6 +144,7 @@ def main():
     run([py, 'pipeline/exporters/export_json.py'])
     run([py, '-m', 'pipeline.exporters.export_risk'])
     run([py, '-m', 'pipeline.exporters.export_stress'])
+    run([py, '-m', 'pipeline.exporters.export_holdings_flow'])
 
     bump_version()
     print("\nRefresh complete.")

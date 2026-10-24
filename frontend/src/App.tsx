@@ -4,6 +4,7 @@ import AglAnalysis from './AglAnalysis'
 import PickToday from './PickToday'
 import PortfolioRisk from './PortfolioRisk'
 import StressTest from './StressTest'
+import HoldingsFlow from './HoldingsFlow'
 import About from './About'
 import LearnHub from './learn/LearnHub'
 import Investing101 from './learn/Investing101'
@@ -243,6 +244,7 @@ function App() {
           </div>
 
           <Dashboard />
+          <HoldingsFlow />
         </>
       )}
 

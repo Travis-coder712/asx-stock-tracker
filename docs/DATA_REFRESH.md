@@ -14,6 +14,7 @@ python3 -m pipeline.models.compute_hold_periods
 python3 pipeline/exporters/export_json.py
 python3 -m pipeline.exporters.export_risk
 python3 -m pipeline.exporters.export_stress     # correction stress-test (beta, drawdown, 200MA signal)
+python3 -m pipeline.exporters.export_holdings_flow  # holdings bump-chart (per-stock period returns/ranks)
 # then set both versions (export_json resets metadata version to 0.1.0):
 #   frontend/package.json "version"  AND  frontend/public/data/metadata.json "version" + "stockCount"
 ```

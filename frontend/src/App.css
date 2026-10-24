@@ -740,6 +740,19 @@
 .chip-added-key { border-color: var(--green); background: rgba(81,207,102,0.2); }
 .chip-removed-key { border-color: var(--red); background: rgba(255,107,107,0.15); }
 
+/* Holdings Flow bump chart */
+.flow-section { margin-top: 24px; }
+.flow-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.flow-chart-wrap { width: 100%; overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 8px 4px; }
+.flow-svg { width: 100%; min-width: 620px; height: auto; display: block; }
+.flow-axis { fill: var(--text-dim); font-size: 12px; font-weight: 600; }
+.flow-rank { fill: var(--text-mute); font-size: 11px; font-family: ui-monospace, monospace; }
+.flow-tick { font-size: 11px; font-weight: 700; font-family: ui-monospace, monospace; }
+.flow-ret { fill: var(--text); font-size: 10px; font-weight: 700; font-family: ui-monospace, monospace; }
+.flow-legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; font-size: 11px; color: var(--text-dim); align-items: center; }
+.flow-legend-item { display: flex; align-items: center; gap: 5px; }
+.flow-dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+
 /* Correction stress test */
 .stress-section { margin-top: 36px; }
 .risk-sub { font-size: 13px; color: var(--text-dim); line-height: 1.6; margin: 0 0 14px; max-width: 760px; }
