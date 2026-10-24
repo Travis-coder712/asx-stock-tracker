@@ -694,6 +694,14 @@
 }
 
 /* Time Explorer */
+.te-presets { display: flex; gap: 6px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
+.te-preset {
+  background: var(--surface-2); border: 1px solid var(--border); color: var(--text-dim);
+  border-radius: 999px; padding: 4px 14px; font-size: 12px; font-weight: 600; cursor: pointer;
+  font-family: inherit; transition: all 0.12s ease;
+}
+.te-preset:hover { color: var(--text); border-color: var(--text-mute); }
+.te-preset.active { background: var(--accent); border-color: var(--accent); color: #0b0d12; }
 .te-window {
   text-align: center; font-size: 14px; font-weight: 600; color: var(--text);
   margin: 4px 0 12px; font-family: ui-monospace, monospace;

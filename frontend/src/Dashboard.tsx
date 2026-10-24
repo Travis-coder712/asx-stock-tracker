@@ -107,6 +107,7 @@ export default function Dashboard() {
   const [comparison, setComparison] = useState<ComparisonPoint[]>([])
   const [fullComparison, setFullComparison] = useState<ComparisonPoint[]>([])
   const [range, setRange] = useState<{ start: number; end: number } | null>(null)
+  const [activePreset, setActivePreset] = useState<string>('All')
   const [strategyDetail, setStrategyDetail] = useState<Record<string, StrategyPeriods>>({})
   const [selectedStrategy, setSelectedStrategy] = useState<string | null>(null)
   const [holdPeriods, setHoldPeriods] = useState<Record<string, HoldPeriodData>>({})
@@ -162,6 +163,21 @@ export default function Dashboard() {
   }
   const startDate = range ? (fullComparison[range.start]?.date as string) : null
   const endDate = range ? (fullComparison[range.end]?.date as string) : null
+  const PRESETS: Array<{ label: string; months: number | null }> = [
+    { label: '1M', months: 1 }, { label: '3M', months: 3 }, { label: '6M', months: 6 },
+    { label: '1Y', months: 12 }, { label: 'All', months: null },
+  ]
+  const applyPreset = (label: string, months: number | null) => {
+    if (!fullComparison.length) return
+    const end = fullComparison.length - 1
+    if (months == null) { setRange({ start: 0, end }); setActivePreset('All'); return }
+    const cutoff = new Date(fullComparison[end].date as string)
+    cutoff.setMonth(cutoff.getMonth() - months)
+    const ci = cutoff.toISOString().slice(0, 10)
+    let start = fullComparison.findIndex(p => (p.date as string) >= ci)
+    if (start < 0 || start >= end) start = Math.max(0, end - 1)
+    setRange({ start, end }); setActivePreset(label)
+  }
   const windowedReturns = range
     ? Object.keys(STRATEGY_NAMES).map(sid => {
         const sv = nearestValue(range.start, sid, 1)
@@ -264,17 +280,26 @@ export default function Dashboard() {
             Drag the handles to any window. See each strategy's return over just that period — and,
             for a selected strategy, how its picks rotated.
           </p>
+          <div className="te-presets">
+            {PRESETS.map(p => (
+              <button key={p.label}
+                className={`te-preset ${activePreset === p.label ? 'active' : ''}`}
+                onClick={() => applyPreset(p.label, p.months)}>
+                {p.label}
+              </button>
+            ))}
+          </div>
           <div className="te-window">{startDate ? formatDateFull(startDate) : ''} → {endDate ? formatDateFull(endDate) : ''}</div>
           <div className="te-sliders">
             <label>
               <span>From</span>
               <input type="range" min={0} max={fullComparison.length - 1} value={range.start}
-                onChange={e => setRange(r => r && { ...r, start: Math.min(+e.target.value, r.end - 1) })} />
+                onChange={e => { setActivePreset(''); setRange(r => r && { ...r, start: Math.min(+e.target.value, r.end - 1) }) }} />
             </label>
             <label>
               <span>To</span>
               <input type="range" min={0} max={fullComparison.length - 1} value={range.end}
-                onChange={e => setRange(r => r && { ...r, end: Math.max(+e.target.value, r.start + 1) })} />
+                onChange={e => { setActivePreset(''); setRange(r => r && { ...r, end: Math.max(+e.target.value, r.start + 1) }) }} />
             </label>
           </div>
 

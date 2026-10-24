@@ -20,7 +20,7 @@ export default function About({ onGoToLearn }: Props) {
       <h3 className="about-h3">What it's trying to achieve</h3>
       <ul className="about-list">
         <li><strong>Make strategies concrete.</strong> Five distinct investment philosophies (momentum, intrinsic value, quant factors, dividend/income, deep value) are run as hypothetical $5,000 portfolios on real price data, so you can see how each behaves through actual market conditions rather than in theory.</li>
-        <li><strong>Compare honestly.</strong> All five sit on one dashboard with the same rules, the same starting stake and the same time period — including the losers. Momentum's +64% and Damodaran value's −8% are both shown.</li>
+        <li><strong>Compare honestly.</strong> All five sit on one dashboard with the same rules, the same starting stake and the same time period — including the losers. A <strong>Time Explorer</strong> lets you slide to any window (or tap 1M / 3M / 6M / 1Y / All) and see each strategy's return over just that period, plus how its stock picks rotated.</li>
         <li><strong>Teach the thinking.</strong> A 10-module curriculum explains the <em>why</em> behind each approach, and interactive simulators (gamma scalping, position sizing, vol crush) let you feel counter-intuitive truths by dragging sliders instead of just reading them.</li>
         <li><strong>Surface hidden risk.</strong> The Portfolio Risk tab measures how correlated and concentrated the strategies really are — the diversification the five separate portfolios hide.</li>
         <li><strong>Track one real question.</strong> The AGL analysis follows a specific employer's total shareholder return against its ASX 100 peers.</li>
@@ -41,6 +41,7 @@ export default function About({ onGoToLearn }: Props) {
       <ul className="about-list">
         <li>Start with <strong>Learn → Investing 101</strong> if any of the terms are unfamiliar.</li>
         <li>Treat the strategy returns as <em>case studies in behaviour</em>, not tips — ask <em>why</em> momentum led and value lagged over this period.</li>
+        <li>Use the <strong>Time Explorer</strong> on the Strategies tab to test a hunch over a specific window — e.g. "who held up in the last 6 months?" — and watch which stocks each strategy swapped in and out.</li>
         <li>Use the simulators to build intuition, then read the matching lesson's honest "reality check" on where it applies to a retail investor.</li>
         <li>Check the <strong>Portfolio Risk</strong> tab before assuming more holdings means more diversification.</li>
       </ul>
