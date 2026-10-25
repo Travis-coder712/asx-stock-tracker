@@ -15,7 +15,8 @@ import os
 import json
 import sqlite3
 import bisect
-from datetime import date
+import math
+import statistics
 
 from pipeline.data.asx100_constituents import PEER_GROUPS
 
@@ -30,6 +31,17 @@ EXIT_REASON = {
     'ALU': 'acquired by Renesas', 'IPL': 'demerged (Dyno Nobel)', 'LTM': 'acquired by Rio Tinto',
     'SQ2': 'Block CDIs delisted', 'SVW': 'Seven Group privatised', 'VUK': 'Virgin Money UK acquired',
 }
+
+
+def percentile(sorted_vals, p):
+    """Value such that p% of sorted_vals fall below it (linear interpolation)."""
+    if not sorted_vals:
+        return None
+    k = (len(sorted_vals) - 1) * (p / 100)
+    f, cl = math.floor(k), math.ceil(k)
+    if f == cl:
+        return sorted_vals[int(k)]
+    return sorted_vals[f] * (cl - k) + sorted_vals[cl] * (k - f)
 
 
 def month_ends(start_iso, end_iso):
@@ -109,11 +121,33 @@ def main():
                 excluded.append({'ticker': code, 'name': names.get(t, code),
                                  'reason': EXIT_REASON.get(code, 'delisted / no data')})
 
+        # Target prices: what AGL's price would need to be TODAY to sit at the
+        # 50th / 75th percentile, holding every other company where it is now.
+        # AGL TSR = adj_close_now / adj_close_start - 1, and for the latest date
+        # adj_close == raw close (no future dividends), so the implied raw price
+        # for a target TSR T is: adj_close_start * (1 + T).
+        agl_adj0 = series['AGL.AX'][1][0]
+        others = sorted(
+            (val(t, latest, 1) / series[t][1][0] - 1) * 100
+            for t in series if t != 'AGL.AX' and series[t][1][0] and val(t, latest, 1)
+        )
+        targets = None
+        if others:
+            t50 = statistics.median(others)
+            t75 = percentile(others, 75)
+            targets = {
+                'currentPrice': round(val('AGL.AX', latest, 2), 2),
+                'tsr50': round(t50, 1), 'tsr75': round(t75, 1),
+                'price50': round(agl_adj0 * (1 + t50 / 100), 2),
+                'price75': round(agl_adj0 * (1 + t75 / 100), 2),
+            }
+
         out['periods'][period_start] = {
             'fy': FY_OF.get(period_start, period_start),
             'comparatorSize': len(members),
             'ranked': points[-1]['ranked'] if points else 0,
             'excluded': excluded,
+            'targets': targets,
             'series': points,
         }
 

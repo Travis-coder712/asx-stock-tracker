@@ -47,6 +47,13 @@
           "reason": "Virgin Money UK acquired"
         }
       ],
+      "targets": {
+        "currentPrice": 9.12,
+        "tsr50": 30.5,
+        "tsr75": 69.6,
+        "price50": 11.88,
+        "price75": 15.43
+      },
       "series": [
         {
           "date": "2023-08-01",
@@ -406,6 +413,13 @@
           "reason": "Virgin Money UK acquired"
         }
       ],
+      "targets": {
+        "currentPrice": 9.12,
+        "tsr50": 22.8,
+        "tsr75": 47.1,
+        "price50": 11.44,
+        "price75": 13.71
+      },
       "series": [
         {
           "date": "2024-07-01",
@@ -646,6 +660,13 @@
       "comparatorSize": 100,
       "ranked": 100,
       "excluded": [],
+      "targets": {
+        "currentPrice": 9.12,
+        "tsr50": 3.2,
+        "tsr75": 23.8,
+        "price50": 9.32,
+        "price75": 11.18
+      },
       "series": [
         {
           "date": "2025-07-01",
@@ -796,6 +817,13 @@
           "reason": "delisted / no data"
         }
       ],
+      "targets": {
+        "currentPrice": 9.12,
+        "tsr50": 3.7,
+        "tsr75": 14.1,
+        "price50": 8.45,
+        "price75": 9.29
+      },
       "series": [
         {
           "date": "2026-07-01",
