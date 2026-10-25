@@ -7,3 +7,12 @@ dist/
 .DS_Store
 pipeline/cache/
 
+
+# Private / confidential — never commit (defensive; real docs live OUTSIDE this repo
+# in ~/Claude/asx-stock-tracker-private/). Belt-and-braces in case a file lands here.
+private/
+ltip/
+*ltip*
+*LTIP*
+*incentive*
+*remuneration*
