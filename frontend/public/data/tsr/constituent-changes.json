@@ -150,5 +150,77 @@
         "name": "Virgin Money UK (acquired)"
       }
     ]
+  },
+  {
+    "from": "Jun 2025",
+    "to": "Jun 2026",
+    "entered": [
+      {
+        "ticker": "APE",
+        "name": "Eagers Automotive Limited"
+      },
+      {
+        "ticker": "CMM",
+        "name": "Capricorn Metals Ltd"
+      },
+      {
+        "ticker": "GGP",
+        "name": "Greatland Resources Limited"
+      },
+      {
+        "ticker": "GMD",
+        "name": "Genesis Minerals Limited"
+      },
+      {
+        "ticker": "PDN",
+        "name": "Paladin Energy Ltd"
+      },
+      {
+        "ticker": "RMS",
+        "name": "Ramelius Resources Limited"
+      },
+      {
+        "ticker": "RRL",
+        "name": "Regis Resources Limited"
+      },
+      {
+        "ticker": "WGX",
+        "name": "Westgold Resources Limited"
+      }
+    ],
+    "exited": [
+      {
+        "ticker": "FLT",
+        "name": "Flight Centre Travel Group Limited"
+      },
+      {
+        "ticker": "IEL",
+        "name": "IDP Education Limited"
+      },
+      {
+        "ticker": "LLC",
+        "name": "Lendlease Group"
+      },
+      {
+        "ticker": "MTS",
+        "name": "Metcash Limited"
+      },
+      {
+        "ticker": "ORA",
+        "name": "Orora Limited"
+      },
+      {
+        "ticker": "PNI",
+        "name": "Pinnacle Investment Management Group Limited"
+      },
+      {
+        "ticker": "REH",
+        "name": "Reece Limited"
+      },
+      {
+        "ticker": "RWC",
+        "name": "Reliance Worldwide Corporation Limited"
+      }
+    ]
   }
 ]

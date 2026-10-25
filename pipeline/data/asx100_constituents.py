@@ -316,11 +316,26 @@ ASX100_JUN_2025 = [
     'XYZ.AX',   # Block, Inc.
 ]
 
+# As at 30 June 2026 — S&P/ASX 100 constituents (public index membership)
+ASX100_JUN_2026 = [
+    '360.AX', 'A2M.AX', 'AGL.AX', 'ALD.AX', 'ALL.AX', 'ALQ.AX', 'ALX.AX', 'AMC.AX', 'AMP.AX', 'ANN.AX',
+    'ANZ.AX', 'APA.AX', 'APE.AX', 'ASX.AX', 'AZJ.AX', 'BEN.AX', 'BHP.AX', 'BOQ.AX', 'BSL.AX', 'BXB.AX',
+    'CAR.AX', 'CBA.AX', 'CGF.AX', 'CHC.AX', 'CMM.AX', 'COH.AX', 'COL.AX', 'CPU.AX', 'CSL.AX', 'CWY.AX',
+    'DNL.AX', 'DOW.AX', 'DXS.AX', 'EDV.AX', 'EVN.AX', 'FMG.AX', 'FPH.AX', 'GGP.AX', 'GMD.AX', 'GMG.AX',
+    'GPT.AX', 'HUB.AX', 'IAG.AX', 'IGO.AX', 'JBH.AX', 'JHX.AX', 'LNW.AX', 'LYC.AX', 'MGR.AX', 'MIN.AX',
+    'MPL.AX', 'MQG.AX', 'NAB.AX', 'NEM.AX', 'NST.AX', 'NXT.AX', 'ORG.AX', 'ORI.AX', 'PDN.AX', 'PLS.AX',
+    'PME.AX', 'PRU.AX', 'QAN.AX', 'QBE.AX', 'QUB.AX', 'REA.AX', 'RHC.AX', 'RIO.AX', 'RMD.AX', 'RMS.AX',
+    'RRL.AX', 'S32.AX', 'SCG.AX', 'SDF.AX', 'SEK.AX', 'SFR.AX', 'SGH.AX', 'SGP.AX', 'SHL.AX', 'SIG.AX',
+    'SOL.AX', 'STO.AX', 'SUN.AX', 'TCL.AX', 'TLC.AX', 'TLS.AX', 'TLX.AX', 'TNE.AX', 'TWE.AX', 'VCX.AX',
+    'WBC.AX', 'WDS.AX', 'WES.AX', 'WGX.AX', 'WHC.AX', 'WOR.AX', 'WOW.AX', 'WTC.AX', 'XRO.AX', 'XYZ.AX',
+]
+
 # Map period start dates to constituent lists
 PEER_GROUPS = {
     '2023-07-01': ASX100_JUN_2023,
     '2024-07-01': ASX100_JUN_2024,
     '2025-07-01': ASX100_JUN_2025,
+    '2026-07-01': ASX100_JUN_2026,
 }
 
 
@@ -330,6 +345,7 @@ def get_constituent_changes():
         ('Jun 2023', set(ASX100_JUN_2023)),
         ('Jun 2024', set(ASX100_JUN_2024)),
         ('Jun 2025', set(ASX100_JUN_2025)),
+        ('Jun 2026', set(ASX100_JUN_2026)),
     ]
     changes = []
     for i in range(1, len(years)):

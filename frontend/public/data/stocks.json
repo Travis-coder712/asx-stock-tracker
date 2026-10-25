@@ -2298,5 +2298,75 @@
     "pb": null,
     "divYield": null,
     "roe": null
+  },
+  {
+    "ticker": "APE.AX",
+    "name": "Eagers Automotive Limited",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "CMM.AX",
+    "name": "Capricorn Metals Ltd",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "GGP.AX",
+    "name": "Greatland Resources Limited",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "GMD.AX",
+    "name": "Genesis Minerals Limited",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "RMS.AX",
+    "name": "Ramelius Resources Limited",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "RRL.AX",
+    "name": "Regis Resources Limited",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
+  },
+  {
+    "ticker": "WGX.AX",
+    "name": "Westgold Resources Limited",
+    "sector": null,
+    "marketCap": null,
+    "pe": null,
+    "pb": null,
+    "divYield": null,
+    "roe": null
   }
 ]
