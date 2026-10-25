@@ -755,6 +755,13 @@
 .cc-name { color: var(--text-dim); }
 @media (max-width: 640px) { .cc-cols { grid-template-columns: 1fr; gap: 16px; } }
 
+/* Survivorship (AGL peer ranking) */
+.survivorship { margin: 4px 0 14px; padding: 12px 14px; background: rgba(255,146,43,0.06); border: 1px solid rgba(255,146,43,0.22); border-radius: var(--radius-sm); }
+.survivorship-label { font-size: 12px; color: var(--text-dim); line-height: 1.55; }
+.survivorship-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.survivor-chip { font-size: 11px; font-family: ui-monospace, monospace; color: var(--text-dim); background: var(--surface-2); border: 1px solid var(--border); border-radius: 4px; padding: 2px 7px; }
+.survivor-reason { color: var(--text-mute); }
+
 /* Holdings Flow bump chart */
 .flow-section { margin-top: 24px; }
 .flow-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }

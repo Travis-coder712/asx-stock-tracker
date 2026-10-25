@@ -18,16 +18,25 @@ TICKERS = ['AGL.AX', '^ATOI', 'STW.AX']
 
 
 def compute_tsr(conn: sqlite3.Connection, ticker: str, period_start: str) -> None:
-    """Compute TSR from period_start to latest available date.
+    """Compute Total Shareholder Return from period_start to latest date.
 
-    TSR = (end_price + cumulative_dividends_reinvested - start_price) / start_price
+    TSR = adj_close(date) / adj_close(start) - 1
 
-    For dividend reinvestment: on each ex-date, calculate additional shares
-    purchased at that day's closing price, then compound forward.
+    `adj_close` from yfinance is ALREADY total-return adjusted — it bakes in
+    dividends reinvested at the ex-date close. So the adj_close ratio *is* the
+    TSR with dividends reinvested, and NO manual dividend reinvestment is needed.
+
+    (The previous version reinvested the raw cash dividends on top of adj_close,
+    double-counting them — e.g. AGL from 2023-07-01 read +22.8% when the true
+    total return is ~+0.2%, because its ~17% of dividends were counted twice.
+    That also biased the peer ranking toward high-yield stocks. Fixed 2026-10-25.)
+
+    `cumulative_div` is kept purely for display — the running sum of cash
+    dividends per share — and is NOT part of the TSR maths.
     """
     prices = conn.execute(
         "SELECT date, adj_close FROM price_history "
-        "WHERE ticker=? AND date>=? ORDER BY date",
+        "WHERE ticker=? AND date>=? AND adj_close IS NOT NULL ORDER BY date",
         (ticker, period_start)
     ).fetchall()
 
@@ -39,15 +48,13 @@ def compute_tsr(conn: sqlite3.Connection, ticker: str, period_start: str) -> Non
         "WHERE ticker=? AND ex_date>=? ORDER BY ex_date",
         (ticker, period_start)
     ).fetchall()
-
     div_map = {d[0]: d[1] for d in dividends}
 
     start_price = prices[0][1]
     if not start_price or start_price <= 0:
         return
 
-    shares = 1.0
-    cumulative_div_value = 0.0
+    cumulative_div = 0.0
 
     conn.execute(
         "DELETE FROM tsr_tracking WHERE ticker=? AND period_start=?",
@@ -59,20 +66,15 @@ def compute_tsr(conn: sqlite3.Connection, ticker: str, period_start: str) -> Non
             continue
 
         if date_str in div_map:
-            div_per_share = div_map[date_str]
-            div_income = div_per_share * shares
-            new_shares = div_income / price
-            shares += new_shares
-            cumulative_div_value += div_income
+            cumulative_div += div_map[date_str]
 
-        total_value = shares * price
-        tsr_pct = ((total_value - start_price) / start_price) * 100
+        tsr_pct = ((price / start_price) - 1) * 100  # adj_close = total return
 
         conn.execute(
             "INSERT OR REPLACE INTO tsr_tracking "
             "(ticker, date, price, cumulative_div, tsr_pct, period_start) "
             "VALUES (?, ?, ?, ?, ?, ?)",
-            (ticker, date_str, price, cumulative_div_value,
+            (ticker, date_str, price, round(cumulative_div, 4),
              round(tsr_pct, 2), period_start)
         )
 

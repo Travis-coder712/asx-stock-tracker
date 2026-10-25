@@ -16,6 +16,7 @@ python3 -m pipeline.exporters.export_risk
 python3 -m pipeline.exporters.export_stress     # correction stress-test (beta, drawdown, 200MA signal)
 python3 -m pipeline.exporters.export_holdings_flow  # holdings bump-chart (per-stock period returns/ranks)
 python3 -m pipeline.exporters.export_constituents   # ASX 100 constituent changes (AGL peer-group in/out)
+python3 -m pipeline.exporters.export_lti_tracking   # LTI time-series + survivorship (AGL TSR/rank over time)
 # then set both versions (export_json resets metadata version to 0.1.0):
 #   frontend/package.json "version"  AND  frontend/public/data/metadata.json "version" + "stockCount"
 ```

@@ -15,6 +15,10 @@ interface PricePoint { date: string; agl: number | null; asx100: number | null }
 interface IndexName { ticker: string; name: string }
 interface ConstituentChange { from: string; to: string; entered: IndexName[]; exited: IndexName[] }
 
+interface Excluded { ticker: string; name: string; reason: string }
+interface LtiPeriod { fy: string; comparatorSize: number; ranked: number; excluded: Excluded[] }
+interface LtiTracking { periods: Record<string, LtiPeriod> }
+
 interface PeerRanking {
   periodStart: string
   peerCount: number
@@ -72,11 +76,13 @@ export default function AglAnalysis() {
   const [peerRankings, setPeerRankings] = useState<Record<string, PeerRanking>>({})
   const [selectedPeriod, setSelectedPeriod] = useState('2023-07-01')
   const [changes, setChanges] = useState<ConstituentChange[]>([])
+  const [lti, setLti] = useState<LtiTracking | null>(null)
 
   useEffect(() => {
     fetch(`${BASE}data/tsr/tsr-summary.json`).then(r => r.ok ? r.json() : []).then(setTsrSummary).catch(() => {})
     fetch(`${BASE}data/charts/agl-vs-index.json`).then(r => r.ok ? r.json() : []).then(setPriceData).catch(() => {})
     fetch(`${BASE}data/tsr/constituent-changes.json`).then(r => r.ok ? r.json() : []).then(setChanges).catch(() => {})
+    fetch(`${BASE}data/tsr/lti-tracking.json`).then(r => r.ok ? r.json() : null).then(setLti).catch(() => {})
     const peerPeriods = ['2023-07-01', '2024-07-01', '2025-07-01']
     peerPeriods.forEach(p => {
       fetch(`${BASE}data/tsr/peer-ranking-${p}.json`)
@@ -144,6 +150,22 @@ export default function AglAnalysis() {
                 {peerRanking.aglPercentile?.toFixed(0)}th</strong>.
                 Median: {formatTsr(peerRanking.median)}.
               </p>
+              {lti?.periods?.[selectedPeriod]?.excluded?.length ? (
+                <div className="survivorship">
+                  <span className="survivorship-label">
+                    Survivorship: {lti.periods[selectedPeriod].excluded.length} of the {lti.periods[selectedPeriod].comparatorSize} comparator names
+                    can't be ranked (delisted/acquired, no measurable TSR). The group is fixed at the start, so these are mostly takeovers —
+                    if they were kept at their takeover premium, AGL's rank would likely be <em>lower</em> than shown.
+                  </span>
+                  <div className="survivorship-chips">
+                    {lti.periods[selectedPeriod].excluded.map(e => (
+                      <span key={e.ticker} className="survivor-chip" title={e.reason}>
+                        {e.ticker} <span className="survivor-reason">· {e.reason}</span>
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
               <div className="peer-table-wrap">
                 <table className="peer-table">
                   <thead><tr><th>#</th><th>Ticker</th><th>Company</th><th style={{ textAlign: 'right' }}>TSR</th></tr></thead>

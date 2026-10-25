@@ -2,25 +2,25 @@
   {
     "periodStart": "2023-07-01",
     "asOf": "2026-10-23",
-    "aglTsr": 22.77,
+    "aglTsr": 0.24,
     "indexTsr": 22.25
   },
   {
     "periodStart": "2024-07-01",
     "asOf": "2026-10-23",
-    "aglTsr": 12.95,
+    "aglTsr": -2.14,
     "indexTsr": 14.18
   },
   {
     "periodStart": "2025-07-01",
     "asOf": "2026-10-23",
-    "aglTsr": 10.03,
+    "aglTsr": 0.97,
     "indexTsr": 3.65
   },
   {
     "periodStart": "2026-07-01",
     "asOf": "2026-10-23",
-    "aglTsr": 15.42,
+    "aglTsr": 12.02,
     "indexTsr": 1.73
   }
 ]
