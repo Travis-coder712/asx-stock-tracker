@@ -1,16 +1,5 @@
 [
   {
-    "ticker": "360.AX",
-    "name": "Life360, Inc.",
-    "shares": 66.8449,
-    "buyPrice": 7.48,
-    "buyDate": "2024-01-02",
-    "sellPrice": null,
-    "sellDate": null,
-    "isManual": false,
-    "rationale": "Value rank 88, Mom rank 9 (+54%), Quality rank 7 (ROE 30.6%), Composite 104"
-  },
-  {
     "ticker": "FMG.AX",
     "name": "Fortescue Ltd",
     "shares": 20.9358,
@@ -35,7 +24,7 @@
   {
     "ticker": "NEC.AX",
     "name": "Nine Entertainment Co. Holdings Limited",
-    "shares": 424.355,
+    "shares": 424.3551,
     "buyPrice": 1.18,
     "buyDate": "2024-01-02",
     "sellPrice": null,
@@ -75,17 +64,6 @@
     "sellDate": null,
     "isManual": false,
     "rationale": "Value rank 90, Mom rank 3 (+71%), Quality rank 10 (ROE 28.4%), Composite 103"
-  },
-  {
-    "ticker": "RWC.AX",
-    "name": "Reliance Worldwide Corporation Limited",
-    "shares": 117.9533,
-    "buyPrice": 4.24,
-    "buyDate": "2024-01-02",
-    "sellPrice": null,
-    "sellDate": null,
-    "isManual": false,
-    "rationale": "Value rank 26, Mom rank 8 (+54%), Quality rank 65 (ROE 7.6%), Composite 99"
   },
   {
     "ticker": "SGP.AX",

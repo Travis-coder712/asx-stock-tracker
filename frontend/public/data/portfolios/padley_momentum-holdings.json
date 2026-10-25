@@ -1,16 +1,5 @@
 [
   {
-    "ticker": "360.AX",
-    "name": "Life360, Inc.",
-    "shares": 66.8449,
-    "buyPrice": 7.48,
-    "buyDate": "2024-01-02",
-    "sellPrice": null,
-    "sellDate": null,
-    "isManual": false,
-    "rationale": "Mom +54%, ROE 31%, EPS $0.83, P/E 28.7"
-  },
-  {
     "ticker": "ALL.AX",
     "name": "Aristocrat Leisure Limited",
     "shares": 12.7021,
@@ -64,17 +53,6 @@
     "sellDate": null,
     "isManual": false,
     "rationale": "Mom +57%, ROE 19%, EPS $1.72, P/E 11.5"
-  },
-  {
-    "ticker": "HUB.AX",
-    "name": "HUB24 Limited",
-    "shares": 14.2708,
-    "buyPrice": 35.04,
-    "buyDate": "2024-01-02",
-    "sellPrice": null,
-    "sellDate": null,
-    "isManual": false,
-    "rationale": "Mom +37%, ROE 20%, EPS $1.28, P/E 57.5"
   },
   {
     "ticker": "JBH.AX",

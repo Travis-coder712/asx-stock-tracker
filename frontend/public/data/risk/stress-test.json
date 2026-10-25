@@ -12,30 +12,30 @@
     {
       "id": "padley_momentum",
       "name": "Padley Momentum",
-      "beta": 1.28,
-      "maxDrawdown": -47.7,
-      "currentValue": 6739.85,
-      "holdings": 10,
+      "beta": 1.07,
+      "maxDrawdown": -43.5,
+      "currentValue": 4329.5,
+      "holdings": 8,
       "exposure": {
-        "rates": 10,
-        "commodity": 10,
-        "cyclical": 60,
-        "defensive": 20,
+        "rates": 0,
+        "commodity": 12,
+        "cyclical": 62,
+        "defensive": 25,
         "other": 0
       }
     },
     {
       "id": "quant_factors",
       "name": "Quant Factors",
-      "beta": 1.17,
-      "maxDrawdown": -45.0,
-      "currentValue": 7088.26,
-      "holdings": 10,
+      "beta": 1.04,
+      "maxDrawdown": -34.3,
+      "currentValue": 5118.06,
+      "holdings": 8,
       "exposure": {
-        "rates": 20,
-        "commodity": 20,
-        "cyclical": 50,
-        "defensive": 10,
+        "rates": 25,
+        "commodity": 25,
+        "cyclical": 38,
+        "defensive": 12,
         "other": 0
       }
     },
@@ -57,15 +57,15 @@
     {
       "id": "damodaran_dcf",
       "name": "Damodaran Value",
-      "beta": 0.76,
-      "maxDrawdown": -15.5,
-      "currentValue": 5687.52,
-      "holdings": 10,
+      "beta": 0.72,
+      "maxDrawdown": -13.4,
+      "currentValue": 5168.53,
+      "holdings": 9,
       "exposure": {
-        "rates": 20,
-        "commodity": 10,
-        "cyclical": 60,
-        "defensive": 10,
+        "rates": 22,
+        "commodity": 11,
+        "cyclical": 56,
+        "defensive": 11,
         "other": 0
       }
     },

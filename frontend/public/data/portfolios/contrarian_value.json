@@ -11,11 +11,11 @@
     "totalValue": 4936.78,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -1.2645
+    "dailyReturn": -1.2644
   },
   {
     "date": "2024-01-04",
-    "totalValue": 4955.26,
+    "totalValue": 4955.27,
     "cash": 0.0,
     "numHoldings": 7,
     "dailyReturn": 0.3745
@@ -256,7 +256,7 @@
     "totalValue": 4937.54,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.7832
+    "dailyReturn": -0.7833
   },
   {
     "date": "2024-02-23",
@@ -326,7 +326,7 @@
     "totalValue": 5033.74,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": 0.7748
+    "dailyReturn": 0.7747
   },
   {
     "date": "2024-03-08",
@@ -354,7 +354,7 @@
     "totalValue": 4986.01,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": 0.0782
+    "dailyReturn": 0.0781
   },
   {
     "date": "2024-03-14",
@@ -393,7 +393,7 @@
   },
   {
     "date": "2024-03-21",
-    "totalValue": 5104.39,
+    "totalValue": 5104.4,
     "cash": 0.0,
     "numHoldings": 7,
     "dailyReturn": 1.4439
@@ -438,7 +438,7 @@
     "totalValue": 5029.65,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -2.1781
+    "dailyReturn": -2.1782
   },
   {
     "date": "2024-04-03",
@@ -515,7 +515,7 @@
     "totalValue": 4797.33,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.0347
+    "dailyReturn": -0.0348
   },
   {
     "date": "2024-04-18",
@@ -543,7 +543,7 @@
     "totalValue": 4783.23,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.4099
+    "dailyReturn": -0.4098
   },
   {
     "date": "2024-04-24",
@@ -683,7 +683,7 @@
     "totalValue": 4683.84,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.7456
+    "dailyReturn": -0.7457
   },
   {
     "date": "2024-05-23",
@@ -774,7 +774,7 @@
     "totalValue": 4626.77,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -1.6269
+    "dailyReturn": -1.6268
   },
   {
     "date": "2024-06-12",
@@ -956,7 +956,7 @@
     "totalValue": 4885.38,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": 1.0146
+    "dailyReturn": 1.0145
   },
   {
     "date": "2024-07-18",
@@ -1156,7 +1156,7 @@
   },
   {
     "date": "2024-08-27",
-    "totalValue": 4920.58,
+    "totalValue": 4920.59,
     "cash": 0.0,
     "numHoldings": 7,
     "dailyReturn": 0.0113
@@ -1698,7 +1698,7 @@
     "totalValue": 4852.43,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.169
+    "dailyReturn": -0.1691
   },
   {
     "date": "2024-12-13",
@@ -1775,7 +1775,7 @@
     "totalValue": 4764.18,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -1.0299
+    "dailyReturn": -1.03
   },
   {
     "date": "2025-01-02",
@@ -1940,7 +1940,7 @@
   },
   {
     "date": "2025-02-05",
-    "totalValue": 4866.44,
+    "totalValue": 4866.45,
     "cash": 0.0,
     "numHoldings": 7,
     "dailyReturn": 0.7732
@@ -2048,7 +2048,7 @@
     "totalValue": 4916.57,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": 0.2717
+    "dailyReturn": 0.2716
   },
   {
     "date": "2025-02-27",
@@ -2129,7 +2129,7 @@
   },
   {
     "date": "2025-03-14",
-    "totalValue": 4732.84,
+    "totalValue": 4732.85,
     "cash": 0.0,
     "numHoldings": 7,
     "dailyReturn": -0.1216
@@ -2405,7 +2405,7 @@
     "totalValue": 4999.81,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": 0.9696
+    "dailyReturn": 0.9697
   },
   {
     "date": "2025-05-14",
@@ -2507,7 +2507,7 @@
   },
   {
     "date": "2025-06-03",
-    "totalValue": 5130.92,
+    "totalValue": 5130.93,
     "cash": 0.0,
     "numHoldings": 7,
     "dailyReturn": 0.0639
@@ -2664,7 +2664,7 @@
     "totalValue": 5316.54,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": 0.3843
+    "dailyReturn": 0.3842
   },
   {
     "date": "2025-07-07",
@@ -2783,7 +2783,7 @@
     "totalValue": 5462.54,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.0017
+    "dailyReturn": -0.0016
   },
   {
     "date": "2025-07-30",
@@ -3525,7 +3525,7 @@
     "totalValue": 5854.32,
     "cash": 0.0,
     "numHoldings": 7,
-    "dailyReturn": -0.1402
+    "dailyReturn": -0.1403
   },
   {
     "date": "2025-12-29",

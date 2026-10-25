@@ -2,7 +2,7 @@
   {
     "ticker": "CCL.AX",
     "name": "Cuscal Limited",
-    "shares": 224.9288,
+    "shares": 224.9289,
     "buyPrice": 2.22,
     "buyDate": "2024-01-02",
     "sellPrice": null,
@@ -46,7 +46,7 @@
   {
     "ticker": "NEC.AX",
     "name": "Nine Entertainment Co. Holdings Limited",
-    "shares": 424.355,
+    "shares": 424.3551,
     "buyPrice": 1.18,
     "buyDate": "2024-01-02",
     "sellPrice": null,
@@ -75,17 +75,6 @@
     "sellDate": null,
     "isManual": false,
     "rationale": "P/E 18.2 (sector med 52.0, +65%), FCF yield 1.02%"
-  },
-  {
-    "ticker": "RWC.AX",
-    "name": "Reliance Worldwide Corporation Limited",
-    "shares": 117.9533,
-    "buyPrice": 4.24,
-    "buyDate": "2024-01-02",
-    "sellPrice": null,
-    "sellDate": null,
-    "isManual": false,
-    "rationale": "P/E 19.7 (sector med 33.8, +42%), FCF yield 5.12%"
   },
   {
     "ticker": "SKC.AX",

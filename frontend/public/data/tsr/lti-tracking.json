@@ -4,12 +4,27 @@
     "2023-07-01": {
       "fy": "FY24",
       "comparatorSize": 100,
-      "ranked": 92,
+      "ranked": 73,
       "excluded": [
+        {
+          "ticker": "A2M",
+          "name": "A2M",
+          "reason": "delisted / no data"
+        },
         {
           "ticker": "AKE",
           "name": "AKE",
           "reason": "merged \u2192 Arcadium"
+        },
+        {
+          "ticker": "ALD",
+          "name": "ALD",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "ALQ",
+          "name": "ALQ",
+          "reason": "delisted / no data"
         },
         {
           "ticker": "ALU",
@@ -17,9 +32,49 @@
           "reason": "acquired by Renesas"
         },
         {
+          "ticker": "ANN",
+          "name": "ANN",
+          "reason": "delisted / no data"
+        },
+        {
           "ticker": "AWC",
           "name": "AWC",
           "reason": "acquired by Alcoa"
+        },
+        {
+          "ticker": "AZJ",
+          "name": "AZJ",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "BEN",
+          "name": "BEN",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "BSL",
+          "name": "BSL",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "CGF",
+          "name": "CGF",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "DMP",
+          "name": "DMP",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "DOW",
+          "name": "DOW",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "EDV",
+          "name": "EDV",
+          "reason": "delisted / no data"
         },
         {
           "ticker": "IPL",
@@ -27,9 +82,49 @@
           "reason": "demerged (Dyno Nobel)"
         },
         {
+          "ticker": "LYC",
+          "name": "LYC",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "MTS",
+          "name": "MTS",
+          "reason": "delisted / no data"
+        },
+        {
           "ticker": "NCM",
           "name": "NCM",
           "reason": "acquired by Newmont"
+        },
+        {
+          "ticker": "QUB",
+          "name": "QUB",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "REH",
+          "name": "REH",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "RGN",
+          "name": "RGN",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "RWC",
+          "name": "RWC",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SCG",
+          "name": "SCG",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SDF",
+          "name": "SDF",
+          "reason": "delisted / no data"
         },
         {
           "ticker": "SQ2",
@@ -49,343 +144,398 @@
       ],
       "targets": {
         "currentPrice": 9.12,
-        "tsr50": 30.5,
-        "tsr75": 69.6,
-        "price50": 11.88,
-        "price75": 15.43
+        "tsr50": 27.6,
+        "tsr75": 66.1,
+        "price50": 11.61,
+        "price75": 15.11
       },
       "series": [
         {
           "date": "2023-08-01",
           "price": 12.28,
           "tsr": 11.8,
-          "pct": 96.7,
+          "pct": 95.8,
           "rank": 4,
-          "ranked": 92
+          "ranked": 73
         },
         {
           "date": "2023-09-01",
           "price": 11.04,
           "tsr": 2.7,
-          "pct": 48.4,
-          "rank": 48,
-          "ranked": 92
+          "pct": 50.0,
+          "rank": 37,
+          "ranked": 73
         },
         {
           "date": "2023-10-01",
           "price": 10.73,
           "tsr": -0.2,
-          "pct": 57.1,
-          "rank": 40,
-          "ranked": 92
+          "pct": 55.6,
+          "rank": 33,
+          "ranked": 73
         },
         {
           "date": "2023-11-01",
           "price": 10.77,
           "tsr": 0.2,
-          "pct": 68.1,
-          "rank": 30,
-          "ranked": 92
+          "pct": 65.3,
+          "rank": 26,
+          "ranked": 73
         },
         {
           "date": "2023-12-01",
           "price": 9.43,
           "tsr": -12.3,
-          "pct": 22.0,
-          "rank": 72,
-          "ranked": 92
+          "pct": 25.0,
+          "rank": 55,
+          "ranked": 73
         },
         {
           "date": "2024-01-01",
           "price": 9.48,
           "tsr": -11.8,
-          "pct": 9.9,
-          "rank": 83,
-          "ranked": 92
+          "pct": 9.7,
+          "rank": 66,
+          "ranked": 73
         },
         {
           "date": "2024-02-01",
           "price": 8.54,
           "tsr": -20.6,
-          "pct": 3.3,
-          "rank": 89,
-          "ranked": 92
+          "pct": 4.2,
+          "rank": 70,
+          "ranked": 73
         },
         {
           "date": "2024-03-01",
           "price": 8.66,
           "tsr": -16.9,
-          "pct": 6.6,
-          "rank": 86,
-          "ranked": 92
+          "pct": 8.3,
+          "rank": 67,
+          "ranked": 73
         },
         {
           "date": "2024-04-01",
           "price": 8.34,
           "tsr": -20.0,
-          "pct": 3.3,
-          "rank": 89,
-          "ranked": 92
+          "pct": 4.2,
+          "rank": 70,
+          "ranked": 73
         },
         {
           "date": "2024-05-01",
           "price": 9.45,
           "tsr": -9.4,
-          "pct": 18.7,
-          "rank": 75,
-          "ranked": 92
+          "pct": 20.8,
+          "rank": 58,
+          "ranked": 73
         },
         {
           "date": "2024-06-01",
           "price": 10.23,
           "tsr": -1.9,
-          "pct": 33.0,
-          "rank": 62,
-          "ranked": 92
+          "pct": 31.9,
+          "rank": 50,
+          "ranked": 73
         },
         {
           "date": "2024-07-01",
           "price": 10.68,
           "tsr": 2.4,
-          "pct": 41.8,
-          "rank": 54,
-          "ranked": 92
+          "pct": 41.7,
+          "rank": 43,
+          "ranked": 73
         },
         {
           "date": "2024-08-01",
           "price": 10.56,
           "tsr": 1.3,
-          "pct": 31.9,
-          "rank": 63,
-          "ranked": 92
+          "pct": 34.7,
+          "rank": 48,
+          "ranked": 73
         },
         {
           "date": "2024-09-01",
           "price": 11.61,
           "tsr": 14.9,
-          "pct": 53.8,
-          "rank": 43,
-          "ranked": 92
+          "pct": 51.4,
+          "rank": 36,
+          "ranked": 73
         },
         {
           "date": "2024-10-01",
           "price": 11.88,
           "tsr": 17.5,
-          "pct": 52.7,
-          "rank": 44,
-          "ranked": 92
+          "pct": 52.8,
+          "rank": 35,
+          "ranked": 73
         },
         {
           "date": "2024-11-01",
           "price": 10.53,
           "tsr": 4.2,
-          "pct": 39.6,
-          "rank": 56,
-          "ranked": 92
+          "pct": 37.5,
+          "rank": 46,
+          "ranked": 73
         },
         {
           "date": "2024-12-01",
           "price": 11.2,
           "tsr": 10.8,
-          "pct": 41.8,
-          "rank": 54,
-          "ranked": 92
+          "pct": 40.3,
+          "rank": 44,
+          "ranked": 73
         },
         {
           "date": "2025-01-01",
           "price": 11.29,
           "tsr": 11.7,
-          "pct": 48.4,
-          "rank": 48,
-          "ranked": 92
+          "pct": 47.2,
+          "rank": 39,
+          "ranked": 73
         },
         {
           "date": "2025-02-01",
           "price": 11.52,
           "tsr": 14.0,
-          "pct": 49.5,
-          "rank": 47,
-          "ranked": 92
+          "pct": 48.6,
+          "rank": 38,
+          "ranked": 73
         },
         {
           "date": "2025-03-01",
           "price": 10.46,
           "tsr": 5.7,
-          "pct": 42.9,
-          "rank": 53,
-          "ranked": 92
+          "pct": 40.3,
+          "rank": 44,
+          "ranked": 73
         },
         {
           "date": "2025-04-01",
           "price": 10.71,
           "tsr": 8.3,
-          "pct": 48.4,
-          "rank": 48,
-          "ranked": 92
+          "pct": 47.2,
+          "rank": 39,
+          "ranked": 73
         },
         {
           "date": "2025-05-01",
           "price": 10.68,
           "tsr": 8.0,
-          "pct": 41.8,
-          "rank": 54,
-          "ranked": 92
+          "pct": 43.1,
+          "rank": 42,
+          "ranked": 73
         },
         {
           "date": "2025-06-01",
           "price": 10.15,
           "tsr": 2.6,
-          "pct": 35.2,
-          "rank": 60,
-          "ranked": 92
+          "pct": 34.7,
+          "rank": 48,
+          "ranked": 73
         },
         {
           "date": "2025-07-01",
           "price": 9.82,
           "tsr": -0.7,
-          "pct": 30.8,
-          "rank": 64,
-          "ranked": 92
+          "pct": 31.9,
+          "rank": 50,
+          "ranked": 73
         },
         {
           "date": "2025-08-01",
           "price": 9.76,
           "tsr": -1.3,
-          "pct": 26.4,
-          "rank": 68,
-          "ranked": 92
+          "pct": 27.8,
+          "rank": 53,
+          "ranked": 73
         },
         {
           "date": "2025-09-01",
           "price": 8.28,
           "tsr": -13.7,
-          "pct": 18.7,
-          "rank": 75,
-          "ranked": 92
+          "pct": 19.4,
+          "rank": 59,
+          "ranked": 73
         },
         {
           "date": "2025-10-01",
           "price": 9.22,
           "tsr": -4.0,
-          "pct": 24.2,
-          "rank": 70,
-          "ranked": 92
+          "pct": 25.0,
+          "rank": 55,
+          "ranked": 73
         },
         {
           "date": "2025-11-01",
           "price": 9.26,
           "tsr": -3.5,
-          "pct": 25.3,
-          "rank": 69,
-          "ranked": 92
+          "pct": 27.8,
+          "rank": 53,
+          "ranked": 73
         },
         {
           "date": "2025-12-01",
           "price": 9.32,
           "tsr": -2.9,
-          "pct": 27.5,
-          "rank": 67,
-          "ranked": 92
+          "pct": 29.2,
+          "rank": 52,
+          "ranked": 73
         },
         {
           "date": "2026-01-01",
           "price": 9.31,
           "tsr": -3.0,
-          "pct": 29.7,
-          "rank": 65,
-          "ranked": 92
+          "pct": 31.9,
+          "rank": 50,
+          "ranked": 73
         },
         {
           "date": "2026-02-01",
           "price": 9.05,
           "tsr": -5.7,
-          "pct": 23.1,
-          "rank": 71,
-          "ranked": 92
+          "pct": 25.0,
+          "rank": 55,
+          "ranked": 73
         },
         {
           "date": "2026-03-01",
           "price": 9.89,
           "tsr": 5.5,
-          "pct": 37.4,
-          "rank": 58,
-          "ranked": 92
+          "pct": 37.5,
+          "rank": 46,
+          "ranked": 73
         },
         {
           "date": "2026-04-01",
           "price": 9.92,
           "tsr": 5.8,
-          "pct": 37.4,
-          "rank": 58,
-          "ranked": 92
+          "pct": 38.9,
+          "rank": 45,
+          "ranked": 73
         },
         {
           "date": "2026-05-01",
           "price": 9.69,
           "tsr": 3.3,
-          "pct": 34.1,
-          "rank": 61,
-          "ranked": 92
+          "pct": 34.7,
+          "rank": 48,
+          "ranked": 73
         },
         {
           "date": "2026-06-01",
           "price": 8.58,
           "tsr": -8.5,
-          "pct": 29.7,
-          "rank": 65,
-          "ranked": 92
+          "pct": 30.6,
+          "rank": 51,
+          "ranked": 73
         },
         {
           "date": "2026-07-01",
           "price": 8.39,
           "tsr": -10.5,
-          "pct": 23.1,
-          "rank": 71,
-          "ranked": 92
+          "pct": 26.4,
+          "rank": 54,
+          "ranked": 73
         },
         {
           "date": "2026-08-01",
           "price": 8.28,
           "tsr": -11.7,
-          "pct": 20.9,
-          "rank": 73,
-          "ranked": 92
+          "pct": 23.6,
+          "rank": 56,
+          "ranked": 73
         },
         {
           "date": "2026-09-01",
           "price": 8.68,
           "tsr": -4.6,
-          "pct": 25.3,
-          "rank": 69,
-          "ranked": 92
+          "pct": 26.4,
+          "rank": 54,
+          "ranked": 73
         },
         {
           "date": "2026-10-01",
           "price": 8.07,
           "tsr": -11.3,
-          "pct": 24.2,
-          "rank": 70,
-          "ranked": 92
+          "pct": 27.8,
+          "rank": 53,
+          "ranked": 73
         },
         {
           "date": "2026-10-23",
           "price": 9.12,
           "tsr": 0.2,
-          "pct": 28.6,
-          "rank": 66,
-          "ranked": 92
+          "pct": 31.9,
+          "rank": 50,
+          "ranked": 73
         }
       ]
     },
     "2024-07-01": {
       "fy": "FY25",
       "comparatorSize": 100,
-      "ranked": 94,
+      "ranked": 73,
       "excluded": [
+        {
+          "ticker": "A2M",
+          "name": "A2M",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "ALD",
+          "name": "ALD",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "ALQ",
+          "name": "ALQ",
+          "reason": "delisted / no data"
+        },
         {
           "ticker": "ALU",
           "name": "ALU",
           "reason": "acquired by Renesas"
+        },
+        {
+          "ticker": "ANN",
+          "name": "ANN",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "AZJ",
+          "name": "AZJ",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "BEN",
+          "name": "BEN",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "BSL",
+          "name": "BSL",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "CGF",
+          "name": "CGF",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "DMP",
+          "name": "DMP",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "DOW",
+          "name": "DOW",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "EDV",
+          "name": "EDV",
+          "reason": "delisted / no data"
         },
         {
           "ticker": "IPL",
@@ -398,6 +548,51 @@
           "reason": "acquired by Rio Tinto"
         },
         {
+          "ticker": "LYC",
+          "name": "LYC",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "MTS",
+          "name": "MTS",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "NEM",
+          "name": "NEM",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "PDN",
+          "name": "PDN",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "QUB",
+          "name": "QUB",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "REH",
+          "name": "REH",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "RWC",
+          "name": "RWC",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SCG",
+          "name": "SCG",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SDF",
+          "name": "SDF",
+          "reason": "delisted / no data"
+        },
+        {
           "ticker": "SQ2",
           "name": "SQ2",
           "reason": "Block CDIs delisted"
@@ -408,6 +603,11 @@
           "reason": "Seven Group privatised"
         },
         {
+          "ticker": "VEA",
+          "name": "VEA",
+          "reason": "delisted / no data"
+        },
+        {
           "ticker": "VUK",
           "name": "VUK",
           "reason": "Virgin Money UK acquired"
@@ -415,10 +615,10 @@
       ],
       "targets": {
         "currentPrice": 9.12,
-        "tsr50": 22.8,
-        "tsr75": 47.1,
-        "price50": 11.44,
-        "price75": 13.71
+        "tsr50": 25.2,
+        "tsr75": 45.9,
+        "price50": 11.67,
+        "price75": 13.6
       },
       "series": [
         {
@@ -427,245 +627,391 @@
           "tsr": 0.0,
           "pct": 0.0,
           "rank": 1,
-          "ranked": 94
+          "ranked": 73
         },
         {
           "date": "2024-08-01",
           "price": 10.56,
           "tsr": -1.1,
-          "pct": 12.9,
-          "rank": 82,
-          "ranked": 94
+          "pct": 13.9,
+          "rank": 63,
+          "ranked": 73
         },
         {
           "date": "2024-09-01",
           "price": 11.61,
           "tsr": 12.1,
-          "pct": 72.0,
-          "rank": 27,
-          "ranked": 94
+          "pct": 70.8,
+          "rank": 22,
+          "ranked": 73
         },
         {
           "date": "2024-10-01",
           "price": 11.88,
           "tsr": 14.7,
-          "pct": 69.9,
-          "rank": 29,
-          "ranked": 94
+          "pct": 69.4,
+          "rank": 23,
+          "ranked": 73
         },
         {
           "date": "2024-11-01",
           "price": 10.53,
           "tsr": 1.7,
-          "pct": 44.1,
-          "rank": 53,
-          "ranked": 94
+          "pct": 40.3,
+          "rank": 44,
+          "ranked": 73
         },
         {
           "date": "2024-12-01",
           "price": 11.2,
           "tsr": 8.2,
-          "pct": 45.2,
-          "rank": 52,
-          "ranked": 94
+          "pct": 41.7,
+          "rank": 43,
+          "ranked": 73
         },
         {
           "date": "2025-01-01",
           "price": 11.29,
           "tsr": 9.0,
-          "pct": 58.1,
-          "rank": 40,
-          "ranked": 94
+          "pct": 54.2,
+          "rank": 34,
+          "ranked": 73
         },
         {
           "date": "2025-02-01",
           "price": 11.52,
           "tsr": 11.3,
-          "pct": 52.7,
-          "rank": 45,
-          "ranked": 94
+          "pct": 50.0,
+          "rank": 37,
+          "ranked": 73
         },
         {
           "date": "2025-03-01",
           "price": 10.46,
           "tsr": 3.2,
-          "pct": 43.0,
-          "rank": 54,
-          "ranked": 94
+          "pct": 40.3,
+          "rank": 44,
+          "ranked": 73
         },
         {
           "date": "2025-04-01",
           "price": 10.71,
           "tsr": 5.7,
-          "pct": 52.7,
-          "rank": 45,
-          "ranked": 94
+          "pct": 51.4,
+          "rank": 36,
+          "ranked": 73
         },
         {
           "date": "2025-05-01",
           "price": 10.68,
           "tsr": 5.4,
-          "pct": 49.5,
-          "rank": 48,
-          "ranked": 94
+          "pct": 48.6,
+          "rank": 38,
+          "ranked": 73
         },
         {
           "date": "2025-06-01",
           "price": 10.15,
           "tsr": 0.2,
-          "pct": 35.5,
-          "rank": 61,
-          "ranked": 94
+          "pct": 33.3,
+          "rank": 49,
+          "ranked": 73
         },
         {
           "date": "2025-07-01",
           "price": 9.82,
           "tsr": -3.1,
-          "pct": 30.1,
-          "rank": 66,
-          "ranked": 94
+          "pct": 27.8,
+          "rank": 53,
+          "ranked": 73
         },
         {
           "date": "2025-08-01",
           "price": 9.76,
           "tsr": -3.7,
-          "pct": 25.8,
-          "rank": 70,
-          "ranked": 94
+          "pct": 23.6,
+          "rank": 56,
+          "ranked": 73
         },
         {
           "date": "2025-09-01",
           "price": 8.28,
           "tsr": -15.8,
-          "pct": 15.1,
-          "rank": 80,
-          "ranked": 94
+          "pct": 12.5,
+          "rank": 64,
+          "ranked": 73
         },
         {
           "date": "2025-10-01",
           "price": 9.22,
           "tsr": -6.2,
-          "pct": 22.6,
-          "rank": 73,
-          "ranked": 94
+          "pct": 22.2,
+          "rank": 57,
+          "ranked": 73
         },
         {
           "date": "2025-11-01",
           "price": 9.26,
           "tsr": -5.8,
-          "pct": 22.6,
-          "rank": 73,
-          "ranked": 94
+          "pct": 22.2,
+          "rank": 57,
+          "ranked": 73
         },
         {
           "date": "2025-12-01",
           "price": 9.32,
           "tsr": -5.2,
-          "pct": 25.8,
-          "rank": 70,
-          "ranked": 94
+          "pct": 25.0,
+          "rank": 55,
+          "ranked": 73
         },
         {
           "date": "2026-01-01",
           "price": 9.31,
           "tsr": -5.3,
-          "pct": 29.0,
-          "rank": 67,
-          "ranked": 94
+          "pct": 27.8,
+          "rank": 53,
+          "ranked": 73
         },
         {
           "date": "2026-02-01",
           "price": 9.05,
           "tsr": -8.0,
-          "pct": 23.7,
-          "rank": 72,
-          "ranked": 94
+          "pct": 20.8,
+          "rank": 58,
+          "ranked": 73
         },
         {
           "date": "2026-03-01",
           "price": 9.89,
           "tsr": 3.0,
-          "pct": 37.6,
-          "rank": 59,
-          "ranked": 94
+          "pct": 37.5,
+          "rank": 46,
+          "ranked": 73
         },
         {
           "date": "2026-04-01",
           "price": 9.92,
           "tsr": 3.3,
-          "pct": 39.8,
-          "rank": 57,
-          "ranked": 94
+          "pct": 38.9,
+          "rank": 45,
+          "ranked": 73
         },
         {
           "date": "2026-05-01",
           "price": 9.69,
           "tsr": 0.9,
-          "pct": 33.3,
-          "rank": 63,
-          "ranked": 94
+          "pct": 31.9,
+          "rank": 50,
+          "ranked": 73
         },
         {
           "date": "2026-06-01",
           "price": 8.58,
           "tsr": -10.7,
-          "pct": 28.0,
-          "rank": 68,
-          "ranked": 94
+          "pct": 26.4,
+          "rank": 54,
+          "ranked": 73
         },
         {
           "date": "2026-07-01",
           "price": 8.39,
           "tsr": -12.6,
-          "pct": 22.6,
-          "rank": 73,
-          "ranked": 94
+          "pct": 20.8,
+          "rank": 58,
+          "ranked": 73
         },
         {
           "date": "2026-08-01",
           "price": 8.28,
           "tsr": -13.8,
-          "pct": 21.5,
-          "rank": 74,
-          "ranked": 94
+          "pct": 20.8,
+          "rank": 58,
+          "ranked": 73
         },
         {
           "date": "2026-09-01",
           "price": 8.68,
           "tsr": -6.9,
-          "pct": 22.6,
-          "rank": 73,
-          "ranked": 94
+          "pct": 23.6,
+          "rank": 56,
+          "ranked": 73
         },
         {
           "date": "2026-10-01",
           "price": 8.07,
           "tsr": -13.4,
-          "pct": 23.7,
-          "rank": 72,
-          "ranked": 94
+          "pct": 23.6,
+          "rank": 56,
+          "ranked": 73
         },
         {
           "date": "2026-10-23",
           "price": 9.12,
           "tsr": -2.1,
-          "pct": 30.1,
-          "rank": 66,
-          "ranked": 94
+          "pct": 31.9,
+          "rank": 50,
+          "ranked": 73
         }
       ]
     },
     "2025-07-01": {
       "fy": "FY26",
       "comparatorSize": 100,
-      "ranked": 100,
-      "excluded": [],
+      "ranked": 71,
+      "excluded": [
+        {
+          "ticker": "360",
+          "name": "360",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "A2M",
+          "name": "A2M",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "ALD",
+          "name": "ALD",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "ALQ",
+          "name": "ALQ",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "ANN",
+          "name": "ANN",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "AZJ",
+          "name": "AZJ",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "BEN",
+          "name": "BEN",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "BSL",
+          "name": "BSL",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "CGF",
+          "name": "CGF",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "DNL",
+          "name": "DNL",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "DOW",
+          "name": "DOW",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "EDV",
+          "name": "EDV",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "HUB",
+          "name": "HUB",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "LNW",
+          "name": "LNW",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "LYC",
+          "name": "LYC",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "MTS",
+          "name": "MTS",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "NEM",
+          "name": "NEM",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "PNI",
+          "name": "PNI",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "PRU",
+          "name": "PRU",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "QUB",
+          "name": "QUB",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "REH",
+          "name": "REH",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "RWC",
+          "name": "RWC",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SCG",
+          "name": "SCG",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SDF",
+          "name": "SDF",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SFR",
+          "name": "SFR",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SGH",
+          "name": "SGH",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SIG",
+          "name": "SIG",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "TLX",
+          "name": "TLX",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "XYZ",
+          "name": "XYZ",
+          "reason": "delisted / no data"
+        }
+      ],
       "targets": {
         "currentPrice": 9.12,
-        "tsr50": 3.2,
-        "tsr75": 23.8,
-        "price50": 9.32,
-        "price75": 11.18
+        "tsr50": 1.2,
+        "tsr75": 20.7,
+        "price50": 9.14,
+        "price75": 10.9
       },
       "series": [
         {
@@ -674,155 +1020,315 @@
           "tsr": 0.0,
           "pct": 0.0,
           "rank": 1,
-          "ranked": 100
+          "ranked": 71
         },
         {
           "date": "2025-08-01",
           "price": 9.76,
           "tsr": -0.6,
           "pct": 34.3,
-          "rank": 66,
-          "ranked": 100
+          "rank": 47,
+          "ranked": 71
         },
         {
           "date": "2025-09-01",
           "price": 8.28,
           "tsr": -13.1,
-          "pct": 4.0,
-          "rank": 96,
-          "ranked": 100
+          "pct": 2.9,
+          "rank": 69,
+          "ranked": 71
         },
         {
           "date": "2025-10-01",
           "price": 9.22,
           "tsr": -3.3,
-          "pct": 31.3,
-          "rank": 69,
-          "ranked": 100
+          "pct": 34.3,
+          "rank": 47,
+          "ranked": 71
         },
         {
           "date": "2025-11-01",
           "price": 9.26,
           "tsr": -2.8,
-          "pct": 36.4,
-          "rank": 64,
-          "ranked": 100
+          "pct": 42.9,
+          "rank": 41,
+          "ranked": 71
         },
         {
           "date": "2025-12-01",
           "price": 9.32,
           "tsr": -2.2,
-          "pct": 41.4,
-          "rank": 59,
-          "ranked": 100
+          "pct": 45.7,
+          "rank": 39,
+          "ranked": 71
         },
         {
           "date": "2026-01-01",
           "price": 9.31,
           "tsr": -2.3,
-          "pct": 46.5,
-          "rank": 54,
-          "ranked": 100
+          "pct": 51.4,
+          "rank": 35,
+          "ranked": 71
         },
         {
           "date": "2026-02-01",
           "price": 9.05,
           "tsr": -5.0,
-          "pct": 40.4,
-          "rank": 60,
-          "ranked": 100
+          "pct": 42.9,
+          "rank": 41,
+          "ranked": 71
         },
         {
           "date": "2026-03-01",
           "price": 9.89,
           "tsr": 6.3,
-          "pct": 58.6,
-          "rank": 42,
-          "ranked": 100
+          "pct": 65.7,
+          "rank": 25,
+          "ranked": 71
         },
         {
           "date": "2026-04-01",
           "price": 9.92,
           "tsr": 6.6,
-          "pct": 65.7,
-          "rank": 35,
-          "ranked": 100
+          "pct": 68.6,
+          "rank": 23,
+          "ranked": 71
         },
         {
           "date": "2026-05-01",
           "price": 9.69,
           "tsr": 4.1,
-          "pct": 60.6,
-          "rank": 40,
-          "ranked": 100
+          "pct": 62.9,
+          "rank": 27,
+          "ranked": 71
         },
         {
           "date": "2026-06-01",
           "price": 8.58,
           "tsr": -7.8,
-          "pct": 44.4,
-          "rank": 56,
-          "ranked": 100
+          "pct": 47.1,
+          "rank": 38,
+          "ranked": 71
         },
         {
           "date": "2026-07-01",
           "price": 8.39,
           "tsr": -9.9,
-          "pct": 36.4,
-          "rank": 64,
-          "ranked": 100
+          "pct": 34.3,
+          "rank": 47,
+          "ranked": 71
         },
         {
           "date": "2026-08-01",
           "price": 8.28,
           "tsr": -11.0,
-          "pct": 34.3,
-          "rank": 66,
-          "ranked": 100
+          "pct": 32.9,
+          "rank": 48,
+          "ranked": 71
         },
         {
           "date": "2026-09-01",
           "price": 8.68,
           "tsr": -3.9,
-          "pct": 47.5,
-          "rank": 53,
-          "ranked": 100
+          "pct": 45.7,
+          "rank": 39,
+          "ranked": 71
         },
         {
           "date": "2026-10-01",
           "price": 8.07,
           "tsr": -10.7,
           "pct": 41.4,
-          "rank": 59,
-          "ranked": 100
+          "rank": 42,
+          "ranked": 71
         },
         {
           "date": "2026-10-23",
           "price": 9.12,
           "tsr": 1.0,
-          "pct": 48.5,
-          "rank": 52,
-          "ranked": 100
+          "pct": 48.6,
+          "rank": 37,
+          "ranked": 71
         }
       ]
     },
     "2026-07-01": {
       "fy": "FY27",
       "comparatorSize": 100,
-      "ranked": 99,
+      "ranked": 67,
       "excluded": [
         {
+          "ticker": "360",
+          "name": "360",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "A2M",
+          "name": "A2M",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "ALD",
+          "name": "ALD",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "ALQ",
+          "name": "ALQ",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "ANN",
+          "name": "ANN",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "APE",
+          "name": "APE",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "AZJ",
+          "name": "AZJ",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "BEN",
+          "name": "BEN",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "BSL",
+          "name": "BSL",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "CGF",
+          "name": "CGF",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "CMM",
+          "name": "CMM",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "DNL",
+          "name": "DNL",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "DOW",
+          "name": "DOW",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "EDV",
+          "name": "EDV",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "GGP",
+          "name": "GGP",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "GMD",
+          "name": "GMD",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "HUB",
+          "name": "HUB",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "LNW",
+          "name": "LNW",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "LYC",
+          "name": "LYC",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "NEM",
+          "name": "NEM",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "PDN",
+          "name": "PDN",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "PRU",
+          "name": "PRU",
+          "reason": "delisted / no data"
+        },
+        {
           "ticker": "QUB",
-          "name": "Qube Holdings Limited",
+          "name": "QUB",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "RMS",
+          "name": "RMS",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "RRL",
+          "name": "RRL",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SCG",
+          "name": "SCG",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SDF",
+          "name": "SDF",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SFR",
+          "name": "SFR",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SGH",
+          "name": "SGH",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "SIG",
+          "name": "SIG",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "TLX",
+          "name": "TLX",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "WGX",
+          "name": "WGX",
+          "reason": "delisted / no data"
+        },
+        {
+          "ticker": "XYZ",
+          "name": "XYZ",
           "reason": "delisted / no data"
         }
       ],
       "targets": {
         "currentPrice": 9.12,
-        "tsr50": 3.7,
-        "tsr75": 14.1,
-        "price50": 8.45,
-        "price75": 9.29
+        "tsr50": 5.6,
+        "tsr75": 13.8,
+        "price50": 8.6,
+        "price75": 9.26
       },
       "series": [
         {
@@ -831,39 +1337,39 @@
           "tsr": 0.0,
           "pct": 0.0,
           "rank": 1,
-          "ranked": 99
+          "ranked": 67
         },
         {
           "date": "2026-08-01",
           "price": 8.28,
           "tsr": -1.3,
-          "pct": 26.5,
-          "rank": 73,
-          "ranked": 99
+          "pct": 21.2,
+          "rank": 53,
+          "ranked": 67
         },
         {
           "date": "2026-09-01",
           "price": 8.68,
           "tsr": 6.6,
-          "pct": 55.1,
-          "rank": 45,
-          "ranked": 99
+          "pct": 54.5,
+          "rank": 31,
+          "ranked": 67
         },
         {
           "date": "2026-10-01",
           "price": 8.07,
           "tsr": -0.9,
-          "pct": 57.1,
-          "rank": 43,
-          "ranked": 99
+          "pct": 57.6,
+          "rank": 29,
+          "ranked": 67
         },
         {
           "date": "2026-10-23",
           "price": 9.12,
           "tsr": 12.0,
-          "pct": 69.4,
-          "rank": 31,
-          "ranked": 99
+          "pct": 68.2,
+          "rank": 22,
+          "ranked": 67
         }
       ]
     }

@@ -1,32 +1,32 @@
 [
   {
-    "id": "padley_momentum",
-    "totalReturn": 67.3,
-    "finalValue": 8363.58,
-    "periods": 6
-  },
-  {
-    "id": "quant_factors",
-    "totalReturn": 62.0,
-    "finalValue": 8099.24,
-    "periods": 6
-  },
-  {
-    "id": "dividend_income",
-    "totalReturn": 17.6,
-    "finalValue": 5881.42,
+    "id": "contrarian_value",
+    "totalReturn": 10.6,
+    "finalValue": 5531.27,
     "periods": 6
   },
   {
     "id": "damodaran_dcf",
-    "totalReturn": 13.9,
-    "finalValue": 5693.25,
+    "totalReturn": -36.3,
+    "finalValue": 3183.67,
     "periods": 6
   },
   {
-    "id": "contrarian_value",
-    "totalReturn": 8.4,
-    "finalValue": 5421.98,
+    "id": "quant_factors",
+    "totalReturn": -53.8,
+    "finalValue": 2309.71,
+    "periods": 6
+  },
+  {
+    "id": "dividend_income",
+    "totalReturn": -62.8,
+    "finalValue": 1858.77,
+    "periods": 6
+  },
+  {
+    "id": "padley_momentum",
+    "totalReturn": -68.4,
+    "finalValue": 1577.85,
     "periods": 6
   }
 ]
