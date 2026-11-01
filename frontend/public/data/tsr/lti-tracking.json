@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-30",
   "periods": {
     "2023-07-01": {
       "fy": "FY24",
@@ -143,11 +143,11 @@
         }
       ],
       "targets": {
-        "currentPrice": 9.12,
-        "tsr50": 27.6,
-        "tsr75": 66.1,
-        "price50": 11.61,
-        "price75": 15.11
+        "currentPrice": 9.02,
+        "tsr50": 29.3,
+        "tsr75": 66.7,
+        "price50": 11.76,
+        "price75": 15.16
       },
       "series": [
         {
@@ -463,9 +463,9 @@
           "ranked": 73
         },
         {
-          "date": "2026-10-23",
-          "price": 9.12,
-          "tsr": 0.2,
+          "date": "2026-10-30",
+          "price": 9.02,
+          "tsr": -0.9,
           "pct": 31.9,
           "rank": 50,
           "ranked": 73
@@ -614,11 +614,11 @@
         }
       ],
       "targets": {
-        "currentPrice": 9.12,
-        "tsr50": 25.2,
-        "tsr75": 45.9,
-        "price50": 11.67,
-        "price75": 13.6
+        "currentPrice": 9.02,
+        "tsr50": 25.6,
+        "tsr75": 43.5,
+        "price50": 11.71,
+        "price75": 13.37
       },
       "series": [
         {
@@ -846,9 +846,9 @@
           "ranked": 73
         },
         {
-          "date": "2026-10-23",
-          "price": 9.12,
-          "tsr": -2.1,
+          "date": "2026-10-30",
+          "price": 9.02,
+          "tsr": -3.2,
           "pct": 31.9,
           "rank": 50,
           "ranked": 73
@@ -1007,11 +1007,11 @@
         }
       ],
       "targets": {
-        "currentPrice": 9.12,
-        "tsr50": 1.2,
-        "tsr75": 20.7,
-        "price50": 9.14,
-        "price75": 10.9
+        "currentPrice": 9.02,
+        "tsr50": 2.8,
+        "tsr75": 19.6,
+        "price50": 9.28,
+        "price75": 10.8
       },
       "series": [
         {
@@ -1143,11 +1143,11 @@
           "ranked": 71
         },
         {
-          "date": "2026-10-23",
-          "price": 9.12,
-          "tsr": 1.0,
-          "pct": 48.6,
-          "rank": 37,
+          "date": "2026-10-30",
+          "price": 9.02,
+          "tsr": -0.1,
+          "pct": 42.9,
+          "rank": 41,
           "ranked": 71
         }
       ]
@@ -1324,11 +1324,11 @@
         }
       ],
       "targets": {
-        "currentPrice": 9.12,
-        "tsr50": 5.6,
-        "tsr75": 13.8,
-        "price50": 8.6,
-        "price75": 9.26
+        "currentPrice": 9.02,
+        "tsr50": 5.3,
+        "tsr75": 13.5,
+        "price50": 8.57,
+        "price75": 9.24
       },
       "series": [
         {
@@ -1364,11 +1364,11 @@
           "ranked": 67
         },
         {
-          "date": "2026-10-23",
-          "price": 9.12,
-          "tsr": 12.0,
-          "pct": 68.2,
-          "rank": 22,
+          "date": "2026-10-30",
+          "price": 9.02,
+          "tsr": 10.8,
+          "pct": 66.7,
+          "rank": 23,
           "ranked": 67
         }
       ]

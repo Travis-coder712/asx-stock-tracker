@@ -337,7 +337,7 @@
           {
             "months": 6,
             "endDate": "2024-12-31",
-            "value": 4731.01,
+            "value": 4731.02,
             "returnPct": 3.5
           },
           {
@@ -440,9 +440,9 @@
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 3062.64,
-            "returnPct": -7.4
+            "endDate": "2026-10-30",
+            "value": 3025.94,
+            "returnPct": -8.5
           }
         ]
       },
@@ -479,9 +479,9 @@
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 3687.92,
-            "returnPct": 10.9
+            "endDate": "2026-10-30",
+            "value": 3667.69,
+            "returnPct": 10.3
           }
         ]
       },
@@ -518,9 +518,9 @@
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 2692.51,
-            "returnPct": -7.6
+            "endDate": "2026-10-30",
+            "value": 2724.48,
+            "returnPct": -6.6
           }
         ]
       },
@@ -534,7 +534,7 @@
           "SGP",
           "ORA"
         ],
-        "buyValue": 4728.21,
+        "buyValue": 4728.22,
         "holdPeriods": [
           {
             "months": 6,
@@ -545,7 +545,7 @@
           {
             "months": 12,
             "endDate": "2026-01-02",
-            "value": 5747.18,
+            "value": 5747.19,
             "returnPct": 21.6
           },
           {
@@ -556,9 +556,9 @@
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 5225.47,
-            "returnPct": 10.5
+            "endDate": "2026-10-30",
+            "value": 5213.56,
+            "returnPct": 10.3
           }
         ]
       },
@@ -596,9 +596,9 @@
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 3973.36,
-            "returnPct": 13.9
+            "endDate": "2026-10-30",
+            "value": 4003.83,
+            "returnPct": 14.8
           }
         ]
       }
@@ -636,14 +636,14 @@
           },
           {
             "months": 18,
-            "endDate": "2026-10-23",
-            "value": 2766.34,
+            "endDate": "2026-10-30",
+            "value": 2764.97,
             "returnPct": -6.8
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 2766.34,
+            "endDate": "2026-10-30",
+            "value": 2764.97,
             "returnPct": -6.8
           }
         ]
@@ -676,15 +676,15 @@
           },
           {
             "months": 18,
-            "endDate": "2026-10-23",
-            "value": 3753.24,
-            "returnPct": 8.2
+            "endDate": "2026-10-30",
+            "value": 3786.59,
+            "returnPct": 9.1
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 3753.24,
-            "returnPct": 8.2
+            "endDate": "2026-10-30",
+            "value": 3786.59,
+            "returnPct": 9.1
           }
         ]
       },
@@ -715,15 +715,15 @@
           },
           {
             "months": 18,
-            "endDate": "2026-10-23",
-            "value": 2151.24,
-            "returnPct": -13.7
+            "endDate": "2026-10-30",
+            "value": 2176.75,
+            "returnPct": -12.7
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 2151.24,
-            "returnPct": -13.7
+            "endDate": "2026-10-30",
+            "value": 2176.75,
+            "returnPct": -12.7
           }
         ]
       },
@@ -737,31 +737,31 @@
           "NEC",
           "SGP"
         ],
-        "buyValue": 5087.84,
+        "buyValue": 5087.86,
         "holdPeriods": [
           {
             "months": 6,
             "endDate": "2025-12-31",
-            "value": 5744.06,
+            "value": 5744.07,
             "returnPct": 12.9
           },
           {
             "months": 12,
             "endDate": "2026-07-01",
-            "value": 5149.75,
+            "value": 5149.76,
             "returnPct": 1.2
           },
           {
             "months": 18,
-            "endDate": "2026-10-23",
-            "value": 5306.24,
-            "returnPct": 4.3
+            "endDate": "2026-10-30",
+            "value": 5297.08,
+            "returnPct": 4.1
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 5306.24,
-            "returnPct": 4.3
+            "endDate": "2026-10-30",
+            "value": 5297.08,
+            "returnPct": 4.1
           }
         ]
       },
@@ -793,15 +793,15 @@
           },
           {
             "months": 18,
-            "endDate": "2026-10-23",
-            "value": 3439.44,
-            "returnPct": 4.6
+            "endDate": "2026-10-30",
+            "value": 3463.63,
+            "returnPct": 5.3
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 3439.44,
-            "returnPct": 4.6
+            "endDate": "2026-10-30",
+            "value": 3463.63,
+            "returnPct": 5.3
           }
         ]
       }
@@ -831,21 +831,21 @@
           },
           {
             "months": 12,
-            "endDate": "2026-10-23",
-            "value": 1578.44,
-            "returnPct": -6.6
+            "endDate": "2026-10-30",
+            "value": 1599.49,
+            "returnPct": -5.3
           },
           {
             "months": 18,
-            "endDate": "2026-10-23",
-            "value": 1578.44,
-            "returnPct": -6.6
+            "endDate": "2026-10-30",
+            "value": 1599.49,
+            "returnPct": -5.3
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 1578.44,
-            "returnPct": -6.6
+            "endDate": "2026-10-30",
+            "value": 1599.49,
+            "returnPct": -5.3
           }
         ]
       },
@@ -869,21 +869,21 @@
           },
           {
             "months": 12,
-            "endDate": "2026-10-23",
-            "value": 2375.92,
-            "returnPct": -9.0
+            "endDate": "2026-10-30",
+            "value": 2405.1,
+            "returnPct": -7.9
           },
           {
             "months": 18,
-            "endDate": "2026-10-23",
-            "value": 2375.92,
-            "returnPct": -9.0
+            "endDate": "2026-10-30",
+            "value": 2405.1,
+            "returnPct": -7.9
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 2375.92,
-            "returnPct": -9.0
+            "endDate": "2026-10-30",
+            "value": 2405.1,
+            "returnPct": -7.9
           }
         ]
       },
@@ -908,21 +908,21 @@
           },
           {
             "months": 12,
-            "endDate": "2026-10-23",
-            "value": 1768.76,
-            "returnPct": -16.7
+            "endDate": "2026-10-30",
+            "value": 1792.39,
+            "returnPct": -15.6
           },
           {
             "months": 18,
-            "endDate": "2026-10-23",
-            "value": 1768.76,
-            "returnPct": -16.7
+            "endDate": "2026-10-30",
+            "value": 1792.39,
+            "returnPct": -15.6
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 1768.76,
-            "returnPct": -16.7
+            "endDate": "2026-10-30",
+            "value": 1792.39,
+            "returnPct": -15.6
           }
         ]
       },
@@ -936,31 +936,31 @@
           "SGP",
           "HVN"
         ],
-        "buyValue": 5741.56,
+        "buyValue": 5741.57,
         "holdPeriods": [
           {
             "months": 6,
             "endDate": "2026-07-02",
-            "value": 5155.17,
+            "value": 5155.18,
             "returnPct": -10.2
           },
           {
             "months": 12,
-            "endDate": "2026-10-23",
-            "value": 5369.05,
-            "returnPct": -6.5
+            "endDate": "2026-10-30",
+            "value": 5362.27,
+            "returnPct": -6.6
           },
           {
             "months": 18,
-            "endDate": "2026-10-23",
-            "value": 5369.05,
-            "returnPct": -6.5
+            "endDate": "2026-10-30",
+            "value": 5362.27,
+            "returnPct": -6.6
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 5369.05,
-            "returnPct": -6.5
+            "endDate": "2026-10-30",
+            "value": 5362.27,
+            "returnPct": -6.6
           }
         ]
       },
@@ -986,21 +986,21 @@
           },
           {
             "months": 12,
-            "endDate": "2026-10-23",
-            "value": 3089.43,
-            "returnPct": -10.4
+            "endDate": "2026-10-30",
+            "value": 3105.93,
+            "returnPct": -10.0
           },
           {
             "months": 18,
-            "endDate": "2026-10-23",
-            "value": 3089.43,
-            "returnPct": -10.4
+            "endDate": "2026-10-30",
+            "value": 3105.93,
+            "returnPct": -10.0
           },
           {
             "months": 24,
-            "endDate": "2026-10-23",
-            "value": 3089.43,
-            "returnPct": -10.4
+            "endDate": "2026-10-30",
+            "value": 3105.93,
+            "returnPct": -10.0
           }
         ]
       }
