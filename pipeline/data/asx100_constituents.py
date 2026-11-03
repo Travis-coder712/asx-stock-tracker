@@ -331,6 +331,22 @@ ASX100_JUN_2026 = [
 ]
 
 # Map period start dates to constituent lists
+# ⚠️ TICKER REUSE — do not blindly re-import delisted codes.
+# Checked 2026-11-03: eight FY24-period peers return no price history because
+# they were genuinely delisted (Allkem, Alumina, Incitec Pivot, Newcrest,
+# Block CDIs, Seven Group, Virgin Money UK and Altium).
+#
+# ALU.AX is the trap. Altium was acquired by Renesas in 2024, and the ASX code
+# has since been REUSED by "Alurion Resources Limited" — an unrelated basic-
+# materials company trading near $0.90. Importing ALU.AX therefore attributes
+# Alurion's returns to Altium and silently corrupts the FY24 comparator.
+# Its price rows were imported once and deleted again; leave it excluded.
+#
+# Under the AGL LTI plan rules the comparator group is FIXED at the period
+# start, and the Board may remove an entity only "upon the occurrence of
+# certain corporate events" — which is exactly what a delisting is. So
+# excluding these is consistent with the rules, not a data shortcut.
+
 PEER_GROUPS = {
     '2023-07-01': ASX100_JUN_2023,
     '2024-07-01': ASX100_JUN_2024,

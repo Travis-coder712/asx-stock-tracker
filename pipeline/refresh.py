@@ -29,6 +29,23 @@ DB_PATH = os.path.join(ROOT, 'database', 'asx_tracker.db')
 INCREMENTAL_DAYS = 180
 CORE_EXTRA = ['^ATOI', '^AXJO', 'AGL.AX']
 
+# The LTI relative-TSR comparator group must be self-healed too.
+#
+# Found 2026-11-03: core_tickers() covered only held/frozen names plus the
+# indices and AGL, so the ~100 peers were left to whatever the bulk import
+# happened to manage in a fresh CI container. The published peer ranking had
+# degraded to 67 of 100 while a local DB — which had accumulated good data over
+# time — reported 99 of 100. That understated AGL's percentile on every tranche
+# and the gap is invisible unless you reconcile against the plan's Attachment A.
+#
+# The comparator is the denominator of a vesting calculation, so partial
+# coverage is not a cosmetic problem. Self-heal the whole group.
+try:
+    from pipeline.data.asx100_constituents import PEER_GROUPS
+    PEER_TICKERS = sorted({t for members in PEER_GROUPS.values() for t in members})
+except Exception:  # never let this break a refresh
+    PEER_TICKERS = []
+
 
 def run(cmd):
     print(f"\n$ {' '.join(cmd)}", flush=True)
@@ -51,9 +68,9 @@ def db_is_empty():
 
 
 def core_tickers():
-    """Held/frozen tickers + indices + AGL — the names that must be clean."""
+    """Held/frozen names, indices, AGL — and the full LTI comparator group."""
     c = sqlite3.connect(DB_PATH)
-    t = set(CORE_EXTRA)
+    t = set(CORE_EXTRA) | set(PEER_TICKERS)
     for tbl in ('portfolio_holdings', 'frozen_picks'):
         try:
             t |= set(r[0] for r in c.execute(f"SELECT DISTINCT ticker FROM {tbl}"))
