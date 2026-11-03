@@ -31,6 +31,23 @@ ASX_100_TICKERS = [
     'WOR.AX', 'WOW.AX', 'WTC.AX', 'XRO.AX',
 ]
 
+# ⚠️ ASX_100_TICKERS above is a FROZEN SNAPSHOT and has drifted — it still lists
+# CTX, OSH, LNK, CCL and APX (long gone) and misses 360, ALD, ALQ, SGH and others.
+# It is kept only so --top-20 stays reproducible.
+#
+# The LTI comparator groups are the real requirement: ~124 distinct names across
+# four grant years, FIXED at each period start. Found 2026-11-03 that --all
+# refreshed only this stale list, leaving 40 comparator members 11 days behind
+# while the index tickers ran to the current date — which made the exported
+# "asOf" date look fresh when AGL's own price was stale. Union the comparator in.
+try:
+    from pipeline.data.asx100_constituents import PEER_GROUPS
+    COMPARATOR_TICKERS = sorted({t for m in PEER_GROUPS.values() for t in m})
+except Exception:  # never let this break an import run
+    COMPARATOR_TICKERS = []
+
+ALL_TICKERS = sorted(set(ASX_100_TICKERS) | set(COMPARATOR_TICKERS))
+
 AGL_TICKER = 'AGL.AX'
 ASX100_INDEX = '^ATOI'
 ASX200_ETF = 'STW.AX'
@@ -175,7 +192,7 @@ def main():
     elif args.top_20:
         tickers = ASX_100_TICKERS[:20]
     elif args.all:
-        tickers = ASX_100_TICKERS
+        tickers = ALL_TICKERS
     else:
         tickers = [AGL_TICKER]
         print("No flag specified, defaulting to AGL only. Use --all for ASX 100.")
