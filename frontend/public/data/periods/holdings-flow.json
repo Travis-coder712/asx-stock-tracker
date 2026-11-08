@@ -55,7 +55,7 @@
             },
             "H2-2026": {
               "rank": 7,
-              "ret": -3.1
+              "ret": 1.3
             }
           }
         },
@@ -80,8 +80,8 @@
               "ret": -10.7
             },
             "H2-2026": {
-              "rank": 2,
-              "ret": 7.4
+              "rank": 4,
+              "ret": 9.8
             }
           }
         },
@@ -111,7 +111,7 @@
             },
             "H2-2026": {
               "rank": 8,
-              "ret": -5.1
+              "ret": 0.8
             }
           }
         },
@@ -225,7 +225,7 @@
             },
             "H2-2026": {
               "rank": 3,
-              "ret": 7.3
+              "ret": 10.4
             }
           }
         },
@@ -256,8 +256,8 @@
               "ret": -6.3
             },
             "H2-2026": {
-              "rank": 6,
-              "ret": 3.2
+              "rank": 2,
+              "ret": 13.3
             }
           }
         },
@@ -271,7 +271,7 @@
             },
             "H2-2026": {
               "rank": 9,
-              "ret": -7.3
+              "ret": -0.4
             }
           }
         },
@@ -291,7 +291,7 @@
           "cells": {
             "H2-2026": {
               "rank": 1,
-              "ret": 22.2
+              "ret": 20.0
             }
           }
         },
@@ -300,8 +300,8 @@
           "name": "QBE Insurance Group Limited",
           "cells": {
             "H2-2026": {
-              "rank": 4,
-              "ret": 6.5
+              "rank": 5,
+              "ret": 8.8
             }
           }
         },
@@ -310,8 +310,8 @@
           "name": "Medibank Private Limited",
           "cells": {
             "H2-2026": {
-              "rank": 5,
-              "ret": 5.9
+              "rank": 6,
+              "ret": 8.3
             }
           }
         },
@@ -321,7 +321,7 @@
           "cells": {
             "H2-2026": {
               "rank": 10,
-              "ret": -14.0
+              "ret": -8.8
             }
           }
         }
@@ -374,7 +374,7 @@
             },
             "H2-2026": {
               "rank": 6,
-              "ret": -3.1
+              "ret": 1.3
             }
           }
         },
@@ -404,7 +404,7 @@
             },
             "H2-2026": {
               "rank": 5,
-              "ret": 2.7
+              "ret": 6.6
             }
           }
         },
@@ -433,8 +433,8 @@
               "ret": -14.2
             },
             "H2-2026": {
-              "rank": 8,
-              "ret": -5.1
+              "rank": 7,
+              "ret": 0.8
             }
           }
         },
@@ -517,20 +517,6 @@
           }
         },
         {
-          "ticker": "ORG",
-          "name": "Origin Energy Limited",
-          "cells": {
-            "H2-2024": {
-              "rank": 8,
-              "ret": 2.6
-            },
-            "H2-2026": {
-              "rank": 1,
-              "ret": 13.3
-            }
-          }
-        },
-        {
           "ticker": "QBE",
           "name": "QBE Insurance Group Limited",
           "cells": {
@@ -547,8 +533,22 @@
               "ret": -13.9
             },
             "H2-2026": {
-              "rank": 3,
-              "ret": 6.5
+              "rank": 4,
+              "ret": 8.8
+            }
+          }
+        },
+        {
+          "ticker": "ORG",
+          "name": "Origin Energy Limited",
+          "cells": {
+            "H2-2024": {
+              "rank": 8,
+              "ret": 2.6
+            },
+            "H2-2026": {
+              "rank": 2,
+              "ret": 12.3
             }
           }
         },
@@ -587,8 +587,8 @@
               "ret": 2.5
             },
             "H2-2026": {
-              "rank": 7,
-              "ret": -5.0
+              "rank": 8,
+              "ret": -3.4
             }
           }
         },
@@ -619,8 +619,8 @@
               "ret": -6.3
             },
             "H2-2026": {
-              "rank": 4,
-              "ret": 3.2
+              "rank": 1,
+              "ret": 13.3
             }
           }
         },
@@ -639,18 +639,8 @@
           "name": "Technology One Limited",
           "cells": {
             "H2-2026": {
-              "rank": 2,
-              "ret": 7.3
-            }
-          }
-        },
-        {
-          "ticker": "WES",
-          "name": "Wesfarmers Limited",
-          "cells": {
-            "H2-2026": {
-              "rank": 9,
-              "ret": -14.0
+              "rank": 3,
+              "ret": 10.4
             }
           }
         },
@@ -659,8 +649,18 @@
           "name": "Qantas Airways Limited",
           "cells": {
             "H2-2026": {
+              "rank": 9,
+              "ret": -8.3
+            }
+          }
+        },
+        {
+          "ticker": "WES",
+          "name": "Wesfarmers Limited",
+          "cells": {
+            "H2-2026": {
               "rank": 10,
-              "ret": -14.7
+              "ret": -8.8
             }
           }
         }
@@ -799,7 +799,37 @@
             },
             "H2-2026": {
               "rank": 10,
-              "ret": -11.0
+              "ret": -4.1
+            }
+          }
+        },
+        {
+          "ticker": "SGP",
+          "name": "Stockland",
+          "cells": {
+            "H1-2024": {
+              "rank": 5,
+              "ret": -2.2
+            },
+            "H2-2024": {
+              "rank": 3,
+              "ret": 14.8
+            },
+            "H1-2025": {
+              "rank": 5,
+              "ret": 14.5
+            },
+            "H2-2025": {
+              "rank": 3,
+              "ret": 6.8
+            },
+            "H1-2026": {
+              "rank": 6,
+              "ret": -26.3
+            },
+            "H2-2026": {
+              "rank": 2,
+              "ret": 13.6
             }
           }
         },
@@ -829,7 +859,7 @@
             },
             "H2-2026": {
               "rank": 9,
-              "ret": -5.0
+              "ret": -3.4
             }
           }
         },
@@ -860,36 +890,6 @@
           }
         },
         {
-          "ticker": "SGP",
-          "name": "Stockland",
-          "cells": {
-            "H1-2024": {
-              "rank": 5,
-              "ret": -2.2
-            },
-            "H2-2024": {
-              "rank": 3,
-              "ret": 14.8
-            },
-            "H1-2025": {
-              "rank": 5,
-              "ret": 14.5
-            },
-            "H2-2025": {
-              "rank": 3,
-              "ret": 6.8
-            },
-            "H1-2026": {
-              "rank": 6,
-              "ret": -26.3
-            },
-            "H2-2026": {
-              "rank": 7,
-              "ret": 6.2
-            }
-          }
-        },
-        {
           "ticker": "WOR",
           "name": "Worley Limited",
           "cells": {
@@ -916,22 +916,12 @@
           }
         },
         {
-          "ticker": "RMD",
-          "name": "ResMed Inc.",
+          "ticker": "MGR",
+          "name": "Mirvac Group",
           "cells": {
             "H2-2026": {
               "rank": 1,
-              "ret": 25.3
-            }
-          }
-        },
-        {
-          "ticker": "WDS",
-          "name": "Woodside Energy Group Ltd",
-          "cells": {
-            "H2-2026": {
-              "rank": 2,
-              "ret": 20.2
+              "ret": 14.6
             }
           }
         },
@@ -941,27 +931,7 @@
           "cells": {
             "H2-2026": {
               "rank": 3,
-              "ret": 13.3
-            }
-          }
-        },
-        {
-          "ticker": "AGL",
-          "name": "AGL Energy Limited",
-          "cells": {
-            "H2-2026": {
-              "rank": 4,
-              "ret": 10.8
-            }
-          }
-        },
-        {
-          "ticker": "MGR",
-          "name": "Mirvac Group",
-          "cells": {
-            "H2-2026": {
-              "rank": 5,
-              "ret": 9.1
+              "ret": 12.3
             }
           }
         },
@@ -970,8 +940,38 @@
           "name": "DEXUS",
           "cells": {
             "H2-2026": {
+              "rank": 4,
+              "ret": 12.1
+            }
+          }
+        },
+        {
+          "ticker": "AGL",
+          "name": "AGL Energy Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 5,
+              "ret": 11.0
+            }
+          }
+        },
+        {
+          "ticker": "WDS",
+          "name": "Woodside Energy Group Ltd",
+          "cells": {
+            "H2-2026": {
               "rank": 6,
-              "ret": 6.7
+              "ret": 10.9
+            }
+          }
+        },
+        {
+          "ticker": "BPT",
+          "name": "Beach Energy Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 7,
+              "ret": 8.4
             }
           }
         },
@@ -981,7 +981,7 @@
           "cells": {
             "H2-2026": {
               "rank": 8,
-              "ret": 1.0
+              "ret": 7.2
             }
           }
         }
@@ -1067,8 +1067,8 @@
               "ret": 24.8
             },
             "H2-2026": {
-              "rank": 4,
-              "ret": 2.7
+              "rank": 5,
+              "ret": 6.6
             }
           }
         },
@@ -1150,7 +1150,7 @@
             },
             "H2-2026": {
               "rank": 7,
-              "ret": -11.0
+              "ret": -4.1
             }
           }
         },
@@ -1179,8 +1179,8 @@
               "ret": -10.9
             },
             "H2-2026": {
-              "rank": 9,
-              "ret": -23.9
+              "rank": 8,
+              "ret": -19.0
             }
           }
         },
@@ -1209,8 +1209,8 @@
               "ret": -8.4
             },
             "H2-2026": {
-              "rank": 5,
-              "ret": 1.0
+              "rank": 4,
+              "ret": 7.2
             }
           }
         },
@@ -1262,7 +1262,7 @@
             },
             "H2-2026": {
               "rank": 2,
-              "ret": 22.2
+              "ret": 20.0
             }
           }
         },
@@ -1272,7 +1272,7 @@
           "cells": {
             "H2-2026": {
               "rank": 1,
-              "ret": 25.3
+              "ret": 22.6
             }
           }
         },
@@ -1282,7 +1282,7 @@
           "cells": {
             "H2-2026": {
               "rank": 3,
-              "ret": 10.8
+              "ret": 11.0
             }
           }
         },
@@ -1292,7 +1292,7 @@
           "cells": {
             "H2-2026": {
               "rank": 6,
-              "ret": -3.6
+              "ret": -1.2
             }
           }
         },
@@ -1301,8 +1301,8 @@
           "name": "Atlas Arteria Limited",
           "cells": {
             "H2-2026": {
-              "rank": 8,
-              "ret": -23.8
+              "rank": 9,
+              "ret": -23.0
             }
           }
         },
@@ -1312,7 +1312,7 @@
           "cells": {
             "H2-2026": {
               "rank": 10,
-              "ret": -29.3
+              "ret": -25.3
             }
           }
         }
@@ -1373,7 +1373,7 @@
             },
             "H2-2026": {
               "rank": 7,
-              "ret": -11.0
+              "ret": -4.1
             }
           }
         },
@@ -1402,8 +1402,8 @@
               "ret": 24.8
             },
             "H2-2026": {
-              "rank": 6,
-              "ret": 2.7
+              "rank": 5,
+              "ret": 6.6
             }
           }
         },
@@ -1430,36 +1430,40 @@
             "H1-2026": {
               "rank": 3,
               "ret": -1.8
+            },
+            "H2-2026": {
+              "rank": 8,
+              "ret": -5.2
             }
           }
         },
         {
-          "ticker": "WDS",
-          "name": "Woodside Energy Group Ltd",
+          "ticker": "SGP",
+          "name": "Stockland",
           "cells": {
             "H1-2024": {
-              "rank": 5,
-              "ret": -7.5
+              "rank": 4,
+              "ret": -2.2
             },
             "H2-2024": {
-              "rank": 6,
-              "ret": -9.5
+              "rank": 2,
+              "ret": 14.8
             },
             "H1-2025": {
-              "rank": 5,
-              "ret": -1.9
+              "rank": 4,
+              "ret": 14.5
             },
             "H2-2025": {
-              "rank": 5,
-              "ret": 3.2
+              "rank": 4,
+              "ret": 6.8
             },
             "H1-2026": {
-              "rank": 2,
-              "ret": 22.6
+              "rank": 5,
+              "ret": -26.3
             },
             "H2-2026": {
               "rank": 1,
-              "ret": 20.2
+              "ret": 13.6
             }
           }
         },
@@ -1516,42 +1520,32 @@
           }
         },
         {
-          "ticker": "SGP",
-          "name": "Stockland",
+          "ticker": "WDS",
+          "name": "Woodside Energy Group Ltd",
           "cells": {
             "H1-2024": {
-              "rank": 4,
-              "ret": -2.2
+              "rank": 5,
+              "ret": -7.5
             },
             "H2-2024": {
-              "rank": 2,
-              "ret": 14.8
+              "rank": 6,
+              "ret": -9.5
             },
             "H1-2025": {
-              "rank": 4,
-              "ret": 14.5
+              "rank": 5,
+              "ret": -1.9
             },
             "H2-2025": {
-              "rank": 4,
-              "ret": 6.8
+              "rank": 5,
+              "ret": 3.2
             },
             "H1-2026": {
-              "rank": 5,
-              "ret": -26.3
+              "rank": 2,
+              "ret": 22.6
             },
             "H2-2026": {
-              "rank": 4,
-              "ret": 6.2
-            }
-          }
-        },
-        {
-          "ticker": "BPT",
-          "name": "Beach Energy Limited",
-          "cells": {
-            "H2-2026": {
-              "rank": 2,
-              "ret": 13.2
+              "rank": 3,
+              "ret": 10.9
             }
           }
         },
@@ -1560,8 +1554,18 @@
           "name": "AGL Energy Limited",
           "cells": {
             "H2-2026": {
-              "rank": 3,
-              "ret": 10.8
+              "rank": 2,
+              "ret": 11.0
+            }
+          }
+        },
+        {
+          "ticker": "BPT",
+          "name": "Beach Energy Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 4,
+              "ret": 8.4
             }
           }
         },
@@ -1570,8 +1574,8 @@
           "name": "South32 Limited",
           "cells": {
             "H2-2026": {
-              "rank": 5,
-              "ret": 3.0
+              "rank": 6,
+              "ret": 5.3
             }
           }
         }
@@ -1609,7 +1613,7 @@
       "name": "AGL Energy Limited",
       "cells": {
         "H2-2026": {
-          "ret": 10.8,
+          "ret": 11.0,
           "strategies": [
             "dividend_income",
             "damodaran_dcf",
@@ -1646,7 +1650,7 @@
           ]
         },
         "H2-2026": {
-          "ret": 7.4,
+          "ret": 9.8,
           "strategies": [
             "padley_momentum"
           ]
@@ -1657,7 +1661,7 @@
       "name": "Atlas Arteria Limited",
       "cells": {
         "H2-2026": {
-          "ret": -23.8,
+          "ret": -23.0,
           "strategies": [
             "damodaran_dcf"
           ]
@@ -1679,8 +1683,9 @@
       "name": "Beach Energy Limited",
       "cells": {
         "H2-2026": {
-          "ret": 13.2,
+          "ret": 8.4,
           "strategies": [
+            "dividend_income",
             "contrarian_value"
           ]
         }
@@ -1730,7 +1735,7 @@
       "name": "Cuscal Limited",
       "cells": {
         "H2-2026": {
-          "ret": 22.2,
+          "ret": 20.0,
           "strategies": [
             "padley_momentum",
             "damodaran_dcf"
@@ -1772,7 +1777,7 @@
           ]
         },
         "H2-2026": {
-          "ret": -7.3,
+          "ret": -0.4,
           "strategies": [
             "padley_momentum"
           ]
@@ -1835,7 +1840,7 @@
       "name": "DEXUS",
       "cells": {
         "H2-2026": {
-          "ret": 6.7,
+          "ret": 12.1,
           "strategies": [
             "dividend_income"
           ]
@@ -1860,7 +1865,7 @@
           ]
         },
         "H2-2026": {
-          "ret": 3.2,
+          "ret": 13.3,
           "strategies": [
             "padley_momentum",
             "quant_factors"
@@ -1909,7 +1914,7 @@
           ]
         },
         "H2-2026": {
-          "ret": -23.9,
+          "ret": -19.0,
           "strategies": [
             "damodaran_dcf"
           ]
@@ -1920,7 +1925,7 @@
       "name": "The GPT Group",
       "cells": {
         "H2-2026": {
-          "ret": 1.0,
+          "ret": 7.2,
           "strategies": [
             "dividend_income",
             "damodaran_dcf"
@@ -2003,7 +2008,7 @@
           ]
         },
         "H2-2026": {
-          "ret": -11.0,
+          "ret": -4.1,
           "strategies": [
             "dividend_income",
             "damodaran_dcf",
@@ -2082,7 +2087,7 @@
           ]
         },
         "H2-2026": {
-          "ret": -5.1,
+          "ret": 0.8,
           "strategies": [
             "padley_momentum",
             "quant_factors"
@@ -2094,7 +2099,7 @@
       "name": "Mirvac Group",
       "cells": {
         "H2-2026": {
-          "ret": 9.1,
+          "ret": 14.6,
           "strategies": [
             "dividend_income"
           ]
@@ -2105,7 +2110,7 @@
       "name": "Mineral Resources Limited",
       "cells": {
         "H2-2026": {
-          "ret": -29.3,
+          "ret": -25.3,
           "strategies": [
             "damodaran_dcf"
           ]
@@ -2116,7 +2121,7 @@
       "name": "Medibank Private Limited",
       "cells": {
         "H2-2026": {
-          "ret": 5.9,
+          "ret": 8.3,
           "strategies": [
             "padley_momentum"
           ]
@@ -2239,7 +2244,7 @@
           ]
         },
         "H2-2026": {
-          "ret": 13.3,
+          "ret": 12.3,
           "strategies": [
             "quant_factors",
             "dividend_income"
@@ -2308,7 +2313,7 @@
           ]
         },
         "H2-2026": {
-          "ret": -3.1,
+          "ret": 1.3,
           "strategies": [
             "padley_momentum",
             "quant_factors"
@@ -2320,7 +2325,7 @@
       "name": "Qantas Airways Limited",
       "cells": {
         "H2-2026": {
-          "ret": -14.7,
+          "ret": -8.3,
           "strategies": [
             "quant_factors"
           ]
@@ -2361,7 +2366,7 @@
       "name": "QBE Insurance Group Limited",
       "cells": {
         "H2-2026": {
-          "ret": 6.5,
+          "ret": 8.8,
           "strategies": [
             "padley_momentum",
             "quant_factors"
@@ -2434,9 +2439,8 @@
           ]
         },
         "H2-2026": {
-          "ret": 25.3,
+          "ret": 22.6,
           "strategies": [
-            "dividend_income",
             "damodaran_dcf"
           ]
         }
@@ -2446,7 +2450,7 @@
       "name": "South32 Limited",
       "cells": {
         "H2-2026": {
-          "ret": 3.0,
+          "ret": 5.3,
           "strategies": [
             "contrarian_value"
           ]
@@ -2497,7 +2501,7 @@
           ]
         },
         "H2-2026": {
-          "ret": 6.2,
+          "ret": 13.6,
           "strategies": [
             "dividend_income",
             "contrarian_value"
@@ -2509,7 +2513,7 @@
       "name": "Sonic Healthcare Limited",
       "cells": {
         "H2-2026": {
-          "ret": -3.6,
+          "ret": -1.2,
           "strategies": [
             "damodaran_dcf"
           ]
@@ -2595,7 +2599,7 @@
           ]
         },
         "H2-2026": {
-          "ret": 2.7,
+          "ret": 6.6,
           "strategies": [
             "quant_factors",
             "damodaran_dcf",
@@ -2626,7 +2630,7 @@
           ]
         },
         "H2-2026": {
-          "ret": 7.3,
+          "ret": 10.4,
           "strategies": [
             "padley_momentum",
             "quant_factors"
@@ -2659,7 +2663,7 @@
           ]
         },
         "H2-2026": {
-          "ret": -5.0,
+          "ret": -3.4,
           "strategies": [
             "quant_factors",
             "dividend_income"
@@ -2683,7 +2687,7 @@
       "name": "Woodside Energy Group Ltd",
       "cells": {
         "H2-2026": {
-          "ret": 20.2,
+          "ret": 10.9,
           "strategies": [
             "dividend_income",
             "contrarian_value"
@@ -2725,7 +2729,7 @@
       "name": "Wesfarmers Limited",
       "cells": {
         "H2-2026": {
-          "ret": -14.0,
+          "ret": -8.8,
           "strategies": [
             "padley_momentum",
             "quant_factors"
@@ -2762,6 +2766,12 @@
         },
         "H1-2026": {
           "ret": -1.8,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H2-2026": {
+          "ret": -5.2,
           "strategies": [
             "contrarian_value"
           ]

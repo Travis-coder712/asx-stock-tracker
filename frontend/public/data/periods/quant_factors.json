@@ -29,7 +29,7 @@
         {
           "ticker": "SGP.AX",
           "name": "Stockland",
-          "shares": 129.8082,
+          "shares": 129.8081,
           "buyPrice": 3.85,
           "buyDate": "2024-01-02",
           "rationale": ""
@@ -108,7 +108,7 @@
         },
         {
           "date": "2024-01-10",
-          "totalValue": 3892.75,
+          "totalValue": 3892.74,
           "dailyReturn": 0.2047
         },
         {
@@ -208,7 +208,7 @@
         },
         {
           "date": "2024-02-08",
-          "totalValue": 4029.74,
+          "totalValue": 4029.73,
           "dailyReturn": -0.2047
         },
         {
@@ -269,7 +269,7 @@
         {
           "date": "2024-02-26",
           "totalValue": 4040.24,
-          "dailyReturn": 0.5602
+          "dailyReturn": 0.5601
         },
         {
           "date": "2024-02-27",
@@ -344,7 +344,7 @@
         {
           "date": "2024-03-18",
           "totalValue": 4004.22,
-          "dailyReturn": 0.1743
+          "dailyReturn": 0.1742
         },
         {
           "date": "2024-03-19",
@@ -363,7 +363,7 @@
         },
         {
           "date": "2024-03-22",
-          "totalValue": 4036.94,
+          "totalValue": 4036.93,
           "dailyReturn": -1.0494
         },
         {
@@ -394,7 +394,7 @@
         {
           "date": "2024-04-03",
           "totalValue": 4069.95,
-          "dailyReturn": -2.1484
+          "dailyReturn": -2.1485
         },
         {
           "date": "2024-04-04",
@@ -403,7 +403,7 @@
         },
         {
           "date": "2024-04-05",
-          "totalValue": 4085.58,
+          "totalValue": 4085.57,
           "dailyReturn": -0.4335
         },
         {
@@ -463,13 +463,13 @@
         },
         {
           "date": "2024-04-23",
-          "totalValue": 4017.51,
+          "totalValue": 4017.5,
           "dailyReturn": 0.0285
         },
         {
           "date": "2024-04-24",
           "totalValue": 4004.14,
-          "dailyReturn": -0.3328
+          "dailyReturn": -0.3327
         },
         {
           "date": "2024-04-26",
@@ -513,7 +513,7 @@
         },
         {
           "date": "2024-05-08",
-          "totalValue": 4096.05,
+          "totalValue": 4096.04,
           "dailyReturn": 0.4297
         },
         {
@@ -599,11 +599,11 @@
         {
           "date": "2024-05-31",
           "totalValue": 3991.86,
-          "dailyReturn": 0.4657
+          "dailyReturn": 0.4658
         },
         {
           "date": "2024-06-03",
-          "totalValue": 4015.58,
+          "totalValue": 4015.57,
           "dailyReturn": 0.5941
         },
         {
@@ -974,7 +974,7 @@
         {
           "date": "2024-08-23",
           "totalValue": 3520.4,
-          "dailyReturn": 0.7831
+          "dailyReturn": 0.7832
         },
         {
           "date": "2024-08-26",
@@ -1019,7 +1019,7 @@
         {
           "date": "2024-09-05",
           "totalValue": 3558.41,
-          "dailyReturn": 0.5903
+          "dailyReturn": 0.5902
         },
         {
           "date": "2024-09-06",
@@ -1154,7 +1154,7 @@
         {
           "date": "2024-10-14",
           "totalValue": 3759.91,
-          "dailyReturn": 0.2538
+          "dailyReturn": 0.2537
         },
         {
           "date": "2024-10-15",
@@ -1379,7 +1379,7 @@
         {
           "date": "2024-12-16",
           "totalValue": 4160.73,
-          "dailyReturn": -0.2172
+          "dailyReturn": -0.2173
         },
         {
           "date": "2024-12-17",
@@ -1589,7 +1589,7 @@
         {
           "date": "2025-01-24",
           "totalValue": 3445.95,
-          "dailyReturn": -0.0222
+          "dailyReturn": -0.0221
         },
         {
           "date": "2025-01-28",
@@ -1758,7 +1758,7 @@
         },
         {
           "date": "2025-03-14",
-          "totalValue": 3246.96,
+          "totalValue": 3246.97,
           "dailyReturn": 0.6725
         },
         {
@@ -2178,7 +2178,7 @@
         {
           "ticker": "VCX.AX",
           "name": "Vicinity Centres",
-          "shares": 165.1846,
+          "shares": 165.1845,
           "buyPrice": 2.33,
           "buyDate": "2025-07-01",
           "rationale": ""
@@ -2332,7 +2332,7 @@
         {
           "date": "2025-08-04",
           "totalValue": 3384.94,
-          "dailyReturn": 0.7209
+          "dailyReturn": 0.721
         },
         {
           "date": "2025-08-05",
@@ -2346,7 +2346,7 @@
         },
         {
           "date": "2025-08-07",
-          "totalValue": 3486.96,
+          "totalValue": 3486.95,
           "dailyReturn": 0.2893
         },
         {
@@ -2397,7 +2397,7 @@
         {
           "date": "2025-08-21",
           "totalValue": 3631.84,
-          "dailyReturn": 0.7531
+          "dailyReturn": 0.753
         },
         {
           "date": "2025-08-22",
@@ -2437,7 +2437,7 @@
         {
           "date": "2025-09-02",
           "totalValue": 3675.57,
-          "dailyReturn": -0.4562
+          "dailyReturn": -0.4563
         },
         {
           "date": "2025-09-03",
@@ -2561,7 +2561,7 @@
         },
         {
           "date": "2025-10-07",
-          "totalValue": 3818.8,
+          "totalValue": 3818.79,
           "dailyReturn": -0.2499
         },
         {
@@ -2571,7 +2571,7 @@
         },
         {
           "date": "2025-10-09",
-          "totalValue": 3823.78,
+          "totalValue": 3823.77,
           "dailyReturn": -0.1213
         },
         {
@@ -2581,7 +2581,7 @@
         },
         {
           "date": "2025-10-13",
-          "totalValue": 3814.0,
+          "totalValue": 3813.99,
           "dailyReturn": 0.1433
         },
         {
@@ -2616,7 +2616,7 @@
         },
         {
           "date": "2025-10-22",
-          "totalValue": 3734.88,
+          "totalValue": 3734.87,
           "dailyReturn": -3.0127
         },
         {
@@ -2822,7 +2822,7 @@
         {
           "date": "2025-12-18",
           "totalValue": 3699.93,
-          "dailyReturn": -0.0528
+          "dailyReturn": -0.0529
         },
         {
           "date": "2025-12-19",
@@ -3009,7 +3009,7 @@
         {
           "date": "2026-01-23",
           "totalValue": 2635.2,
-          "dailyReturn": 1.2919
+          "dailyReturn": 1.2918
         },
         {
           "date": "2026-01-27",
@@ -3209,7 +3209,7 @@
         {
           "date": "2026-03-23",
           "totalValue": 2167.36,
-          "dailyReturn": -2.4785
+          "dailyReturn": -2.4784
         },
         {
           "date": "2026-03-24",
@@ -3582,10 +3582,10 @@
           "rationale": ""
         },
         {
-          "ticker": "QBE.AX",
-          "name": "QBE Insurance Group Limited",
-          "shares": 9.5541,
-          "buyPrice": 24.58,
+          "ticker": "VCX.AX",
+          "name": "Vicinity Centres",
+          "shares": 91.8409,
+          "buyPrice": 2.56,
           "buyDate": "2026-07-01",
           "rationale": ""
         },
@@ -3598,18 +3598,18 @@
           "rationale": ""
         },
         {
-          "ticker": "VCX.AX",
-          "name": "Vicinity Centres",
-          "shares": 91.8409,
-          "buyPrice": 2.56,
+          "ticker": "QBE.AX",
+          "name": "QBE Insurance Group Limited",
+          "shares": 9.5541,
+          "buyPrice": 24.58,
           "buyDate": "2026-07-01",
           "rationale": ""
         },
         {
-          "ticker": "PME.AX",
-          "name": "Pro Medicus Limited",
-          "shares": 1.1602,
-          "buyPrice": 202.44,
+          "ticker": "ORG.AX",
+          "name": "Origin Energy Limited",
+          "shares": 21.7548,
+          "buyPrice": 10.8,
           "buyDate": "2026-07-01",
           "rationale": ""
         },
@@ -3622,18 +3622,18 @@
           "rationale": ""
         },
         {
-          "ticker": "TNE.AX",
-          "name": "Technology One Limited",
-          "shares": 7.9426,
-          "buyPrice": 29.57,
+          "ticker": "PME.AX",
+          "name": "Pro Medicus Limited",
+          "shares": 1.1602,
+          "buyPrice": 202.44,
           "buyDate": "2026-07-01",
           "rationale": ""
         },
         {
-          "ticker": "ORG.AX",
-          "name": "Origin Energy Limited",
-          "shares": 21.7548,
-          "buyPrice": 10.8,
+          "ticker": "TNE.AX",
+          "name": "Technology One Limited",
+          "shares": 7.9426,
+          "buyPrice": 29.57,
           "buyDate": "2026-07-01",
           "rationale": ""
         },
@@ -4086,13 +4086,38 @@
           "date": "2026-10-30",
           "totalValue": 2327.89,
           "dailyReturn": 0.9011
+        },
+        {
+          "date": "2026-11-02",
+          "totalValue": 2315.95,
+          "dailyReturn": -0.5127
+        },
+        {
+          "date": "2026-11-03",
+          "totalValue": 2350.67,
+          "dailyReturn": 1.4993
+        },
+        {
+          "date": "2026-11-04",
+          "totalValue": 2334.79,
+          "dailyReturn": -0.6756
+        },
+        {
+          "date": "2026-11-05",
+          "totalValue": 2432.98,
+          "dailyReturn": 4.2056
+        },
+        {
+          "date": "2026-11-06",
+          "totalValue": 2426.27,
+          "dailyReturn": -0.2758
         }
       ],
-      "endValue": 2327.89,
-      "returnPct": -0.9,
-      "cumulativeReturn": -53.4
+      "endValue": 2426.27,
+      "returnPct": 3.3,
+      "cumulativeReturn": -51.5
     }
   ],
-  "finalValue": 2327.89,
-  "totalReturn": -53.4
+  "finalValue": 2426.27,
+  "totalReturn": -51.5
 }

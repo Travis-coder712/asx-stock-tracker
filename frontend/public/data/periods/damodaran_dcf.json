@@ -13,7 +13,7 @@
         {
           "ticker": "CCL.AX",
           "name": "CCL",
-          "shares": 224.9289,
+          "shares": 224.9288,
           "buyPrice": 2.22,
           "buyDate": "2024-01-02",
           "rationale": ""
@@ -37,7 +37,7 @@
         {
           "ticker": "ORA.AX",
           "name": "Orora Limited",
-          "shares": 219.5362,
+          "shares": 219.5361,
           "buyPrice": 2.28,
           "buyDate": "2024-01-02",
           "rationale": ""
@@ -126,7 +126,7 @@
         },
         {
           "date": "2024-01-12",
-          "totalValue": 4449.54,
+          "totalValue": 4449.53,
           "dailyReturn": 0.039
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "date": "2024-01-29",
-          "totalValue": 4523.94,
+          "totalValue": 4523.93,
           "dailyReturn": 0.2887
         },
         {
@@ -187,7 +187,7 @@
         {
           "date": "2024-01-31",
           "totalValue": 4613.75,
-          "dailyReturn": 1.529
+          "dailyReturn": 1.5289
         },
         {
           "date": "2024-02-01",
@@ -216,7 +216,7 @@
         },
         {
           "date": "2024-02-08",
-          "totalValue": 4637.27,
+          "totalValue": 4637.26,
           "dailyReturn": 0.1072
         },
         {
@@ -231,7 +231,7 @@
         },
         {
           "date": "2024-02-13",
-          "totalValue": 4635.68,
+          "totalValue": 4635.67,
           "dailyReturn": -0.15
         },
         {
@@ -346,7 +346,7 @@
         },
         {
           "date": "2024-03-15",
-          "totalValue": 4532.38,
+          "totalValue": 4532.37,
           "dailyReturn": 0.1084
         },
         {
@@ -392,7 +392,7 @@
         {
           "date": "2024-03-28",
           "totalValue": 4671.02,
-          "dailyReturn": 1.3526
+          "dailyReturn": 1.3525
         },
         {
           "date": "2024-04-02",
@@ -476,7 +476,7 @@
         },
         {
           "date": "2024-04-24",
-          "totalValue": 4363.77,
+          "totalValue": 4363.76,
           "dailyReturn": -0.5801
         },
         {
@@ -597,7 +597,7 @@
         {
           "date": "2024-05-29",
           "totalValue": 4310.64,
-          "dailyReturn": -1.3443
+          "dailyReturn": -1.3442
         },
         {
           "date": "2024-05-30",
@@ -611,7 +611,7 @@
         },
         {
           "date": "2024-06-03",
-          "totalValue": 4319.68,
+          "totalValue": 4319.67,
           "dailyReturn": 1.2596
         },
         {
@@ -721,7 +721,7 @@
         {
           "ticker": "CCL.AX",
           "name": "CCL",
-          "shares": 186.2074,
+          "shares": 186.2073,
           "buyPrice": 2.22,
           "buyDate": "2024-07-01",
           "rationale": ""
@@ -824,7 +824,7 @@
         },
         {
           "date": "2024-07-09",
-          "totalValue": 3744.74,
+          "totalValue": 3744.73,
           "dailyReturn": 0.3137
         },
         {
@@ -930,7 +930,7 @@
         {
           "date": "2024-08-07",
           "totalValue": 3748.9,
-          "dailyReturn": 0.4136
+          "dailyReturn": 0.4137
         },
         {
           "date": "2024-08-08",
@@ -969,7 +969,7 @@
         },
         {
           "date": "2024-08-19",
-          "totalValue": 3878.32,
+          "totalValue": 3878.31,
           "dailyReturn": -0.3695
         },
         {
@@ -1050,7 +1050,7 @@
         {
           "date": "2024-09-10",
           "totalValue": 3836.36,
-          "dailyReturn": -0.1394
+          "dailyReturn": -0.1393
         },
         {
           "date": "2024-09-11",
@@ -1110,7 +1110,7 @@
         {
           "date": "2024-09-26",
           "totalValue": 4040.73,
-          "dailyReturn": 2.5126
+          "dailyReturn": 2.5127
         },
         {
           "date": "2024-09-27",
@@ -1190,7 +1190,7 @@
         {
           "date": "2024-10-18",
           "totalValue": 3955.74,
-          "dailyReturn": -0.7904
+          "dailyReturn": -0.7905
         },
         {
           "date": "2024-10-21",
@@ -1440,7 +1440,7 @@
         {
           "date": "2024-12-31",
           "totalValue": 3878.73,
-          "dailyReturn": -1.1001
+          "dailyReturn": -1.1002
         }
       ],
       "endValue": 3878.73,
@@ -1491,7 +1491,7 @@
         {
           "ticker": "ORG.AX",
           "name": "Origin Energy Limited",
-          "shares": 39.4928,
+          "shares": 39.4927,
           "buyPrice": 9.82,
           "buyDate": "2025-01-02",
           "rationale": ""
@@ -1552,7 +1552,7 @@
         },
         {
           "date": "2025-01-08",
-          "totalValue": 3518.39,
+          "totalValue": 3518.38,
           "dailyReturn": 0.4119
         },
         {
@@ -1562,12 +1562,12 @@
         },
         {
           "date": "2025-01-10",
-          "totalValue": 3501.26,
+          "totalValue": 3501.25,
           "dailyReturn": -0.6523
         },
         {
           "date": "2025-01-13",
-          "totalValue": 3463.53,
+          "totalValue": 3463.52,
           "dailyReturn": -1.0776
         },
         {
@@ -1652,7 +1652,7 @@
         },
         {
           "date": "2025-02-06",
-          "totalValue": 3580.74,
+          "totalValue": 3580.73,
           "dailyReturn": 1.4166
         },
         {
@@ -1677,7 +1677,7 @@
         },
         {
           "date": "2025-02-13",
-          "totalValue": 3638.58,
+          "totalValue": 3638.57,
           "dailyReturn": 0.0168
         },
         {
@@ -1768,7 +1768,7 @@
         {
           "date": "2025-03-11",
           "totalValue": 3519.64,
-          "dailyReturn": -0.6751
+          "dailyReturn": -0.6752
         },
         {
           "date": "2025-03-12",
@@ -1802,12 +1802,12 @@
         },
         {
           "date": "2025-03-20",
-          "totalValue": 3519.51,
+          "totalValue": 3519.5,
           "dailyReturn": 0.4562
         },
         {
           "date": "2025-03-21",
-          "totalValue": 3535.66,
+          "totalValue": 3535.65,
           "dailyReturn": 0.4589
         },
         {
@@ -1827,7 +1827,7 @@
         },
         {
           "date": "2025-03-27",
-          "totalValue": 3532.15,
+          "totalValue": 3532.14,
           "dailyReturn": -0.6042
         },
         {
@@ -1867,7 +1867,7 @@
         },
         {
           "date": "2025-04-08",
-          "totalValue": 3297.62,
+          "totalValue": 3297.61,
           "dailyReturn": 2.3468
         },
         {
@@ -1892,7 +1892,7 @@
         },
         {
           "date": "2025-04-15",
-          "totalValue": 3360.19,
+          "totalValue": 3360.18,
           "dailyReturn": 0.2384
         },
         {
@@ -1912,12 +1912,12 @@
         },
         {
           "date": "2025-04-23",
-          "totalValue": 3385.65,
+          "totalValue": 3385.64,
           "dailyReturn": 1.3611
         },
         {
           "date": "2025-04-24",
-          "totalValue": 3421.44,
+          "totalValue": 3421.43,
           "dailyReturn": 1.0571
         },
         {
@@ -2022,7 +2022,7 @@
         },
         {
           "date": "2025-05-26",
-          "totalValue": 3546.6,
+          "totalValue": 3546.59,
           "dailyReturn": -1.0122
         },
         {
@@ -2067,7 +2067,7 @@
         },
         {
           "date": "2025-06-06",
-          "totalValue": 3635.91,
+          "totalValue": 3635.9,
           "dailyReturn": -0.3285
         },
         {
@@ -2082,7 +2082,7 @@
         },
         {
           "date": "2025-06-12",
-          "totalValue": 3646.52,
+          "totalValue": 3646.51,
           "dailyReturn": -0.5159
         },
         {
@@ -2107,17 +2107,17 @@
         },
         {
           "date": "2025-06-19",
-          "totalValue": 3601.79,
+          "totalValue": 3601.78,
           "dailyReturn": -0.3014
         },
         {
           "date": "2025-06-20",
           "totalValue": 3597.18,
-          "dailyReturn": -0.1278
+          "dailyReturn": -0.1279
         },
         {
           "date": "2025-06-23",
-          "totalValue": 3608.53,
+          "totalValue": 3608.52,
           "dailyReturn": 0.3154
         },
         {
@@ -2496,7 +2496,7 @@
         {
           "date": "2025-09-11",
           "totalValue": 3663.65,
-          "dailyReturn": -0.7594
+          "dailyReturn": -0.7595
         },
         {
           "date": "2025-09-12",
@@ -2736,7 +2736,7 @@
         {
           "date": "2025-11-18",
           "totalValue": 3700.92,
-          "dailyReturn": -1.725
+          "dailyReturn": -1.7251
         },
         {
           "date": "2025-11-19",
@@ -2771,7 +2771,7 @@
         {
           "date": "2025-11-27",
           "totalValue": 3740.71,
-          "dailyReturn": -0.3155
+          "dailyReturn": -0.3154
         },
         {
           "date": "2025-11-28",
@@ -2801,7 +2801,7 @@
         {
           "date": "2025-12-05",
           "totalValue": 3755.97,
-          "dailyReturn": -0.0677
+          "dailyReturn": -0.0676
         },
         {
           "date": "2025-12-08",
@@ -2924,7 +2924,7 @@
         {
           "ticker": "ORA.AX",
           "name": "Orora Limited",
-          "shares": 181.7359,
+          "shares": 181.7358,
           "buyPrice": 2.11,
           "buyDate": "2026-01-02",
           "rationale": ""
@@ -3038,7 +3038,7 @@
         },
         {
           "date": "2026-01-21",
-          "totalValue": 3471.83,
+          "totalValue": 3471.82,
           "dailyReturn": -0.1402
         },
         {
@@ -3129,7 +3129,7 @@
         {
           "date": "2026-02-17",
           "totalValue": 3281.67,
-          "dailyReturn": -0.0751
+          "dailyReturn": -0.075
         },
         {
           "date": "2026-02-18",
@@ -4126,13 +4126,38 @@
           "date": "2026-10-30",
           "totalValue": 2967.0,
           "dailyReturn": 0.4816
+        },
+        {
+          "date": "2026-11-02",
+          "totalValue": 2940.64,
+          "dailyReturn": -0.8885
+        },
+        {
+          "date": "2026-11-03",
+          "totalValue": 2976.83,
+          "dailyReturn": 1.2306
+        },
+        {
+          "date": "2026-11-04",
+          "totalValue": 2962.5,
+          "dailyReturn": -0.4813
+        },
+        {
+          "date": "2026-11-05",
+          "totalValue": 3053.41,
+          "dailyReturn": 3.0686
+        },
+        {
+          "date": "2026-11-06",
+          "totalValue": 3041.71,
+          "dailyReturn": -0.3831
         }
       ],
-      "endValue": 2967.0,
-      "returnPct": -3.0,
-      "cumulativeReturn": -40.7
+      "endValue": 3041.71,
+      "returnPct": -0.5,
+      "cumulativeReturn": -39.2
     }
   ],
-  "finalValue": 2967.0,
-  "totalReturn": -40.7
+  "finalValue": 3041.71,
+  "totalReturn": -39.2
 }
