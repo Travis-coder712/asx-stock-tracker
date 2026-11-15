@@ -57,8 +57,8 @@
   {
     "ticker": "MQG.AX",
     "name": "Macquarie Group Limited",
-    "shares": 2.9393,
-    "buyPrice": 170.11,
+    "shares": 2.9778,
+    "buyPrice": 167.91,
     "buyDate": "2024-01-02",
     "sellPrice": null,
     "sellDate": null,
@@ -79,7 +79,7 @@
   {
     "ticker": "SGP.AX",
     "name": "Stockland",
-    "shares": 129.8081,
+    "shares": 129.8082,
     "buyPrice": 3.85,
     "buyDate": "2024-01-02",
     "sellPrice": null,

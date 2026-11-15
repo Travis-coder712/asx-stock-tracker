@@ -1,26 +1,26 @@
 [
   {
     "periodStart": "2023-07-01",
-    "asOf": "2026-11-06",
-    "aglTsr": -0.64,
-    "indexTsr": 25.22
+    "asOf": "2026-11-16",
+    "aglTsr": -0.09,
+    "indexTsr": 25.89
   },
   {
     "periodStart": "2024-07-01",
-    "asOf": "2026-11-06",
-    "aglTsr": -3.0,
-    "indexTsr": 16.95
+    "asOf": "2026-11-16",
+    "aglTsr": -2.46,
+    "indexTsr": 17.57
   },
   {
     "periodStart": "2025-07-01",
-    "asOf": "2026-11-06",
-    "aglTsr": 0.08,
-    "indexTsr": 6.17
+    "asOf": "2026-11-16",
+    "aglTsr": 0.64,
+    "indexTsr": 6.73
   },
   {
     "periodStart": "2026-07-01",
-    "asOf": "2026-11-06",
-    "aglTsr": 11.04,
-    "indexTsr": 4.19
+    "asOf": "2026-11-16",
+    "aglTsr": 11.65,
+    "indexTsr": 4.75
   }
 ]

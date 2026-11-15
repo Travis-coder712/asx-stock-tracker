@@ -1,11 +1,11 @@
 {
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-16",
   "index": {
     "name": "ASX 100",
     "maxDrawdown": -14.1,
-    "current": 7620.8,
-    "ma200": 7404.0,
-    "pctVsMa200": 2.9,
+    "current": 7661.3,
+    "ma200": 7413.2,
+    "pctVsMa200": 3.3,
     "riskOff": false
   },
   "strategies": [
@@ -14,7 +14,7 @@
       "name": "Padley Momentum",
       "beta": 1.1,
       "maxDrawdown": -43.5,
-      "currentValue": 4533.13,
+      "currentValue": 4490.0,
       "holdings": 8,
       "exposure": {
         "rates": 0,
@@ -29,7 +29,7 @@
       "name": "Quant Factors",
       "beta": 1.06,
       "maxDrawdown": -34.3,
-      "currentValue": 5429.21,
+      "currentValue": 5400.19,
       "holdings": 8,
       "exposure": {
         "rates": 25,
@@ -42,9 +42,9 @@
     {
       "id": "dividend_income",
       "name": "Dividend Income",
-      "beta": 0.92,
+      "beta": 0.93,
       "maxDrawdown": -23.0,
-      "currentValue": 6347.98,
+      "currentValue": 6344.21,
       "holdings": 10,
       "exposure": {
         "rates": 30,
@@ -59,7 +59,7 @@
       "name": "Damodaran Value",
       "beta": 0.72,
       "maxDrawdown": -13.4,
-      "currentValue": 5379.13,
+      "currentValue": 5381.94,
       "holdings": 9,
       "exposure": {
         "rates": 22,
@@ -74,7 +74,7 @@
       "name": "Contrarian Value",
       "beta": 0.7,
       "maxDrawdown": -17.7,
-      "currentValue": 5375.5,
+      "currentValue": 5441.89,
       "holdings": 7,
       "exposure": {
         "rates": 29,
