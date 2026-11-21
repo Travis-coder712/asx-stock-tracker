@@ -50,10 +50,14 @@ _ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__
 if _ROOT not in sys.path:
     sys.path.insert(0, _ROOT)
 
-from pipeline.data.asx100_constituents import PEER_GROUPS
-COMPARATOR_TICKERS = sorted({t for m in PEER_GROUPS.values() for t in m})
+from pipeline.data.asx100_constituents import PEER_GROUPS, BLOCKED_TICKERS
+COMPARATOR_TICKERS = sorted(
+    {t for m in PEER_GROUPS.values() for t in m} - BLOCKED_TICKERS
+)
 
-ALL_TICKERS = sorted(set(ASX_100_TICKERS) | set(COMPARATOR_TICKERS))
+ALL_TICKERS = sorted(
+    (set(ASX_100_TICKERS) | set(COMPARATOR_TICKERS)) - BLOCKED_TICKERS
+)
 
 AGL_TICKER = 'AGL.AX'
 ASX100_INDEX = '^ATOI'
@@ -193,6 +197,12 @@ def main():
     conn = sqlite3.connect(DB_PATH)
 
     if args.ticker:
+        if args.ticker in BLOCKED_TICKERS:
+            raise SystemExit(
+                f"{args.ticker} is blocked: the ASX code has been reused by a different "
+                "company, so importing it would corrupt the comparator. "
+                "See BLOCKED_TICKERS in pipeline/data/asx100_constituents.py."
+            )
         tickers = [args.ticker]
     elif args.agl_only:
         tickers = [AGL_TICKER]

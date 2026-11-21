@@ -347,6 +347,19 @@ ASX100_JUN_2026 = [
 # certain corporate events" — which is exactly what a delisting is. So
 # excluding these is consistent with the rules, not a data shortcut.
 
+# Tickers that must NEVER be imported, because the ASX code now belongs to a
+# DIFFERENT company. Importing them does not fail — it silently attributes the
+# new company's returns to the old one inside a vesting calculation.
+#
+# This list exists because the comment above was not enough. On 2026-11-21 the
+# comparator-union fix to import_prices.py --all dutifully re-imported ALU.AX,
+# re-contaminating FY24/FY25 with Alurion Resources at ~$0.28 three weeks after
+# the trap was documented. A warning in a comment does not survive a later
+# change; a guard in code does.
+BLOCKED_TICKERS = {
+    'ALU.AX',  # Altium acquired by Renesas 2024; code reused by Alurion Resources
+}
+
 PEER_GROUPS = {
     '2023-07-01': ASX100_JUN_2023,
     '2024-07-01': ASX100_JUN_2024,

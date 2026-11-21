@@ -3,21 +3,21 @@
   "peerCount": 100,
   "rankedCount": 100,
   "excludedCount": 0,
-  "aglRank": 54,
-  "aglTsr": -0.36,
-  "aglPercentile": 46.5,
-  "median": 0.29,
+  "aglRank": 62,
+  "aglTsr": -3.136182765489659,
+  "aglPercentile": 38.4,
+  "median": 4.589805154553139,
   "top": {
     "ticker": "PLS.AX",
     "name": "PLS Group Limited",
-    "tsrPct": 93.36,
+    "tsrPct": 114.9771413013195,
     "rank": 1,
     "percentile": 100.0
   },
   "bottom": {
-    "ticker": "LLC.AX",
-    "name": "Lendlease Group",
-    "tsrPct": -68.12,
+    "ticker": "XRO.AX",
+    "name": "Xero Limited",
+    "tsrPct": -61.73492651075898,
     "rank": 100,
     "percentile": 0.0
   },
@@ -25,700 +25,700 @@
     {
       "ticker": "PLS.AX",
       "name": "PLS Group Limited",
-      "tsrPct": 93.36,
+      "tsrPct": 114.9771413013195,
       "rank": 1,
       "percentile": 100.0
     },
     {
       "ticker": "MIN.AX",
       "name": "Mineral Resources Limited",
-      "tsrPct": 77.89,
+      "tsrPct": 101.81438577852174,
       "rank": 2,
       "percentile": 99.0
     },
     {
-      "ticker": "PRU.AX",
-      "name": "Perseus Mining Limited",
-      "tsrPct": 71.5,
+      "ticker": "NEM.AX",
+      "name": "Newmont Corporation",
+      "tsrPct": 86.01127301360283,
       "rank": 3,
       "percentile": 98.0
     },
     {
-      "ticker": "NEM.AX",
-      "name": "Newmont Corporation",
-      "tsrPct": 63.96,
+      "ticker": "AMP.AX",
+      "name": "AMP Limited",
+      "tsrPct": 85.32438734755416,
       "rank": 4,
       "percentile": 97.0
     },
     {
-      "ticker": "AMP.AX",
-      "name": "AMP Limited",
-      "tsrPct": 61.33,
+      "ticker": "PRU.AX",
+      "name": "Perseus Mining Limited",
+      "tsrPct": 70.41968323021908,
       "rank": 5,
       "percentile": 96.0
     },
     {
-      "ticker": "ANN.AX",
-      "name": "Ansell Limited",
-      "tsrPct": 52.8,
+      "ticker": "SFR.AX",
+      "name": "Sandfire Resources Limited",
+      "tsrPct": 67.48370360751788,
       "rank": 6,
       "percentile": 94.9
     },
     {
-      "ticker": "CGF.AX",
-      "name": "Challenger Limited",
-      "tsrPct": 50.11,
+      "ticker": "BHP.AX",
+      "name": "BHP Group Limited",
+      "tsrPct": 58.19700326565756,
       "rank": 7,
       "percentile": 93.9
     },
     {
-      "ticker": "LYC.AX",
-      "name": "Lynas Rare Earths Limited",
-      "tsrPct": 48.27,
+      "ticker": "CGF.AX",
+      "name": "Challenger Limited",
+      "tsrPct": 56.58596311531356,
       "rank": 8,
       "percentile": 92.9
     },
     {
-      "ticker": "RHC.AX",
-      "name": "Ramsay Health Care Limited",
-      "tsrPct": 46.72,
+      "ticker": "S32.AX",
+      "name": "South32 Limited",
+      "tsrPct": 53.33299083338965,
       "rank": 9,
       "percentile": 91.9
     },
     {
-      "ticker": "BHP.AX",
-      "name": "BHP Group Limited",
-      "tsrPct": 46.41,
+      "ticker": "ANN.AX",
+      "name": "Ansell Limited",
+      "tsrPct": 53.22220037927974,
       "rank": 10,
       "percentile": 90.9
     },
     {
-      "ticker": "SFR.AX",
-      "name": "Sandfire Resources Limited",
-      "tsrPct": 46.31,
+      "ticker": "RHC.AX",
+      "name": "Ramsay Health Care Limited",
+      "tsrPct": 52.70216827851677,
       "rank": 11,
       "percentile": 89.9
     },
     {
-      "ticker": "BSL.AX",
-      "name": "BlueScope Steel Limited",
-      "tsrPct": 43.97,
+      "ticker": "EVN.AX",
+      "name": "Evolution Mining Limited",
+      "tsrPct": 52.12846016151478,
       "rank": 12,
       "percentile": 88.9
     },
     {
       "ticker": "ALD.AX",
       "name": "Ampol Limited",
-      "tsrPct": 41.6,
+      "tsrPct": 51.716551308965066,
       "rank": 13,
       "percentile": 87.9
     },
     {
-      "ticker": "S32.AX",
-      "name": "South32 Limited",
-      "tsrPct": 41.22,
+      "ticker": "BSL.AX",
+      "name": "BlueScope Steel Limited",
+      "tsrPct": 51.67054109582825,
       "rank": 14,
       "percentile": 86.9
     },
     {
-      "ticker": "APA.AX",
-      "name": "APA Group",
-      "tsrPct": 40.15,
+      "ticker": "RIO.AX",
+      "name": "Rio Tinto Group",
+      "tsrPct": 42.56463536671544,
       "rank": 15,
       "percentile": 85.9
     },
     {
-      "ticker": "EVN.AX",
-      "name": "Evolution Mining Limited",
-      "tsrPct": 38.43,
+      "ticker": "APA.AX",
+      "name": "APA Group",
+      "tsrPct": 41.884310756089874,
       "rank": 16,
       "percentile": 84.8
     },
     {
-      "ticker": "WOW.AX",
-      "name": "Woolworths Group Limited",
-      "tsrPct": 38.2,
+      "ticker": "ANZ.AX",
+      "name": "ANZ Group Holdings Limited",
+      "tsrPct": 41.09522026096917,
       "rank": 17,
       "percentile": 83.8
     },
     {
       "ticker": "WDS.AX",
       "name": "Woodside Energy Group Ltd",
-      "tsrPct": 37.92,
+      "tsrPct": 39.95943017187524,
       "rank": 18,
       "percentile": 82.8
     },
     {
-      "ticker": "ANZ.AX",
-      "name": "ANZ Group Holdings Limited",
-      "tsrPct": 34.94,
+      "ticker": "DNL.AX",
+      "name": "Dyno Nobel Limited",
+      "tsrPct": 39.448264454762395,
       "rank": 19,
       "percentile": 81.8
     },
     {
-      "ticker": "RIO.AX",
-      "name": "Rio Tinto Group",
-      "tsrPct": 32.7,
+      "ticker": "LYC.AX",
+      "name": "Lynas Rare Earths Limited",
+      "tsrPct": 38.18144346267209,
       "rank": 20,
       "percentile": 80.8
     },
     {
       "ticker": "AZJ.AX",
       "name": "Aurizon Holdings Limited",
-      "tsrPct": 32.38,
+      "tsrPct": 35.339204513838766,
       "rank": 21,
       "percentile": 79.8
     },
     {
-      "ticker": "REH.AX",
-      "name": "Reece Limited",
-      "tsrPct": 30.36,
+      "ticker": "WOW.AX",
+      "name": "Woolworths Group Limited",
+      "tsrPct": 33.46508589342625,
       "rank": 22,
       "percentile": 78.8
     },
     {
       "ticker": "WHC.AX",
       "name": "Whitehaven Coal Limited",
-      "tsrPct": 23.82,
+      "tsrPct": 32.17554882881677,
       "rank": 23,
       "percentile": 77.8
     },
     {
-      "ticker": "ORG.AX",
-      "name": "Origin Energy Limited",
-      "tsrPct": 23.51,
+      "ticker": "ALQ.AX",
+      "name": "ALS Limited",
+      "tsrPct": 27.55963298136117,
       "rank": 24,
       "percentile": 76.8
     },
     {
-      "ticker": "QUB.AX",
-      "name": "Qube Holdings Ltd",
-      "tsrPct": 22.09,
+      "ticker": "NST.AX",
+      "name": "Northern Star Resources Limited",
+      "tsrPct": 26.82654570433658,
       "rank": 25,
       "percentile": 75.8
     },
     {
-      "ticker": "NST.AX",
-      "name": "Northern Star Resources Limited",
-      "tsrPct": 21.12,
+      "ticker": "IGO.AX",
+      "name": "IGO Limited",
+      "tsrPct": 24.471035241852167,
       "rank": 26,
       "percentile": 74.7
     },
     {
-      "ticker": "CPU.AX",
-      "name": "Computershare Limited",
-      "tsrPct": 20.19,
+      "ticker": "STO.AX",
+      "name": "Santos Limited",
+      "tsrPct": 23.918118647213493,
       "rank": 27,
       "percentile": 73.7
     },
     {
-      "ticker": "QBE.AX",
-      "name": "QBE Insurance Group Limited",
-      "tsrPct": 19.01,
+      "ticker": "QUB.AX",
+      "name": "Qube Holdings Ltd",
+      "tsrPct": 22.575674054438743,
       "rank": 28,
       "percentile": 72.7
     },
     {
-      "ticker": "DNL.AX",
-      "name": "Dyno Nobel Limited",
-      "tsrPct": 17.95,
+      "ticker": "ORG.AX",
+      "name": "Origin Energy Limited",
+      "tsrPct": 21.121896675483075,
       "rank": 29,
       "percentile": 71.7
     },
     {
-      "ticker": "CHC.AX",
-      "name": "Charter Hall Group",
-      "tsrPct": 17.21,
+      "ticker": "ORI.AX",
+      "name": "Orica Limited",
+      "tsrPct": 20.441012154549078,
       "rank": 30,
       "percentile": 70.7
     },
     {
-      "ticker": "FPH.AX",
-      "name": "Fisher & Paykel Healthcare Corporation Limited",
-      "tsrPct": 17.1,
+      "ticker": "QBE.AX",
+      "name": "QBE Insurance Group Limited",
+      "tsrPct": 19.64575579903467,
       "rank": 31,
       "percentile": 69.7
     },
     {
-      "ticker": "ALQ.AX",
-      "name": "ALS Limited",
-      "tsrPct": 16.61,
+      "ticker": "DOW.AX",
+      "name": "Downer EDI Limited",
+      "tsrPct": 19.28606858188411,
       "rank": 32,
       "percentile": 68.7
     },
     {
-      "ticker": "STO.AX",
-      "name": "Santos Limited",
-      "tsrPct": 15.76,
+      "ticker": "XYZ.AX",
+      "name": "Block, Inc.",
+      "tsrPct": 18.559341302974342,
       "rank": 33,
       "percentile": 67.7
     },
     {
       "ticker": "SOL.AX",
       "name": "Washington H. Soul Pattinson and Company Limited",
-      "tsrPct": 14.29,
+      "tsrPct": 17.848340018567875,
       "rank": 34,
       "percentile": 66.7
     },
     {
-      "ticker": "DOW.AX",
-      "name": "Downer EDI Limited",
-      "tsrPct": 14.26,
+      "ticker": "MQG.AX",
+      "name": "Macquarie Group Limited",
+      "tsrPct": 15.962186758555497,
       "rank": 35,
       "percentile": 65.7
     },
     {
-      "ticker": "CWY.AX",
-      "name": "Cleanaway Waste Management Limited",
-      "tsrPct": 13.52,
+      "ticker": "FPH.AX",
+      "name": "Fisher & Paykel Healthcare Corporation Limited",
+      "tsrPct": 14.91972284633809,
       "rank": 36,
       "percentile": 64.6
     },
     {
-      "ticker": "RWC.AX",
-      "name": "Reliance Worldwide Corporation Limited",
-      "tsrPct": 13.5,
+      "ticker": "WBC.AX",
+      "name": "Westpac Banking Corporation",
+      "tsrPct": 14.402255287373444,
       "rank": 37,
       "percentile": 63.6
     },
     {
-      "ticker": "TLS.AX",
-      "name": "Telstra Group Limited",
-      "tsrPct": 11.12,
+      "ticker": "CHC.AX",
+      "name": "Charter Hall Group",
+      "tsrPct": 13.905730898505574,
       "rank": 38,
       "percentile": 62.6
     },
     {
-      "ticker": "WBC.AX",
-      "name": "Westpac Banking Corporation",
-      "tsrPct": 10.34,
+      "ticker": "REH.AX",
+      "name": "Reece Limited",
+      "tsrPct": 13.360506542496653,
       "rank": 39,
       "percentile": 61.6
     },
     {
-      "ticker": "IGO.AX",
-      "name": "IGO Limited",
-      "tsrPct": 8.7,
+      "ticker": "CWY.AX",
+      "name": "Cleanaway Waste Management Limited",
+      "tsrPct": 12.723820445172883,
       "rank": 40,
       "percentile": 60.6
     },
     {
-      "ticker": "TCL.AX",
-      "name": "Transurban Group",
-      "tsrPct": 8.62,
+      "ticker": "CPU.AX",
+      "name": "Computershare Limited",
+      "tsrPct": 11.674505829334203,
       "rank": 41,
       "percentile": 59.6
     },
     {
-      "ticker": "ORI.AX",
-      "name": "Orica Limited",
-      "tsrPct": 8.52,
+      "ticker": "MPL.AX",
+      "name": "Medibank Private Limited",
+      "tsrPct": 9.699516750557201,
       "rank": 42,
       "percentile": 58.6
     },
     {
-      "ticker": "XYZ.AX",
-      "name": "Block, Inc.",
-      "tsrPct": 8.23,
+      "ticker": "GPT.AX",
+      "name": "The GPT Group",
+      "tsrPct": 8.510652255087358,
       "rank": 43,
       "percentile": 57.6
     },
     {
-      "ticker": "IAG.AX",
-      "name": "Insurance Australia Group Limited",
-      "tsrPct": 7.59,
+      "ticker": "TLS.AX",
+      "name": "Telstra Group Limited",
+      "tsrPct": 7.542250678528273,
       "rank": 44,
       "percentile": 56.6
     },
     {
-      "ticker": "COL.AX",
-      "name": "Coles Group Limited",
-      "tsrPct": 7.22,
+      "ticker": "TLC.AX",
+      "name": "The Lottery Corporation Limited",
+      "tsrPct": 7.226983531165865,
       "rank": 45,
       "percentile": 55.6
     },
     {
-      "ticker": "MPL.AX",
-      "name": "Medibank Private Limited",
-      "tsrPct": 6.47,
+      "ticker": "COL.AX",
+      "name": "Coles Group Limited",
+      "tsrPct": 6.646702714455888,
       "rank": 46,
       "percentile": 54.5
     },
     {
-      "ticker": "GPT.AX",
-      "name": "The GPT Group",
-      "tsrPct": 6.39,
+      "ticker": "IAG.AX",
+      "name": "Insurance Australia Group Limited",
+      "tsrPct": 6.432037282671077,
       "rank": 47,
       "percentile": 53.5
     },
     {
-      "ticker": "TLC.AX",
-      "name": "The Lottery Corporation Limited",
-      "tsrPct": 5.1,
+      "ticker": "TCL.AX",
+      "name": "Transurban Group",
+      "tsrPct": 6.144556067399143,
       "rank": 48,
       "percentile": 52.5
     },
     {
-      "ticker": "SCG.AX",
-      "name": "Scentre Group",
-      "tsrPct": 4.62,
+      "ticker": "RWC.AX",
+      "name": "Reliance Worldwide Corporation Limited",
+      "tsrPct": 5.860737293963303,
       "rank": 49,
       "percentile": 51.5
     },
     {
       "ticker": "VCX.AX",
       "name": "Vicinity Centres",
-      "tsrPct": 3.64,
+      "tsrPct": 5.1057640390602455,
       "rank": 50,
       "percentile": 50.5
     },
     {
-      "ticker": "ALL.AX",
-      "name": "Aristocrat Leisure Limited",
-      "tsrPct": 0.29,
+      "ticker": "SCG.AX",
+      "name": "Scentre Group",
+      "tsrPct": 4.589805154553139,
       "rank": 51,
       "percentile": 49.5
     },
     {
-      "ticker": "MQG.AX",
-      "name": "Macquarie Group Limited",
-      "tsrPct": 0.27,
+      "ticker": "NAB.AX",
+      "name": "National Australia Bank Limited",
+      "tsrPct": 4.124256586832287,
       "rank": 52,
       "percentile": 48.5
     },
     {
-      "ticker": "SDF.AX",
-      "name": "Steadfast Group Limited",
-      "tsrPct": 0.21,
+      "ticker": "FMG.AX",
+      "name": "Fortescue Ltd",
+      "tsrPct": 3.773733229257137,
       "rank": 53,
       "percentile": 47.5
     },
     {
-      "ticker": "AGL.AX",
-      "name": "AGL Energy Limited",
-      "tsrPct": -0.36,
+      "ticker": "ALL.AX",
+      "name": "Aristocrat Leisure Limited",
+      "tsrPct": 1.8929594889864454,
       "rank": 54,
       "percentile": 46.5
     },
     {
-      "ticker": "SIG.AX",
-      "name": "Sigma Healthcare Limited",
-      "tsrPct": -1.57,
+      "ticker": "JHX.AX",
+      "name": "James Hardie Industries plc",
+      "tsrPct": 1.6192221671452067,
       "rank": 55,
       "percentile": 45.5
     },
     {
-      "ticker": "SUN.AX",
-      "name": "Suncorp Group Limited",
-      "tsrPct": -1.91,
+      "ticker": "SDF.AX",
+      "name": "Steadfast Group Limited",
+      "tsrPct": 1.4767642894247812,
       "rank": 56,
       "percentile": 44.4
     },
     {
-      "ticker": "BXB.AX",
-      "name": "Brambles Limited",
-      "tsrPct": -2.18,
+      "ticker": "FLT.AX",
+      "name": "Flight Centre Travel Group Limited",
+      "tsrPct": -0.3255044153310349,
       "rank": 57,
       "percentile": 43.4
     },
     {
-      "ticker": "JHX.AX",
-      "name": "James Hardie Industries plc",
-      "tsrPct": -2.43,
+      "ticker": "AMC.AX",
+      "name": "Amcor plc",
+      "tsrPct": -1.531954648529199,
       "rank": 58,
       "percentile": 42.4
     },
     {
-      "ticker": "ASX.AX",
-      "name": "ASX Limited",
-      "tsrPct": -3.07,
+      "ticker": "SUN.AX",
+      "name": "Suncorp Group Limited",
+      "tsrPct": -2.64726060989231,
       "rank": 59,
       "percentile": 41.4
     },
     {
-      "ticker": "AMC.AX",
-      "name": "Amcor plc",
-      "tsrPct": -3.63,
+      "ticker": "ASX.AX",
+      "name": "ASX Limited",
+      "tsrPct": -2.8891269606007297,
       "rank": 60,
       "percentile": 40.4
     },
     {
-      "ticker": "QAN.AX",
-      "name": "Qantas Airways Limited",
-      "tsrPct": -3.98,
+      "ticker": "MTS.AX",
+      "name": "Metcash Limited",
+      "tsrPct": -3.0359084014247917,
       "rank": 61,
       "percentile": 39.4
     },
     {
-      "ticker": "CBA.AX",
-      "name": "Commonwealth Bank of Australia",
-      "tsrPct": -4.23,
+      "ticker": "AGL.AX",
+      "name": "AGL Energy Limited",
+      "tsrPct": -3.136182765489659,
       "rank": 62,
       "percentile": 38.4
     },
     {
-      "ticker": "FMG.AX",
-      "name": "Fortescue Ltd",
-      "tsrPct": -4.61,
+      "ticker": "BXB.AX",
+      "name": "Brambles Limited",
+      "tsrPct": -3.622963050920114,
       "rank": 63,
       "percentile": 37.4
     },
     {
-      "ticker": "NAB.AX",
-      "name": "National Australia Bank Limited",
-      "tsrPct": -4.87,
+      "ticker": "WES.AX",
+      "name": "Wesfarmers Limited",
+      "tsrPct": -4.182409694804146,
       "rank": 64,
       "percentile": 36.4
     },
     {
-      "ticker": "BOQ.AX",
-      "name": "Bank of Queensland Limited",
-      "tsrPct": -5.77,
+      "ticker": "QAN.AX",
+      "name": "Qantas Airways Limited",
+      "tsrPct": -5.917103541100211,
       "rank": 65,
       "percentile": 35.4
     },
     {
-      "ticker": "MTS.AX",
-      "name": "Metcash Limited",
-      "tsrPct": -6.99,
+      "ticker": "CBA.AX",
+      "name": "Commonwealth Bank of Australia",
+      "tsrPct": -6.08640871938978,
       "rank": 66,
       "percentile": 34.3
     },
     {
-      "ticker": "DXS.AX",
-      "name": "DEXUS",
-      "tsrPct": -7.11,
+      "ticker": "BOQ.AX",
+      "name": "Bank of Queensland Limited",
+      "tsrPct": -6.773052363442444,
       "rank": 67,
       "percentile": 33.3
     },
     {
-      "ticker": "WES.AX",
-      "name": "Wesfarmers Limited",
-      "tsrPct": -7.21,
+      "ticker": "DXS.AX",
+      "name": "DEXUS",
+      "tsrPct": -7.089186087231047,
       "rank": 68,
       "percentile": 32.3
     },
     {
-      "ticker": "FLT.AX",
-      "name": "Flight Centre Travel Group Limited",
-      "tsrPct": -8.17,
+      "ticker": "LNW.AX",
+      "name": "Light & Wonder, Inc.",
+      "tsrPct": -7.771686138633194,
       "rank": 69,
       "percentile": 31.3
     },
     {
-      "ticker": "RMD.AX",
-      "name": "ResMed Inc.",
-      "tsrPct": -8.44,
+      "ticker": "ORA.AX",
+      "name": "Orora Limited",
+      "tsrPct": -8.101672130951421,
       "rank": 70,
       "percentile": 30.3
     },
     {
-      "ticker": "EDV.AX",
-      "name": "Endeavour Group Limited",
-      "tsrPct": -11.15,
+      "ticker": "SIG.AX",
+      "name": "Sigma Healthcare Limited",
+      "tsrPct": -9.305357949127103,
       "rank": 71,
       "percentile": 29.3
     },
     {
-      "ticker": "ORA.AX",
-      "name": "Orora Limited",
-      "tsrPct": -11.21,
+      "ticker": "RMD.AX",
+      "name": "ResMed Inc.",
+      "tsrPct": -9.743634070579043,
       "rank": 72,
       "percentile": 28.3
     },
     {
-      "ticker": "MGR.AX",
-      "name": "Mirvac Group",
-      "tsrPct": -11.66,
+      "ticker": "HUB.AX",
+      "name": "HUB24 Limited",
+      "tsrPct": -10.428797478827756,
       "rank": 73,
       "percentile": 27.3
     },
     {
-      "ticker": "SHL.AX",
-      "name": "Sonic Healthcare Limited",
-      "tsrPct": -12.34,
+      "ticker": "MGR.AX",
+      "name": "Mirvac Group",
+      "tsrPct": -11.169889011437839,
       "rank": 74,
       "percentile": 26.3
     },
     {
-      "ticker": "BEN.AX",
-      "name": "Bendigo and Adelaide Bank Limited",
-      "tsrPct": -13.87,
+      "ticker": "EDV.AX",
+      "name": "Endeavour Group Limited",
+      "tsrPct": -11.373151249075885,
       "rank": 75,
       "percentile": 25.3
     },
     {
-      "ticker": "CSL.AX",
-      "name": "CSL Limited",
-      "tsrPct": -14.04,
+      "ticker": "BEN.AX",
+      "name": "Bendigo and Adelaide Bank Limited",
+      "tsrPct": -11.393472146794991,
       "rank": 76,
       "percentile": 24.2
     },
     {
-      "ticker": "SGP.AX",
-      "name": "Stockland",
-      "tsrPct": -15.38,
+      "ticker": "A2M.AX",
+      "name": "The a2 Milk Company Limited",
+      "tsrPct": -11.880167471409464,
       "rank": 77,
       "percentile": 23.2
     },
     {
-      "ticker": "A2M.AX",
-      "name": "The a2 Milk Company Limited",
-      "tsrPct": -17.54,
+      "ticker": "SGP.AX",
+      "name": "Stockland",
+      "tsrPct": -13.671692240468335,
       "rank": 78,
       "percentile": 22.2
     },
     {
-      "ticker": "HUB.AX",
-      "name": "HUB24 Limited",
-      "tsrPct": -18.48,
+      "ticker": "CSL.AX",
+      "name": "CSL Limited",
+      "tsrPct": -14.02779158362405,
       "rank": 79,
       "percentile": 21.2
     },
     {
       "ticker": "GMG.AX",
       "name": "Goodman Group",
-      "tsrPct": -18.65,
+      "tsrPct": -17.878684548579884,
       "rank": 80,
       "percentile": 20.2
     },
     {
-      "ticker": "TNE.AX",
-      "name": "Technology One Limited",
-      "tsrPct": -18.71,
+      "ticker": "PNI.AX",
+      "name": "Pinnacle Investment Management Group Limited",
+      "tsrPct": -18.728531331346133,
       "rank": 81,
       "percentile": 19.2
     },
     {
-      "ticker": "ALX.AX",
-      "name": "Atlas Arteria Limited",
-      "tsrPct": -19.51,
+      "ticker": "SHL.AX",
+      "name": "Sonic Healthcare Limited",
+      "tsrPct": -18.92170123607333,
       "rank": 82,
       "percentile": 18.2
     },
     {
-      "ticker": "TWE.AX",
-      "name": "Treasury Wine Estates Limited",
-      "tsrPct": -19.79,
+      "ticker": "TNE.AX",
+      "name": "Technology One Limited",
+      "tsrPct": -19.58905852097068,
       "rank": 83,
       "percentile": 17.2
     },
     {
-      "ticker": "LNW.AX",
-      "name": "Light & Wonder, Inc.",
-      "tsrPct": -20.3,
+      "ticker": "WOR.AX",
+      "name": "Worley Limited",
+      "tsrPct": -20.016120588581888,
       "rank": 84,
       "percentile": 16.2
     },
     {
-      "ticker": "WOR.AX",
-      "name": "Worley Limited",
-      "tsrPct": -20.98,
+      "ticker": "TWE.AX",
+      "name": "Treasury Wine Estates Limited",
+      "tsrPct": -20.98536377866558,
       "rank": 85,
       "percentile": 15.2
     },
     {
       "ticker": "SGH.AX",
       "name": "SGH Limited",
-      "tsrPct": -23.79,
+      "tsrPct": -22.208370968032476,
       "rank": 86,
       "percentile": 14.1
     },
     {
-      "ticker": "PNI.AX",
-      "name": "Pinnacle Investment Management Group Limited",
-      "tsrPct": -25.99,
+      "ticker": "ALX.AX",
+      "name": "Atlas Arteria Limited",
+      "tsrPct": -22.57740037446696,
       "rank": 87,
       "percentile": 13.1
     },
     {
-      "ticker": "JBH.AX",
-      "name": "JB Hi-Fi Limited",
-      "tsrPct": -27.62,
+      "ticker": "CAR.AX",
+      "name": "CAR Group Limited",
+      "tsrPct": -27.47921271409608,
       "rank": 88,
       "percentile": 12.1
     },
     {
-      "ticker": "CAR.AX",
-      "name": "CAR Group Limited",
-      "tsrPct": -28.82,
+      "ticker": "REA.AX",
+      "name": "REA Group Limited",
+      "tsrPct": -27.823605056332255,
       "rank": 89,
       "percentile": 11.1
     },
     {
-      "ticker": "REA.AX",
-      "name": "REA Group Limited",
-      "tsrPct": -32.15,
+      "ticker": "JBH.AX",
+      "name": "JB Hi-Fi Limited",
+      "tsrPct": -28.149155568887497,
       "rank": 90,
       "percentile": 10.1
     },
     {
       "ticker": "PME.AX",
       "name": "Pro Medicus Limited",
-      "tsrPct": -32.95,
+      "tsrPct": -28.256479471035068,
       "rank": 91,
       "percentile": 9.1
     },
     {
-      "ticker": "IEL.AX",
-      "name": "IDP Education Limited",
-      "tsrPct": -35.03,
+      "ticker": "360.AX",
+      "name": "Life360, Inc.",
+      "tsrPct": -34.75685570840794,
       "rank": 92,
       "percentile": 8.1
     },
     {
-      "ticker": "NXT.AX",
-      "name": "NEXTDC Limited",
-      "tsrPct": -37.17,
+      "ticker": "IEL.AX",
+      "name": "IDP Education Limited",
+      "tsrPct": -34.89892513710393,
       "rank": 93,
       "percentile": 7.1
     },
     {
-      "ticker": "360.AX",
-      "name": "Life360, Inc.",
-      "tsrPct": -38.67,
+      "ticker": "SEK.AX",
+      "name": "SEEK Limited",
+      "tsrPct": -41.050152343013615,
       "rank": 94,
       "percentile": 6.1
     },
     {
-      "ticker": "SEK.AX",
-      "name": "SEEK Limited",
-      "tsrPct": -45.29,
+      "ticker": "NXT.AX",
+      "name": "NEXTDC Limited",
+      "tsrPct": -42.99811377524142,
       "rank": 95,
       "percentile": 5.1
     },
     {
-      "ticker": "TLX.AX",
-      "name": "Telix Pharmaceuticals Limited",
-      "tsrPct": -46.32,
+      "ticker": "COH.AX",
+      "name": "Cochlear Limited",
+      "tsrPct": -46.59470859699051,
       "rank": 96,
       "percentile": 4.0
     },
     {
-      "ticker": "COH.AX",
-      "name": "Cochlear Limited",
-      "tsrPct": -49.27,
+      "ticker": "TLX.AX",
+      "name": "Telix Pharmaceuticals Limited",
+      "tsrPct": -47.3855314470727,
       "rank": 97,
       "percentile": 3.0
     },
     {
-      "ticker": "WTC.AX",
-      "name": "WiseTech Global Limited",
-      "tsrPct": -58.21,
+      "ticker": "LLC.AX",
+      "name": "Lendlease Group",
+      "tsrPct": -58.93781118147522,
       "rank": 98,
       "percentile": 2.0
     },
     {
-      "ticker": "XRO.AX",
-      "name": "Xero Limited",
-      "tsrPct": -58.87,
+      "ticker": "WTC.AX",
+      "name": "WiseTech Global Limited",
+      "tsrPct": -58.94835563227896,
       "rank": 99,
       "percentile": 1.0
     },
     {
-      "ticker": "LLC.AX",
-      "name": "Lendlease Group",
-      "tsrPct": -68.12,
+      "ticker": "XRO.AX",
+      "name": "Xero Limited",
+      "tsrPct": -61.73492651075898,
       "rank": 100,
       "percentile": 0.0
     }

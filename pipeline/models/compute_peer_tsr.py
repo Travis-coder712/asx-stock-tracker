@@ -7,8 +7,8 @@ import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
-from data.asx100_constituents import PEER_GROUPS
-from models.compute_tsr import compute_tsr
+from data.asx100_constituents import PEER_GROUPS, BLOCKED_TICKERS
+from models.tsr_basis import load_series, tsr_pct
 
 DB_PATH = os.path.join(os.path.dirname(__file__), '..', '..', 'database', 'asx_tracker.db')
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', '..', 'frontend', 'public', 'data', 'tsr')
@@ -20,32 +20,29 @@ def compute_peer_ranking(conn, period_start):
         print(f"  No peer group defined for {period_start}")
         return None
 
-    for ticker in peers:
-        has_prices = conn.execute(
-            "SELECT 1 FROM price_history WHERE ticker=? AND date>=? LIMIT 1",
-            (ticker, period_start)
-        ).fetchone()
-        if has_prices:
-            compute_tsr(conn, ticker, period_start)
+    # ⚠️ Measured on the plan's 30-day VWAP basis via models/tsr_basis, NOT on
+    # spot prices and NOT via the tsr_tracking table. Until 2026-11-21 this
+    # used spot endpoints, which moved AGL's FY27 percentile by 12 points and
+    # FY24's by 4. The LTI page reads its percentiles from the files this
+    # script writes, so this is the one that actually reaches the user.
+    latest = conn.execute("SELECT MAX(date) FROM price_history").fetchone()[0]
 
     rankings = []
     for ticker in peers:
-        row = conn.execute(
-            "SELECT tsr_pct FROM tsr_tracking "
-            "WHERE ticker=? AND period_start=? ORDER BY date DESC LIMIT 1",
-            (ticker, period_start)
-        ).fetchone()
-
+        if ticker in BLOCKED_TICKERS:
+            continue
+        series = load_series(conn, ticker, period_start)
+        t = tsr_pct(series, period_start, latest) if series else None
+        if t is None:
+            continue
         name_row = conn.execute(
             "SELECT name FROM stocks WHERE ticker=?", (ticker,)
         ).fetchone()
-
-        if row and row[0] is not None:
-            rankings.append({
-                'ticker': ticker,
-                'name': name_row[0] if name_row else ticker.replace('.AX', ''),
-                'tsrPct': row[0],
-            })
+        rankings.append({
+            'ticker': ticker,
+            'name': name_row[0] if name_row else ticker.replace('.AX', ''),
+            'tsrPct': t,
+        })
 
     rankings.sort(key=lambda x: x['tsrPct'], reverse=True)
 
