@@ -40,11 +40,18 @@ ASX_100_TICKERS = [
 # refreshed only this stale list, leaving 40 comparator members 11 days behind
 # while the index tickers ran to the current date — which made the exported
 # "asOf" date look fresh when AGL's own price was stale. Union the comparator in.
-try:
-    from pipeline.data.asx100_constituents import PEER_GROUPS
-    COMPARATOR_TICKERS = sorted({t for m in PEER_GROUPS.values() for t in m})
-except Exception:  # never let this break an import run
-    COMPARATOR_TICKERS = []
+# ⚠️ 2026-11-21: the first version of this imported inside a bare try/except.
+# Run as a script (`python pipeline/importers/import_prices.py --all`) the repo
+# root is NOT on sys.path, so the import raised ModuleNotFoundError and the
+# except branch quietly produced an empty list — --all kept fetching only the
+# 95 stale names for three weeks with no error. Bootstrap the path explicitly
+# and let a real failure be a real failure.
+_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+if _ROOT not in sys.path:
+    sys.path.insert(0, _ROOT)
+
+from pipeline.data.asx100_constituents import PEER_GROUPS
+COMPARATOR_TICKERS = sorted({t for m in PEER_GROUPS.values() for t in m})
 
 ALL_TICKERS = sorted(set(ASX_100_TICKERS) | set(COMPARATOR_TICKERS))
 

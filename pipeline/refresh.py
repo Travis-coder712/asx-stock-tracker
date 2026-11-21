@@ -40,11 +40,25 @@ CORE_EXTRA = ['^ATOI', '^AXJO', 'AGL.AX']
 #
 # The comparator is the denominator of a vesting calculation, so partial
 # coverage is not a cosmetic problem. Self-heal the whole group.
-try:
-    from pipeline.data.asx100_constituents import PEER_GROUPS
-    PEER_TICKERS = sorted({t for members in PEER_GROUPS.values() for t in members})
-except Exception:  # never let this break a refresh
-    PEER_TICKERS = []
+#
+# ⚠️ 2026-11-21: the first version of this fix SILENTLY DID NOTHING for three
+# weekly runs. CI calls `python pipeline/refresh.py`, so sys.path[0] is
+# pipeline/, not the repo root — `import pipeline.data...` raised
+# ModuleNotFoundError, and a bare `except Exception` turned that into an empty
+# list. Coverage stayed at 67-73 of 100 and nothing said so. ROOT is already
+# computed above; put it on sys.path, and make a failure LOUD rather than
+# letting it degrade the data quietly. A guard that hides its own failure is
+# worse than no guard.
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
+from pipeline.data.asx100_constituents import PEER_GROUPS
+PEER_TICKERS = sorted({t for members in PEER_GROUPS.values() for t in members})
+if len(PEER_TICKERS) < 100:
+    raise SystemExit(
+        f"comparator group looks wrong: {len(PEER_TICKERS)} tickers, expected ~124. "
+        "Refusing to refresh with a partial comparator."
+    )
 
 
 def run(cmd):
