@@ -25,6 +25,18 @@ OUT_PATH = os.path.join(os.path.dirname(__file__), '..', '..', 'frontend', 'publ
 
 FY_OF = {'2023-07-01': 'FY24', '2024-07-01': 'FY25', '2025-07-01': 'FY26', '2026-07-01': 'FY27'}
 
+# ⚠️ QUB.AX IS DELIBERATELY NOT IN THIS LIST. Qube Holdings was acquired by a
+# Macquarie Asset Management-led consortium for $5.20 cash a share (a 27.8%
+# premium); the scheme was implemented 14-08-2026 and QUB left the ASX on
+# 17-08-2026. Its price series stops at 19-06-2026 with a close of $5.11 —
+# within 2% of the cash consideration — so the frozen TSR is a fair measure of
+# the realised return, and QUB ranks 8th of 93 in the FY24 group on +93.3%.
+#
+# Do NOT "tidy" it into EXIT_REASON. It sits ABOVE AGL in every period it
+# belongs to, so excluding it would lift AGL's percentile on a technicality
+# rather than on performance. A takeover at a premium is a real return to a
+# comparator shareholder and the plan measures relative TSR, not survivorship.
+#
 # Why an excluded comparator name has no measurable TSR (mostly takeovers).
 EXIT_REASON = {
     'AKE': 'merged → Arcadium', 'AWC': 'acquired by Alcoa', 'NCM': 'acquired by Newmont',
