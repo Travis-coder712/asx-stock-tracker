@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-23",
   "periods": {
     "2023-07-01": {
       "fy": "FY24",
       "comparatorSize": 100,
-      "ranked": 92,
+      "ranked": 91,
       "excluded": [
         {
           "ticker": "AKE",
@@ -32,6 +32,11 @@
           "reason": "acquired by Newmont"
         },
         {
+          "ticker": "QUB",
+          "name": "Qube Holdings Ltd",
+          "reason": "delisted / no data"
+        },
+        {
           "ticker": "SQ2",
           "name": "SQ2",
           "reason": "Block CDIs delisted"
@@ -49,10 +54,10 @@
       ],
       "targets": {
         "currentPrice": 9.0,
-        "tsr50": 31.9,
-        "tsr75": 74.0,
-        "price50": 11.31,
-        "price75": 14.91
+        "tsr50": 32.2,
+        "tsr75": 73.8,
+        "price50": 11.33,
+        "price75": 14.9
       },
       "series": [
         {
@@ -61,7 +66,7 @@
           "tsr": 0.5,
           "pct": 96.7,
           "rank": 4,
-          "ranked": 92
+          "ranked": 91
         },
         {
           "date": "2023-08-01",
@@ -69,334 +74,334 @@
           "tsr": 12.1,
           "pct": 97.8,
           "rank": 3,
-          "ranked": 92
+          "ranked": 91
         },
         {
           "date": "2023-09-01",
           "price": 11.04,
           "tsr": 8.5,
-          "pct": 81.3,
+          "pct": 81.1,
           "rank": 18,
-          "ranked": 92
+          "ranked": 91
         },
         {
           "date": "2023-10-01",
           "price": 10.73,
           "tsr": 7.6,
-          "pct": 76.9,
+          "pct": 76.7,
           "rank": 22,
-          "ranked": 92
+          "ranked": 91
         },
         {
           "date": "2023-11-01",
           "price": 10.77,
           "tsr": 5.5,
-          "pct": 80.2,
+          "pct": 80.0,
           "rank": 19,
-          "ranked": 92
+          "ranked": 91
         },
         {
           "date": "2023-12-01",
           "price": 9.43,
           "tsr": 0.0,
-          "pct": 52.7,
-          "rank": 44,
-          "ranked": 92
+          "pct": 53.3,
+          "rank": 43,
+          "ranked": 91
         },
         {
           "date": "2024-01-01",
           "price": 9.48,
           "tsr": -7.8,
-          "pct": 20.9,
-          "rank": 73,
-          "ranked": 92
+          "pct": 21.1,
+          "rank": 72,
+          "ranked": 91
         },
         {
           "date": "2024-02-01",
           "price": 8.54,
           "tsr": -11.6,
-          "pct": 12.1,
-          "rank": 81,
-          "ranked": 92
+          "pct": 12.2,
+          "rank": 80,
+          "ranked": 91
         },
         {
           "date": "2024-03-01",
           "price": 8.66,
           "tsr": -15.7,
-          "pct": 5.5,
-          "rank": 87,
-          "ranked": 92
+          "pct": 5.6,
+          "rank": 86,
+          "ranked": 91
         },
         {
           "date": "2024-04-01",
           "price": 8.34,
           "tsr": -12.5,
-          "pct": 11.0,
-          "rank": 82,
-          "ranked": 92
+          "pct": 11.1,
+          "rank": 81,
+          "ranked": 91
         },
         {
           "date": "2024-05-01",
           "price": 9.45,
           "tsr": -7.6,
-          "pct": 22.0,
-          "rank": 72,
-          "ranked": 92
+          "pct": 22.2,
+          "rank": 71,
+          "ranked": 91
         },
         {
           "date": "2024-06-01",
           "price": 10.23,
           "tsr": 4.2,
-          "pct": 37.4,
-          "rank": 58,
-          "ranked": 92
+          "pct": 37.8,
+          "rank": 57,
+          "ranked": 91
         },
         {
           "date": "2024-07-01",
           "price": 10.68,
           "tsr": 7.0,
-          "pct": 47.3,
-          "rank": 49,
-          "ranked": 92
+          "pct": 47.8,
+          "rank": 48,
+          "ranked": 91
         },
         {
           "date": "2024-08-01",
           "price": 10.56,
           "tsr": 6.0,
-          "pct": 39.6,
-          "rank": 56,
-          "ranked": 92
+          "pct": 40.0,
+          "rank": 55,
+          "ranked": 91
         },
         {
           "date": "2024-09-01",
           "price": 11.61,
           "tsr": 16.0,
-          "pct": 53.8,
-          "rank": 43,
-          "ranked": 92
+          "pct": 54.4,
+          "rank": 42,
+          "ranked": 91
         },
         {
           "date": "2024-10-01",
           "price": 11.88,
           "tsr": 22.7,
-          "pct": 60.4,
-          "rank": 37,
-          "ranked": 92
+          "pct": 61.1,
+          "rank": 36,
+          "ranked": 91
         },
         {
           "date": "2024-11-01",
           "price": 10.53,
           "tsr": 19.6,
-          "pct": 53.8,
-          "rank": 43,
-          "ranked": 92
+          "pct": 54.4,
+          "rank": 42,
+          "ranked": 91
         },
         {
           "date": "2024-12-01",
           "price": 11.2,
           "tsr": 13.8,
-          "pct": 48.4,
-          "rank": 48,
-          "ranked": 92
+          "pct": 48.9,
+          "rank": 47,
+          "ranked": 91
         },
         {
           "date": "2025-01-01",
           "price": 11.29,
           "tsr": 15.0,
-          "pct": 51.6,
-          "rank": 45,
-          "ranked": 92
+          "pct": 52.2,
+          "rank": 44,
+          "ranked": 91
         },
         {
           "date": "2025-02-01",
           "price": 11.52,
           "tsr": 21.1,
-          "pct": 53.8,
-          "rank": 43,
-          "ranked": 92
+          "pct": 54.4,
+          "rank": 42,
+          "ranked": 91
         },
         {
           "date": "2025-03-01",
           "price": 10.46,
           "tsr": 16.5,
-          "pct": 51.6,
-          "rank": 45,
-          "ranked": 92
+          "pct": 52.2,
+          "rank": 44,
+          "ranked": 91
         },
         {
           "date": "2025-04-01",
           "price": 10.71,
           "tsr": 12.4,
-          "pct": 49.5,
-          "rank": 47,
-          "ranked": 92
+          "pct": 50.0,
+          "rank": 46,
+          "ranked": 91
         },
         {
           "date": "2025-05-01",
           "price": 10.68,
           "tsr": 11.8,
-          "pct": 56.0,
-          "rank": 41,
-          "ranked": 92
+          "pct": 56.7,
+          "rank": 40,
+          "ranked": 91
         },
         {
           "date": "2025-06-01",
           "price": 10.15,
           "tsr": 12.5,
-          "pct": 44.0,
-          "rank": 52,
-          "ranked": 92
+          "pct": 44.4,
+          "rank": 51,
+          "ranked": 91
         },
         {
           "date": "2025-07-01",
           "price": 9.82,
           "tsr": 8.4,
-          "pct": 36.3,
-          "rank": 59,
-          "ranked": 92
+          "pct": 36.7,
+          "rank": 58,
+          "ranked": 91
         },
         {
           "date": "2025-08-01",
           "price": 9.76,
           "tsr": 4.7,
-          "pct": 29.7,
-          "rank": 65,
-          "ranked": 92
+          "pct": 30.0,
+          "rank": 64,
+          "ranked": 91
         },
         {
           "date": "2025-09-01",
           "price": 8.28,
           "tsr": -5.5,
-          "pct": 20.9,
-          "rank": 73,
-          "ranked": 92
+          "pct": 21.1,
+          "rank": 72,
+          "ranked": 91
         },
         {
           "date": "2025-10-01",
           "price": 9.22,
           "tsr": -4.9,
-          "pct": 20.9,
-          "rank": 73,
-          "ranked": 92
+          "pct": 21.1,
+          "rank": 72,
+          "ranked": 91
         },
         {
           "date": "2025-11-01",
           "price": 9.26,
           "tsr": -0.3,
-          "pct": 25.3,
-          "rank": 69,
-          "ranked": 92
+          "pct": 25.6,
+          "rank": 68,
+          "ranked": 91
         },
         {
           "date": "2025-12-01",
           "price": 9.32,
           "tsr": 0.8,
-          "pct": 28.6,
-          "rank": 66,
-          "ranked": 92
+          "pct": 28.9,
+          "rank": 65,
+          "ranked": 91
         },
         {
           "date": "2026-01-01",
           "price": 9.31,
           "tsr": 3.8,
-          "pct": 36.3,
-          "rank": 59,
-          "ranked": 92
+          "pct": 36.7,
+          "rank": 58,
+          "ranked": 91
         },
         {
           "date": "2026-02-01",
           "price": 9.05,
           "tsr": -1.4,
-          "pct": 28.6,
-          "rank": 66,
-          "ranked": 92
+          "pct": 28.9,
+          "rank": 65,
+          "ranked": 91
         },
         {
           "date": "2026-03-01",
           "price": 9.89,
           "tsr": 10.9,
-          "pct": 40.7,
-          "rank": 55,
-          "ranked": 92
+          "pct": 41.1,
+          "rank": 54,
+          "ranked": 91
         },
         {
           "date": "2026-04-01",
           "price": 9.92,
           "tsr": 7.3,
-          "pct": 37.4,
-          "rank": 58,
-          "ranked": 92
+          "pct": 37.8,
+          "rank": 57,
+          "ranked": 91
         },
         {
           "date": "2026-05-01",
           "price": 9.69,
           "tsr": 8.0,
-          "pct": 35.2,
-          "rank": 60,
-          "ranked": 92
+          "pct": 35.6,
+          "rank": 59,
+          "ranked": 91
         },
         {
           "date": "2026-06-01",
           "price": 8.58,
           "tsr": 2.2,
-          "pct": 35.2,
-          "rank": 60,
-          "ranked": 92
+          "pct": 35.6,
+          "rank": 59,
+          "ranked": 91
         },
         {
           "date": "2026-07-01",
           "price": 8.39,
           "tsr": -3.8,
-          "pct": 31.9,
-          "rank": 63,
-          "ranked": 92
+          "pct": 32.2,
+          "rank": 62,
+          "ranked": 91
         },
         {
           "date": "2026-08-01",
           "price": 8.28,
           "tsr": -6.0,
-          "pct": 28.6,
-          "rank": 66,
-          "ranked": 92
+          "pct": 25.6,
+          "rank": 68,
+          "ranked": 91
         },
         {
           "date": "2026-09-01",
           "price": 8.68,
           "tsr": -1.6,
-          "pct": 25.3,
+          "pct": 24.4,
           "rank": 69,
-          "ranked": 92
+          "ranked": 91
         },
         {
           "date": "2026-10-01",
           "price": 8.07,
           "tsr": -2.0,
-          "pct": 29.7,
-          "rank": 65,
-          "ranked": 92
+          "pct": 30.0,
+          "rank": 64,
+          "ranked": 91
         },
         {
           "date": "2026-11-01",
           "price": 9.02,
           "tsr": 2.3,
-          "pct": 30.8,
+          "pct": 30.0,
           "rank": 64,
-          "ranked": 92
+          "ranked": 91
         },
         {
-          "date": "2026-11-20",
+          "date": "2026-11-23",
           "price": 9.0,
           "tsr": 5.4,
-          "pct": 30.8,
-          "rank": 64,
-          "ranked": 92
+          "pct": 31.1,
+          "rank": 63,
+          "ranked": 91
         }
       ]
     },
     "2024-07-01": {
       "fy": "FY25",
       "comparatorSize": 100,
-      "ranked": 94,
+      "ranked": 93,
       "excluded": [
         {
           "ticker": "ALU",
@@ -414,6 +419,11 @@
           "reason": "acquired by Rio Tinto"
         },
         {
+          "ticker": "QUB",
+          "name": "Qube Holdings Ltd",
+          "reason": "delisted / no data"
+        },
+        {
           "ticker": "SQ2",
           "name": "SQ2",
           "reason": "Block CDIs delisted"
@@ -431,9 +441,9 @@
       ],
       "targets": {
         "currentPrice": 9.0,
-        "tsr50": 19.5,
-        "tsr75": 48.5,
-        "price50": 10.96,
+        "tsr50": 21.6,
+        "tsr75": 48.6,
+        "price50": 11.15,
         "price75": 13.62
       },
       "series": [
@@ -441,255 +451,261 @@
           "date": "2024-07-01",
           "price": 10.68,
           "tsr": 0.1,
-          "pct": 91.4,
+          "pct": 91.3,
           "rank": 9,
-          "ranked": 94
+          "ranked": 93
         },
         {
           "date": "2024-08-01",
           "price": 10.56,
           "tsr": -0.9,
-          "pct": 24.7,
-          "rank": 71,
-          "ranked": 94
+          "pct": 25.0,
+          "rank": 70,
+          "ranked": 93
         },
         {
           "date": "2024-09-01",
           "price": 11.61,
           "tsr": 8.4,
-          "pct": 71.0,
+          "pct": 70.7,
           "rank": 28,
-          "ranked": 94
+          "ranked": 93
         },
         {
           "date": "2024-10-01",
           "price": 11.88,
           "tsr": 14.7,
-          "pct": 67.7,
+          "pct": 67.4,
           "rank": 31,
-          "ranked": 94
+          "ranked": 93
         },
         {
           "date": "2024-11-01",
           "price": 10.53,
           "tsr": 11.8,
-          "pct": 63.4,
+          "pct": 63.0,
           "rank": 35,
-          "ranked": 94
+          "ranked": 93
         },
         {
           "date": "2024-12-01",
           "price": 11.2,
           "tsr": 6.4,
-          "pct": 46.2,
-          "rank": 51,
-          "ranked": 94
+          "pct": 46.7,
+          "rank": 50,
+          "ranked": 93
         },
         {
           "date": "2025-01-01",
           "price": 11.29,
           "tsr": 7.5,
-          "pct": 49.5,
-          "rank": 48,
-          "ranked": 94
+          "pct": 50.0,
+          "rank": 47,
+          "ranked": 93
         },
         {
           "date": "2025-02-01",
           "price": 11.52,
           "tsr": 13.2,
-          "pct": 62.4,
-          "rank": 36,
-          "ranked": 94
+          "pct": 63.0,
+          "rank": 35,
+          "ranked": 93
         },
         {
           "date": "2025-03-01",
           "price": 10.46,
           "tsr": 8.9,
-          "pct": 49.5,
-          "rank": 48,
-          "ranked": 94
+          "pct": 50.0,
+          "rank": 47,
+          "ranked": 93
         },
         {
           "date": "2025-04-01",
           "price": 10.71,
           "tsr": 5.1,
-          "pct": 52.7,
-          "rank": 45,
-          "ranked": 94
+          "pct": 53.3,
+          "rank": 44,
+          "ranked": 93
         },
         {
           "date": "2025-05-01",
           "price": 10.68,
           "tsr": 4.5,
-          "pct": 54.8,
-          "rank": 43,
-          "ranked": 94
+          "pct": 55.4,
+          "rank": 42,
+          "ranked": 93
         },
         {
           "date": "2025-06-01",
           "price": 10.15,
           "tsr": 5.2,
-          "pct": 41.9,
-          "rank": 55,
-          "ranked": 94
+          "pct": 42.4,
+          "rank": 54,
+          "ranked": 93
         },
         {
           "date": "2025-07-01",
           "price": 9.82,
           "tsr": 1.4,
-          "pct": 35.5,
-          "rank": 61,
-          "ranked": 94
+          "pct": 35.9,
+          "rank": 60,
+          "ranked": 93
         },
         {
           "date": "2025-08-01",
           "price": 9.76,
           "tsr": -2.2,
-          "pct": 28.0,
-          "rank": 68,
-          "ranked": 94
+          "pct": 28.3,
+          "rank": 67,
+          "ranked": 93
         },
         {
           "date": "2025-09-01",
           "price": 8.28,
           "tsr": -11.7,
-          "pct": 16.1,
-          "rank": 79,
-          "ranked": 94
+          "pct": 16.3,
+          "rank": 78,
+          "ranked": 93
         },
         {
           "date": "2025-10-01",
           "price": 9.22,
           "tsr": -11.1,
-          "pct": 19.4,
-          "rank": 76,
-          "ranked": 94
+          "pct": 19.6,
+          "rank": 75,
+          "ranked": 93
         },
         {
           "date": "2025-11-01",
           "price": 9.26,
           "tsr": -6.8,
-          "pct": 24.7,
-          "rank": 71,
-          "ranked": 94
+          "pct": 25.0,
+          "rank": 70,
+          "ranked": 93
         },
         {
           "date": "2025-12-01",
           "price": 9.32,
           "tsr": -5.7,
-          "pct": 24.7,
-          "rank": 71,
-          "ranked": 94
+          "pct": 25.0,
+          "rank": 70,
+          "ranked": 93
         },
         {
           "date": "2026-01-01",
           "price": 9.31,
           "tsr": -2.9,
-          "pct": 31.2,
-          "rank": 65,
-          "ranked": 94
+          "pct": 31.5,
+          "rank": 64,
+          "ranked": 93
         },
         {
           "date": "2026-02-01",
           "price": 9.05,
           "tsr": -7.8,
-          "pct": 21.5,
-          "rank": 74,
-          "ranked": 94
+          "pct": 21.7,
+          "rank": 73,
+          "ranked": 93
         },
         {
           "date": "2026-03-01",
           "price": 9.89,
           "tsr": 3.7,
-          "pct": 37.6,
-          "rank": 59,
-          "ranked": 94
+          "pct": 38.0,
+          "rank": 58,
+          "ranked": 93
         },
         {
           "date": "2026-04-01",
           "price": 9.92,
           "tsr": 0.3,
-          "pct": 37.6,
-          "rank": 59,
-          "ranked": 94
+          "pct": 38.0,
+          "rank": 58,
+          "ranked": 93
         },
         {
           "date": "2026-05-01",
           "price": 9.69,
           "tsr": 1.0,
-          "pct": 34.4,
-          "rank": 62,
-          "ranked": 94
+          "pct": 34.8,
+          "rank": 61,
+          "ranked": 93
         },
         {
           "date": "2026-06-01",
           "price": 8.58,
           "tsr": -4.4,
-          "pct": 32.3,
-          "rank": 64,
-          "ranked": 94
+          "pct": 32.6,
+          "rank": 63,
+          "ranked": 93
         },
         {
           "date": "2026-07-01",
           "price": 8.39,
           "tsr": -10.0,
-          "pct": 25.8,
-          "rank": 70,
-          "ranked": 94
+          "pct": 26.1,
+          "rank": 69,
+          "ranked": 93
         },
         {
           "date": "2026-08-01",
           "price": 8.28,
           "tsr": -12.1,
-          "pct": 24.7,
+          "pct": 23.9,
           "rank": 71,
-          "ranked": 94
+          "ranked": 93
         },
         {
           "date": "2026-09-01",
           "price": 8.68,
           "tsr": -8.0,
-          "pct": 21.5,
-          "rank": 74,
-          "ranked": 94
+          "pct": 21.7,
+          "rank": 73,
+          "ranked": 93
         },
         {
           "date": "2026-10-01",
           "price": 8.07,
           "tsr": -8.4,
-          "pct": 25.8,
-          "rank": 70,
-          "ranked": 94
+          "pct": 26.1,
+          "rank": 69,
+          "ranked": 93
         },
         {
           "date": "2026-11-01",
           "price": 9.02,
           "tsr": -4.3,
-          "pct": 31.2,
-          "rank": 65,
-          "ranked": 94
+          "pct": 31.5,
+          "rank": 64,
+          "ranked": 93
         },
         {
-          "date": "2026-11-20",
+          "date": "2026-11-23",
           "price": 9.0,
-          "tsr": -1.4,
-          "pct": 32.3,
-          "rank": 64,
-          "ranked": 94
+          "tsr": -1.5,
+          "pct": 32.6,
+          "rank": 63,
+          "ranked": 93
         }
       ]
     },
     "2025-07-01": {
       "fy": "FY26",
       "comparatorSize": 100,
-      "ranked": 100,
-      "excluded": [],
+      "ranked": 99,
+      "excluded": [
+        {
+          "ticker": "QUB",
+          "name": "Qube Holdings Ltd",
+          "reason": "delisted / no data"
+        }
+      ],
       "targets": {
         "currentPrice": 9.0,
-        "tsr50": 5.1,
-        "tsr75": 25.6,
-        "price50": 9.8,
-        "price75": 11.72
+        "tsr50": 5.4,
+        "tsr75": 26.6,
+        "price50": 9.83,
+        "price75": 11.81
       },
       "series": [
         {
@@ -697,207 +713,213 @@
           "price": 9.82,
           "tsr": -0.4,
           "pct": 2.0,
-          "rank": 98,
-          "ranked": 100
+          "rank": 97,
+          "ranked": 99
         },
         {
           "date": "2025-08-01",
           "price": 9.76,
           "tsr": -3.8,
-          "pct": 11.1,
-          "rank": 89,
-          "ranked": 100
+          "pct": 11.2,
+          "rank": 88,
+          "ranked": 99
         },
         {
           "date": "2025-09-01",
           "price": 8.28,
           "tsr": -13.2,
           "pct": 2.0,
-          "rank": 98,
-          "ranked": 100
+          "rank": 97,
+          "ranked": 99
         },
         {
           "date": "2025-10-01",
           "price": 9.22,
           "tsr": -12.7,
           "pct": 7.1,
-          "rank": 93,
-          "ranked": 100
+          "rank": 92,
+          "ranked": 99
         },
         {
           "date": "2025-11-01",
           "price": 9.26,
           "tsr": -8.4,
-          "pct": 17.2,
-          "rank": 83,
-          "ranked": 100
+          "pct": 17.3,
+          "rank": 82,
+          "ranked": 99
         },
         {
           "date": "2025-12-01",
           "price": 9.32,
           "tsr": -7.3,
-          "pct": 30.3,
-          "rank": 70,
-          "ranked": 100
+          "pct": 30.6,
+          "rank": 69,
+          "ranked": 99
         },
         {
           "date": "2026-01-01",
           "price": 9.31,
           "tsr": -4.6,
-          "pct": 39.4,
-          "rank": 61,
-          "ranked": 100
+          "pct": 39.8,
+          "rank": 60,
+          "ranked": 99
         },
         {
           "date": "2026-02-01",
           "price": 9.05,
           "tsr": -9.4,
-          "pct": 26.3,
-          "rank": 74,
-          "ranked": 100
+          "pct": 26.5,
+          "rank": 73,
+          "ranked": 99
         },
         {
           "date": "2026-03-01",
           "price": 9.89,
           "tsr": 1.9,
-          "pct": 52.5,
-          "rank": 48,
-          "ranked": 100
+          "pct": 53.1,
+          "rank": 47,
+          "ranked": 99
         },
         {
           "date": "2026-04-01",
           "price": 9.92,
           "tsr": -1.4,
-          "pct": 54.5,
-          "rank": 46,
-          "ranked": 100
+          "pct": 55.1,
+          "rank": 45,
+          "ranked": 99
         },
         {
           "date": "2026-05-01",
           "price": 9.69,
           "tsr": -0.8,
-          "pct": 52.5,
-          "rank": 48,
-          "ranked": 100
+          "pct": 53.1,
+          "rank": 47,
+          "ranked": 99
         },
         {
           "date": "2026-06-01",
           "price": 8.58,
           "tsr": -6.1,
-          "pct": 49.5,
-          "rank": 51,
-          "ranked": 100
+          "pct": 50.0,
+          "rank": 50,
+          "ranked": 99
         },
         {
           "date": "2026-07-01",
           "price": 8.39,
           "tsr": -11.6,
-          "pct": 37.4,
-          "rank": 63,
-          "ranked": 100
+          "pct": 35.7,
+          "rank": 64,
+          "ranked": 99
         },
         {
           "date": "2026-08-01",
           "price": 8.28,
           "tsr": -13.6,
-          "pct": 27.3,
-          "rank": 73,
-          "ranked": 100
+          "pct": 27.6,
+          "rank": 72,
+          "ranked": 99
         },
         {
           "date": "2026-09-01",
           "price": 8.68,
           "tsr": -9.5,
-          "pct": 32.3,
-          "rank": 68,
-          "ranked": 100
+          "pct": 30.6,
+          "rank": 69,
+          "ranked": 99
         },
         {
           "date": "2026-10-01",
           "price": 8.07,
           "tsr": -10.0,
-          "pct": 39.4,
-          "rank": 61,
-          "ranked": 100
+          "pct": 39.8,
+          "rank": 60,
+          "ranked": 99
         },
         {
           "date": "2026-11-01",
           "price": 9.02,
           "tsr": -6.0,
-          "pct": 41.4,
+          "pct": 40.8,
           "rank": 59,
-          "ranked": 100
+          "ranked": 99
         },
         {
-          "date": "2026-11-20",
+          "date": "2026-11-23",
           "price": 9.0,
-          "tsr": -3.1,
-          "pct": 38.4,
-          "rank": 62,
-          "ranked": 100
+          "tsr": -3.2,
+          "pct": 36.7,
+          "rank": 63,
+          "ranked": 99
         }
       ]
     },
     "2026-07-01": {
       "fy": "FY27",
       "comparatorSize": 100,
-      "ranked": 100,
-      "excluded": [],
+      "ranked": 99,
+      "excluded": [
+        {
+          "ticker": "QUB",
+          "name": "Qube Holdings Ltd",
+          "reason": "delisted / no data"
+        }
+      ],
       "targets": {
         "currentPrice": 9.0,
-        "tsr50": 3.4,
-        "tsr75": 15.5,
-        "price50": 8.54,
-        "price75": 9.54
+        "tsr50": 5.6,
+        "tsr75": 15.9,
+        "price50": 8.72,
+        "price75": 9.57
       },
       "series": [
         {
           "date": "2026-07-01",
           "price": 8.39,
           "tsr": -0.1,
-          "pct": 39.4,
-          "rank": 61,
-          "ranked": 100
+          "pct": 34.7,
+          "rank": 65,
+          "ranked": 99
         },
         {
           "date": "2026-08-01",
           "price": 8.28,
           "tsr": -2.5,
-          "pct": 29.3,
-          "rank": 71,
-          "ranked": 100
+          "pct": 27.6,
+          "rank": 72,
+          "ranked": 99
         },
         {
           "date": "2026-09-01",
           "price": 8.68,
           "tsr": 2.2,
-          "pct": 39.4,
-          "rank": 61,
-          "ranked": 100
+          "pct": 34.7,
+          "rank": 65,
+          "ranked": 99
         },
         {
           "date": "2026-10-01",
           "price": 8.07,
           "tsr": 1.7,
-          "pct": 51.5,
-          "rank": 49,
-          "ranked": 100
+          "pct": 49.0,
+          "rank": 51,
+          "ranked": 99
         },
         {
           "date": "2026-11-01",
           "price": 9.02,
           "tsr": 6.2,
-          "pct": 59.6,
+          "pct": 59.2,
           "rank": 41,
-          "ranked": 100
+          "ranked": 99
         },
         {
-          "date": "2026-11-20",
+          "date": "2026-11-23",
           "price": 9.0,
           "tsr": 9.4,
-          "pct": 60.6,
-          "rank": 40,
-          "ranked": 100
+          "pct": 57.1,
+          "rank": 43,
+          "ranked": 99
         }
       ]
     }

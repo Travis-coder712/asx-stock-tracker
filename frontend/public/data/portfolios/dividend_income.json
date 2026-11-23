@@ -218,7 +218,7 @@
   },
   {
     "date": "2024-02-15",
-    "totalValue": 5226.75,
+    "totalValue": 5226.74,
     "cash": 0.0,
     "numHoldings": 10,
     "dailyReturn": 1.6074
@@ -1124,7 +1124,7 @@
     "totalValue": 5514.0,
     "cash": 0.0,
     "numHoldings": 10,
-    "dailyReturn": 0.2187
+    "dailyReturn": 0.2188
   },
   {
     "date": "2024-08-21",
@@ -1387,7 +1387,7 @@
   },
   {
     "date": "2024-10-11",
-    "totalValue": 5901.8,
+    "totalValue": 5901.81,
     "cash": 0.0,
     "numHoldings": 10,
     "dailyReturn": -0.233
@@ -1768,7 +1768,7 @@
     "totalValue": 6174.4,
     "cash": 0.0,
     "numHoldings": 10,
-    "dailyReturn": -0.2427
+    "dailyReturn": -0.2428
   },
   {
     "date": "2024-12-31",
@@ -1989,7 +1989,7 @@
   },
   {
     "date": "2025-02-14",
-    "totalValue": 6349.19,
+    "totalValue": 6349.2,
     "cash": 0.0,
     "numHoldings": 10,
     "dailyReturn": 0.6832
@@ -2286,7 +2286,7 @@
     "totalValue": 5944.72,
     "cash": 0.0,
     "numHoldings": 10,
-    "dailyReturn": 0.4225
+    "dailyReturn": 0.4226
   },
   {
     "date": "2025-04-16",
@@ -2650,7 +2650,7 @@
     "totalValue": 6788.87,
     "cash": 0.0,
     "numHoldings": 10,
-    "dailyReturn": 0.6994
+    "dailyReturn": 0.6993
   },
   {
     "date": "2025-07-03",
@@ -2832,7 +2832,7 @@
     "totalValue": 6976.85,
     "cash": 0.0,
     "numHoldings": 10,
-    "dailyReturn": 0.1241
+    "dailyReturn": 0.1242
   },
   {
     "date": "2025-08-08",
@@ -3140,7 +3140,7 @@
     "totalValue": 7262.12,
     "cash": 0.0,
     "numHoldings": 10,
-    "dailyReturn": -0.4705
+    "dailyReturn": -0.4704
   },
   {
     "date": "2025-10-09",
@@ -3270,7 +3270,7 @@
   },
   {
     "date": "2025-11-04",
-    "totalValue": 6927.27,
+    "totalValue": 6927.26,
     "cash": 0.0,
     "numHoldings": 10,
     "dailyReturn": -1.1521
@@ -3511,7 +3511,7 @@
     "totalValue": 6790.79,
     "cash": 0.0,
     "numHoldings": 10,
-    "dailyReturn": 0.5946
+    "dailyReturn": 0.5945
   },
   {
     "date": "2025-12-23",
@@ -3585,7 +3585,7 @@
   },
   {
     "date": "2026-01-09",
-    "totalValue": 6748.36,
+    "totalValue": 6748.35,
     "cash": 0.0,
     "numHoldings": 10,
     "dailyReturn": -0.3955
@@ -5104,9 +5104,44 @@
   },
   {
     "date": "2026-11-16",
-    "totalValue": 6344.21,
+    "totalValue": 6359.07,
     "cash": 0.0,
     "numHoldings": 10,
-    "dailyReturn": 0.0
+    "dailyReturn": 0.2343
+  },
+  {
+    "date": "2026-11-17",
+    "totalValue": 6259.76,
+    "cash": 0.0,
+    "numHoldings": 10,
+    "dailyReturn": -1.5618
+  },
+  {
+    "date": "2026-11-18",
+    "totalValue": 6194.54,
+    "cash": 0.0,
+    "numHoldings": 10,
+    "dailyReturn": -1.0417
+  },
+  {
+    "date": "2026-11-19",
+    "totalValue": 6216.34,
+    "cash": 0.0,
+    "numHoldings": 10,
+    "dailyReturn": 0.3519
+  },
+  {
+    "date": "2026-11-20",
+    "totalValue": 6152.12,
+    "cash": 0.0,
+    "numHoldings": 10,
+    "dailyReturn": -1.0331
+  },
+  {
+    "date": "2026-11-23",
+    "totalValue": 6165.76,
+    "cash": 0.0,
+    "numHoldings": 10,
+    "dailyReturn": 0.2217
   }
 ]

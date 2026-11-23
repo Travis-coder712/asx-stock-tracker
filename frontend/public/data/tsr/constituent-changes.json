@@ -13,11 +13,11 @@
       },
       {
         "ticker": "NEM",
-        "name": "NEM"
+        "name": "Newmont Corporation"
       },
       {
         "ticker": "PDN",
-        "name": "PDN"
+        "name": "Paladin Energy Ltd"
       },
       {
         "ticker": "PME",
@@ -25,7 +25,7 @@
       },
       {
         "ticker": "VEA",
-        "name": "VEA"
+        "name": "Viva Energy Group Limited"
       }
     ],
     "exited": [
@@ -51,7 +51,7 @@
       },
       {
         "ticker": "RGN",
-        "name": "RGN"
+        "name": "Region Group"
       }
     ]
   },
@@ -61,47 +61,47 @@
     "entered": [
       {
         "ticker": "360",
-        "name": "360"
+        "name": "Life360, Inc."
       },
       {
         "ticker": "DNL",
-        "name": "Dyno Nobel"
+        "name": "Dyno Nobel Limited"
       },
       {
         "ticker": "HUB",
-        "name": "HUB"
+        "name": "HUB24 Limited"
       },
       {
         "ticker": "LNW",
-        "name": "LNW"
+        "name": "Light & Wonder, Inc."
       },
       {
         "ticker": "PNI",
-        "name": "PNI"
+        "name": "Pinnacle Investment Management Group Limited"
       },
       {
         "ticker": "PRU",
-        "name": "PRU"
+        "name": "Perseus Mining Limited"
       },
       {
         "ticker": "SFR",
-        "name": "SFR"
+        "name": "Sandfire Resources Limited"
       },
       {
         "ticker": "SGH",
-        "name": "Seven Group Holdings"
+        "name": "SGH Limited"
       },
       {
         "ticker": "SIG",
-        "name": "SIG"
+        "name": "Sigma Healthcare Limited"
       },
       {
         "ticker": "TLX",
-        "name": "TLX"
+        "name": "Telix Pharmaceuticals Limited"
       },
       {
         "ticker": "XYZ",
-        "name": "Block Inc"
+        "name": "Block, Inc."
       }
     ],
     "exited": [
@@ -111,7 +111,7 @@
       },
       {
         "ticker": "DMP",
-        "name": "DMP"
+        "name": "Domino's Pizza Enterprises Limited"
       },
       {
         "ticker": "ILU",
@@ -131,7 +131,7 @@
       },
       {
         "ticker": "PDN",
-        "name": "PDN"
+        "name": "Paladin Energy Ltd"
       },
       {
         "ticker": "SQ2",
@@ -143,7 +143,7 @@
       },
       {
         "ticker": "VEA",
-        "name": "VEA"
+        "name": "Viva Energy Group Limited"
       },
       {
         "ticker": "VUK",
@@ -157,35 +157,35 @@
     "entered": [
       {
         "ticker": "APE",
-        "name": "APE"
+        "name": "Eagers Automotive Limited"
       },
       {
         "ticker": "CMM",
-        "name": "CMM"
+        "name": "Capricorn Metals Ltd"
       },
       {
         "ticker": "GGP",
-        "name": "GGP"
+        "name": "Greatland Resources Limited"
       },
       {
         "ticker": "GMD",
-        "name": "GMD"
+        "name": "Genesis Minerals Limited"
       },
       {
         "ticker": "PDN",
-        "name": "PDN"
+        "name": "Paladin Energy Ltd"
       },
       {
         "ticker": "RMS",
-        "name": "RMS"
+        "name": "Ramelius Resources Limited"
       },
       {
         "ticker": "RRL",
-        "name": "RRL"
+        "name": "Regis Resources Limited"
       },
       {
         "ticker": "WGX",
-        "name": "WGX"
+        "name": "Westgold Resources Limited"
       }
     ],
     "exited": [
@@ -203,7 +203,7 @@
       },
       {
         "ticker": "MTS",
-        "name": "MTS"
+        "name": "Metcash Limited"
       },
       {
         "ticker": "ORA",
@@ -211,15 +211,15 @@
       },
       {
         "ticker": "PNI",
-        "name": "PNI"
+        "name": "Pinnacle Investment Management Group Limited"
       },
       {
         "ticker": "REH",
-        "name": "REH"
+        "name": "Reece Limited"
       },
       {
         "ticker": "RWC",
-        "name": "RWC"
+        "name": "Reliance Worldwide Corporation Limited"
       }
     ]
   }

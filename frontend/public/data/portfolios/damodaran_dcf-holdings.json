@@ -77,6 +77,17 @@
     "rationale": "P/E 18.2 (sector med 52.0, +65%), FCF yield 1.02%"
   },
   {
+    "ticker": "RWC.AX",
+    "name": "Reliance Worldwide Corporation Limited",
+    "shares": 117.9533,
+    "buyPrice": 4.24,
+    "buyDate": "2024-01-02",
+    "sellPrice": null,
+    "sellDate": null,
+    "isManual": false,
+    "rationale": "P/E 19.7 (sector med 33.8, +42%), FCF yield 5.12%"
+  },
+  {
     "ticker": "SKC.AX",
     "name": "SkyCity Entertainment Group Limited",
     "shares": 302.5733,

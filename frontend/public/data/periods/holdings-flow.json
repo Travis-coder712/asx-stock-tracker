@@ -30,11 +30,41 @@
       ],
       "stocks": [
         {
+          "ticker": "360",
+          "name": "Life360, Inc.",
+          "cells": {
+            "H1-2024": {
+              "rank": 1,
+              "ret": 118.9
+            },
+            "H2-2024": {
+              "rank": 4,
+              "ret": 39.7
+            },
+            "H1-2025": {
+              "rank": 1,
+              "ret": 42.5
+            },
+            "H2-2025": {
+              "rank": 3,
+              "ret": -0.2
+            },
+            "H1-2026": {
+              "rank": 8,
+              "ret": -17.7
+            },
+            "H2-2026": {
+              "rank": 10,
+              "ret": -19.5
+            }
+          }
+        },
+        {
           "ticker": "PME",
           "name": "Pro Medicus Limited",
           "cells": {
             "H1-2024": {
-              "rank": 1,
+              "rank": 2,
               "ret": 49.0
             },
             "H2-2024": {
@@ -42,11 +72,11 @@
               "ret": 84.6
             },
             "H1-2025": {
-              "rank": 4,
+              "rank": 6,
               "ret": 13.1
             },
             "H2-2025": {
-              "rank": 6,
+              "rank": 8,
               "ret": -21.5
             },
             "H1-2026": {
@@ -54,34 +84,38 @@
               "ret": -8.4
             },
             "H2-2026": {
-              "rank": 7,
-              "ret": 0.1
+              "rank": 8,
+              "ret": -8.8
             }
           }
         },
         {
-          "ticker": "ALL",
-          "name": "Aristocrat Leisure Limited",
+          "ticker": "HUB",
+          "name": "HUB24 Limited",
           "cells": {
             "H1-2024": {
-              "rank": 2,
-              "ret": 22.5
+              "rank": 3,
+              "ret": 30.2
             },
             "H2-2024": {
               "rank": 3,
-              "ret": 37.5
+              "ret": 51.6
             },
             "H1-2025": {
-              "rank": 8,
-              "ret": -4.4
+              "rank": 3,
+              "ret": 29.9
             },
             "H2-2025": {
-              "rank": 4,
-              "ret": -10.7
+              "rank": 2,
+              "ret": 9.0
+            },
+            "H1-2026": {
+              "rank": 10,
+              "ret": -23.7
             },
             "H2-2026": {
-              "rank": 4,
-              "ret": 10.6
+              "rank": 5,
+              "ret": -5.8
             }
           }
         },
@@ -90,7 +124,7 @@
           "name": "JB Hi-Fi Limited",
           "cells": {
             "H1-2024": {
-              "rank": 3,
+              "rank": 5,
               "ret": 15.3
             },
             "H2-2024": {
@@ -98,20 +132,38 @@
               "ret": 56.1
             },
             "H1-2025": {
-              "rank": 3,
+              "rank": 5,
               "ret": 18.8
             },
             "H2-2025": {
-              "rank": 5,
+              "rank": 7,
               "ret": -11.5
             },
             "H1-2026": {
-              "rank": 5,
+              "rank": 7,
               "ret": -14.2
+            }
+          }
+        },
+        {
+          "ticker": "ALL",
+          "name": "Aristocrat Leisure Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 4,
+              "ret": 22.5
             },
-            "H2-2026": {
-              "rank": 8,
-              "ret": -0.5
+            "H2-2024": {
+              "rank": 5,
+              "ret": 37.5
+            },
+            "H1-2025": {
+              "rank": 10,
+              "ret": -4.4
+            },
+            "H2-2025": {
+              "rank": 6,
+              "ret": -10.7
             }
           }
         },
@@ -120,15 +172,15 @@
           "name": "CAR Group Limited",
           "cells": {
             "H1-2024": {
-              "rank": 4,
+              "rank": 6,
               "ret": 13.3
             },
             "H2-2024": {
-              "rank": 6,
+              "rank": 8,
               "ret": 5.0
             },
             "H1-2025": {
-              "rank": 6,
+              "rank": 8,
               "ret": 3.7
             }
           }
@@ -138,19 +190,19 @@
           "name": "REA Group Limited",
           "cells": {
             "H1-2024": {
-              "rank": 6,
+              "rank": 8,
               "ret": 7.6
             },
             "H2-2024": {
-              "rank": 4,
+              "rank": 6,
               "ret": 22.6
             },
             "H1-2025": {
-              "rank": 7,
+              "rank": 9,
               "ret": 2.7
             },
             "H2-2025": {
-              "rank": 7,
+              "rank": 9,
               "ret": -22.5
             }
           }
@@ -160,11 +212,11 @@
           "name": "Cochlear Limited",
           "cells": {
             "H1-2024": {
-              "rank": 5,
+              "rank": 7,
               "ret": 11.0
             },
             "H2-2024": {
-              "rank": 7,
+              "rank": 9,
               "ret": -9.5
             }
           }
@@ -174,7 +226,7 @@
           "name": "ARB Corporation Limited",
           "cells": {
             "H1-2024": {
-              "rank": 7,
+              "rank": 9,
               "ret": 5.5
             }
           }
@@ -184,7 +236,7 @@
           "name": "Fortescue Ltd",
           "cells": {
             "H1-2024": {
-              "rank": 8,
+              "rank": 10,
               "ret": -24.2
             }
           }
@@ -194,16 +246,26 @@
           "name": "Insurance Australia Group Limited",
           "cells": {
             "H2-2024": {
-              "rank": 5,
+              "rank": 7,
               "ret": 21.8
             },
             "H1-2025": {
-              "rank": 5,
+              "rank": 7,
               "ret": 7.4
             },
             "H2-2025": {
-              "rank": 3,
+              "rank": 5,
               "ret": -9.1
+            }
+          }
+        },
+        {
+          "ticker": "LNW",
+          "name": "Light & Wonder, Inc.",
+          "cells": {
+            "H2-2024": {
+              "rank": 10,
+              "ret": -12.1
             }
           }
         },
@@ -212,20 +274,16 @@
           "name": "Technology One Limited",
           "cells": {
             "H1-2025": {
-              "rank": 1,
+              "rank": 2,
               "ret": 34.2
             },
             "H2-2025": {
-              "rank": 8,
+              "rank": 10,
               "ret": -30.6
             },
             "H1-2026": {
               "rank": 1,
               "ret": 6.1
-            },
-            "H2-2026": {
-              "rank": 5,
-              "ret": 9.7
             }
           }
         },
@@ -234,11 +292,11 @@
           "name": "Brambles Limited",
           "cells": {
             "H1-2025": {
-              "rank": 2,
+              "rank": 4,
               "ret": 22.4
             },
             "H2-2025": {
-              "rank": 2,
+              "rank": 4,
               "ret": -0.3
             }
           }
@@ -256,8 +314,8 @@
               "ret": -6.3
             },
             "H2-2026": {
-              "rank": 2,
-              "ret": 14.3
+              "rank": 7,
+              "ret": -6.4
             }
           }
         },
@@ -268,10 +326,26 @@
             "H1-2026": {
               "rank": 2,
               "ret": -5.4
-            },
-            "H2-2026": {
-              "rank": 9,
-              "ret": -0.8
+            }
+          }
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "cells": {
+            "H1-2026": {
+              "rank": 5,
+              "ret": -10.7
+            }
+          }
+        },
+        {
+          "ticker": "PRU",
+          "name": "Perseus Mining Limited",
+          "cells": {
+            "H1-2026": {
+              "rank": 6,
+              "ret": -14.2
             }
           }
         },
@@ -280,48 +354,68 @@
           "name": "Northern Star Resources Limited",
           "cells": {
             "H1-2026": {
-              "rank": 6,
+              "rank": 9,
               "ret": -21.8
             }
           }
         },
         {
-          "ticker": "CCL",
-          "name": "Cuscal Limited",
+          "ticker": "GMD",
+          "name": "Genesis Minerals Limited",
           "cells": {
             "H2-2026": {
               "rank": 1,
-              "ret": 16.5
+              "ret": 17.7
             }
           }
         },
         {
-          "ticker": "MPL",
-          "name": "Medibank Private Limited",
+          "ticker": "WGX",
+          "name": "Westgold Resources Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 2,
+              "ret": 10.2
+            }
+          }
+        },
+        {
+          "ticker": "SIG",
+          "name": "Sigma Healthcare Limited",
           "cells": {
             "H2-2026": {
               "rank": 3,
-              "ret": 12.3
+              "ret": 6.3
             }
           }
         },
         {
-          "ticker": "QBE",
-          "name": "QBE Insurance Group Limited",
+          "ticker": "RRL",
+          "name": "Regis Resources Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 4,
+              "ret": -0.5
+            }
+          }
+        },
+        {
+          "ticker": "CMM",
+          "name": "Capricorn Metals Ltd",
           "cells": {
             "H2-2026": {
               "rank": 6,
-              "ret": 8.8
+              "ret": -6.3
             }
           }
         },
         {
-          "ticker": "WES",
-          "name": "Wesfarmers Limited",
+          "ticker": "SFR",
+          "name": "Sandfire Resources Limited",
           "cells": {
             "H2-2026": {
-              "rank": 10,
-              "ret": -9.3
+              "rank": 9,
+              "ret": -13.7
             }
           }
         }
@@ -357,11 +451,41 @@
       ],
       "stocks": [
         {
+          "ticker": "360",
+          "name": "Life360, Inc.",
+          "cells": {
+            "H1-2024": {
+              "rank": 1,
+              "ret": 118.9
+            },
+            "H2-2024": {
+              "rank": 3,
+              "ret": 39.7
+            },
+            "H1-2025": {
+              "rank": 1,
+              "ret": 42.5
+            },
+            "H2-2025": {
+              "rank": 5,
+              "ret": -0.2
+            },
+            "H1-2026": {
+              "rank": 7,
+              "ret": -17.7
+            },
+            "H2-2026": {
+              "rank": 9,
+              "ret": -19.5
+            }
+          }
+        },
+        {
           "ticker": "PME",
           "name": "Pro Medicus Limited",
           "cells": {
             "H1-2024": {
-              "rank": 1,
+              "rank": 2,
               "ret": 49.0
             },
             "H2-2024": {
@@ -369,12 +493,8 @@
               "ret": 84.6
             },
             "H1-2025": {
-              "rank": 6,
+              "rank": 7,
               "ret": 13.1
-            },
-            "H2-2026": {
-              "rank": 6,
-              "ret": 0.1
             }
           }
         },
@@ -383,19 +503,19 @@
           "name": "Washington H. Soul Pattinson and Company Limited",
           "cells": {
             "H1-2024": {
-              "rank": 4,
+              "rank": 6,
               "ret": 0.8
             },
             "H2-2024": {
-              "rank": 7,
+              "rank": 9,
               "ret": 5.6
             },
             "H1-2025": {
-              "rank": 1,
+              "rank": 2,
               "ret": 24.6
             },
             "H2-2025": {
-              "rank": 7,
+              "rank": 8,
               "ret": -11.3
             },
             "H1-2026": {
@@ -403,8 +523,8 @@
               "ret": 24.8
             },
             "H2-2026": {
-              "rank": 5,
-              "ret": 8.3
+              "rank": 4,
+              "ret": 4.4
             }
           }
         },
@@ -413,7 +533,7 @@
           "name": "JB Hi-Fi Limited",
           "cells": {
             "H1-2024": {
-              "rank": 2,
+              "rank": 3,
               "ret": 15.3
             },
             "H2-2024": {
@@ -421,20 +541,16 @@
               "ret": 56.1
             },
             "H1-2025": {
-              "rank": 4,
+              "rank": 5,
               "ret": 18.8
             },
             "H2-2025": {
-              "rank": 8,
+              "rank": 9,
               "ret": -11.5
             },
             "H1-2026": {
-              "rank": 4,
+              "rank": 6,
               "ret": -14.2
-            },
-            "H2-2026": {
-              "rank": 7,
-              "ret": -0.5
             }
           }
         },
@@ -443,7 +559,7 @@
           "name": "Northern Star Resources Limited",
           "cells": {
             "H1-2024": {
-              "rank": 6,
+              "rank": 8,
               "ret": -4.2
             },
             "H2-2025": {
@@ -451,22 +567,8 @@
               "ret": 44.4
             },
             "H1-2026": {
-              "rank": 5,
+              "rank": 8,
               "ret": -21.8
-            }
-          }
-        },
-        {
-          "ticker": "REA",
-          "name": "REA Group Limited",
-          "cells": {
-            "H1-2024": {
-              "rank": 3,
-              "ret": 7.6
-            },
-            "H2-2024": {
-              "rank": 3,
-              "ret": 22.6
             }
           }
         },
@@ -475,15 +577,15 @@
           "name": "Stockland",
           "cells": {
             "H1-2024": {
-              "rank": 5,
+              "rank": 7,
               "ret": -2.2
             },
             "H2-2024": {
-              "rank": 5,
+              "rank": 6,
               "ret": 14.8
             },
             "H1-2025": {
-              "rank": 5,
+              "rank": 6,
               "ret": 14.5
             },
             "H2-2025": {
@@ -491,8 +593,40 @@
               "ret": 6.8
             },
             "H1-2026": {
-              "rank": 6,
+              "rank": 9,
               "ret": -26.3
+            }
+          }
+        },
+        {
+          "ticker": "REA",
+          "name": "REA Group Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 4,
+              "ret": 7.6
+            },
+            "H2-2024": {
+              "rank": 4,
+              "ret": 22.6
+            }
+          }
+        },
+        {
+          "ticker": "RWC",
+          "name": "Reliance Worldwide Corporation Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 5,
+              "ret": 3.1
+            },
+            "H2-2024": {
+              "rank": 8,
+              "ret": 13.9
+            },
+            "H1-2025": {
+              "rank": 10,
+              "ret": -18.6
             }
           }
         },
@@ -501,7 +635,7 @@
           "name": "Fortescue Ltd",
           "cells": {
             "H1-2024": {
-              "rank": 7,
+              "rank": 9,
               "ret": -24.2
             }
           }
@@ -511,7 +645,7 @@
           "name": "Nine Entertainment Co. Holdings Limited",
           "cells": {
             "H1-2024": {
-              "rank": 8,
+              "rank": 10,
               "ret": -29.0
             }
           }
@@ -521,34 +655,16 @@
           "name": "QBE Insurance Group Limited",
           "cells": {
             "H2-2024": {
-              "rank": 6,
+              "rank": 7,
               "ret": 14.2
             },
             "H1-2025": {
-              "rank": 2,
+              "rank": 3,
               "ret": 23.6
             },
             "H2-2025": {
-              "rank": 9,
+              "rank": 10,
               "ret": -13.9
-            },
-            "H2-2026": {
-              "rank": 4,
-              "ret": 8.8
-            }
-          }
-        },
-        {
-          "ticker": "ORG",
-          "name": "Origin Energy Limited",
-          "cells": {
-            "H2-2024": {
-              "rank": 8,
-              "ret": 2.6
-            },
-            "H2-2026": {
-              "rank": 2,
-              "ret": 13.7
             }
           }
         },
@@ -557,16 +673,26 @@
           "name": "Insurance Australia Group Limited",
           "cells": {
             "H2-2024": {
-              "rank": 4,
+              "rank": 5,
               "ret": 21.8
             },
             "H1-2025": {
-              "rank": 7,
+              "rank": 8,
               "ret": 7.4
             },
             "H2-2025": {
-              "rank": 6,
+              "rank": 7,
               "ret": -9.1
+            }
+          }
+        },
+        {
+          "ticker": "ORG",
+          "name": "Origin Energy Limited",
+          "cells": {
+            "H2-2024": {
+              "rank": 10,
+              "ret": 2.6
             }
           }
         },
@@ -575,7 +701,7 @@
           "name": "Vicinity Centres",
           "cells": {
             "H1-2025": {
-              "rank": 3,
+              "rank": 4,
               "ret": 19.1
             },
             "H2-2025": {
@@ -587,8 +713,8 @@
               "ret": 2.5
             },
             "H2-2026": {
-              "rank": 8,
-              "ret": -5.0
+              "rank": 6,
+              "ret": -6.0
             }
           }
         },
@@ -597,11 +723,11 @@
           "name": "ResMed Inc.",
           "cells": {
             "H1-2025": {
-              "rank": 8,
+              "rank": 9,
               "ret": 6.7
             },
             "H2-2025": {
-              "rank": 5,
+              "rank": 6,
               "ret": -7.7
             }
           }
@@ -619,8 +745,32 @@
               "ret": -6.3
             },
             "H2-2026": {
+              "rank": 7,
+              "ret": -6.4
+            }
+          }
+        },
+        {
+          "ticker": "PRU",
+          "name": "Perseus Mining Limited",
+          "cells": {
+            "H1-2026": {
+              "rank": 5,
+              "ret": -14.2
+            },
+            "H2-2026": {
               "rank": 1,
-              "ret": 14.3
+              "ret": 23.9
+            }
+          }
+        },
+        {
+          "ticker": "NEM",
+          "name": "Newmont Corporation",
+          "cells": {
+            "H1-2026": {
+              "rank": 4,
+              "ret": -10.7
             }
           }
         },
@@ -629,38 +779,58 @@
           "name": "Harvey Norman Holdings Limited",
           "cells": {
             "H1-2026": {
-              "rank": 7,
+              "rank": 10,
               "ret": -29.2
             }
           }
         },
         {
-          "ticker": "TNE",
-          "name": "Technology One Limited",
+          "ticker": "GMD",
+          "name": "Genesis Minerals Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 2,
+              "ret": 17.7
+            }
+          }
+        },
+        {
+          "ticker": "WGX",
+          "name": "Westgold Resources Limited",
           "cells": {
             "H2-2026": {
               "rank": 3,
-              "ret": 9.7
+              "ret": 10.2
             }
           }
         },
         {
-          "ticker": "QAN",
-          "name": "Qantas Airways Limited",
+          "ticker": "RRL",
+          "name": "Regis Resources Limited",
           "cells": {
             "H2-2026": {
-              "rank": 9,
-              "ret": -5.9
+              "rank": 5,
+              "ret": -0.5
             }
           }
         },
         {
-          "ticker": "WES",
-          "name": "Wesfarmers Limited",
+          "ticker": "SFR",
+          "name": "Sandfire Resources Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 8,
+              "ret": -13.7
+            }
+          }
+        },
+        {
+          "ticker": "APE",
+          "name": "Eagers Automotive Limited",
           "cells": {
             "H2-2026": {
               "rank": 10,
-              "ret": -9.3
+              "ret": -34.0
             }
           }
         }
@@ -708,15 +878,15 @@
               "ret": 56.1
             },
             "H1-2025": {
-              "rank": 3,
+              "rank": 4,
               "ret": 18.8
             },
             "H2-2025": {
-              "rank": 7,
+              "rank": 8,
               "ret": -11.5
             },
             "H1-2026": {
-              "rank": 5,
+              "rank": 7,
               "ret": -14.2
             }
           }
@@ -734,11 +904,11 @@
               "ret": 51.8
             },
             "H1-2025": {
-              "rank": 1,
+              "rank": 2,
               "ret": 21.4
             },
             "H2-2025": {
-              "rank": 6,
+              "rank": 7,
               "ret": -1.2
             },
             "H1-2026": {
@@ -748,19 +918,49 @@
           }
         },
         {
+          "ticker": "MTS",
+          "name": "Metcash Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 6,
+              "ret": 1.1
+            },
+            "H2-2024": {
+              "rank": 9,
+              "ret": -8.5
+            },
+            "H1-2025": {
+              "rank": 1,
+              "ret": 24.9
+            },
+            "H2-2025": {
+              "rank": 9,
+              "ret": -12.0
+            },
+            "H1-2026": {
+              "rank": 5,
+              "ret": -10.9
+            },
+            "H2-2026": {
+              "rank": 2,
+              "ret": 17.8
+            }
+          }
+        },
+        {
           "ticker": "FMG",
           "name": "Fortescue Ltd",
           "cells": {
             "H1-2024": {
-              "rank": 8,
+              "rank": 10,
               "ret": -24.2
             },
             "H2-2024": {
-              "rank": 8,
+              "rank": 10,
               "ret": -11.7
             },
             "H1-2025": {
-              "rank": 8,
+              "rank": 10,
               "ret": -16.4
             },
             "H2-2025": {
@@ -768,7 +968,7 @@
               "ret": 47.7
             },
             "H1-2026": {
-              "rank": 4,
+              "rank": 6,
               "ret": -10.9
             }
           }
@@ -778,7 +978,7 @@
           "name": "Harvey Norman Holdings Limited",
           "cells": {
             "H1-2024": {
-              "rank": 4,
+              "rank": 5,
               "ret": 1.5
             },
             "H2-2024": {
@@ -786,7 +986,7 @@
               "ret": 14.5
             },
             "H1-2025": {
-              "rank": 4,
+              "rank": 5,
               "ret": 14.9
             },
             "H2-2025": {
@@ -794,12 +994,12 @@
               "ret": 32.2
             },
             "H1-2026": {
-              "rank": 7,
+              "rank": 9,
               "ret": -29.2
             },
             "H2-2026": {
-              "rank": 9,
-              "ret": -3.6
+              "rank": 10,
+              "ret": -7.5
             }
           }
         },
@@ -808,7 +1008,7 @@
           "name": "Vicinity Centres",
           "cells": {
             "H1-2024": {
-              "rank": 6,
+              "rank": 8,
               "ret": -7.1
             },
             "H2-2024": {
@@ -816,46 +1016,42 @@
               "ret": 14.8
             },
             "H1-2025": {
-              "rank": 2,
+              "rank": 3,
               "ret": 19.1
             },
             "H2-2025": {
-              "rank": 4,
+              "rank": 5,
               "ret": 4.4
             },
             "H1-2026": {
               "rank": 2,
               "ret": 2.5
-            },
-            "H2-2026": {
-              "rank": 10,
-              "ret": -5.0
             }
           }
         },
         {
-          "ticker": "CSL",
-          "name": "CSL Limited",
+          "ticker": "SCG",
+          "name": "Scentre Group",
           "cells": {
             "H1-2024": {
               "rank": 3,
-              "ret": 3.0
+              "ret": 6.9
             },
             "H2-2024": {
               "rank": 6,
-              "ret": -3.1
+              "ret": 11.3
             },
             "H1-2025": {
               "rank": 7,
-              "ret": -14.1
+              "ret": 4.4
             },
             "H2-2025": {
-              "rank": 8,
-              "ret": -26.7
+              "rank": 3,
+              "ret": 17.4
             },
             "H1-2026": {
-              "rank": 8,
-              "ret": -32.4
+              "rank": 3,
+              "ret": -6.6
             }
           }
         },
@@ -864,7 +1060,7 @@
           "name": "Stockland",
           "cells": {
             "H1-2024": {
-              "rank": 5,
+              "rank": 7,
               "ret": -2.2
             },
             "H2-2024": {
@@ -872,20 +1068,46 @@
               "ret": 14.8
             },
             "H1-2025": {
-              "rank": 5,
+              "rank": 6,
               "ret": 14.5
             },
             "H2-2025": {
-              "rank": 3,
+              "rank": 4,
               "ret": 6.8
             },
             "H1-2026": {
-              "rank": 6,
+              "rank": 8,
               "ret": -26.3
             },
             "H2-2026": {
               "rank": 6,
-              "ret": 11.4
+              "ret": 8.4
+            }
+          }
+        },
+        {
+          "ticker": "CSL",
+          "name": "CSL Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 4,
+              "ret": 3.0
+            },
+            "H2-2024": {
+              "rank": 7,
+              "ret": -3.1
+            },
+            "H1-2025": {
+              "rank": 9,
+              "ret": -14.1
+            },
+            "H2-2025": {
+              "rank": 10,
+              "ret": -26.7
+            },
+            "H1-2026": {
+              "rank": 10,
+              "ret": -32.4
             }
           }
         },
@@ -894,64 +1116,44 @@
           "name": "Worley Limited",
           "cells": {
             "H1-2024": {
-              "rank": 7,
+              "rank": 9,
               "ret": -12.8
             },
             "H2-2024": {
-              "rank": 7,
+              "rank": 8,
               "ret": -6.4
             },
             "H1-2025": {
-              "rank": 6,
+              "rank": 8,
               "ret": -2.7
             },
             "H2-2025": {
-              "rank": 5,
+              "rank": 6,
               "ret": -0.5
             },
             "H1-2026": {
-              "rank": 3,
+              "rank": 4,
               "ret": -9.9
             }
           }
         },
         {
-          "ticker": "ORG",
-          "name": "Origin Energy Limited",
+          "ticker": "VEA",
+          "name": "Viva Energy Group Limited",
           "cells": {
             "H2-2026": {
               "rank": 1,
-              "ret": 13.7
+              "ret": 30.0
             }
           }
         },
         {
-          "ticker": "MGR",
-          "name": "Mirvac Group",
-          "cells": {
-            "H2-2026": {
-              "rank": 2,
-              "ret": 13.5
-            }
-          }
-        },
-        {
-          "ticker": "AGL",
-          "name": "AGL Energy Limited",
+          "ticker": "ALD",
+          "name": "Ampol Limited",
           "cells": {
             "H2-2026": {
               "rank": 3,
-              "ret": 11.6
-            }
-          }
-        },
-        {
-          "ticker": "WDS",
-          "name": "Woodside Energy Group Ltd",
-          "cells": {
-            "H2-2026": {
-              "rank": 4,
-              "ret": 11.6
+              "ret": 11.4
             }
           }
         },
@@ -960,28 +1162,48 @@
           "name": "DEXUS",
           "cells": {
             "H2-2026": {
-              "rank": 5,
-              "ret": 11.5
+              "rank": 4,
+              "ret": 10.8
             }
           }
         },
         {
-          "ticker": "BPT",
-          "name": "Beach Energy Limited",
+          "ticker": "AGL",
+          "name": "AGL Energy Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 5,
+              "ret": 10.5
+            }
+          }
+        },
+        {
+          "ticker": "WDS",
+          "name": "Woodside Energy Group Ltd",
           "cells": {
             "H2-2026": {
               "rank": 7,
-              "ret": 8.4
+              "ret": 6.8
             }
           }
         },
         {
-          "ticker": "GPT",
-          "name": "The GPT Group",
+          "ticker": "RGN",
+          "name": "Region Group",
           "cells": {
             "H2-2026": {
               "rank": 8,
-              "ret": 5.6
+              "ret": 2.8
+            }
+          }
+        },
+        {
+          "ticker": "RRL",
+          "name": "Regis Resources Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 9,
+              "ret": -0.5
             }
           }
         }
@@ -1025,7 +1247,7 @@
               "ret": 32.3
             },
             "H2-2024": {
-              "rank": 5,
+              "rank": 6,
               "ret": 2.6
             },
             "H1-2025": {
@@ -1037,7 +1259,7 @@
               "ret": 8.2
             },
             "H1-2026": {
-              "rank": 3,
+              "rank": 4,
               "ret": -0.7
             }
           }
@@ -1047,11 +1269,11 @@
           "name": "Washington H. Soul Pattinson and Company Limited",
           "cells": {
             "H1-2024": {
-              "rank": 3,
+              "rank": 4,
               "ret": 0.8
             },
             "H2-2024": {
-              "rank": 4,
+              "rank": 5,
               "ret": 5.6
             },
             "H1-2025": {
@@ -1059,7 +1281,7 @@
               "ret": 24.6
             },
             "H2-2025": {
-              "rank": 9,
+              "rank": 10,
               "ret": -11.3
             },
             "H1-2026": {
@@ -1067,8 +1289,8 @@
               "ret": 24.8
             },
             "H2-2026": {
-              "rank": 4,
-              "ret": 8.3
+              "rank": 5,
+              "ret": 4.4
             }
           }
         },
@@ -1077,7 +1299,7 @@
           "name": "Orora Limited",
           "cells": {
             "H1-2024": {
-              "rank": 6,
+              "rank": 7,
               "ret": -23.1
             },
             "H2-2024": {
@@ -1085,7 +1307,7 @@
               "ret": 27.4
             },
             "H1-2025": {
-              "rank": 8,
+              "rank": 9,
               "ret": -21.4
             },
             "H2-2025": {
@@ -1093,7 +1315,7 @@
               "ret": 18.5
             },
             "H1-2026": {
-              "rank": 8,
+              "rank": 9,
               "ret": -36.2
             }
           }
@@ -1103,11 +1325,11 @@
           "name": "Nine Entertainment Co. Holdings Limited",
           "cells": {
             "H1-2024": {
-              "rank": 8,
+              "rank": 9,
               "ret": -29.0
             },
             "H2-2024": {
-              "rank": 8,
+              "rank": 9,
               "ret": -6.5
             },
             "H1-2025": {
@@ -1119,8 +1341,34 @@
               "ret": -2.0
             },
             "H1-2026": {
-              "rank": 6,
+              "rank": 7,
               "ret": -16.5
+            }
+          }
+        },
+        {
+          "ticker": "RWC",
+          "name": "Reliance Worldwide Corporation Limited",
+          "cells": {
+            "H1-2024": {
+              "rank": 2,
+              "ret": 3.1
+            },
+            "H2-2024": {
+              "rank": 3,
+              "ret": 13.9
+            },
+            "H1-2025": {
+              "rank": 8,
+              "ret": -18.6
+            },
+            "H2-2025": {
+              "rank": 8,
+              "ret": -4.9
+            },
+            "H1-2026": {
+              "rank": 3,
+              "ret": 2.4
             }
           }
         },
@@ -1129,7 +1377,7 @@
           "name": "Harvey Norman Holdings Limited",
           "cells": {
             "H1-2024": {
-              "rank": 2,
+              "rank": 3,
               "ret": 1.5
             },
             "H2-2024": {
@@ -1145,12 +1393,12 @@
               "ret": 32.2
             },
             "H1-2026": {
-              "rank": 7,
+              "rank": 8,
               "ret": -29.2
             },
             "H2-2026": {
-              "rank": 7,
-              "ret": -3.6
+              "rank": 9,
+              "ret": -7.5
             }
           }
         },
@@ -1159,11 +1407,11 @@
           "name": "Fortescue Ltd",
           "cells": {
             "H1-2024": {
-              "rank": 7,
+              "rank": 8,
               "ret": -24.2
             },
             "H2-2024": {
-              "rank": 9,
+              "rank": 10,
               "ret": -11.7
             },
             "H1-2025": {
@@ -1175,12 +1423,8 @@
               "ret": 47.7
             },
             "H1-2026": {
-              "rank": 5,
+              "rank": 6,
               "ret": -10.9
-            },
-            "H2-2026": {
-              "rank": 8,
-              "ret": -20.8
             }
           }
         },
@@ -1189,11 +1433,11 @@
           "name": "The GPT Group",
           "cells": {
             "H1-2024": {
-              "rank": 4,
+              "rank": 5,
               "ret": -10.5
             },
             "H2-2024": {
-              "rank": 3,
+              "rank": 4,
               "ret": 11.6
             },
             "H1-2025": {
@@ -1205,12 +1449,8 @@
               "ret": 12.1
             },
             "H1-2026": {
-              "rank": 4,
-              "ret": -8.4
-            },
-            "H2-2026": {
               "rank": 5,
-              "ret": 5.6
+              "ret": -8.4
             }
           }
         },
@@ -1219,23 +1459,23 @@
           "name": "SkyCity Entertainment Group Limited",
           "cells": {
             "H1-2024": {
-              "rank": 5,
+              "rank": 6,
               "ret": -19.8
             },
             "H2-2024": {
-              "rank": 7,
+              "rank": 8,
               "ret": -4.4
             },
             "H1-2025": {
-              "rank": 9,
+              "rank": 10,
               "ret": -36.8
             },
             "H2-2025": {
-              "rank": 8,
+              "rank": 9,
               "ret": -6.0
             },
             "H1-2026": {
-              "rank": 9,
+              "rank": 10,
               "ret": -40.6
             }
           }
@@ -1245,7 +1485,7 @@
           "name": "Cuscal Limited",
           "cells": {
             "H2-2024": {
-              "rank": 6,
+              "rank": 7,
               "ret": -2.2
             },
             "H1-2025": {
@@ -1261,8 +1501,18 @@
               "ret": 14.8
             },
             "H2-2026": {
-              "rank": 2,
-              "ret": 16.5
+              "rank": 6,
+              "ret": 3.3
+            }
+          }
+        },
+        {
+          "ticker": "ANN",
+          "name": "Ansell Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 1,
+              "ret": 45.5
             }
           }
         },
@@ -1271,8 +1521,8 @@
           "name": "ResMed Inc.",
           "cells": {
             "H2-2026": {
-              "rank": 1,
-              "ret": 23.6
+              "rank": 2,
+              "ret": 25.4
             }
           }
         },
@@ -1282,7 +1532,7 @@
           "cells": {
             "H2-2026": {
               "rank": 3,
-              "ret": 11.6
+              "ret": 10.5
             }
           }
         },
@@ -1291,18 +1541,28 @@
           "name": "Sonic Healthcare Limited",
           "cells": {
             "H2-2026": {
-              "rank": 6,
-              "ret": -2.1
+              "rank": 4,
+              "ret": 7.0
             }
           }
         },
         {
-          "ticker": "ALX",
-          "name": "Atlas Arteria Limited",
+          "ticker": "RRL",
+          "name": "Regis Resources Limited",
           "cells": {
             "H2-2026": {
-              "rank": 9,
-              "ret": -21.2
+              "rank": 7,
+              "ret": -0.5
+            }
+          }
+        },
+        {
+          "ticker": "AZJ",
+          "name": "Aurizon Holdings Limited",
+          "cells": {
+            "H2-2026": {
+              "rank": 8,
+              "ret": -4.5
             }
           }
         },
@@ -1312,7 +1572,7 @@
           "cells": {
             "H2-2026": {
               "rank": 10,
-              "ret": -24.0
+              "ret": -37.4
             }
           }
         }
@@ -1373,7 +1633,7 @@
             },
             "H2-2026": {
               "rank": 7,
-              "ret": -3.6
+              "ret": -7.5
             }
           }
         },
@@ -1402,8 +1662,8 @@
               "ret": 24.8
             },
             "H2-2026": {
-              "rank": 5,
-              "ret": 8.3
+              "rank": 4,
+              "ret": 4.4
             }
           }
         },
@@ -1430,6 +1690,10 @@
             "H1-2026": {
               "rank": 3,
               "ret": -1.8
+            },
+            "H2-2026": {
+              "rank": 8,
+              "ret": -8.7
             }
           }
         },
@@ -1510,8 +1774,8 @@
               "ret": -26.3
             },
             "H2-2026": {
-              "rank": 3,
-              "ret": 11.4
+              "rank": 2,
+              "ret": 8.4
             }
           }
         },
@@ -1540,8 +1804,8 @@
               "ret": 22.6
             },
             "H2-2026": {
-              "rank": 2,
-              "ret": 11.6
+              "rank": 3,
+              "ret": 6.8
             }
           }
         },
@@ -1551,7 +1815,7 @@
           "cells": {
             "H2-2026": {
               "rank": 1,
-              "ret": 11.6
+              "ret": 10.5
             }
           }
         },
@@ -1560,8 +1824,8 @@
           "name": "Beach Energy Limited",
           "cells": {
             "H2-2026": {
-              "rank": 4,
-              "ret": 8.4
+              "rank": 5,
+              "ret": -0.0
             }
           }
         },
@@ -1571,7 +1835,17 @@
           "cells": {
             "H2-2026": {
               "rank": 6,
-              "ret": 7.0
+              "ret": -3.3
+            }
+          }
+        },
+        {
+          "ticker": "FMG",
+          "name": "Fortescue Ltd",
+          "cells": {
+            "H2-2026": {
+              "rank": 9,
+              "ret": -27.9
             }
           }
         }
@@ -1605,15 +1879,73 @@
     }
   ],
   "universe": {
+    "360": {
+      "name": "Life360, Inc.",
+      "cells": {
+        "H1-2024": {
+          "ret": 118.9,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2024": {
+          "ret": 39.7,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H1-2025": {
+          "ret": 42.5,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2025": {
+          "ret": -0.2,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H1-2026": {
+          "ret": -17.7,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2026": {
+          "ret": -19.5,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
+          ]
+        }
+      }
+    },
     "AGL": {
       "name": "AGL Energy Limited",
       "cells": {
         "H2-2026": {
-          "ret": 11.6,
+          "ret": 10.5,
           "strategies": [
             "dividend_income",
             "damodaran_dcf",
             "contrarian_value"
+          ]
+        }
+      }
+    },
+    "ALD": {
+      "name": "Ampol Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": 11.4,
+          "strategies": [
+            "dividend_income"
           ]
         }
       }
@@ -1644,22 +1976,27 @@
           "strategies": [
             "padley_momentum"
           ]
-        },
+        }
+      }
+    },
+    "ANN": {
+      "name": "Ansell Limited",
+      "cells": {
         "H2-2026": {
-          "ret": 10.6,
+          "ret": 45.5,
           "strategies": [
-            "padley_momentum"
+            "damodaran_dcf"
           ]
         }
       }
     },
-    "ALX": {
-      "name": "Atlas Arteria Limited",
+    "APE": {
+      "name": "Eagers Automotive Limited",
       "cells": {
         "H2-2026": {
-          "ret": -21.2,
+          "ret": -34.0,
           "strategies": [
-            "damodaran_dcf"
+            "quant_factors"
           ]
         }
       }
@@ -1675,13 +2012,23 @@
         }
       }
     },
+    "AZJ": {
+      "name": "Aurizon Holdings Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": -4.5,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
     "BPT": {
       "name": "Beach Energy Limited",
       "cells": {
         "H2-2026": {
-          "ret": 8.4,
+          "ret": -0.0,
           "strategies": [
-            "dividend_income",
             "contrarian_value"
           ]
         }
@@ -1730,13 +2077,6 @@
     "CCL": {
       "name": "Cuscal Limited",
       "cells": {
-        "H2-2026": {
-          "ret": 16.5,
-          "strategies": [
-            "padley_momentum",
-            "damodaran_dcf"
-          ]
-        },
         "H2-2024": {
           "ret": -2.2,
           "strategies": [
@@ -1760,6 +2100,12 @@
           "strategies": [
             "damodaran_dcf"
           ]
+        },
+        "H2-2026": {
+          "ret": 3.3,
+          "strategies": [
+            "damodaran_dcf"
+          ]
         }
       }
     },
@@ -1771,9 +2117,14 @@
           "strategies": [
             "padley_momentum"
           ]
-        },
+        }
+      }
+    },
+    "CMM": {
+      "name": "Capricorn Metals Ltd",
+      "cells": {
         "H2-2026": {
-          "ret": -0.8,
+          "ret": -6.3,
           "strategies": [
             "padley_momentum"
           ]
@@ -1836,7 +2187,7 @@
       "name": "DEXUS",
       "cells": {
         "H2-2026": {
-          "ret": 11.5,
+          "ret": 10.8,
           "strategies": [
             "dividend_income"
           ]
@@ -1861,7 +2212,7 @@
           ]
         },
         "H2-2026": {
-          "ret": 14.3,
+          "ret": -6.4,
           "strategies": [
             "padley_momentum",
             "quant_factors"
@@ -1910,9 +2261,21 @@
           ]
         },
         "H2-2026": {
-          "ret": -20.8,
+          "ret": -27.9,
           "strategies": [
-            "damodaran_dcf"
+            "contrarian_value"
+          ]
+        }
+      }
+    },
+    "GMD": {
+      "name": "Genesis Minerals Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": 17.7,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
           ]
         }
       }
@@ -1920,13 +2283,6 @@
     "GPT": {
       "name": "The GPT Group",
       "cells": {
-        "H2-2026": {
-          "ret": 5.6,
-          "strategies": [
-            "dividend_income",
-            "damodaran_dcf"
-          ]
-        },
         "H1-2024": {
           "ret": -10.5,
           "strategies": [
@@ -1955,6 +2311,47 @@
           "ret": -8.4,
           "strategies": [
             "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "HUB": {
+      "name": "HUB24 Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 30.2,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2024": {
+          "ret": 51.6,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H1-2025": {
+          "ret": 29.9,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2025": {
+          "ret": 9.0,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H1-2026": {
+          "ret": -23.7,
+          "strategies": [
+            "padley_momentum"
+          ]
+        },
+        "H2-2026": {
+          "ret": -5.8,
+          "strategies": [
+            "padley_momentum"
           ]
         }
       }
@@ -2004,7 +2401,7 @@
           ]
         },
         "H2-2026": {
-          "ret": -3.6,
+          "ret": -7.5,
           "strategies": [
             "dividend_income",
             "damodaran_dcf",
@@ -2081,23 +2478,16 @@
             "quant_factors",
             "dividend_income"
           ]
-        },
-        "H2-2026": {
-          "ret": -0.5,
-          "strategies": [
-            "padley_momentum",
-            "quant_factors"
-          ]
         }
       }
     },
-    "MGR": {
-      "name": "Mirvac Group",
+    "LNW": {
+      "name": "Light & Wonder, Inc.",
       "cells": {
-        "H2-2026": {
-          "ret": 13.5,
+        "H2-2024": {
+          "ret": -12.1,
           "strategies": [
-            "dividend_income"
+            "padley_momentum"
           ]
         }
       }
@@ -2106,20 +2496,50 @@
       "name": "Mineral Resources Limited",
       "cells": {
         "H2-2026": {
-          "ret": -24.0,
+          "ret": -37.4,
           "strategies": [
             "damodaran_dcf"
           ]
         }
       }
     },
-    "MPL": {
-      "name": "Medibank Private Limited",
+    "MTS": {
+      "name": "Metcash Limited",
       "cells": {
-        "H2-2026": {
-          "ret": 12.3,
+        "H1-2024": {
+          "ret": 1.1,
           "strategies": [
-            "padley_momentum"
+            "dividend_income"
+          ]
+        },
+        "H2-2024": {
+          "ret": -8.5,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2025": {
+          "ret": 24.9,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2025": {
+          "ret": -12.0,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2026": {
+          "ret": -10.9,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2026": {
+          "ret": 17.8,
+          "strategies": [
+            "dividend_income"
           ]
         }
       }
@@ -2161,6 +2581,18 @@
           "strategies": [
             "damodaran_dcf",
             "contrarian_value"
+          ]
+        }
+      }
+    },
+    "NEM": {
+      "name": "Newmont Corporation",
+      "cells": {
+        "H1-2026": {
+          "ret": -10.7,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
           ]
         }
       }
@@ -2239,13 +2671,6 @@
             "damodaran_dcf"
           ]
         },
-        "H2-2026": {
-          "ret": 13.7,
-          "strategies": [
-            "quant_factors",
-            "dividend_income"
-          ]
-        },
         "H1-2024": {
           "ret": 32.3,
           "strategies": [
@@ -2309,9 +2734,26 @@
           ]
         },
         "H2-2026": {
-          "ret": 0.1,
+          "ret": -8.8,
+          "strategies": [
+            "padley_momentum"
+          ]
+        }
+      }
+    },
+    "PRU": {
+      "name": "Perseus Mining Limited",
+      "cells": {
+        "H1-2026": {
+          "ret": -14.2,
           "strategies": [
             "padley_momentum",
+            "quant_factors"
+          ]
+        },
+        "H2-2026": {
+          "ret": 23.9,
+          "strategies": [
             "quant_factors"
           ]
         }
@@ -2320,12 +2762,6 @@
     "QAN": {
       "name": "Qantas Airways Limited",
       "cells": {
-        "H2-2026": {
-          "ret": -5.9,
-          "strategies": [
-            "quant_factors"
-          ]
-        },
         "H1-2024": {
           "ret": 9.3,
           "strategies": [
@@ -2361,13 +2797,6 @@
     "QBE": {
       "name": "QBE Insurance Group Limited",
       "cells": {
-        "H2-2026": {
-          "ret": 8.8,
-          "strategies": [
-            "padley_momentum",
-            "quant_factors"
-          ]
-        },
         "H2-2024": {
           "ret": 14.2,
           "strategies": [
@@ -2419,6 +2848,17 @@
         }
       }
     },
+    "RGN": {
+      "name": "Region Group",
+      "cells": {
+        "H2-2026": {
+          "ret": 2.8,
+          "strategies": [
+            "dividend_income"
+          ]
+        }
+      }
+    },
     "RMD": {
       "name": "ResMed Inc.",
       "cells": {
@@ -2435,7 +2875,59 @@
           ]
         },
         "H2-2026": {
-          "ret": 23.6,
+          "ret": 25.4,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "RRL": {
+      "name": "Regis Resources Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": -0.5,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors",
+            "dividend_income",
+            "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "RWC": {
+      "name": "Reliance Worldwide Corporation Limited",
+      "cells": {
+        "H1-2024": {
+          "ret": 3.1,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2024": {
+          "ret": 13.9,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2025": {
+          "ret": -18.6,
+          "strategies": [
+            "quant_factors",
+            "damodaran_dcf"
+          ]
+        },
+        "H2-2025": {
+          "ret": -4.9,
+          "strategies": [
+            "damodaran_dcf"
+          ]
+        },
+        "H1-2026": {
+          "ret": 2.4,
           "strategies": [
             "damodaran_dcf"
           ]
@@ -2446,9 +2938,56 @@
       "name": "South32 Limited",
       "cells": {
         "H2-2026": {
-          "ret": 7.0,
+          "ret": -3.3,
           "strategies": [
             "contrarian_value"
+          ]
+        }
+      }
+    },
+    "SCG": {
+      "name": "Scentre Group",
+      "cells": {
+        "H1-2024": {
+          "ret": 6.9,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2024": {
+          "ret": 11.3,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2025": {
+          "ret": 4.4,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H2-2025": {
+          "ret": 17.4,
+          "strategies": [
+            "dividend_income"
+          ]
+        },
+        "H1-2026": {
+          "ret": -6.6,
+          "strategies": [
+            "dividend_income"
+          ]
+        }
+      }
+    },
+    "SFR": {
+      "name": "Sandfire Resources Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": -13.7,
+          "strategies": [
+            "padley_momentum",
+            "quant_factors"
           ]
         }
       }
@@ -2497,7 +3036,7 @@
           ]
         },
         "H2-2026": {
-          "ret": 11.4,
+          "ret": 8.4,
           "strategies": [
             "dividend_income",
             "contrarian_value"
@@ -2509,9 +3048,20 @@
       "name": "Sonic Healthcare Limited",
       "cells": {
         "H2-2026": {
-          "ret": -2.1,
+          "ret": 7.0,
           "strategies": [
             "damodaran_dcf"
+          ]
+        }
+      }
+    },
+    "SIG": {
+      "name": "Sigma Healthcare Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": 6.3,
+          "strategies": [
+            "padley_momentum"
           ]
         }
       }
@@ -2595,7 +3145,7 @@
           ]
         },
         "H2-2026": {
-          "ret": 8.3,
+          "ret": 4.4,
           "strategies": [
             "quant_factors",
             "damodaran_dcf",
@@ -2623,13 +3173,6 @@
           "ret": 6.1,
           "strategies": [
             "padley_momentum"
-          ]
-        },
-        "H2-2026": {
-          "ret": 9.7,
-          "strategies": [
-            "padley_momentum",
-            "quant_factors"
           ]
         }
       }
@@ -2659,10 +3202,9 @@
           ]
         },
         "H2-2026": {
-          "ret": -5.0,
+          "ret": -6.0,
           "strategies": [
-            "quant_factors",
-            "dividend_income"
+            "quant_factors"
           ]
         },
         "H1-2024": {
@@ -2679,11 +3221,22 @@
         }
       }
     },
+    "VEA": {
+      "name": "Viva Energy Group Limited",
+      "cells": {
+        "H2-2026": {
+          "ret": 30.0,
+          "strategies": [
+            "dividend_income"
+          ]
+        }
+      }
+    },
     "WDS": {
       "name": "Woodside Energy Group Ltd",
       "cells": {
         "H2-2026": {
-          "ret": 11.6,
+          "ret": 6.8,
           "strategies": [
             "dividend_income",
             "contrarian_value"
@@ -2721,11 +3274,11 @@
         }
       }
     },
-    "WES": {
-      "name": "Wesfarmers Limited",
+    "WGX": {
+      "name": "Westgold Resources Limited",
       "cells": {
         "H2-2026": {
-          "ret": -9.3,
+          "ret": 10.2,
           "strategies": [
             "padley_momentum",
             "quant_factors"
@@ -2762,6 +3315,12 @@
         },
         "H1-2026": {
           "ret": -1.8,
+          "strategies": [
+            "contrarian_value"
+          ]
+        },
+        "H2-2026": {
+          "ret": -8.7,
           "strategies": [
             "contrarian_value"
           ]

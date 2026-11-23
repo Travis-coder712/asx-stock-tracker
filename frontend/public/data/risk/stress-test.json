@@ -1,50 +1,50 @@
 {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-23",
   "index": {
     "name": "ASX 100",
     "maxDrawdown": -14.1,
-    "current": 7661.3,
-    "ma200": 7413.2,
-    "pctVsMa200": 3.3,
-    "riskOff": false
+    "current": 7268.3,
+    "ma200": 7412.7,
+    "pctVsMa200": -1.9,
+    "riskOff": true
   },
   "strategies": [
     {
       "id": "padley_momentum",
       "name": "Padley Momentum",
-      "beta": 1.1,
-      "maxDrawdown": -43.5,
-      "currentValue": 4490.0,
-      "holdings": 8,
+      "beta": 1.29,
+      "maxDrawdown": -47.7,
+      "currentValue": 6687.19,
+      "holdings": 10,
       "exposure": {
-        "rates": 0,
-        "commodity": 12,
-        "cyclical": 62,
-        "defensive": 25,
+        "rates": 10,
+        "commodity": 10,
+        "cyclical": 60,
+        "defensive": 20,
         "other": 0
       }
     },
     {
       "id": "quant_factors",
       "name": "Quant Factors",
-      "beta": 1.06,
-      "maxDrawdown": -34.3,
-      "currentValue": 5400.19,
-      "holdings": 8,
+      "beta": 1.19,
+      "maxDrawdown": -45.0,
+      "currentValue": 6979.58,
+      "holdings": 10,
       "exposure": {
-        "rates": 25,
-        "commodity": 25,
-        "cyclical": 38,
-        "defensive": 12,
+        "rates": 20,
+        "commodity": 20,
+        "cyclical": 50,
+        "defensive": 10,
         "other": 0
       }
     },
     {
       "id": "dividend_income",
       "name": "Dividend Income",
-      "beta": 0.93,
+      "beta": 0.92,
       "maxDrawdown": -23.0,
-      "currentValue": 6344.21,
+      "currentValue": 6165.76,
       "holdings": 10,
       "exposure": {
         "rates": 30,
@@ -57,24 +57,24 @@
     {
       "id": "damodaran_dcf",
       "name": "Damodaran Value",
-      "beta": 0.72,
-      "maxDrawdown": -13.4,
-      "currentValue": 5381.94,
-      "holdings": 9,
+      "beta": 0.76,
+      "maxDrawdown": -15.5,
+      "currentValue": 5681.13,
+      "holdings": 10,
       "exposure": {
-        "rates": 22,
-        "commodity": 11,
-        "cyclical": 56,
-        "defensive": 11,
+        "rates": 20,
+        "commodity": 10,
+        "cyclical": 60,
+        "defensive": 10,
         "other": 0
       }
     },
     {
       "id": "contrarian_value",
       "name": "Contrarian Value",
-      "beta": 0.7,
+      "beta": 0.71,
       "maxDrawdown": -17.7,
-      "currentValue": 5441.89,
+      "currentValue": 5222.13,
       "holdings": 7,
       "exposure": {
         "rates": 29,
